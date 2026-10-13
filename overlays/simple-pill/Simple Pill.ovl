@@ -1,0 +1,208 @@
+[Master]
+Implementation=2
+FontFace=Open Sans
+FontHeight=-11
+FontWeight=400
+ZoomRatio=2
+[Settings]
+Name=
+EnvVars=
+RefreshPeriod=1000
+LockUserSettings=0
+EmbeddedImage=Overlay-BG.png
+PingAddr=
+[General]
+Sources=10
+Tables=0
+Layers=11
+[Source0]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source1]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source2]
+Name=GPU1 core clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000020
+Gpu=00000000
+SrcName=
+[Source3]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000000
+SrcName=
+[Source4]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source5]
+Name=Frametime
+Units=ms
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000051
+Gpu=FFFFFFFF
+SrcName=
+[Source6]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000100
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Source8]
+Name=GPU2 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000001
+SrcName=
+[Source9]
+Name=GPU2 power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000001
+SrcName=
+[Layer0]
+Name=
+Text=<I=0,0,0,0,223,223>
+PositionX=-165
+PositionY=-1
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=0
+Size=80
+[Layer1]
+Name=
+Text=<I=0,0,0,0,223,223>
+PositionX=-199
+PositionY=-1
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=0
+[Layer2]
+Name=
+Text=
+PositionX=-166
+PositionY=-1
+ExtentX=-34
+ExtentY=-1
+ExtentOrigin=0
+BgndColor=0
+[Layer3]
+Name=
+Text=GPU
+PositionX=-180
+PositionY=-1
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=3
+Size=90
+TextColor=537E94
+[Layer4]
+Name=
+Text=CPU
+PositionX=-166
+PositionY=-1
+ExtentX=-5
+ExtentY=-1
+ExtentOrigin=3
+Size=90
+TextColor=6991EC
+[Layer5]
+Name=
+Text=FPS
+PositionX=-194
+PositionY=-1
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=3
+Size=90
+TextColor=9EE9DF
+[Layer6]
+Name=
+Text=%CPU temperature%<S>°C<S>
+PositionX=-170
+PositionY=-1
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=3
+TextColor=FFFFFF
+[Layer7]
+Name=
+Text=%CPU power%<S>W<S>
+PositionX=-175
+PositionY=-1
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=3
+TextColor=FFFFFF
+[Layer8]
+Name=
+Text=<FR>
+PositionX=-197
+PositionY=-1
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=3
+TextColor=FFFFFF
+[Layer9]
+Name=
+Text=%GPU1 power%<S>W<S>
+PositionX=-189
+PositionY=-1
+ExtentX=-7
+ExtentY=-1
+ExtentOrigin=3
+TextColor=FFFFFF
+[Layer10]
+Name=
+Text=%GPU1 temperature%<S>°C<S>
+PositionX=-184
+PositionY=-1
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=3
+TextColor=FFFFFF
