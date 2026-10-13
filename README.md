@@ -46,9 +46,9 @@ Every overlay comes in three themes:
 
 | Theme | Folder | Look |
 |---|---|---|
-| **Dark** | `sleek-compact` | Dark glass panel, white text (the original) |
-| **White** | `sleek-compact-white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text. |
-| **Clear** | `sleek-compact-clear` | Mostly see-through panel; every number has a drop shadow so it stays readable over bright scenes |
+| **Dark** | `dark` | Dark glass panel, white text (the original) |
+| **White** | `white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text. |
+| **Clear** | `clear` | Mostly see-through panel; every number has a drop shadow so it stays readable over bright scenes |
 
 ![Themes](previews/themes.png)
 
@@ -84,7 +84,7 @@ Every overlay comes in three themes:
 ## Install
 
 1. Download this repo (**Code → Download ZIP**) and unzip it.
-2. Open the folder of the overlay and theme you want inside `overlays/` (for example `sleek-meters-white`), then open the folder for **your screen resolution**:
+2. Inside `overlays/`, open the overlay you want, then the theme (`dark`, `white` or `clear`), then the folder for **your screen resolution**. For example: `overlays/sleek-meters/white/2560x1440`.
 
    | Folder | Screen |
    |---|---|
