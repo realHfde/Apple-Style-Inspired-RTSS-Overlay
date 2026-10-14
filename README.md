@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -9,7 +9,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
-- **📱 HYTE vertical screen support (515x1920):** new **Sleek Vertical** overlay made for HYTE's vertical case screens, plus a `515x1920` version of Sleek Side. Both sit at the bottom centre.
+- **📱 HYTE Y70 screen support:** new **Sleek Vertical** overlay made for HYTE's vertical case screens, for the Y70 Touch (1100x3840), Y70 Ti (688x2560) and Y70 Touch Infinite (682x2560), plus 515x1920. Sleek Side works on them too. Both sit at the bottom centre.
 - **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Get started](#get-started).
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
@@ -36,7 +36,10 @@ Thanks to everyone on Reddit who asked for these!
 | 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
 | 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
 | 5K2K ultrawide | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
-| 📱 HYTE vertical screen | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
+| 📱 HYTE Y70 Touch (1st gen) | `1100x3840` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1100x3840.zip) |
+| 📱 HYTE Y70 Ti (2nd gen) | `688x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.688x2560.zip) |
+| 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
+| 📱 Other vertical screens | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
 Not sure about your resolution? On Windows, right-click the desktop and open **Display settings**, then look under **Display resolution**.
 
@@ -105,9 +108,9 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 <img src="previews/sleek_side.png" width="260" alt="Sleek Side">
 
 ### Sleek Vertical 📱 (HYTE screen)
-Made for **HYTE vertical case screens** and other 515x1920 displays. It's Sleek turned on its side: CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
+Made for **HYTE Y70 vertical case screens** (Y70 Touch, Y70 Ti, Y70 Touch Infinite) and other vertical displays. It's Sleek turned on its side: CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
 
-**How it looks on a 515x1920 vertical screen:**
+**How it looks on a vertical screen:**
 
 <img src="previews/hyte_screen.png" width="600" alt="Sleek Vertical and Sleek Side on a 515x1920 vertical screen">
 
