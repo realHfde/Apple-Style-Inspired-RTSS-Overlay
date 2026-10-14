@@ -59,7 +59,7 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 ### Performance Overlay
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
 
-<img src="previews/performance_overlay_themes.png" width="780" alt="Performance Overlay in Dark, White and Clear">
+<img src="previews/all/performance.png" width="780" alt="Performance Overlay in Dark, White, Clear and Float">
 
 ### No 12V versions
 Compact, Meters, Meters Universal, Rings and Side also come **without the 12V cable section**, for graphics cards that don't report it or if you just don't want it. They're the same overlays, slightly smaller. Look for the folders ending in `-no-12v`.
@@ -79,11 +79,7 @@ Every overlay comes in four themes:
 | **Clear** | `clear` | Mostly see-through panel; every number has a drop shadow so it stays readable over bright scenes |
 | **Float** | `float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
 
-![Themes](previews/themes.png)
-
-**Float**
-
-![Float](previews/float.png)
+![Dark, White, Clear and Float](previews/themes.png)
 
 <details>
 <summary><b>All previews: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
