@@ -4,6 +4,14 @@ Clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)
 
 > Previews below are rendered with sample in-game numbers. Real colours and spacing may differ slightly in game.
 
+## 🆕 What's new
+
+**October 2026**
+- **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
+- **No 12V versions** of Compact, Meters, Meters Universal, Rings and Side, for graphics cards that don't report 12V or if you don't want it. Look for the folders ending in `-no-12v`. [See them below](#no-12v-versions).
+
+Thanks to everyone on Reddit who asked for these!
+
 ---
 
 ## Overlays
