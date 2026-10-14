@@ -7,6 +7,7 @@ Clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)
 ## 🆕 What's new
 
 **October 2026**
+- **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Install](#install).
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
 - **No 12V versions** of Compact, Meters, Meters Universal, Rings and Side, for graphics cards that don't report 12V or if you don't want it. Look for the folders ending in `-no-12v`. [See them below](#no-12v-versions).
@@ -168,6 +169,20 @@ The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO t
 ---
 
 ## Install
+
+### Quick install (all overlays at once)
+
+1. Go to the **[latest release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest)** and download the zip for **your screen resolution**, e.g. `All.overlays.2560x1440.zip`.
+2. Unzip it and copy **all the files** into:
+   ```
+   C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
+   ```
+   Put them directly in that folder, **not in a subfolder**.
+3. In RTSS, open **OverlayEditor → Layouts → Load** and flip through them to pick your favourite.
+
+Every overlay in every theme is in there (96 files), and none of the names clash.
+
+### Install just one overlay
 
 1. Download this repo (**Code → Download ZIP**) and unzip it.
 2. Inside `overlays/`, open the overlay you want, then the theme (`dark`, `white`, `clear` or `float`), then the folder for **your screen resolution**. For example: `overlays/sleek-meters/white/2560x1440`.
