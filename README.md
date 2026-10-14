@@ -144,7 +144,26 @@ Every overlay comes in four themes:
 | [MSI Afterburner](https://www.msi.com/Landing/afterburner) | CPU/GPU usage, temperature, power, FPS, 1% low |
 | [HWiNFO64](https://www.hwinfo.com/) | Clocks, VRAM temperature, GPU voltage and fan, 12V cable voltage, GPU limit warnings (needed by every overlay except Sleek) |
 
-**HWiNFO setup:** run it in **Sensors-only** mode, open **Settings**, tick **Shared Memory Support**, and keep it running in the background. On the free version this switches itself off after 12 hours, so tick it again if values go blank.
+### HWiNFO setup (Shared Memory)
+
+The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO through **Shared Memory**. If those values are blank, this is almost always why.
+
+1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
+
+   <img src="previews/hwinfo/1_sensor_settings.png" width="380" alt="Sensors window: gear button">
+
+2. *(Optional)* In **Sensor Settings**, the **Global** polling period can stay at **2000 ms**. That's plenty for an overlay and keeps HWiNFO light.
+3. Click **Main Settings** at the bottom.
+
+   <img src="previews/hwinfo/2_main_settings.png" width="560" alt="Sensor Settings: polling period and Main Settings button">
+
+4. Tick **Shared Memory Support** and click **OK**.
+
+   <img src="previews/hwinfo/3_shared_memory.png" width="360" alt="Main Settings: Shared Memory Support">
+
+5. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
+
+> On the free version, Shared Memory switches itself off after **12 hours**. If values go blank after a long session, tick it again (or restart HWiNFO).
 
 ---
 
@@ -187,8 +206,11 @@ The resolution versions only change **where** the overlay sits: centred at the t
 
 | Problem | Fix |
 |---|---|
+| Overlay Editor looks empty | The overlay is placed for a full screen (top centre, or right edge for Side and Performance). **Maximize the Overlay Editor window** to see it. Also turn on **Show On-Screen Display** in the main RTSS window, or nothing shows in game. |
+| CPU / GPU clocks are blank (next to GHz) | Clocks come from **HWiNFO**, not Afterburner. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and they're still blank, open **Data sources**, select **CPU clock**, click **Setup** and pick your CPU's clock reading. Do the same for **GPU clock** (and the `pct` versions on Meters). |
+| GPU load, temperature or power are blank | These come from **MSI Afterburner**. Make sure it's running, then go to **Settings → Monitoring** and enable *GPU usage, GPU temperature, Power, CPU usage, CPU temperature* and *CPU power*. With two GPUs (integrated + graphics card), open **Data sources**, select **GPU1 usage**, click **Setup** and pick your graphics card. Do the same for GPU1 temperature and GPU1 power. |
 | Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
-| Some values show `N/A` or are blank | HWiNFO isn't running, or Shared Memory Support is off. |
+| Some values show `N/A` or are blank | HWiNFO isn't running, or Shared Memory Support is off. See [HWiNFO setup](#hwinfo-setup-shared-memory). |
 | A value stays blank even with HWiNFO running | In OverlayEditor, open **Data sources**, select the row, click **Setup**, and pick the matching sensor from your HWiNFO list. |
 | 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. |
 | Text looks blurry or smudged on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window. The shadow is meant for white text on dark backgrounds; the Dark themes don't need it, and the Clear and Float themes have their own shadow built in. |
