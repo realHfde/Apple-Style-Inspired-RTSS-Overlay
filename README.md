@@ -86,19 +86,55 @@ Every overlay comes in four themes:
 ![Float](previews/float.png)
 
 <details>
-<summary>All white and clear previews</summary>
+<summary><b>All previews: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
 
-![Sleek White](previews/sleek_white.png)
-![Sleek Clear](previews/sleek_clear.png)
-![Sleek Compact White](previews/sleek_compact_white.png)
-![Sleek Compact Clear](previews/sleek_compact_clear.png)
-![Sleek Meters White](previews/sleek_meters_white.png)
-![Sleek Meters Clear](previews/sleek_meters_clear.png)
-![Sleek Meters Universal White](previews/sleek_meters_universal_white.png)
-![Sleek Meters Universal Clear](previews/sleek_meters_universal_clear.png)
-![Sleek Rings White](previews/sleek_rings_white.png)
-![Sleek Rings Clear](previews/sleek_rings_clear.png)
-<img src="previews/sleek_side_white.png" width="260" alt="Sleek Side White"> <img src="previews/sleek_side_clear.png" width="260" alt="Sleek Side Clear">
+#### Sleek
+
+![Sleek](previews/all/sleek.png)
+
+#### Sleek Compact
+
+![Sleek Compact](previews/all/sleek-compact.png)
+
+#### Sleek Compact No 12V
+
+![Sleek Compact No 12V](previews/all/sleek-compact-no-12v.png)
+
+#### Sleek Meters
+
+![Sleek Meters](previews/all/sleek-meters.png)
+
+#### Sleek Meters No 12V
+
+![Sleek Meters No 12V](previews/all/sleek-meters-no-12v.png)
+
+#### Sleek Meters Universal
+
+![Sleek Meters Universal](previews/all/sleek-meters-universal.png)
+
+#### Sleek Meters Universal No 12V
+
+![Sleek Meters Universal No 12V](previews/all/sleek-meters-universal-no-12v.png)
+
+#### Sleek Rings
+
+![Sleek Rings](previews/all/sleek-rings.png)
+
+#### Sleek Rings No 12V
+
+![Sleek Rings No 12V](previews/all/sleek-rings-no-12v.png)
+
+#### Sleek Side
+
+![Sleek Side](previews/all/sleek-side.png)
+
+#### Sleek Side No 12V
+
+![Sleek Side No 12V](previews/all/sleek-side-no-12v.png)
+
+#### Performance Overlay
+
+![Performance Overlay](previews/all/performance.png)
 
 </details>
 
