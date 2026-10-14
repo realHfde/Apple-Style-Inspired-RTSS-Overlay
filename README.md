@@ -52,6 +52,11 @@ Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% low
 
 <img src="previews/performance_overlay_themes.png" width="780" alt="Performance Overlay in Dark, White and Clear">
 
+### No 12V versions
+Compact, Meters, Meters Universal, Rings and Side also come **without the 12V cable section**, for graphics cards that don't report it or if you just don't want it. They're the same overlays, slightly smaller. Look for the folders ending in `-no-12v`.
+
+![No 12V versions](previews/no_12v.png)
+
 ---
 
 ## Themes
@@ -107,8 +112,10 @@ Every overlay comes in three themes:
    | `1920x1080` | 1080p |
    | `2560x1440` | 1440p |
    | `3440x1440` | 21:9 ultrawide |
+   | `3840x1600` | 24:10 ultrawide |
    | `3840x2160` | 4K |
    | `5120x1440` | 32:9 super-ultrawide |
+   | `5120x2160` | 5K2K ultrawide |
 
 3. Copy **both files** in that folder (the `.ovl` and its `_atlas.png`) into:
    ```
@@ -117,13 +124,14 @@ Every overlay comes in three themes:
    Put them directly in that folder, **not in a subfolder**. Each overlay looks for its image in that exact folder.
 4. In RTSS, open **OverlayEditor**, go to **Layouts → Load**, and pick the overlay.
 
-The resolution versions only change **where** the overlay sits: centred at the top, or on the right edge for Sleek Side and the Performance Overlay. On a 4K screen it will look smaller, so use the **On-Screen Display zoom** slider in RTSS to make it bigger. On any screen you can also drag it wherever you like in OverlayEditor.
+The resolution versions only change **where** the overlay sits: centred at the top, or on the right edge for Sleek Side and the Performance Overlay. On a 4K or 5K2K screen it will look smaller, so use the **On-Screen Display zoom** slider in RTSS to make it bigger. On any screen you can also drag it wherever you like in OverlayEditor.
 
 ---
 
 ## Notes
 
-- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, remove that section.
+- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use the **No 12V** versions.
+- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: there's no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO, which can show a warning or play a sound.
 - The dot next to 12V turns **amber** below 11.85 V and **red** below 11.75 V. It only reacts once the GPU is drawing more than 150 W. At low power hardly any current flows through the cable, so even a bad connection barely lowers the voltage; a low reading only means something under real load. At idle or on the desktop, the dot stays green.
 - **Sleek Meters** uses fixed scales for an upper-mid-range PC (CPU 120 W, GPU 360 W, CPU clock 5.05 GHz, GPU clock 2.9 GHz, RAM 32 GB, VRAM 16 GB). For a high-end PC, use **Sleek Meters Universal**.
 - **Sleek Meters Universal:** to change a scale, open **Data sources** in OverlayEditor and edit the matching `pct` source's formula. For example, `x / 6` means 600 W is full; change it to `x / 3.6` for 360 W.
