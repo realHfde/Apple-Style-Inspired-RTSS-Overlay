@@ -10,7 +10,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
 **October 2026**
 - **📱 HYTE vertical screen support (515x1920):** new **Sleek Vertical** overlay made for HYTE's vertical case screens, plus a `515x1920` version of Sleek Side. Both sit at the bottom centre.
-- **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Install](#install).
+- **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Get started](#get-started).
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
 - **No 12V versions** of Compact, Meters, Meters Universal, Rings and Side, for graphics cards that don't report 12V or if you don't want it. Look for the folders ending in `-no-12v`. [See them below](#no-12v-versions).
@@ -19,6 +19,7 @@ Thanks to everyone on Reddit who asked for these!
 
 ---
 
+<a id="get-started"></a>
 ## ⬇️ Get started in 4 steps
 
 **1. Install the free programs** (if you don't have them yet):
@@ -43,8 +44,18 @@ Not sure about your resolution? On Windows, right-click the desktop and open **D
 ```
 C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
 ```
+Keep each `.ovl` next to its `_atlas.png` in that folder. That's where the overlay looks for its image, so a subfolder breaks it.
 
 **4. Pick your favourite.** In RTSS, make sure **Show On-Screen Display** is ON, then open **OverlayEditor → Layouts → Load**, flip through them, and launch a game. Done! 🎮
+
+**Where does it show up?** Top centre of the screen, the right edge for Sleek Side and the Performance Overlay, or the bottom centre on the HYTE screen. Want it somewhere else? Open it in OverlayEditor, select all the layers, drag them where you like, and save.
+
+<details>
+<summary>Only want one overlay?</summary>
+
+Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/sleek-meters/white/2560x1440`. Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
+
+</details>
 
 Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues take a few seconds to fix.
 
@@ -216,49 +227,6 @@ The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO t
 5. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
 
 > On the free version, Shared Memory switches itself off after **12 hours**. If values go blank after a long session, tick it again (or restart HWiNFO).
-
----
-
-## Install
-
-### Quick install (all overlays at once)
-
-1. Go to the **[latest release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest)** and download the zip for **your screen resolution**, e.g. `All.overlays.2560x1440.zip`.
-2. Unzip it and copy **all the files** into:
-   ```
-   C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
-   ```
-   Put them directly in that folder, **not in a subfolder**.
-3. In RTSS, open **OverlayEditor → Layouts → Load** and flip through them to pick your favourite.
-
-Every overlay in every theme is in there (96 files), and none of the names clash.
-
-> 📱 **Got a HYTE vertical screen?** Download `All.overlays.515x1920.zip` instead. It has Sleek Vertical and Sleek Side in every theme, made for the 515x1920 screen.
-
-### Install just one overlay
-
-1. Download this repo (**Code → Download ZIP**) and unzip it.
-2. Inside `overlays/`, open the overlay you want, then the theme (`dark`, `white`, `clear` or `float`), then the folder for **your screen resolution**. For example: `overlays/sleek-meters/white/2560x1440`.
-
-   | Folder | Screen |
-   |---|---|
-   | `1920x1080` | 1080p |
-   | `2560x1440` | 1440p |
-   | `3440x1440` | 21:9 ultrawide |
-   | `3840x1600` | 24:10 ultrawide |
-   | `3840x2160` | 4K |
-   | `5120x1440` | 32:9 super-ultrawide |
-   | `5120x2160` | 5K2K ultrawide |
-   | `515x1920` | 📱 **HYTE vertical case screen** (and other 515x1920 displays), bottom centre. Sleek Vertical and Sleek Side only |
-
-3. Copy **both files** in that folder (the `.ovl` and its `_atlas.png`) into:
-   ```
-   C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
-   ```
-   Put them directly in that folder, **not in a subfolder**. Each overlay looks for its image in that exact folder.
-4. In RTSS, open **OverlayEditor**, go to **Layouts → Load**, and pick the overlay.
-
-The resolution versions only change **where** the overlay sits: centred at the top, or on the right edge for Sleek Side and the Performance Overlay. On a 4K or 5K2K screen it will look smaller, so use the **On-Screen Display zoom** slider in RTSS to make it bigger. On any screen you can also drag it wherever you like in OverlayEditor.
 
 ---
 
