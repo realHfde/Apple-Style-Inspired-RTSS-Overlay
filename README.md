@@ -61,6 +61,12 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 ### Sleek Vertical 📱 (HYTE screen)
 Made for **HYTE vertical case screens** and other 515x1920 displays. It's Sleek turned on its side: CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
 
+**How it looks on a 515x1920 vertical screen:**
+
+<img src="previews/hyte_screen.png" width="600" alt="Sleek Vertical and Sleek Side on a 515x1920 vertical screen">
+
+**All four themes:**
+
 <img src="previews/all/sleek-vertical.png" width="780" alt="Sleek Vertical in Dark, White, Clear and Float">
 
 ### Performance Overlay
