@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -56,10 +56,16 @@ Takes about 5 minutes. Just follow these in order. 👇
 
 ### 3️⃣ Set up MSI Afterburner
 
-1. Open Afterburner → **Settings** (gear) → **Monitoring** tab.
-2. Make sure these are **enabled** (ticked): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, Framerate, Framerate 1% Low**.
-3. For each of them, **untick "Show in On-Screen Display"** so Afterburner's own text doesn't appear on top of the overlay.
-4. Click **Apply** and keep Afterburner running.
+| # | What to do |
+|---|---|
+| 1 | Click the **gear** (Settings) on the left |
+| 2 | Open the **Monitoring** tab |
+| 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, Framerate, Framerate 1% Low** |
+| 4 | Click each ticked item and make sure **Show in On-Screen Display** is ❌ **unticked**, so Afterburner's own text doesn't stack on top of the overlay |
+
+<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the graphs, untick Show in On-Screen Display">
+
+Click **OK** and keep Afterburner running in the background.
 
 ### 4️⃣ Set up RTSS
 
