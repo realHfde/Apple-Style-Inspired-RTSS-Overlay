@@ -79,7 +79,7 @@ Every overlay comes in four themes:
 | **Clear** | `clear` | Mostly see-through panel; every number has a drop shadow so it stays readable over bright scenes |
 | **Float** | `float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
 
-![Dark, White, Clear and Float](previews/themes.png)
+![Dark, White, Clear and Float](previews/themes_all.png)
 
 <details>
 <summary><b>All previews: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
