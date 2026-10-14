@@ -7,6 +7,7 @@ Clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)
 ## 🆕 What's new
 
 **October 2026**
+- **Vertical screens (515x1920):** new **Sleek Vertical** overlay, plus a `515x1920` version of Sleek Side. Both sit at the bottom centre.
 - **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Install](#install).
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
@@ -56,6 +57,11 @@ Activity-style double rings: the outer ring is load and the inner ring is temper
 A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 
 <img src="previews/sleek_side.png" width="260" alt="Sleek Side">
+
+### Sleek Vertical
+Sleek turned on its side for **vertical screens** (515x1920): CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
+
+<img src="previews/all/sleek-vertical.png" width="780" alt="Sleek Vertical in Dark, White, Clear and Float">
 
 ### Performance Overlay
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
@@ -120,6 +126,10 @@ Every overlay comes in four themes:
 #### Sleek Rings No 12V
 
 ![Sleek Rings No 12V](previews/all/sleek-rings-no-12v.png)
+
+#### Sleek Vertical
+
+![Sleek Vertical](previews/all/sleek-vertical.png)
 
 #### Sleek Side
 
@@ -196,6 +206,7 @@ Every overlay in every theme is in there (96 files), and none of the names clash
    | `3840x2160` | 4K |
    | `5120x1440` | 32:9 super-ultrawide |
    | `5120x2160` | 5K2K ultrawide |
+   | `515x1920` | Vertical screen, bottom centre (**Sleek Vertical and Sleek Side only**) |
 
 3. Copy **both files** in that folder (the `.ovl` and its `_atlas.png`) into:
    ```
