@@ -7,7 +7,7 @@ Clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)
 ## 🆕 What's new
 
 **October 2026**
-- **Vertical screens (515x1920):** new **Sleek Vertical** overlay, plus a `515x1920` version of Sleek Side. Both sit at the bottom centre.
+- **📱 HYTE vertical screen support (515x1920):** new **Sleek Vertical** overlay made for HYTE's vertical case screens, plus a `515x1920` version of Sleek Side. Both sit at the bottom centre.
 - **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Install](#install).
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
@@ -58,8 +58,8 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 
 <img src="previews/sleek_side.png" width="260" alt="Sleek Side">
 
-### Sleek Vertical
-Sleek turned on its side for **vertical screens** (515x1920): CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
+### Sleek Vertical 📱 (HYTE screen)
+Made for **HYTE vertical case screens** and other 515x1920 displays. It's Sleek turned on its side: CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
 
 <img src="previews/all/sleek-vertical.png" width="780" alt="Sleek Vertical in Dark, White, Clear and Float">
 
@@ -192,6 +192,8 @@ The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO t
 
 Every overlay in every theme is in there (96 files), and none of the names clash.
 
+> 📱 **Got a HYTE vertical screen?** Download `All.overlays.515x1920.zip` instead. It has Sleek Vertical and Sleek Side in every theme, made for the 515x1920 screen.
+
 ### Install just one overlay
 
 1. Download this repo (**Code → Download ZIP**) and unzip it.
@@ -206,7 +208,7 @@ Every overlay in every theme is in there (96 files), and none of the names clash
    | `3840x2160` | 4K |
    | `5120x1440` | 32:9 super-ultrawide |
    | `5120x2160` | 5K2K ultrawide |
-   | `515x1920` | Vertical screen, bottom centre (**Sleek Vertical and Sleek Side only**) |
+   | `515x1920` | 📱 **HYTE vertical case screen** (and other 515x1920 displays), bottom centre. Sleek Vertical and Sleek Side only |
 
 3. Copy **both files** in that folder (the `.ovl` and its `_atlas.png`) into:
    ```
