@@ -1,6 +1,8 @@
 # Apple-Style RTSS Overlays
 
-Clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**, built with the RTSS OverlayEditor plugin.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE vertical screens.
+
+If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
 > Previews below are rendered with sample in-game numbers. Real colours and spacing may differ slightly in game.
 
@@ -17,7 +19,40 @@ Thanks to everyone on Reddit who asked for these!
 
 ---
 
+## ⬇️ Get started in 4 steps
+
+**1. Install the free programs** (if you don't have them yet):
+[RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) and [MSI Afterburner](https://www.msi.com/Landing/afterburner). For the full stats, also install [HWiNFO64](https://www.hwinfo.com/) and turn on Shared Memory ([quick guide with pictures](#hwinfo-setup-shared-memory)).
+
+**2. Download the pack for your screen.** Each one has every overlay in every theme:
+
+| Screen | Resolution | Download |
+|---|---|---|
+| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1080.zip) |
+| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1440.zip) |
+| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3440x1440.zip) |
+| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x1600.zip) |
+| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
+| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
+| 5K2K ultrawide | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
+| 📱 HYTE vertical screen | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
+
+Not sure about your resolution? On Windows, right-click the desktop and open **Display settings**, then look under **Display resolution**.
+
+**3. Copy the files.** Unzip the pack and copy **all the files** straight into this folder (not into a subfolder):
+```
+C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
+```
+
+**4. Pick your favourite.** In RTSS, make sure **Show On-Screen Display** is ON, then open **OverlayEditor → Layouts → Load**, flip through them, and launch a game. Done! 🎮
+
+Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues take a few seconds to fix.
+
+---
+
 ## Overlays
+
+Here's the full lineup. Every overlay comes in **Dark, White, Clear and Float** ([see themes](#themes)).
 
 ### Sleek
 A compact pill: CPU and GPU usage rings with temperature and power, FPS and 1% low in the middle.
