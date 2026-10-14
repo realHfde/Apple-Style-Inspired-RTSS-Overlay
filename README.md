@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -20,12 +20,58 @@ Thanks to everyone on Reddit who asked for these!
 ---
 
 <a id="get-started"></a>
-## ⬇️ Get started in 4 steps
+## ⬇️ Get started
 
-**1. Install the free programs** (if you don't have them yet):
-[RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) and [MSI Afterburner](https://www.msi.com/Landing/afterburner). For the full stats, also install [HWiNFO64](https://www.hwinfo.com/) and turn on Shared Memory ([quick guide with pictures](#hwinfo-setup-shared-memory)).
+Takes about 5 minutes. Just follow these in order. 👇
 
-**2. Download the pack for your screen.** Each one has every overlay in every theme:
+### 1️⃣ Install the free programs
+
+| Program | What it does |
+|---|---|
+| [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
+| [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, FPS, 1% low |
+| [**HWiNFO64**](https://www.hwinfo.com/) | Clocks, VRAM temp, 12V cable, GPU limit warnings (every overlay except Sleek) |
+
+<a id="hwinfo-setup-shared-memory"></a>
+### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
+
+### Without this, clocks, VRAM temp, 12V and limits stay blank.
+
+1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
+
+   <img src="previews/hwinfo/1_sensor_settings.png" width="380" alt="Sensors window: gear button">
+
+2. *(Optional)* In **Sensor Settings**, the **Global** polling period can stay at **2000 ms**. That's plenty for an overlay and keeps HWiNFO light.
+3. Click **Main Settings** at the bottom.
+
+   <img src="previews/hwinfo/2_main_settings.png" width="560" alt="Sensor Settings: polling period and Main Settings button">
+
+4. Tick **Shared Memory Support** and click **OK**.
+
+   <img src="previews/hwinfo/3_shared_memory.png" width="360" alt="Main Settings: Shared Memory Support">
+
+5. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
+
+> On the free version, Shared Memory switches itself off after **12 hours**. If values go blank after a long session, tick it again (or restart HWiNFO).
+
+### 3️⃣ Set up MSI Afterburner
+
+1. Open Afterburner → **Settings** (gear) → **Monitoring** tab.
+2. Make sure these are **enabled** (ticked): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, Framerate, Framerate 1% Low**.
+3. For each of them, **untick "Show in On-Screen Display"** so Afterburner's own text doesn't appear on top of the overlay.
+4. Click **Apply** and keep Afterburner running.
+
+### 4️⃣ Set up RTSS
+
+| Setting | Set it to | Why |
+|---|---|---|
+| **Show On-Screen Display** | ✅ **ON** | Nothing shows in game without it |
+| **On-Screen Display shadow** | ❌ **OFF** | Keeps text sharp (White theme looks blurry with it on) |
+| **OverlayEditor plugin** | ✅ **Enabled** | In RTSS **Setup → Plugins**, tick **OverlayEditor** |
+
+### 5️⃣ Download the pack for your screen
+
+Each pack has every overlay in every theme:
 
 | Screen | Resolution | Download |
 |---|---|---|
@@ -41,28 +87,30 @@ Thanks to everyone on Reddit who asked for these!
 | 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
 | 📱 Other vertical screens | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
-Not sure about your resolution? On Windows, right-click the desktop and open **Display settings**, then look under **Display resolution**.
+Not sure about your resolution? Right-click the desktop → **Display settings** → **Display resolution**.
 
-**3. Copy the files.** Unzip the pack and copy **all the files** straight into this folder (not into a subfolder):
+### 6️⃣ Copy the files into the Overlays folder
+
+Unzip the pack and copy **all the files** straight into this folder:
 ```
 C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
 ```
-Keep each `.ovl` next to its `_atlas.png` in that folder. That's where the overlay looks for its image, so a subfolder breaks it.
+### ⚠️ Not into a subfolder! Each `.ovl` needs its `_atlas.png` right next to it.
 
-**4. Pick your favourite.** In RTSS, make sure **Show On-Screen Display** is ON, then open **OverlayEditor → Layouts → Load**, flip through them, and launch a game. Done! 🎮
+### 7️⃣ Load it and play 🎮
 
-**Where does it show up?** Top centre of the screen, the right edge for Sleek Side and the Performance Overlay, or the bottom centre on HYTE screens.
+In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and launch a game. It shows at the top centre, on the right edge (Sleek Side and Performance), or at the bottom centre on HYTE screens.
 
 <a id="move-an-overlay"></a>
-> [!TIP]
-> **📍 Move it anywhere you like**
->
-> 1. Open the overlay in **OverlayEditor**.
-> 2. **Turn off "Snap to grid"** first. ⚠️ With snapping on, each piece snaps separately and the numbers slide out of place.
-> 3. Select all the layers and drag the overlay where you want it, e.g. the lower-left corner.
-> 4. **Save** the layout.
->
-> Everything stays lined up, and it remembers the new spot from then on. (RTSS's own position box doesn't move these overlays, so this is the way to do it.)
+### 📍 Move it anywhere you like
+
+1. Open the overlay in **OverlayEditor**.
+2. ### Turn off "Snap to grid" first! ⚠️
+   With snapping on, each piece snaps separately and the numbers slide out of place.
+3. Select all the layers and drag the overlay where you want it, e.g. the lower-left corner.
+4. **Save** the layout.
+
+Everything stays lined up, and it remembers the new spot. (RTSS's own position box doesn't move these overlays, so this is the way to do it.)
 
 <details>
 <summary>Only want one overlay?</summary>
@@ -210,37 +258,6 @@ Every overlay comes in four themes:
 ![Performance Overlay](previews/all/performance.png)
 
 </details>
-
----
-
-## Requirements
-
-| Program | Why |
-|---|---|
-| [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) with the **OverlayEditor** plugin enabled | Draws the overlay |
-| [MSI Afterburner](https://www.msi.com/Landing/afterburner) | CPU/GPU usage, temperature, power, FPS, 1% low |
-| [HWiNFO64](https://www.hwinfo.com/) | Clocks, VRAM temperature, GPU voltage and fan, 12V cable voltage, GPU limit warnings (needed by every overlay except Sleek) |
-
-### HWiNFO setup (Shared Memory)
-
-The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO through **Shared Memory**. If those values are blank, this is almost always why.
-
-1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
-
-   <img src="previews/hwinfo/1_sensor_settings.png" width="380" alt="Sensors window: gear button">
-
-2. *(Optional)* In **Sensor Settings**, the **Global** polling period can stay at **2000 ms**. That's plenty for an overlay and keeps HWiNFO light.
-3. Click **Main Settings** at the bottom.
-
-   <img src="previews/hwinfo/2_main_settings.png" width="560" alt="Sensor Settings: polling period and Main Settings button">
-
-4. Tick **Shared Memory Support** and click **OK**.
-
-   <img src="previews/hwinfo/3_shared_memory.png" width="360" alt="Main Settings: Shared Memory Support">
-
-5. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
-
-> On the free version, Shared Memory switches itself off after **12 hours**. If values go blank after a long session, tick it again (or restart HWiNFO).
 
 ---
 
