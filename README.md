@@ -7,6 +7,7 @@ Clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)
 ## 🆕 What's new
 
 **October 2026**
+- **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
 - **No 12V versions** of Compact, Meters, Meters Universal, Rings and Side, for graphics cards that don't report 12V or if you don't want it. Look for the folders ending in `-no-12v`. [See them below](#no-12v-versions).
 
@@ -69,15 +70,20 @@ Compact, Meters, Meters Universal, Rings and Side also come **without the 12V ca
 
 ## Themes
 
-Every overlay comes in three themes:
+Every overlay comes in four themes:
 
 | Theme | Folder | Look |
 |---|---|---|
 | **Dark** | `dark` | Dark glass panel, white text |
 | **White** | `white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text. |
 | **Clear** | `clear` | Mostly see-through panel; every number has a drop shadow so it stays readable over bright scenes |
+| **Float** | `float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
 
 ![Themes](previews/themes.png)
+
+**Float**
+
+![Float](previews/float.png)
 
 <details>
 <summary>All white and clear previews</summary>
@@ -113,7 +119,7 @@ Every overlay comes in three themes:
 ## Install
 
 1. Download this repo (**Code → Download ZIP**) and unzip it.
-2. Inside `overlays/`, open the overlay you want, then the theme (`dark`, `white` or `clear`), then the folder for **your screen resolution**. For example: `overlays/sleek-meters/white/2560x1440`.
+2. Inside `overlays/`, open the overlay you want, then the theme (`dark`, `white`, `clear` or `float`), then the folder for **your screen resolution**. For example: `overlays/sleek-meters/white/2560x1440`.
 
    | Folder | Screen |
    |---|---|
@@ -153,7 +159,7 @@ The resolution versions only change **where** the overlay sits: centred at the t
 | Some values show `N/A` or are blank | HWiNFO isn't running, or Shared Memory Support is off. |
 | A value stays blank even with HWiNFO running | In OverlayEditor, open **Data sources**, select the row, click **Setup**, and pick the matching sensor from your HWiNFO list. |
 | 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. |
-| Text looks blurry or smudged on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window. The shadow is meant for white text on dark backgrounds; the Dark themes don't need it, and the Clear themes have their own shadow built in. |
+| Text looks blurry or smudged on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window. The shadow is meant for white text on dark backgrounds; the Dark themes don't need it, and the Clear and Float themes have their own shadow built in. |
 
 ---
 
