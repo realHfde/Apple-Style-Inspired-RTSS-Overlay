@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey!  These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -238,6 +238,15 @@ The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO t
 - **Sleek Meters** uses fixed scales for an upper-mid-range PC (CPU 120 W, GPU 360 W, CPU clock 5.05 GHz, GPU clock 2.9 GHz, RAM 32 GB, VRAM 16 GB). For a high-end PC, use **Sleek Meters Universal**.
 - **Sleek Meters Universal:** to change a scale, open **Data sources** in OverlayEditor and edit the matching `pct` source's formula. For example, `x / 6` means 600 W is full; change it to `x / 3.6` for 360 W.
 - The CPU clock shows the *effective* clock, so it reads very low at idle and close to your CPU's boost clock in games.
+
+## Known limitations
+
+These come from how RTSS's OverlayEditor works, so every OverlayEditor layout has them, not just these:
+
+- **RTSS's position box and zoom slider don't move these overlays.** A normal Afterburner overlay is one block of text that RTSS places where you choose. An OverlayEditor layout is made of separate layers (panel, rings, each number), and each layer has its own fixed spot on the screen. There's no "whole overlay" position for RTSS to move.
+  **To move one:** open it in OverlayEditor, select all the layers, drag them where you want, and save. Everything moves together.
+- **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack that matches the resolution you play at most.
+- 🔬 **Working on it:** corner-anchored versions (e.g. bottom-left) that stay in their corner at any resolution. Testing now.
 
 ## Troubleshooting
 
