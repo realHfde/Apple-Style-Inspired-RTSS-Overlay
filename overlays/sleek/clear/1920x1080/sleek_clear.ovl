@@ -1,0 +1,473 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Sleek Clear
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=sleek_clear_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=8
+Tables=0
+Layers=39
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source1]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000100
+Gpu=FFFFFFFF
+SrcName=
+[Source2]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000000
+SrcName=
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,496,472,77>
+PositionX=724
+PositionY=24
+ExtentX=472
+ExtentY=77
+ExtentOrigin=0
+[Layer1]
+Name=CPU ring
+Text=<AI=CPU usage,0,0,0,102,0,0,62,62,51,16,0>
+PositionX=736
+PositionY=31
+ExtentX=62
+ExtentY=62
+ExtentOrigin=0
+[Layer2]
+Name=CPU usage shadow
+Text=%CPU usage%
+PositionX=737
+PositionY=32
+ExtentX=62
+ExtentY=62
+ExtentOrigin=4
+Size=95
+TextColor=000000
+[Layer3]
+Name=CPU usage shadow
+Text=%CPU usage%
+PositionX=736
+PositionY=33
+ExtentX=62
+ExtentY=62
+ExtentOrigin=4
+Size=95
+TextColor=000000
+[Layer4]
+Name=CPU usage
+Text=%CPU usage%
+PositionX=736
+PositionY=31
+ExtentX=62
+ExtentY=62
+ExtentOrigin=4
+Size=95
+TextColor=FFFFFF
+[Layer5]
+Name=CPU label shadow
+Text=CPU
+PositionX=811
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=000000
+[Layer6]
+Name=CPU label shadow
+Text=CPU
+PositionX=810
+PositionY=34
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=000000
+[Layer7]
+Name=CPU label
+Text=CPU
+PositionX=810
+PositionY=32
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=409CFF
+[Layer8]
+Name=CPU temperature shadow
+Text=%CPU temperature%°
+PositionX=811
+PositionY=47
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=110
+TextColor=000000
+[Layer9]
+Name=CPU temperature shadow
+Text=%CPU temperature%°
+PositionX=810
+PositionY=48
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=110
+TextColor=000000
+[Layer10]
+Name=CPU temperature
+Text=%CPU temperature%°
+PositionX=810
+PositionY=46
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=110
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
+[Layer11]
+Name=CPU power shadow
+Text=%CPU power% W
+PositionX=811
+PositionY=77
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=66
+TextColor=000000
+[Layer12]
+Name=CPU power shadow
+Text=%CPU power% W
+PositionX=810
+PositionY=78
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=66
+TextColor=000000
+[Layer13]
+Name=CPU power
+Text=%CPU power% W
+PositionX=810
+PositionY=76
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=66
+TextColor=F2F2F7
+[Layer14]
+Name=FPS label shadow
+Text=FPS
+PositionX=911
+PositionY=41
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=000000
+[Layer15]
+Name=FPS label shadow
+Text=FPS
+PositionX=910
+PositionY=42
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=000000
+[Layer16]
+Name=FPS label
+Text=FPS
+PositionX=910
+PositionY=40
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=C7C7CC
+[Layer17]
+Name=Framerate shadow
+Text=%Framerate%
+PositionX=897
+PositionY=55
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=143
+TextColor=000000
+[Layer18]
+Name=Framerate shadow
+Text=%Framerate%
+PositionX=896
+PositionY=56
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=143
+TextColor=000000
+[Layer19]
+Name=Framerate
+Text=%Framerate%
+PositionX=896
+PositionY=54
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=143
+TextColor=FFFFFF
+[Layer20]
+Name=1% low label shadow
+Text=1% LOW
+PositionX=977
+PositionY=41
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=000000
+[Layer21]
+Name=1% low label shadow
+Text=1% LOW
+PositionX=976
+PositionY=42
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=000000
+[Layer22]
+Name=1% low label
+Text=1% LOW
+PositionX=976
+PositionY=40
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=61
+TextColor=C7C7CC
+[Layer23]
+Name=1% low shadow
+Text=%Framerate 1% Low%
+PositionX=977
+PositionY=60
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=110
+TextColor=000000
+[Layer24]
+Name=1% low shadow
+Text=%Framerate 1% Low%
+PositionX=976
+PositionY=61
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=110
+TextColor=000000
+[Layer25]
+Name=1% low
+Text=%Framerate 1% Low%
+PositionX=976
+PositionY=59
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=110
+TextColor=EBEBF0
+[Layer26]
+Name=GPU label shadow
+Text=GPU
+PositionX=1025
+PositionY=33
+ExtentX=86
+ExtentY=14
+ExtentOrigin=2
+Size=61
+TextColor=000000
+[Layer27]
+Name=GPU label shadow
+Text=GPU
+PositionX=1024
+PositionY=34
+ExtentX=86
+ExtentY=14
+ExtentOrigin=2
+Size=61
+TextColor=000000
+[Layer28]
+Name=GPU label
+Text=GPU
+PositionX=1024
+PositionY=32
+ExtentX=86
+ExtentY=14
+ExtentOrigin=2
+Size=61
+TextColor=DA8FFF
+[Layer29]
+Name=GPU temperature shadow
+Text=%GPU1 temperature%°
+PositionX=1025
+PositionY=47
+ExtentX=86
+ExtentY=30
+ExtentOrigin=2
+Size=110
+TextColor=000000
+[Layer30]
+Name=GPU temperature shadow
+Text=%GPU1 temperature%°
+PositionX=1024
+PositionY=48
+ExtentX=86
+ExtentY=30
+ExtentOrigin=2
+Size=110
+TextColor=000000
+[Layer31]
+Name=GPU temperature
+Text=%GPU1 temperature%°
+PositionX=1024
+PositionY=46
+ExtentX=86
+ExtentY=30
+ExtentOrigin=2
+Size=110
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
+[Layer32]
+Name=GPU power shadow
+Text=%GPU1 power% W
+PositionX=1025
+PositionY=77
+ExtentX=86
+ExtentY=18
+ExtentOrigin=2
+Size=66
+TextColor=000000
+[Layer33]
+Name=GPU power shadow
+Text=%GPU1 power% W
+PositionX=1024
+PositionY=78
+ExtentX=86
+ExtentY=18
+ExtentOrigin=2
+Size=66
+TextColor=000000
+[Layer34]
+Name=GPU power
+Text=%GPU1 power% W
+PositionX=1024
+PositionY=76
+ExtentX=86
+ExtentY=18
+ExtentOrigin=2
+Size=66
+TextColor=F2F2F7
+[Layer35]
+Name=GPU ring
+Text=<AI=GPU1 usage,0,0,0,102,0,248,62,62,51,16,0>
+PositionX=1122
+PositionY=31
+ExtentX=62
+ExtentY=62
+ExtentOrigin=0
+[Layer36]
+Name=GPU usage shadow
+Text=%GPU1 usage%
+PositionX=1123
+PositionY=32
+ExtentX=62
+ExtentY=62
+ExtentOrigin=4
+Size=95
+TextColor=000000
+[Layer37]
+Name=GPU usage shadow
+Text=%GPU1 usage%
+PositionX=1122
+PositionY=33
+ExtentX=62
+ExtentY=62
+ExtentOrigin=4
+Size=95
+TextColor=000000
+[Layer38]
+Name=GPU usage
+Text=%GPU1 usage%
+PositionX=1122
+PositionY=31
+ExtentX=62
+ExtentY=62
+ExtentOrigin=4
+Size=95
+TextColor=FFFFFF
