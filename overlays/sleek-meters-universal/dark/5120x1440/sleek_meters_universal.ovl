@@ -1,0 +1,610 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Sleek Meters Universal
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=sleek_meters_universal_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=23
+Tables=0
+Layers=41
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source1]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000100
+Gpu=FFFFFFFF
+SrcName=
+[Source2]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000000
+SrcName=
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Source8]
+Name=CPU clock
+Units=GHz
+Format=%.2f
+Formula=x / 1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+[Source9]
+Name=RAM usage
+Units=GB
+Format=%.1f
+Formula=x / 1024
+Provider=HAL
+ID=RAM usage
+[Source10]
+Name=GPU mem temp
+Units=°C
+Format=%.0f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU Memory Junction Temperature
+[Source11]
+Name=GPU clock
+Units=GHz
+Format=%.2f
+Formula=x / 1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=GPU Clock
+[Source12]
+Name=GPU1 memory usage
+Units=GB
+Format=%.1f
+Formula=x / 1024
+Provider=HAL
+ID=GPU1 memory usage
+[Source13]
+Name=12V cable
+Units=V
+Format=%.2f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU 12VHPWR Voltage
+[Source14]
+Name=12V status
+Units=V
+Format=%.2f
+Formula="12V cable" + ("GPU1 power" < 150)
+Provider=HAL
+ID=Stub
+[Source15]
+Name=Limit power
+Units=
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Performance Limit - Power
+[Source16]
+Name=Limit thermal
+Units=
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Performance Limit - Thermal
+[Source17]
+Name=Limit voltage
+Units=
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Performance Limit - Reliability Voltage
+[Source18]
+Name=CPU power pct
+Units=%
+Format=%.0f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=CPU PPT Limit,CPU PPT FAST Limit,CPU Package Power Limit,Package Power Limit
+[Source19]
+Name=RAM pct
+Units=%
+Format=%.0f
+Formula=
+Provider=HAL
+ID=RAM usage percent
+[Source20]
+Name=GPU power pct
+Units=%
+Format=%.0f
+Formula=
+Provider=MSI Afterburner
+SrcId=00000060
+Gpu=00000000
+SrcName=
+[Source21]
+Name=VRAM pct
+Units=%
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 memory usage percent
+[Source22]
+Name=12V pct
+Units=%
+Format=%.0f
+Formula=(x - 11.5) * 125
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU 12VHPWR Voltage
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,360,820,92>
+PositionX=2150
+PositionY=24
+ExtentX=820
+ExtentY=92
+ExtentOrigin=0
+[Layer1]
+Name=CPU ring
+Text=<AI=CPU usage,0,0,0,102,0,0,60,60,51,17,0>
+PositionX=2166
+PositionY=40
+ExtentX=60
+ExtentY=60
+ExtentOrigin=0
+[Layer2]
+Name=CPU usage
+Text=%CPU usage%
+PositionX=2166
+PositionY=40
+ExtentX=60
+ExtentY=60
+ExtentOrigin=4
+Size=80
+TextColor=FFFFFF
+[Layer3]
+Name=CPU label
+Text=CPU
+PositionX=2236
+PositionY=37
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=0A84FF
+[Layer4]
+Name=CPU temperature
+Text=%CPU temperature%°
+PositionX=2236
+PositionY=53
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=150
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
+[Layer5]
+Name=CPU Power label
+Text=Power
+PositionX=2306
+PositionY=38
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer6]
+Name=CPU Power
+Text=%CPU power% W
+PositionX=2306
+PositionY=36
+ExtentX=104
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer7]
+Name=CPU Power meter
+Text=<AI=CPU power pct,0,0,0,102,0,456,104,32,51,9,0>
+PositionX=2306
+PositionY=54
+ExtentX=104
+ExtentY=32
+ExtentOrigin=0
+[Layer8]
+Name=CPU Clock label
+Text=Clock
+PositionX=2306
+PositionY=60
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer9]
+Name=CPU Clock
+Text=%CPU clock% GHz
+PositionX=2306
+PositionY=58
+ExtentX=104
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer10]
+Name=CPU RAM label
+Text=RAM
+PositionX=2306
+PositionY=82
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer11]
+Name=CPU RAM
+Text=%RAM usage% GB
+PositionX=2306
+PositionY=80
+ExtentX=104
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer12]
+Name=CPU RAM meter
+Text=<AI=RAM pct,0,0,0,102,0,456,104,32,51,9,0>
+PositionX=2306
+PositionY=98
+ExtentX=104
+ExtentY=32
+ExtentOrigin=0
+[Layer13]
+Name=GPU ring
+Text=<AI=GPU1 usage,0,0,0,102,0,180,60,60,51,17,0>
+PositionX=2436
+PositionY=40
+ExtentX=60
+ExtentY=60
+ExtentOrigin=0
+[Layer14]
+Name=GPU usage
+Text=%GPU1 usage%
+PositionX=2436
+PositionY=40
+ExtentX=60
+ExtentY=60
+ExtentOrigin=4
+Size=80
+TextColor=FFFFFF
+[Layer15]
+Name=GPU label
+Text=GPU
+PositionX=2506
+PositionY=37
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=BF5AF2
+[Layer16]
+Name=GPU temperature
+Text=%GPU1 temperature%°
+PositionX=2506
+PositionY=53
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=150
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
+[Layer17]
+Name=GPU sub
+Text=VRAM %GPU mem temp%°
+PositionX=2506
+PositionY=90
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=52
+TextColor=8E8E93
+[Layer18]
+Name=GPU Power label
+Text=Power
+PositionX=2576
+PositionY=38
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer19]
+Name=GPU Power
+Text=%GPU1 power% W
+PositionX=2576
+PositionY=36
+ExtentX=104
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer20]
+Name=GPU Power meter
+Text=<AI=GPU power pct,0,0,0,102,0,648,104,32,51,9,0>
+PositionX=2576
+PositionY=54
+ExtentX=104
+ExtentY=32
+ExtentOrigin=0
+[Layer21]
+Name=GPU Clock label
+Text=Clock
+PositionX=2576
+PositionY=60
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer22]
+Name=GPU Clock
+Text=%GPU clock% GHz
+PositionX=2576
+PositionY=58
+ExtentX=104
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer23]
+Name=GPU VRAM label
+Text=VRAM
+PositionX=2576
+PositionY=82
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer24]
+Name=GPU VRAM
+Text=%GPU1 memory usage% GB
+PositionX=2576
+PositionY=80
+ExtentX=104
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer25]
+Name=GPU VRAM meter
+Text=<AI=VRAM pct,0,0,0,102,0,648,104,32,51,9,0>
+PositionX=2576
+PositionY=98
+ExtentX=104
+ExtentY=32
+ExtentOrigin=0
+[Layer26]
+Name=Limit power
+Text=Power limit
+PositionX=2544
+PositionY=38
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=52
+TextColor=FF9F0A
+VisibilitySource=Limit power
+[Layer27]
+Name=Limit thermal
+Text=Thermal limit
+PositionX=2544
+PositionY=38
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=52
+TextColor=FF453A
+VisibilitySource=Limit thermal
+[Layer28]
+Name=Limit voltage
+Text=Voltage limit
+PositionX=2544
+PositionY=38
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=52
+TextColor=8E8E93
+VisibilitySource=Limit voltage
+[Layer29]
+Name=FPS label
+Text=FPS
+PositionX=2708
+PositionY=37
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=30D158
+[Layer30]
+Name=FPS
+Text=%Framerate%
+PositionX=2708
+PositionY=49
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=170
+TextColor=FFFFFF
+[Layer31]
+Name=1% label
+Text=1%
+PositionX=2794
+PositionY=41
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer32]
+Name=1%
+Text=%Framerate 1% Low%
+PositionX=2794
+PositionY=39
+ExtentX=70
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer33]
+Name=FT label
+Text=FT
+PositionX=2794
+PositionY=60
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer34]
+Name=FT
+Text=<FT> ms
+PositionX=2794
+PositionY=58
+ExtentX=70
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer35]
+Name=Frametime graph
+Text=<G=Frametime,0,0,1,0,40,0>
+PositionX=2708
+PositionY=88
+ExtentX=156
+ExtentY=16
+ExtentOrigin=0
+TextColor=30D158
+[Layer36]
+Name=Cable dot
+Text=•
+PositionX=2893
+PositionY=36
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=90
+TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
+[Layer37]
+Name=Cable label
+Text=12V
+PositionX=2906
+PositionY=37
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
+[Layer38]
+Name=Cable voltage
+Text=%12V cable%
+PositionX=2894
+PositionY=56
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=105
+TextColor=FFFFFF
+[Layer39]
+Name=Cable V
+Text=V
+PositionX=2954
+PositionY=64
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=60
+TextColor=8E8E93
+[Layer40]
+Name=Cable meter
+Text=<AI=12V pct,0,0,0,102,0,840,64,32,51,16,0>
+PositionX=2894
+PositionY=85
+ExtentX=64
+ExtentY=32
+ExtentOrigin=0
