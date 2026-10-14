@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey!  These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -48,7 +48,7 @@ Keep each `.ovl` next to its `_atlas.png` in that folder. That's where the overl
 
 **4. Pick your favourite.** In RTSS, make sure **Show On-Screen Display** is ON, then open **OverlayEditor → Layouts → Load**, flip through them, and launch a game. Done! 🎮
 
-**Where does it show up?** Top centre of the screen, the right edge for Sleek Side and the Performance Overlay, or the bottom centre on the HYTE screen. Want it somewhere else? See [Known limitations](#known-limitations).
+**Where does it show up?** Top centre of the screen, the right edge for Sleek Side and the Performance Overlay, or the bottom centre on the HYTE screen. Want it somewhere else? You can move it in OverlayEditor. See [how to move an overlay](#move-an-overlay).
 
 <details>
 <summary>Only want one overlay?</summary>
@@ -243,10 +243,19 @@ The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO t
 
 These come from how RTSS's OverlayEditor works, so every OverlayEditor layout has them, not just these:
 
-- **RTSS's position box and zoom slider don't move these overlays.** A normal Afterburner overlay is one block of text that RTSS places where you choose. An OverlayEditor layout is made of separate layers (panel, rings, each number), and each layer has its own fixed spot on the screen. There's no "whole overlay" position for RTSS to move.
-- **Dragging an overlay in OverlayEditor can misalign it.** The editor snaps each layer to its grid separately, so the numbers and rings can shift away from the panel when you move them. For now, the safest option is to use the file for your resolution as it is. Need it somewhere else? [Open an issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with your resolution and where you want it.
+- **RTSS's position box and zoom slider don't move these overlays.** Move them in OverlayEditor instead ([how](#move-an-overlay)). A normal Afterburner overlay is one block of text that RTSS places where you choose. An OverlayEditor layout is made of separate layers (panel, rings, each number), and each layer has its own fixed spot on the screen. There's no "whole overlay" position for RTSS to move.
 - **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack that matches the resolution you play at most.
 - 🔬 **Working on it:** corner-anchored versions (e.g. bottom-left) that stay in their corner at any resolution. Testing now.
+
+<a id="move-an-overlay"></a>
+### Move an overlay anywhere you like
+
+1. Open the overlay in **OverlayEditor**.
+2. **Turn off "Snap to grid"** first. With snapping on, each piece snaps separately and the numbers slide out of place.
+3. Select all the layers and drag the overlay where you want it, e.g. the lower-left corner.
+4. **Save** the layout.
+
+Everything stays lined up, and it remembers the new spot from then on.
 
 ## Troubleshooting
 
