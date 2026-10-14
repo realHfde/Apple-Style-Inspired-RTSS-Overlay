@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -63,11 +63,27 @@ Takes about 5 minutes. Just follow these in order. 👇
 
 ### 4️⃣ Set up RTSS
 
-| Setting | Set it to | Why |
+In the main RTSS window:
+
+| # | Setting | Set it to | Why |
+|---|---|---|---|
+| 1 | **Show On-Screen Display** | ✅ **ON** | Nothing shows in game without it |
+| 2 | **On-Screen Display support** | ✅ **ON** | Same, needed for any overlay |
+| 3 | **On-Screen Display shadow** | ❌ **OFF** | Keeps text sharp (White theme looks blurry with it on) |
+| 4 | **Setup** button | Click it | Opens the settings with the plugins |
+
+<img src="previews/setup/rtss_main.png" width="420" alt="RTSS main window: Show On-Screen Display, On-Screen Display support, shadow off, Setup button">
+
+Then in **Setup**:
+
+| # | Setting | Set it to |
 |---|---|---|
-| **Show On-Screen Display** | ✅ **ON** | Nothing shows in game without it |
-| **On-Screen Display shadow** | ❌ **OFF** | Keeps text sharp (White theme looks blurry with it on) |
-| **OverlayEditor plugin** | ✅ **Enabled** | In RTSS **Setup → Plugins**, tick **OverlayEditor** |
+| 5 | **Plugins** tab | Open it |
+| 6 | **OverlayEditor.dll** | ✅ **Ticked** (this is what loads the overlays) |
+
+<img src="previews/setup/rtss_plugins.png" width="420" alt="RTSS Setup: Plugins tab with OverlayEditor.dll ticked">
+
+Click **OK**.
 
 ### 5️⃣ Download the pack for your screen
 
@@ -106,7 +122,10 @@ In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and l
 
 1. Open the overlay in **OverlayEditor**.
 2. ### Turn off "Snap to grid" first! ⚠️
-   With snapping on, each piece snaps separately and the numbers slide out of place.
+   Click **View** at the top, then click **Snap to grid** so the ✓ disappears. With snapping on, each piece snaps separately and the numbers slide out of place.
+
+   <img src="previews/setup/snap_to_grid.png" width="440" alt="OverlayEditor: View menu, Snap to grid">
+
 3. Select all the layers and drag the overlay where you want it, e.g. the lower-left corner.
 4. **Save** the layout.
 
