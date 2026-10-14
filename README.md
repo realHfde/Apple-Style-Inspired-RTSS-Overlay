@@ -48,7 +48,7 @@ Keep each `.ovl` next to its `_atlas.png` in that folder. That's where the overl
 
 **4. Pick your favourite.** In RTSS, make sure **Show On-Screen Display** is ON, then open **OverlayEditor → Layouts → Load**, flip through them, and launch a game. Done! 🎮
 
-**Where does it show up?** Top centre of the screen, the right edge for Sleek Side and the Performance Overlay, or the bottom centre on the HYTE screen. Want it somewhere else? Open it in OverlayEditor, select all the layers, drag them where you like, and save.
+**Where does it show up?** Top centre of the screen, the right edge for Sleek Side and the Performance Overlay, or the bottom centre on the HYTE screen. Want it somewhere else? See [Known limitations](#known-limitations).
 
 <details>
 <summary>Only want one overlay?</summary>
@@ -244,7 +244,7 @@ The overlays read clocks, VRAM temperature, 12V and limit warnings from HWiNFO t
 These come from how RTSS's OverlayEditor works, so every OverlayEditor layout has them, not just these:
 
 - **RTSS's position box and zoom slider don't move these overlays.** A normal Afterburner overlay is one block of text that RTSS places where you choose. An OverlayEditor layout is made of separate layers (panel, rings, each number), and each layer has its own fixed spot on the screen. There's no "whole overlay" position for RTSS to move.
-  **To move one:** open it in OverlayEditor, select all the layers, drag them where you want, and save. Everything moves together.
+- **Dragging an overlay in OverlayEditor can misalign it.** The editor snaps each layer to its grid separately, so the numbers and rings can shift away from the panel when you move them. For now, the safest option is to use the file for your resolution as it is. Need it somewhere else? [Open an issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with your resolution and where you want it.
 - **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack that matches the resolution you play at most.
 - 🔬 **Working on it:** corner-anchored versions (e.g. bottom-left) that stay in their corner at any resolution. Testing now.
 
