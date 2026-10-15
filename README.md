@@ -141,7 +141,9 @@ Each pack has every overlay in every theme:
 | 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
 | 📱 Other vertical screens | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
-**Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display**. It's listed there as **Desktop mode**, e.g. 2560 × 1440.
+**Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
+
+<img src="previews/setup/resolution.png" width="460" alt="Windows Advanced display: Desktop mode shows the resolution">
 
 ### 6️⃣ Copy the files into the Overlays folder
 
