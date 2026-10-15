@@ -1,6 +1,8 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, for screens from 1080p up to 5K2K, gaming laptops, HYTE Y70 vertical screens and TVs.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops, HYTE Y70 vertical screens and TVs.
+
+### 🟢 Don't need VRAM temperature or the 12V cable? Then you only need **MSI Afterburner + RTSS**. Grab the [**MSI Edition**](#msi-edition), with no HWiNFO at all.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -9,6 +11,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
 - **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
 - **📺 TV versions:** new **TV Pill** and **TV Side**, with big numbers made for gaming on a TV from the couch. Packs for 4K and 1080p TVs (any screen size).
@@ -30,13 +33,23 @@ Thanks to everyone on Reddit who asked for these!
 
 Takes about 5 minutes. Just follow these in order. 👇
 
+### 🟢 First: which version do you want?
+
+| | **MSI Edition** (easiest) | **Original** |
+|---|---|---|
+| **Needs** | MSI Afterburner + RTSS | MSI Afterburner + RTSS + **HWiNFO** |
+| **Shows** | CPU & GPU usage, temps, power, clocks, RAM, VRAM, FPS, 1% / 0.1% lows, frametime, Power/Thermal limit warnings | All of that **plus 12V cable voltage and VRAM temperature** |
+| **Setup** | Skip step 2 | All steps |
+
+**Not sure? Pick the MSI Edition.** You can always add HWiNFO later.
+
 ### 1️⃣ Install the free programs
 
 | Program | What it does |
 |---|---|
 | [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
 | [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, CPU clock, FPS, 1% low |
-| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | Only needed for **12V cable voltage, VRAM temperature, 0.1% lows, GPU clock** and **GPU limit warnings**. Skip it if you only use **Sleek**, **Sleek Vertical** or the **TV** overlays |
+| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | **Not needed for the [MSI Edition](#msi-edition).** Only the original overlays use it, for **12V cable voltage** and **VRAM temperature** (plus 0.1% lows, GPU clock and limit warnings). Sleek, Sleek Vertical and the TV overlays don't need it either |
 | [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)) |
 
 <a id="install-inter"></a>
@@ -61,7 +74,7 @@ Then **restart RTSS** (close it from the tray and open it again).
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
 
-> **Only using Sleek, Sleek Vertical or the TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
+> **Using the MSI Edition, Sleek, Sleek Vertical or the TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
 
 ### Without this, 12V, VRAM temp, 0.1% lows, GPU clock and limits stay blank.
 
@@ -88,13 +101,14 @@ Then **restart RTSS** (close it from the tray and open it again).
 |---|---|
 | 1 | Click the **gear** (Settings) on the left |
 | 2 | Open the **Monitoring** tab |
-| 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, CPU clock, Framerate, Framerate 1% Low** |
+| 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, CPU clock, Framerate, Framerate 1% Low**<br>🟢 **MSI Edition, also tick:** **Core clock, Framerate 0.1% Low, Power limit, Temp limit** (and **Fan tachometer, Core voltage** for Performance) |
 | 4 | Click each ticked item and make sure **Show in On-Screen Display** is ❌ **unticked**, so Afterburner's own text doesn't stack on top of the overlay |
 
 <img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the graphs, untick Show in On-Screen Display">
 
 Click **OK** and keep Afterburner running in the background.
 
+<a id="rtss-setup"></a>
 ### 4️⃣ Set up RTSS
 
 In the main RTSS window:
@@ -133,27 +147,27 @@ Click **OK**.
 
 ### 5️⃣ Download the pack for your screen
 
-Each pack has every overlay in every theme:
+Each pack has every overlay in every theme. **🟢 MSI Edition** = no HWiNFO needed:
 
-| Screen | Resolution | Download |
-|---|---|---|
-| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1080.zip) |
-| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1440.zip) |
-| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3440x1440.zip) |
-| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x1600.zip) |
-| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
-| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
-| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
-| 32:9 dual-4K ultrawide (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.7680x2160.zip) |
-| 💻 Laptop 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1200.zip) |
-| 💻 Laptop 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1600.zip) |
-| 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2880x1800.zip) |
-| 📺 **4K TV** (any size: 43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.3840x2160.zip) |
-| 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.1920x1080.zip) |
-| 📱 HYTE Y70 Touch (1st gen) | `1100x3840` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1100x3840.zip) |
-| 📱 HYTE Y70 Ti (2nd gen) | `688x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.688x2560.zip) |
-| 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
-| 📱 Other vertical screens | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
+| Screen | Resolution | 🟢 MSI Edition | Original |
+|---|---|---|---|
+| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1080.zip) |
+| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1440.zip) |
+| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3440x1440.zip) |
+| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x1600.zip) |
+| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
+| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
+| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
+| 32:9 dual-4K ultrawide (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.7680x2160.zip) |
+| 💻 Laptop 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1200.zip) |
+| 💻 Laptop 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1600.zip) |
+| 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2880x1800.zip) |
+| 📺 **4K TV** (any size: 43", 55", 65", 75", 85"…) | `3840x2160` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.3840x2160.zip) |
+| 📺 1080p TV | `1920x1080` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.1920x1080.zip) |
+| 📱 HYTE Y70 Touch (1st gen) | `1100x3840` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1100x3840.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1100x3840.zip) |
+| 📱 HYTE Y70 Ti (2nd gen) | `688x2560` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.688x2560.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.688x2560.zip) |
+| 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.682x2560.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
+| 📱 Other vertical screens | `515x1920` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.515x1920.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
 **Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
 
@@ -172,7 +186,7 @@ It should look like this. Every overlay is a **pair**: the `.ovl` file and its `
 | # | Check |
 |---|---|
 | 1 | The address bar ends in **RivaTuner Statistics Server › Plugins › Client › Overlays** |
-| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `sleek.ovl` + `sleek_atlas.png`) |
+| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `sleek.ovl` + `sleek_atlas.png`). MSI Edition files start with `msi_` |
 
 <img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: sleek.ovl next to sleek_atlas.png">
 
@@ -236,7 +250,7 @@ Everything stays lined up, and it remembers the new spot. (RTSS's own position b
 <details>
 <summary>Only want one overlay?</summary>
 
-Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/sleek-meters/white/2560x1440`. Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
+Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/sleek-meters/white/2560x1440` (MSI Edition: `overlays/msi-sleek-meters/white/2560x1440`). Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
 
 </details>
 
@@ -244,9 +258,68 @@ Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues
 
 ---
 
-## Overlays
+<a id="msi-edition"></a>
+## 🟢 MSI Edition (no HWiNFO)
 
-Here's the full lineup. Every overlay comes in **Dark, White, Clear and Float** ([see themes](#themes)).
+### Only needs MSI Afterburner + RTSS. Perfect if you don't need VRAM temperature or the 12V cable.
+
+Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, **Simple Sleek**. Same four themes (Dark, White, Clear, Float), every resolution. Files start with `msi_`.
+
+| Overlay | What it shows |
+|---|---|
+| **Simple Sleek** 🆕 | One slim pill: CPU and GPU rings with temp, power and clock, FPS, 1% low and frametime |
+| **Sleek** | CPU and GPU rings with temp and power, big FPS and 1% low |
+| **Sleek Compact** | CPU, GPU (power, clock, RAM / VRAM) and FPS with 1%, 0.1%, frametime and graph |
+| **Sleek Meters** | Compact with a meter under each value (scaled for a mid-range PC) |
+| **Sleek Meters Universal** | Meters scaled for **any** PC (253 W CPU, 600 W GPU, RAM / VRAM as % of yours) |
+| **Sleek Rings** | Double rings: load outside, temperature inside |
+| **Sleek Side** | Side panel with CPU / GPU load graphs and FPS |
+| **Performance** | Every number for benchmarking, with graphs |
+
+![MSI Edition lineup](previews/msi/msi_lineup.png)
+
+<details>
+<summary><b>MSI Edition: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
+
+#### Simple Sleek
+
+![Simple Sleek](previews/msi/simple-sleek.png)
+
+#### Sleek
+
+![Sleek](previews/msi/sleek.png)
+
+#### Sleek Compact
+
+![Sleek Compact](previews/msi/sleek-compact.png)
+
+#### Sleek Meters
+
+![Sleek Meters](previews/msi/sleek-meters.png)
+
+#### Sleek Meters Universal
+
+![Sleek Meters Universal](previews/msi/sleek-meters-universal.png)
+
+#### Sleek Rings
+
+![Sleek Rings](previews/msi/sleek-rings.png)
+
+#### Sleek Side
+
+![Sleek Side](previews/msi/sleek-side.png)
+
+#### Performance
+
+![Performance](previews/msi/performance.png)
+
+</details>
+
+---
+
+## Overlays (Original, with HWiNFO extras)
+
+Here's the full original lineup. Every overlay comes in **Dark, White, Clear and Float** ([see themes](#themes)).
 
 ### Sleek
 A compact pill: CPU and GPU usage rings with temperature and power, FPS and 1% low in the middle.
@@ -413,13 +486,14 @@ These come from how RTSS's OverlayEditor works, so every OverlayEditor layout ha
 |---|---|
 | Overlay Editor looks empty | The overlay is placed for a full screen (top centre, or right edge for Side and Performance). **Maximize the Overlay Editor window** to see it. Also turn on **Show On-Screen Display** in the main RTSS window, or nothing shows in game. |
 | CPU clock is blank or N/A | The CPU clock comes from **MSI Afterburner**. Go to **Settings → Monitoring** and tick **CPU clock**, then click Apply. |
-| GPU clock is blank | The GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
+| GPU clock is blank | **MSI Edition:** tick **Core clock** in Afterburner's Monitoring tab. **Original:** the GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
 | GPU load, temperature or power are blank | These come from **MSI Afterburner**. Make sure it's running, then go to **Settings → Monitoring** and enable *GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power* and *CPU clock*. With two GPUs (integrated + graphics card), open **Data sources**, select **GPU1 usage**, click **Setup** and pick your graphics card. Do the same for GPU1 temperature and GPU1 power. |
 | Text looks different, too wide, or doesn't line up with the panel | The **Inter** font isn't installed, so Windows uses a different font. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
 | Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
 | Some values show `N/A` or are blank | HWiNFO isn't running, or Shared Memory Support is off. See [HWiNFO setup](#hwinfo-setup-shared-memory). |
 | A value stays blank even with HWiNFO running | In OverlayEditor, open **Data sources**, select the row, click **Setup**, and pick the matching sensor from your HWiNFO list. |
-| 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. |
+| 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. In the **MSI Edition**, also tick **Framerate 1% Low** and **Framerate 0.1% Low** in Afterburner, and check the [RTSS General settings](#rtss-setup). |
+| Want 12V or VRAM temperature? | Those need **HWiNFO**, so use the **Original** overlays and follow [step 2](#hwinfo-setup-shared-memory). |
 | Text looks blurry or smudged on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window. The shadow is meant for white text on dark backgrounds; the Dark themes don't need it, and the Clear and Float themes have their own shadow built in. |
 
 ---
