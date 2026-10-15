@@ -271,7 +271,7 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 | **Sleek** | CPU and GPU rings with temp and power, big FPS and 1% low |
 | **Sleek Compact** | CPU, GPU (power, clock, RAM / VRAM) and FPS with 1%, 0.1%, frametime and graph |
 | **Sleek Meters** | Compact with a meter under each value (scaled for a mid-range PC) |
-| **Sleek Meters Universal** | Meters scaled for **any** PC (253 W CPU, 600 W GPU, RAM / VRAM as % of yours) |
+| **Sleek Meters Universal** | Meters scaled for **any** PC: full at 300 W CPU, 7.0 GHz CPU clock, 800 W GPU, 4.0 GHz GPU clock, 64 GB RAM and 32 GB VRAM |
 | **Sleek Rings** | Double rings: load outside, temperature inside |
 | **Sleek Side** | Side panel with CPU / GPU load graphs and FPS |
 | **Performance** | Every number for benchmarking, with graphs |
@@ -337,16 +337,18 @@ Sleek Compact with a thin meter under every value, so you can see at a glance ho
 ![Sleek Meters](previews/sleek_meters.png)
 
 ### Sleek Meters Universal
-Sleek Meters with scales that fit **any build**, up to an RTX 5090 with a top-end CPU. The bars are set to the limits of today's fastest hardware, so nothing maxes out early on a high-end PC:
+Sleek Meters with scales that fit **any build**, up to an RTX 5090 with a top-end CPU and 64 GB of RAM. The bars are set to the limits of today's fastest hardware, so nothing maxes out early on a high-end PC:
 
 | Meter | Full at | Why |
 |---|---|---|
-| CPU power | 253 W | Intel Core i9 max turbo power; covers Ryzen 9 9950X3D too |
-| CPU clock | 6.2 GHz | Core i9-14900KS max turbo, the fastest desktop CPU |
-| GPU power | 600 W | RTX 5090 is rated 575 W on a 600 W 12V-2x6 connector |
-| GPU clock | 3.2 GHz | Above the fastest boosting cards |
-| RAM | 100% | Of whatever RAM you have installed |
-| VRAM | 100% | Of whatever memory your graphics card has |
+| CPU power | 300 W | Above the max turbo power of today's top Intel and AMD CPUs |
+| CPU clock | 7.0 GHz | Headroom above the fastest desktop CPUs (about 6.2 GHz) |
+| GPU power | 800 W | Room for an RTX 5090 (575 W) and overclocked cards |
+| GPU clock | 4.0 GHz | Above the fastest boosting cards |
+| RAM | 64 GB | Fits 32 GB and 64 GB builds |
+| VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
+
+The **MSI Edition** of Meters Universal uses the same scales.
 
 ![Sleek Meters Universal](previews/sleek_meters_universal.png)
 
@@ -468,7 +470,7 @@ Every overlay comes in four themes:
 - **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: there's no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO, which can show a warning or play a sound.
 - The dot next to 12V turns **amber** below 11.85 V and **red** below 11.75 V. It only reacts once the GPU is drawing more than 150 W. At low power hardly any current flows through the cable, so even a bad connection barely lowers the voltage; a low reading only means something under real load. At idle or on the desktop, the dot stays green.
 - **Sleek Meters** uses fixed scales for an upper-mid-range PC (CPU 120 W, GPU 360 W, CPU clock 5.05 GHz, GPU clock 2.9 GHz, RAM 32 GB, VRAM 16 GB). For a high-end PC, use **Sleek Meters Universal**.
-- **Sleek Meters Universal:** to change a scale, open **Data sources** in OverlayEditor and edit the matching `pct` source's formula. For example, `x / 6` means 600 W is full; change it to `x / 3.6` for 360 W.
+- **Sleek Meters Universal:** to change a scale, open **Data sources** in OverlayEditor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
 - The CPU clock comes from **MSI Afterburner** and shows the real core speed. Make sure **CPU clock** is ticked in Afterburner's Monitoring tab.
 - GPU limit warnings show **Power** and **Thermal** limits only. NVIDIA's voltage limit flag is left out on purpose: it's active almost all the time on stock cards and isn't a problem.
 
