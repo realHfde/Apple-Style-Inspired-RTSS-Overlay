@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens and TVs.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -9,6 +9,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **📺 TV versions:** new **TV Pill** and **TV Side**, with big numbers made for gaming on a TV from the couch. Packs for 4K and 1080p TVs (any screen size).
 - **CPU clock fixed:** now shows the real core speed (it read very low before). It comes from MSI Afterburner, so tick **CPU clock** in Afterburner's Monitoring tab ([step 3](#get-started)).
 - **No more false "Voltage limit" warning:** it showed almost all the time on stock NVIDIA cards. Power and Thermal warnings stay, and in Meters, Universal and Rings they now sit neatly under the GPU ring.
 - **Easier setup:** step-by-step picture guides for every setting, plus fixes for integrated graphics and moving the overlay.
@@ -33,7 +34,7 @@ Takes about 5 minutes. Just follow these in order. 👇
 |---|---|
 | [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
 | [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, CPU clock, FPS, 1% low |
-| [**HWiNFO64**](https://www.hwinfo.com/) | GPU clock, VRAM temp, 12V cable, GPU limit warnings (every overlay except Sleek) |
+| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | Only needed for **12V cable voltage, VRAM temperature, 0.1% lows, GPU clock** and **GPU limit warnings**. Skip it if you only use **Sleek**, **Sleek Vertical** or the **TV** overlays |
 | [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)) |
 
 <a id="install-inter"></a>
@@ -58,7 +59,9 @@ Then **restart RTSS** (close it from the tray and open it again).
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
 
-### Without this, GPU clock, VRAM temp, 12V and limits stay blank.
+> **Only using Sleek, Sleek Vertical or the TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
+
+### Without this, 12V, VRAM temp, 0.1% lows, GPU clock and limits stay blank.
 
 1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
 
@@ -139,6 +142,8 @@ Each pack has every overlay in every theme:
 | 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
 | 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
 | 5K2K ultrawide | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
+| 📺 **4K TV** (any size: 43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.3840x2160.zip) |
+| 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.1920x1080.zip) |
 | 📱 HYTE Y70 Touch (1st gen) | `1100x3840` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1100x3840.zip) |
 | 📱 HYTE Y70 Ti (2nd gen) | `688x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.688x2560.zip) |
 | 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
@@ -291,6 +296,13 @@ Made for **HYTE Y70 vertical case screens** (Y70 Touch, Y70 Ti, Y70 Touch Infini
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
 
 <img src="previews/all/performance.png" width="780" alt="Performance Overlay in Dark, White, Clear and Float">
+
+### 📺 TV Pill & TV Side (for TVs)
+Made for gaming on a **TV from the couch**: only big numbers you can read from across the room. **TV Pill** shows CPU and GPU temperature, power and usage rings, FPS and 1% low. **TV Side** is a panel on the right edge with FPS, 1% low, and CPU/GPU temperature, load and power.
+
+TV size doesn't matter, only resolution: a 55" and an 85" 4K TV use the same 4K TV pack. Only needs **MSI Afterburner** (no HWiNFO).
+
+<img src="previews/tv.png" width="900" alt="TV Pill and TV Side on a 4K TV">
 
 ### No 12V versions
 Compact, Meters, Meters Universal, Rings and Side also come **without the 12V cable section**, for graphics cards that don't report it or if you just don't want it. They're the same overlays, slightly smaller. Look for the folders ending in `-no-12v`.
