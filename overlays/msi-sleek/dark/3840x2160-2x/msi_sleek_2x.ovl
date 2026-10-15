@@ -1,0 +1,233 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=MSI Sleek 2x
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=msi_sleek_2x_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=8
+Tables=0
+Layers=15
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000100
+Gpu=FFFFFFFF
+SrcName=
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000000
+SrcName=
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,960,144>
+PositionX=1440
+PositionY=24
+ExtentX=960
+ExtentY=144
+ExtentOrigin=0
+[Layer1]
+Name=CPU ring
+Text=<AI=CPU usage,0,0,0,102,0,146,110,110,51,18,0>
+PositionX=1469
+PositionY=41
+ExtentX=110
+ExtentY=110
+ExtentOrigin=0
+[Layer2]
+Name=CPU usage
+Text=%CPU usage%
+PositionX=1470
+PositionY=76
+ExtentX=108
+ExtentY=40
+ExtentOrigin=4
+Size=165
+TextColor=FFFFFF
+[Layer3]
+Name=CPU label
+Text=CPU
+PositionX=1596
+PositionY=51
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=112
+TextColor=0A84FF
+[Layer4]
+Name=CPU temperature
+Text=%CPU temperature%°
+PositionX=1594
+PositionY=78
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=225
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
+[Layer5]
+Name=CPU power
+Text=%CPU power% W
+PositionX=1596
+PositionY=126
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=127
+TextColor=FFFFFF
+[Layer6]
+Name=FPS label
+Text=FPS
+PositionX=1725
+PositionY=51
+ExtentX=210
+ExtentY=22
+ExtentOrigin=4
+Size=112
+TextColor=D1D1D6
+[Layer7]
+Name=FPS
+Text=%Framerate%
+PositionX=1725
+PositionY=81
+ExtentX=210
+ExtentY=56
+ExtentOrigin=4
+Size=285
+TextColor=FFFFFF
+[Layer8]
+Name=1% low label
+Text=1% LOW
+PositionX=1905
+PositionY=51
+ExtentX=210
+ExtentY=22
+ExtentOrigin=4
+Size=112
+TextColor=D1D1D6
+[Layer9]
+Name=1% low
+Text=%Framerate 1% Low%
+PositionX=1905
+PositionY=81
+ExtentX=210
+ExtentY=56
+ExtentOrigin=4
+Size=285
+TextColor=FFFFFF
+[Layer10]
+Name=GPU ring
+Text=<AI=GPU1 usage,0,0,0,102,0,478,110,110,51,18,0>
+PositionX=2261
+PositionY=41
+ExtentX=110
+ExtentY=110
+ExtentOrigin=0
+[Layer11]
+Name=GPU usage
+Text=%GPU1 usage%
+PositionX=2262
+PositionY=76
+ExtentX=108
+ExtentY=40
+ExtentOrigin=4
+Size=165
+TextColor=FFFFFF
+[Layer12]
+Name=GPU label
+Text=GPU
+PositionX=2109
+PositionY=51
+ExtentX=135
+ExtentY=28
+ExtentOrigin=2
+Size=112
+TextColor=BF5AF2
+[Layer13]
+Name=GPU temperature
+Text=%GPU1 temperature%°
+PositionX=2111
+PositionY=78
+ExtentX=135
+ExtentY=56
+ExtentOrigin=2
+Size=225
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
+[Layer14]
+Name=GPU power
+Text=%GPU1 power% W
+PositionX=2109
+PositionY=126
+ExtentX=135
+ExtentY=32
+ExtentOrigin=2
+Size=127
+TextColor=FFFFFF
