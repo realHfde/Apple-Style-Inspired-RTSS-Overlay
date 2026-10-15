@@ -31,7 +31,26 @@ Takes about 5 minutes. Just follow these in order. 👇
 | [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
 | [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, FPS, 1% low |
 | [**HWiNFO64**](https://www.hwinfo.com/) | Clocks, VRAM temp, 12V cable, GPU limit warnings (every overlay except Sleek) |
-| [**Inter font**](https://rsms.me/inter/) | The font the overlays are designed with. On the Inter site click **Download**, unzip it, open the font files and click **Install** (install all weights, or at least **Bold** and **ExtraBold**). Restart RTSS afterwards |
+| [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)) |
+
+<a id="install-inter"></a>
+### 🔤 Install the Inter font
+
+| # | What to do |
+|---|---|
+| 1 | Go to [rsms.me/inter](https://rsms.me/inter/) and click **Download** |
+| 2 | Find **Inter-4.1.zip** in your Downloads and click it |
+| 3 | Click **Extract all** at the top, then **Extract** |
+| 4 | In the folder that opens, **right-click Inter.ttc** |
+| 5 | Click **Install for all users**. The Inter site recommends this, because some programs only see fonts installed for all users |
+
+<img src="previews/font/1_download.png" width="520" alt="Inter website: Download button">
+
+<img src="previews/font/2_extract.png" width="520" alt="Downloads: Inter zip and Extract all">
+
+<img src="previews/font/3_install.png" width="520" alt="Right-click Inter.ttc, Install for all users">
+
+Then **restart RTSS** (close it from the tray and open it again).
 
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
