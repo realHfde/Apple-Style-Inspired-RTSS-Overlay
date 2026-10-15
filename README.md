@@ -9,6 +9,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
 - **📺 TV versions:** new **TV Pill** and **TV Side**, with big numbers made for gaming on a TV from the couch. Packs for 4K and 1080p TVs (any screen size).
 - **CPU clock fixed:** now shows the real core speed (it read very low before). It comes from MSI Afterburner, so tick **CPU clock** in Afterburner's Monitoring tab ([step 3](#get-started)).
@@ -142,7 +143,8 @@ Each pack has every overlay in every theme:
 | 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x1600.zip) |
 | 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
 | 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
-| 5K2K ultrawide | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
+| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
+| 32:9 dual-4K ultrawide (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.7680x2160.zip) |
 | 💻 Laptop 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1200.zip) |
 | 💻 Laptop 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1600.zip) |
 | 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2880x1800.zip) |
