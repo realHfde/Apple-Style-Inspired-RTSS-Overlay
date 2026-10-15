@@ -141,7 +141,7 @@ Each pack has every overlay in every theme:
 | 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
 | 📱 Other vertical screens | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
-Not sure about your resolution? Right-click the desktop → **Display settings** → **Advanced Display**.
+**Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display**. It's listed there as **Desktop mode**, e.g. 2560 × 1440.
 
 ### 6️⃣ Copy the files into the Overlays folder
 
@@ -150,6 +150,15 @@ Unzip the pack and copy **all the files** straight into this folder:
 C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
 ```
 ### ⚠️ Not into a subfolder! Each `.ovl` needs its `_atlas.png` right next to it.
+
+It should look like this. Every overlay is a **pair**: the `.ovl` file and its `_atlas.png`, side by side, directly in the **Overlays** folder:
+
+| # | Check |
+|---|---|
+| 1 | The address bar ends in **RivaTuner Statistics Server › Plugins › Client › Overlays** |
+| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `sleek.ovl` + `sleek_atlas.png`) |
+
+<img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: sleek.ovl next to sleek_atlas.png">
 
 ### 7️⃣ Load it and play 🎮
 
@@ -172,14 +181,20 @@ Now press that key in game to show or hide the overlay. Handy for screenshots an
 
 ### If GPU load, temperature or power show 0 or look wrong, the overlay is probably reading your integrated graphics.
 
-The overlays read **GPU instance 0**. With a CPU that has built-in graphics, instance 0 can be the integrated GPU, and your graphics card is usually **1**. To switch:
+The overlays read **GPU instance 0**. With a CPU that has built-in graphics, instance 0 is often the integrated GPU and your graphics card is **1**. ✅ Tested and confirmed on a PC with integrated graphics.
+
+**Which number is your graphics card?** Open **Task Manager** (Ctrl + Shift + Esc) → **Performance** and look at the GPU list. The number next to your graphics card (e.g. **GPU 1**) is the **Instance** to use:
+
+<img src="previews/gpu/0_task_manager.png" width="360" alt="Task Manager: GPU 0 integrated graphics, GPU 1 graphics card">
+
+To switch:
 
 | # | What to do |
 |---|---|
 | 1 | In OverlayEditor, click **Data sources** at the top |
 | 2 | Select **GPU1 temperature** (then repeat for **GPU1 usage** and **GPU1 power**) |
 | 3 | Click **Setup** |
-| 4 | Change **Instance** from **0** to **1** |
+| 4 | Change **Instance** from **0** to your graphics card's number from Task Manager (usually **1**) |
 | 5 | Click **OK**, then **OK** again, and save the layout |
 
 <img src="previews/gpu/1_data_sources.png" width="420" alt="OverlayEditor: Data sources menu">
