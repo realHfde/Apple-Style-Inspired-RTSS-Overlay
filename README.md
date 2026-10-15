@@ -146,12 +146,23 @@ In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and l
 <a id="two-gpus"></a>
 ### 🖥️ CPU with integrated graphics, or two GPUs?
 
-The overlays read **GPU1**. If your CPU has built-in graphics, GPU1 can be the integrated one, and the GPU values look wrong or stay blank. To point them at your graphics card:
+### If GPU load, temperature or power show 0 or look wrong, the overlay is probably reading your integrated graphics.
 
-1. In OverlayEditor, open **Data sources**.
-2. Select **GPU1 usage**, click **Setup**, and pick your graphics card.
-3. Do the same for **GPU1 temperature**, **GPU1 power** and the HWiNFO GPU ones (GPU clock, VRAM temp).
-4. Save.
+The overlays read **GPU instance 0**. With a CPU that has built-in graphics, instance 0 can be the integrated GPU, and your graphics card is usually **1**. To switch:
+
+| # | What to do |
+|---|---|
+| 1 | In OverlayEditor, click **Data sources** at the top |
+| 2 | Select **GPU1 temperature** (then repeat for **GPU1 usage** and **GPU1 power**) |
+| 3 | Click **Setup** |
+| 4 | Change **Instance** from **0** to **1** |
+| 5 | Click **OK**, then **OK** again, and save the layout |
+
+<img src="previews/gpu/1_data_sources.png" width="420" alt="OverlayEditor: Data sources menu">
+
+<img src="previews/gpu/2_select_gpu.png" width="420" alt="Data sources: GPU1 temperature, usage and power, Setup button"> <img src="previews/gpu/3_instance.png" width="420" alt="Data source settings: Instance 0 to 1, OK">
+
+Tip: watch the **Value** column in Data sources. Once it's right, GPU1 usage jumps up when you start a game.
 
 <a id="move-an-overlay"></a>
 ### 📍 Move it anywhere you like
