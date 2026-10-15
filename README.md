@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops, HYTE Y70 vertical screens and TVs.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 9 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops and TVs.
 
 ### 🟢 Don't need VRAM temperature or the 12V cable? Then you only need **MSI Afterburner + RTSS**. Grab the [**MSI Edition**](#msi-edition), with no HWiNFO at all.
 
@@ -11,6 +11,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **📱 HYTE / second screen: coming soon.** A widget made for HYTE Y70 case screens and second monitors is on the way. RTSS overlays only show inside games, so they can't be used on a case screen; the new widget will.
 - **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
 - **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
@@ -18,7 +19,6 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **CPU clock fixed:** now shows the real core speed (it read very low before). It comes from MSI Afterburner, so tick **CPU clock** in Afterburner's Monitoring tab ([step 3](#get-started)).
 - **No more false "Voltage limit" warning:** it showed almost all the time on stock NVIDIA cards. Power and Thermal warnings stay, and in Meters, Universal and Rings they now sit neatly under the GPU ring.
 - **Easier setup:** step-by-step picture guides for every setting, plus fixes for integrated graphics and moving the overlay.
-- **📱 HYTE Y70 screen support:** new **Sleek Vertical** overlay made for HYTE's vertical case screens, for the Y70 Touch (1100x3840), Y70 Ti (688x2560) and Y70 Touch Infinite (682x2560), plus 515x1920. Sleek Side works on them too. Both sit at the bottom centre.
 - **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Get started](#get-started).
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
@@ -49,7 +49,7 @@ Takes about 5 minutes. Just follow these in order. 👇
 |---|---|
 | [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
 | [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, CPU clock, FPS, 1% low |
-| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | **Not needed for the [MSI Edition](#msi-edition).** Only the original overlays use it, for **12V cable voltage** and **VRAM temperature** (plus 0.1% lows, GPU clock and limit warnings). Sleek, Sleek Vertical and the TV overlays don't need it either |
+| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | **Not needed for the [MSI Edition](#msi-edition).** Only the original overlays use it, for **12V cable voltage** and **VRAM temperature** (plus 0.1% lows, GPU clock and limit warnings). Sleek and the TV overlays don't need it either |
 | [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)) |
 
 <a id="install-inter"></a>
@@ -74,7 +74,7 @@ Then **restart RTSS** (close it from the tray and open it again).
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
 
-> **Using the MSI Edition, Sleek, Sleek Vertical or the TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
+> **Using the MSI Edition, Sleek or the TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
 
 ### Without this, 12V, VRAM temp, 0.1% lows, GPU clock and limits stay blank.
 
@@ -164,10 +164,6 @@ Each pack has every overlay in every theme. **🟢 MSI Edition** = no HWiNFO nee
 | 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2880x1800.zip) |
 | 📺 **4K TV** (any size: 43", 55", 65", 75", 85"…) | `3840x2160` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.3840x2160.zip) |
 | 📺 1080p TV | `1920x1080` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.1920x1080.zip) |
-| 📱 HYTE Y70 Touch (1st gen) | `1100x3840` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1100x3840.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1100x3840.zip) |
-| 📱 HYTE Y70 Ti (2nd gen) | `688x2560` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.688x2560.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.688x2560.zip) |
-| 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.682x2560.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
-| 📱 Other vertical screens | `515x1920` | [⬇️ Side & Performance](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.515x1920.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
 **Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
 
@@ -192,7 +188,7 @@ It should look like this. Every overlay is a **pair**: the `.ovl` file and its `
 
 ### 7️⃣ Load it and play 🎮
 
-In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and launch a game. It shows at the top centre, on the right edge (Sleek Side and Performance), or at the bottom centre on HYTE screens.
+In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and launch a game. It shows at the top centre, or on the right edge (Sleek Side and Performance).
 
 <a id="hotkey"></a>
 ### ⌨️ Show / hide the overlay with a hotkey
@@ -362,16 +358,8 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 
 <img src="previews/sleek_side.png" width="260" alt="Sleek Side">
 
-### Sleek Vertical 📱 (HYTE screen)
-Made for **HYTE Y70 vertical case screens** (Y70 Touch, Y70 Ti, Y70 Touch Infinite) and other vertical displays. It's Sleek turned on its side: CPU ring on top, FPS and 1% low in the middle, GPU ring at the bottom. Sits at the bottom centre of the screen.
-
-**How it looks on a vertical screen:**
-
-<img src="previews/hyte_screen.png" width="600" alt="Sleek Vertical and Sleek Side on a 515x1920 vertical screen">
-
-**All four themes:**
-
-<img src="previews/all/sleek-vertical.png" width="780" alt="Sleek Vertical in Dark, White, Clear and Float">
+### 📱 HYTE screen / second monitor: coming soon
+A widget made for **HYTE Y70 case screens** and **second monitors** is on the way. RTSS overlays only appear **inside a game**, so they can't show stats on a case screen while you play on your main monitor. The new widget runs on the desktop of any screen, in the same Apple style.
 
 ### Performance Overlay
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
@@ -443,10 +431,6 @@ Every overlay comes in four themes:
 #### Sleek Rings No 12V
 
 ![Sleek Rings No 12V](previews/all/sleek-rings-no-12v.png)
-
-#### Sleek Vertical
-
-![Sleek Vertical](previews/all/sleek-vertical.png)
 
 #### Sleek Side
 
