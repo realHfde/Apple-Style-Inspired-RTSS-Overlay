@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
+Hey! These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 8 overlay designs in 4 themes, for screens from 1080p up to 5K2K, plus HYTE Y70 vertical screens.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
@@ -141,7 +141,7 @@ Each pack has every overlay in every theme:
 | 📱 HYTE Y70 Touch Infinite (3rd gen) | `682x2560` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.682x2560.zip) |
 | 📱 Other vertical screens | `515x1920` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.515x1920.zip) |
 
-Not sure about your resolution? Right-click the desktop → **Display settings** → **Display resolution**.
+Not sure about your resolution? Right-click the desktop → **Display settings** → **Advanced Display**.
 
 ### 6️⃣ Copy the files into the Overlays folder
 
