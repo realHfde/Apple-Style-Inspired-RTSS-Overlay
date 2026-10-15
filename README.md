@@ -109,6 +109,18 @@ Then in **Setup**:
 
 <img src="previews/setup/rtss_plugins.png" width="420" alt="RTSS Setup: Plugins tab with OverlayEditor.dll ticked">
 
+Still in **Setup**, check the **General** tab. These are the settings the FPS, 1% low and 0.1% low numbers depend on. If they're changed, the lows can show **0** or freeze:
+
+| # | Setting | Set it to |
+|---|---|---|
+| 7 | **General** tab | Open it |
+| 8 | **Framerate averaging interval** | **1000** |
+| 9 | **Refresh period** | **500** |
+| 10 | **Percentile calculation mode** | **integral** |
+| 11 | **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
+
+<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring">
+
 Click **OK**.
 
 ### 5️⃣ Download the pack for your screen
