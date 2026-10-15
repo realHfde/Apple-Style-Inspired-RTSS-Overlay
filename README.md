@@ -12,6 +12,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
 **October 2026**
 - **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
+- **🕘 New: Island Bar Time (MSI Edition).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
 - **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (MSI Edition and Original) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
 - **📱 HYTE / second screen: coming soon.** A widget made for HYTE Y70 case screens and second monitors is on the way. RTSS overlays only show inside games, so they can't be used on a case screen; the new widget will.
 - **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
@@ -268,6 +269,7 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 | Overlay | What it shows |
 |---|---|
 | **Island Bar** 💻 🆕 | A slim pill at the top for **gaming laptops**: CPU, GPU, FPS · 1% low, RAM and VRAM. Only 38 px tall. In the laptop packs |
+| **Island Bar Time** 💻 🆕 | Island Bar with a **12-hour clock** instead of VRAM: CPU, GPU, FPS · 1% low, RAM and the time. In the laptop packs |
 | **Simple Sleek** 🆕 | One slim pill: CPU and GPU rings with temp, power and clock, FPS, 1% low and frametime |
 | **Sleek** | CPU and GPU rings with temp and power, big FPS and 1% low |
 | **Sleek Compact** | CPU, GPU (power, clock, RAM / VRAM) and FPS with 1%, 0.1%, frametime and graph |
@@ -285,6 +287,10 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 #### Island Bar (laptops)
 
 ![Island Bar](previews/msi/msi-island-bar.png)
+
+#### Island Bar Time (laptops)
+
+![Island Bar Time](previews/msi/msi-island-bar-time.png)
 
 #### Simple Sleek
 

@@ -1,0 +1,206 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=MSI Island Bar Time White
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=msi_island_bar_time_white_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=7
+Tables=0
+Layers=13
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source2]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source3]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source4]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source5]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Source6]
+Name=RAM usage
+Units=GB
+Format=%.1f
+Formula=x / 1024
+Provider=HAL
+ID=RAM usage
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,746,38>
+PositionX=1067
+PositionY=24
+ExtentX=746
+ExtentY=38
+ExtentOrigin=0
+[Layer1]
+Name=CPU label
+Text=CPU
+PositionX=1103
+PositionY=35
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=70
+TextColor=007AFF
+[Layer2]
+Name=CPU value 1
+Text=%CPU usage%%
+PositionX=1140
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer3]
+Name=CPU value 2
+Text=%CPU temperature%°
+PositionX=1184
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer4]
+Name=GPU label
+Text=GPU
+PositionX=1252
+PositionY=35
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=70
+TextColor=AF52DE
+[Layer5]
+Name=GPU value 1
+Text=%GPU1 usage%%
+PositionX=1289
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer6]
+Name=GPU value 2
+Text=%GPU1 temperature%°
+PositionX=1334
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer7]
+Name=FPS label
+Text=FPS
+PositionX=1402
+PositionY=35
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=70
+TextColor=248A3D
+[Layer8]
+Name=FPS value 1
+Text=%Framerate%
+PositionX=1435
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer9]
+Name=FPS value 2
+Text=·  1% %Framerate 1% Low%
+PositionX=1474
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer10]
+Name=RAM label
+Text=RAM
+PositionX=1585
+PositionY=35
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=70
+TextColor=C93400
+[Layer11]
+Name=RAM value 1
+Text=%RAM usage% GB
+PositionX=1625
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
+[Layer12]
+Name= value 1
+Text=<TIME=%I:%M %p>
+PositionX=1713
+PositionY=33
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=80
+TextColor=0A0A0C
