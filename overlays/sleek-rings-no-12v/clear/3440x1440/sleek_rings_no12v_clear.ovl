@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_rings_no12v_clear_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=15
+Sources=14
 Tables=0
-Layers=85
+Layers=82
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -92,10 +92,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source9]
 Name=RAM usage
 Units=GB
@@ -137,15 +137,6 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
-[Source14]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
 [Layer0]
 Name=Panel
 Text=<I=0,0,0,612,730,92>
@@ -729,103 +720,70 @@ TextColor=FFFFFF
 [Layer59]
 Name=Limit power shadow
 Text=Power limit
-PositionX=1754
-PositionY=39
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1636
+PositionY=102
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit power
 [Layer60]
 Name=Limit power shadow
 Text=Power limit
-PositionX=1753
-PositionY=40
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1635
+PositionY=103
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit power
 [Layer61]
 Name=Limit power
 Text=Power limit
-PositionX=1753
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1635
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF9F0A
 VisibilitySource=Limit power
 [Layer62]
 Name=Limit thermal shadow
 Text=Thermal limit
-PositionX=1754
-PositionY=39
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1636
+PositionY=102
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit thermal
 [Layer63]
 Name=Limit thermal shadow
 Text=Thermal limit
-PositionX=1753
-PositionY=40
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1635
+PositionY=103
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit thermal
 [Layer64]
 Name=Limit thermal
 Text=Thermal limit
-PositionX=1753
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1635
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF453A
 VisibilitySource=Limit thermal
 [Layer65]
-Name=Limit voltage shadow
-Text=Voltage limit
-PositionX=1754
-PositionY=39
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=000000
-VisibilitySource=Limit voltage
-[Layer66]
-Name=Limit voltage shadow
-Text=Voltage limit
-PositionX=1753
-PositionY=40
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=000000
-VisibilitySource=Limit voltage
-[Layer67]
-Name=Limit voltage
-Text=Voltage limit
-PositionX=1753
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=8E8E93
-VisibilitySource=Limit voltage
-[Layer68]
 Name=FPS label shadow
 Text=FPS
 PositionX=1914
@@ -835,7 +793,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer69]
+[Layer66]
 Name=FPS label shadow
 Text=FPS
 PositionX=1913
@@ -845,7 +803,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer70]
+[Layer67]
 Name=FPS label
 Text=FPS
 PositionX=1913
@@ -855,7 +813,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=30D158
-[Layer71]
+[Layer68]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=1914
@@ -865,7 +823,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=000000
-[Layer72]
+[Layer69]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=1913
@@ -875,7 +833,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=000000
-[Layer73]
+[Layer70]
 Name=FPS
 Text=%Framerate%
 PositionX=1913
@@ -885,7 +843,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=FFFFFF
-[Layer74]
+[Layer71]
 Name=1% label shadow
 Text=1%
 PositionX=2000
@@ -895,7 +853,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer75]
+[Layer72]
 Name=1% label shadow
 Text=1%
 PositionX=1999
@@ -905,7 +863,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer76]
+[Layer73]
 Name=1% label
 Text=1%
 PositionX=1999
@@ -915,7 +873,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer77]
+[Layer74]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=2000
@@ -925,7 +883,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer78]
+[Layer75]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=1999
@@ -935,7 +893,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer79]
+[Layer76]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=1999
@@ -945,7 +903,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer80]
+[Layer77]
 Name=FT label shadow
 Text=FT
 PositionX=2000
@@ -955,7 +913,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer81]
+[Layer78]
 Name=FT label shadow
 Text=FT
 PositionX=1999
@@ -965,7 +923,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer82]
+[Layer79]
 Name=FT label
 Text=FT
 PositionX=1999
@@ -975,7 +933,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer83]
+[Layer80]
 Name=FT
 Text=<FT> ms
 PositionX=1999
@@ -985,7 +943,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer84]
+[Layer81]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=1913

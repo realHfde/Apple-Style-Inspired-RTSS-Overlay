@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_rings_no12v_white_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=15
+Sources=14
 Tables=0
-Layers=33
+Layers=32
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -92,10 +92,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source9]
 Name=RAM usage
 Units=GB
@@ -137,15 +137,6 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
-[Source14]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
 [Layer0]
 Name=Panel
 Text=<I=0,0,0,612,730,92>
@@ -369,37 +360,26 @@ TextColor=0A0A0C
 [Layer23]
 Name=Limit power
 Text=Power limit
-PositionX=2593
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2475
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=C93400
 VisibilitySource=Limit power
 [Layer24]
 Name=Limit thermal
 Text=Thermal limit
-PositionX=2593
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2475
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=D70015
 VisibilitySource=Limit thermal
 [Layer25]
-Name=Limit voltage
-Text=Voltage limit
-PositionX=2593
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=3A3A3C
-VisibilitySource=Limit voltage
-[Layer26]
 Name=FPS label
 Text=FPS
 PositionX=2753
@@ -409,7 +389,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=248A3D
-[Layer27]
+[Layer26]
 Name=FPS
 Text=%Framerate%
 PositionX=2753
@@ -419,7 +399,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=0A0A0C
-[Layer28]
+[Layer27]
 Name=1% label
 Text=1%
 PositionX=2839
@@ -429,7 +409,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=3A3A3C
-[Layer29]
+[Layer28]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=2839
@@ -439,7 +419,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=0A0A0C
-[Layer30]
+[Layer29]
 Name=FT label
 Text=FT
 PositionX=2839
@@ -449,7 +429,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=3A3A3C
-[Layer31]
+[Layer30]
 Name=FT
 Text=<FT> ms
 PositionX=2839
@@ -459,7 +439,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=0A0A0C
-[Layer32]
+[Layer31]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=2753

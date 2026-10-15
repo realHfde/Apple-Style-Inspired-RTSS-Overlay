@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_rings_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=17
+Sources=16
 Tables=0
-Layers=37
+Layers=36
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -92,10 +92,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source9]
 Name=RAM usage
 Units=GB
@@ -153,15 +153,6 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
-[Source16]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
 [Layer0]
 Name=Panel
 Text=<I=0,0,0,612,820,92>
@@ -385,37 +376,26 @@ TextColor=FFFFFF
 [Layer23]
 Name=Limit power
 Text=Power limit
-PositionX=948
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=830
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF9F0A
 VisibilitySource=Limit power
 [Layer24]
 Name=Limit thermal
 Text=Thermal limit
-PositionX=948
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=830
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF453A
 VisibilitySource=Limit thermal
 [Layer25]
-Name=Limit voltage
-Text=Voltage limit
-PositionX=948
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=8E8E93
-VisibilitySource=Limit voltage
-[Layer26]
 Name=FPS label
 Text=FPS
 PositionX=1108
@@ -425,7 +405,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=30D158
-[Layer27]
+[Layer26]
 Name=FPS
 Text=%Framerate%
 PositionX=1108
@@ -435,7 +415,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=FFFFFF
-[Layer28]
+[Layer27]
 Name=1% label
 Text=1%
 PositionX=1194
@@ -445,7 +425,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer29]
+[Layer28]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=1194
@@ -455,7 +435,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer30]
+[Layer29]
 Name=FT label
 Text=FT
 PositionX=1194
@@ -465,7 +445,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer31]
+[Layer30]
 Name=FT
 Text=<FT> ms
 PositionX=1194
@@ -475,7 +455,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer32]
+[Layer31]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=1108
@@ -484,7 +464,7 @@ ExtentX=156
 ExtentY=16
 ExtentOrigin=0
 TextColor=30D158
-[Layer33]
+[Layer32]
 Name=Cable dot
 Text=•
 PositionX=1293
@@ -494,7 +474,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=90
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
-[Layer34]
+[Layer33]
 Name=Cable label
 Text=12V
 PositionX=1306
@@ -504,7 +484,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
-[Layer35]
+[Layer34]
 Name=Cable voltage
 Text=%12V cable%
 PositionX=1294
@@ -514,7 +494,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=105
 TextColor=FFFFFF
-[Layer36]
+[Layer35]
 Name=Cable V
 Text=V
 PositionX=1354

@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_meters_universal_no12v_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=22
+Sources=21
 Tables=0
-Layers=38
+Layers=37
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -92,10 +92,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source9]
 Name=RAM usage
 Units=GB
@@ -147,15 +147,6 @@ SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
 [Source15]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
-[Source16]
 Name=CPU power pct
 Units=%
 Format=%.0f
@@ -164,23 +155,23 @@ Provider=MSI Afterburner
 SrcId=00000100
 Gpu=FFFFFFFF
 SrcName=
-[Source17]
+[Source16]
 Name=CPU clock pct
 Units=%
 Format=%.0f
 Formula=x / 62
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
-[Source18]
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
+[Source17]
 Name=RAM pct
 Units=%
 Format=%.0f
 Formula=
 Provider=HAL
 ID=RAM usage percent
-[Source19]
+[Source18]
 Name=GPU power pct
 Units=%
 Format=%.0f
@@ -189,7 +180,7 @@ Provider=MSI Afterburner
 SrcId=00000061
 Gpu=00000000
 SrcName=
-[Source20]
+[Source19]
 Name=GPU clock pct
 Units=%
 Format=%.0f
@@ -198,7 +189,7 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=6
 ReadingName=GPU Clock
-[Source21]
+[Source20]
 Name=VRAM pct
 Units=%
 Format=%.0f
@@ -470,37 +461,26 @@ ExtentOrigin=0
 [Layer28]
 Name=Limit power
 Text=Power limit
-PositionX=1949
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1835
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF9F0A
 VisibilitySource=Limit power
 [Layer29]
 Name=Limit thermal
 Text=Thermal limit
-PositionX=1949
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=1835
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF453A
 VisibilitySource=Limit thermal
 [Layer30]
-Name=Limit voltage
-Text=Voltage limit
-PositionX=1949
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=8E8E93
-VisibilitySource=Limit voltage
-[Layer31]
 Name=FPS label
 Text=FPS
 PositionX=2113
@@ -510,7 +490,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=30D158
-[Layer32]
+[Layer31]
 Name=FPS
 Text=%Framerate%
 PositionX=2113
@@ -520,7 +500,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=FFFFFF
-[Layer33]
+[Layer32]
 Name=1% label
 Text=1%
 PositionX=2199
@@ -530,7 +510,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer34]
+[Layer33]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=2199
@@ -540,7 +520,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer35]
+[Layer34]
 Name=FT label
 Text=FT
 PositionX=2199
@@ -550,7 +530,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer36]
+[Layer35]
 Name=FT
 Text=<FT> ms
 PositionX=2199
@@ -560,7 +540,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer37]
+[Layer36]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=2113
