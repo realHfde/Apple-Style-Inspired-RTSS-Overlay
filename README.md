@@ -143,6 +143,16 @@ C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
 
 In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and launch a game. It shows at the top centre, on the right edge (Sleek Side and Performance), or at the bottom centre on HYTE screens.
 
+<a id="two-gpus"></a>
+### 🖥️ CPU with integrated graphics, or two GPUs?
+
+The overlays read **GPU1**. If your CPU has built-in graphics, GPU1 can be the integrated one, and the GPU values look wrong or stay blank. To point them at your graphics card:
+
+1. In OverlayEditor, open **Data sources**.
+2. Select **GPU1 usage**, click **Setup**, and pick your graphics card.
+3. Do the same for **GPU1 temperature**, **GPU1 power** and the HWiNFO GPU ones (GPU clock, VRAM temp).
+4. Save.
+
 <a id="move-an-overlay"></a>
 ### 📍 Move it anywhere you like
 
