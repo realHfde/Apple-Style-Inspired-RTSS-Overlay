@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_meters_no12v_clear_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=22
+Sources=21
 Tables=0
-Layers=92
+Layers=89
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -92,10 +92,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source9]
 Name=RAM usage
 Units=GB
@@ -147,15 +147,6 @@ SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
 [Source15]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
-[Source16]
 Name=CPU power pct
 Units=%
 Format=%.0f
@@ -164,23 +155,23 @@ Provider=MSI Afterburner
 SrcId=00000100
 Gpu=FFFFFFFF
 SrcName=
-[Source17]
+[Source16]
 Name=CPU clock pct
 Units=%
 Format=%.0f
 Formula=x / 50.5
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
-[Source18]
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
+[Source17]
 Name=RAM pct
 Units=%
 Format=%.0f
 Formula=x / 327.68
 Provider=HAL
 ID=RAM usage
-[Source19]
+[Source18]
 Name=GPU power pct
 Units=%
 Format=%.0f
@@ -189,7 +180,7 @@ Provider=MSI Afterburner
 SrcId=00000061
 Gpu=00000000
 SrcName=
-[Source20]
+[Source19]
 Name=GPU clock pct
 Units=%
 Format=%.0f
@@ -198,7 +189,7 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=6
 ReadingName=GPU Clock
-[Source21]
+[Source20]
 Name=VRAM pct
 Units=%
 Format=%.0f
@@ -850,103 +841,70 @@ ExtentOrigin=0
 [Layer66]
 Name=Limit power shadow
 Text=Power limit
-PositionX=2590
-PositionY=39
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2476
+PositionY=102
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit power
 [Layer67]
 Name=Limit power shadow
 Text=Power limit
-PositionX=2589
-PositionY=40
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2475
+PositionY=103
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit power
 [Layer68]
 Name=Limit power
 Text=Power limit
-PositionX=2589
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2475
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF9F0A
 VisibilitySource=Limit power
 [Layer69]
 Name=Limit thermal shadow
 Text=Thermal limit
-PositionX=2590
-PositionY=39
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2476
+PositionY=102
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit thermal
 [Layer70]
 Name=Limit thermal shadow
 Text=Thermal limit
-PositionX=2589
-PositionY=40
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2475
+PositionY=103
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=000000
 VisibilitySource=Limit thermal
 [Layer71]
 Name=Limit thermal
 Text=Thermal limit
-PositionX=2589
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
+PositionX=2475
+PositionY=101
+ExtentX=72
+ExtentY=12
+ExtentOrigin=4
+Size=45
 TextColor=FF453A
 VisibilitySource=Limit thermal
 [Layer72]
-Name=Limit voltage shadow
-Text=Voltage limit
-PositionX=2590
-PositionY=39
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=000000
-VisibilitySource=Limit voltage
-[Layer73]
-Name=Limit voltage shadow
-Text=Voltage limit
-PositionX=2589
-PositionY=40
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=000000
-VisibilitySource=Limit voltage
-[Layer74]
-Name=Limit voltage
-Text=Voltage limit
-PositionX=2589
-PositionY=38
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=52
-TextColor=8E8E93
-VisibilitySource=Limit voltage
-[Layer75]
 Name=FPS label shadow
 Text=FPS
 PositionX=2754
@@ -956,7 +914,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer76]
+[Layer73]
 Name=FPS label shadow
 Text=FPS
 PositionX=2753
@@ -966,7 +924,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer77]
+[Layer74]
 Name=FPS label
 Text=FPS
 PositionX=2753
@@ -976,7 +934,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=30D158
-[Layer78]
+[Layer75]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=2754
@@ -986,7 +944,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=000000
-[Layer79]
+[Layer76]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=2753
@@ -996,7 +954,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=000000
-[Layer80]
+[Layer77]
 Name=FPS
 Text=%Framerate%
 PositionX=2753
@@ -1006,7 +964,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=FFFFFF
-[Layer81]
+[Layer78]
 Name=1% label shadow
 Text=1%
 PositionX=2840
@@ -1016,7 +974,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer82]
+[Layer79]
 Name=1% label shadow
 Text=1%
 PositionX=2839
@@ -1026,7 +984,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer83]
+[Layer80]
 Name=1% label
 Text=1%
 PositionX=2839
@@ -1036,7 +994,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer84]
+[Layer81]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=2840
@@ -1046,7 +1004,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer85]
+[Layer82]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=2839
@@ -1056,7 +1014,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer86]
+[Layer83]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=2839
@@ -1066,7 +1024,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer87]
+[Layer84]
 Name=FT label shadow
 Text=FT
 PositionX=2840
@@ -1076,7 +1034,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer88]
+[Layer85]
 Name=FT label shadow
 Text=FT
 PositionX=2839
@@ -1086,7 +1044,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=000000
-[Layer89]
+[Layer86]
 Name=FT label
 Text=FT
 PositionX=2839
@@ -1096,7 +1054,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=58
 TextColor=8E8E93
-[Layer90]
+[Layer87]
 Name=FT
 Text=<FT> ms
 PositionX=2839
@@ -1106,7 +1064,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer91]
+[Layer88]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=2753
