@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_compact_no12v_white_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=17
+Sources=16
 Tables=0
-Layers=34
+Layers=33
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -101,10 +101,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source10]
 Name=RAM usage
 Units=GB
@@ -155,15 +155,6 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
-[Source16]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
 [Layer0]
 Name=Panel
 Text=<I=0,0,0,360,720,88>
@@ -401,17 +392,6 @@ ExtentOrigin=2
 Size=50
 TextColor=D70015
 [Layer24]
-Name=Limit voltage
-VisibilitySource=Limit voltage
-Text=Limit: Voltage
-PositionX=1340
-PositionY=93
-ExtentX=110
-ExtentY=14
-ExtentOrigin=2
-Size=50
-TextColor=3A3A3C
-[Layer25]
 Name=FPS label
 Text=FPS
 PositionX=1474
@@ -421,7 +401,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=248A3D
-[Layer26]
+[Layer25]
 Name=FPS
 Text=%Framerate%
 PositionX=1474
@@ -431,7 +411,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=0A0A0C
-[Layer27]
+[Layer26]
 Name=1% label
 Text=1%
 PositionX=1546
@@ -441,7 +421,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=3A3A3C
-[Layer28]
+[Layer27]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=1546
@@ -451,7 +431,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=0A0A0C
-[Layer29]
+[Layer28]
 Name=0.1% label
 Text=0.1%
 PositionX=1546
@@ -461,7 +441,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=3A3A3C
-[Layer30]
+[Layer29]
 Name=0.1%
 Text=%Framerate 0.1% Low%
 PositionX=1546
@@ -471,7 +451,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=0A0A0C
-[Layer31]
+[Layer30]
 Name=FT label
 Text=FT
 PositionX=1546
@@ -481,7 +461,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=3A3A3C
-[Layer32]
+[Layer31]
 Name=FT
 Text=<FT> ms
 PositionX=1546
@@ -491,7 +471,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=0A0A0C
-[Layer33]
+[Layer32]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=1474

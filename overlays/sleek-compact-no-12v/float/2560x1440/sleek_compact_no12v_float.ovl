@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=sleek_compact_no12v_float_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=17
+Sources=16
 Tables=0
-Layers=92
+Layers=89
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -101,10 +101,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source10]
 Name=RAM usage
 Units=GB
@@ -155,15 +155,6 @@ Provider=HwInfo
 SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
-[Source16]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
 [Layer0]
 Name=Panel
 Text=<I=0,0,0,360,720,88>
@@ -825,39 +816,6 @@ ExtentOrigin=2
 Size=50
 TextColor=FF453A
 [Layer66]
-Name=Limit voltage shadow
-VisibilitySource=Limit voltage
-Text=Limit: Voltage
-PositionX=1341
-PositionY=94
-ExtentX=110
-ExtentY=14
-ExtentOrigin=2
-Size=50
-TextColor=000000
-[Layer67]
-Name=Limit voltage shadow
-VisibilitySource=Limit voltage
-Text=Limit: Voltage
-PositionX=1340
-PositionY=95
-ExtentX=110
-ExtentY=14
-ExtentOrigin=2
-Size=50
-TextColor=000000
-[Layer68]
-Name=Limit voltage
-VisibilitySource=Limit voltage
-Text=Limit: Voltage
-PositionX=1340
-PositionY=93
-ExtentX=110
-ExtentY=14
-ExtentOrigin=2
-Size=50
-TextColor=8E8E93
-[Layer69]
 Name=FPS label shadow
 Text=FPS
 PositionX=1475
@@ -867,7 +825,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer70]
+[Layer67]
 Name=FPS label shadow
 Text=FPS
 PositionX=1474
@@ -877,7 +835,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer71]
+[Layer68]
 Name=FPS label
 Text=FPS
 PositionX=1474
@@ -887,7 +845,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=30D158
-[Layer72]
+[Layer69]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=1475
@@ -897,7 +855,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=000000
-[Layer73]
+[Layer70]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=1474
@@ -907,7 +865,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=000000
-[Layer74]
+[Layer71]
 Name=FPS
 Text=%Framerate%
 PositionX=1474
@@ -917,7 +875,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=170
 TextColor=FFFFFF
-[Layer75]
+[Layer72]
 Name=1% label shadow
 Text=1%
 PositionX=1547
@@ -927,7 +885,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer76]
+[Layer73]
 Name=1% label shadow
 Text=1%
 PositionX=1546
@@ -937,7 +895,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer77]
+[Layer74]
 Name=1% label
 Text=1%
 PositionX=1546
@@ -947,7 +905,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=8E8E93
-[Layer78]
+[Layer75]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=1547
@@ -957,7 +915,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer79]
+[Layer76]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=1546
@@ -967,7 +925,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer80]
+[Layer77]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=1546
@@ -977,7 +935,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer81]
+[Layer78]
 Name=0.1% label shadow
 Text=0.1%
 PositionX=1547
@@ -987,7 +945,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer82]
+[Layer79]
 Name=0.1% label shadow
 Text=0.1%
 PositionX=1546
@@ -997,7 +955,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer83]
+[Layer80]
 Name=0.1% label
 Text=0.1%
 PositionX=1546
@@ -1007,7 +965,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=8E8E93
-[Layer84]
+[Layer81]
 Name=0.1% shadow
 Text=%Framerate 0.1% Low%
 PositionX=1547
@@ -1017,7 +975,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer85]
+[Layer82]
 Name=0.1% shadow
 Text=%Framerate 0.1% Low%
 PositionX=1546
@@ -1027,7 +985,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=000000
-[Layer86]
+[Layer83]
 Name=0.1%
 Text=%Framerate 0.1% Low%
 PositionX=1546
@@ -1037,7 +995,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer87]
+[Layer84]
 Name=FT label shadow
 Text=FT
 PositionX=1547
@@ -1047,7 +1005,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer88]
+[Layer85]
 Name=FT label shadow
 Text=FT
 PositionX=1546
@@ -1057,7 +1015,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=000000
-[Layer89]
+[Layer86]
 Name=FT label
 Text=FT
 PositionX=1546
@@ -1067,7 +1025,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=55
 TextColor=8E8E93
-[Layer90]
+[Layer87]
 Name=FT
 Text=<FT> ms
 PositionX=1546
@@ -1077,7 +1035,7 @@ ExtentY=16
 ExtentOrigin=2
 Size=65
 TextColor=FFFFFF
-[Layer91]
+[Layer88]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=1474

@@ -12,9 +12,9 @@ LockUserSettings=1
 EmbeddedImage=performance_overlay_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=19
+Sources=18
 Tables=0
-Layers=46
+Layers=45
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -101,10 +101,10 @@ Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=HwInfo
-SensorInst=0
-ReadingType=6
-ReadingName=Average Effective Clock,Core Clocks (avg),Core Effective Clocks (avg)
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
 [Source10]
 Name=RAM usage
 Units=GB
@@ -165,15 +165,6 @@ SensorInst=0
 ReadingType=8
 ReadingName=Performance Limit - Thermal
 [Source17]
-Name=Limit voltage
-Units=
-Format=
-Formula=
-Provider=HwInfo
-SensorInst=0
-ReadingType=8
-ReadingName=Performance Limit - Reliability Voltage
-[Source18]
 Name=GPU core voltage
 Units=V
 Format=%.2f
@@ -629,14 +620,3 @@ ExtentOrigin=2
 Size=52
 TextColor=FF453A
 VisibilitySource=Limit thermal
-[Layer45]
-Name=Limit voltage
-Text=Voltage limit
-PositionX=2288
-PositionY=547
-ExtentX=232
-ExtentY=13
-ExtentOrigin=2
-Size=52
-TextColor=8E8E93
-VisibilitySource=Limit voltage
