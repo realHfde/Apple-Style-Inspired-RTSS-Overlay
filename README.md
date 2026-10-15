@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 9 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops and TVs.
+Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops and TVs.
 
 ### 🟢 Don't need VRAM temperature or the 12V cable? Then you only need **MSI Afterburner + RTSS**. Grab the [**MSI Edition**](#msi-edition), with no HWiNFO at all.
 
@@ -11,6 +11,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
 - **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (MSI Edition and Original) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
 - **📱 HYTE / second screen: coming soon.** A widget made for HYTE Y70 case screens and second monitors is on the way. RTSS overlays only show inside games, so they can't be used on a case screen; the new widget will.
 - **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
@@ -266,6 +267,7 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 
 | Overlay | What it shows |
 |---|---|
+| **Island Bar** 💻 🆕 | A slim pill at the top for **gaming laptops**: CPU, GPU, FPS · 1% low, RAM and VRAM. Only 38 px tall. In the laptop packs |
 | **Simple Sleek** 🆕 | One slim pill: CPU and GPU rings with temp, power and clock, FPS, 1% low and frametime |
 | **Sleek** | CPU and GPU rings with temp and power, big FPS and 1% low |
 | **Sleek Compact** | CPU, GPU (power, clock, RAM / VRAM) and FPS with 1%, 0.1%, frametime and graph |
@@ -279,6 +281,10 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 
 <details>
 <summary><b>MSI Edition: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
+
+#### Island Bar (laptops)
+
+![Island Bar](previews/msi/msi-island-bar.png)
 
 #### Simple Sleek
 
@@ -324,6 +330,11 @@ Here's the full original lineup. Every overlay comes in **Dark, White, Clear and
 A compact pill: CPU and GPU usage rings with temperature and power, FPS and 1% low in the middle.
 
 ![Sleek](previews/sleek.png)
+
+### Island Bar 💻 (gaming laptops)
+A slim pill at the top of the screen, made for **laptop screens** where every pixel counts: CPU and GPU load and temperature, FPS and 1% low, RAM, and VRAM with its temperature. Only 38 px tall. In the laptop packs (1920x1200, 2560x1600, 2880x1800).
+
+![Island Bar](previews/all/island-bar.png)
 
 ### Sleek Compact
 Full stats in one wide bar: CPU, GPU, FPS with a frametime graph, 12V cable voltage, and GPU limit warnings that only appear when a limit is hit.
