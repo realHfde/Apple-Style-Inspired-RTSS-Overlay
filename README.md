@@ -70,15 +70,15 @@ Takes about 5 minutes. Just follow these in order. 👇
 
 ### 🟢 First: which version do you want?
 
-| | **🟢 Essential** (easiest) | **⚡ Volt** |
-|---|---|---|
-| **Needs** | MSI Afterburner + RTSS | MSI Afterburner + RTSS + **HWiNFO** |
-| **Shows** | CPU & GPU usage, temps, power, clocks, RAM, VRAM, FPS, 1% / 0.1% lows, frametime, Power/Thermal limit warnings | All of that **plus 12V cable voltage and VRAM temperature** |
-| **Setup** | Skip step 2 | All steps |
+| Version | Needs | Shows | Setup |
+|---|---|---|---|
+| **🟢 [Essential](#essential)** (easiest) | MSI Afterburner + RTSS | CPU & GPU usage, temps, power, clocks, RAM, VRAM, FPS, 1% / 0.1% lows, frametime, Power/Thermal limit warnings | Skip step 2 |
+| **⚡ [Volt](#volt)** | MSI Afterburner + RTSS + **HWiNFO** | All of that **plus 12V cable voltage and VRAM temperature** | All steps |
+| **💻 [Laptops](#laptops)** | MSI Afterburner + RTSS (+ HWiNFO for Volt Island Bar) | One slim 38 px pill: CPU, GPU, FPS, 1% low, RAM, VRAM (or a clock) | Pick a 💻 laptop pack in step 5 · Essential skips step 2 |
+| **📺 [TVs](#tvs)** | MSI Afterburner + RTSS | Big numbers for the couch: CPU/GPU temp, power, usage rings, FPS, 1% low | Pick a [📺 TV pack](#tv-download) · skip step 2 |
+| **📱 [Monitors & Widgets](#rainmeter)** | MSI Afterburner + **Rainmeter** (no RTSS) | Your stats on a second screen, case screen, Xeneon Edge or desktop | [Its own setup](#monitor-setup) |
 
 **Not sure? Pick Essential.** You can always switch to Volt later.
-
-Want your stats on a **second screen, case screen or desktop** instead? That's [📱 Monitors & Widgets](#rainmeter), with its own setup.
 
 ### 1️⃣ Install the free programs
 
