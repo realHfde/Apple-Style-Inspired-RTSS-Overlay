@@ -1,27 +1,39 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops and TVs.
+Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, in 4 themes, for screens from 1080p up to 5K2K, gaming laptops and TVs.
 
-### 📱 New: **Apple Style Monitor** for your second screen, HYTE or Lian Li case screen, Corsair Xeneon Edge or desktop (Rainmeter). [See it below](#rainmeter).
+### Pick yours
 
-### 🟢 Don't need VRAM temperature or the 12V cable? Then you only need **MSI Afterburner + RTSS**. Grab the [**MSI Edition**](#msi-edition), with no HWiNFO at all.
+<table>
+<tr>
+<td align="center" width="33%"><a href="#essential"><img src="previews/msi/msi_lineup.png" alt="Essential overlays"></a><br><a href="#essential"><b>🟢 Essential</b></a><br><sub>In-game overlay<br>RTSS + MSI Afterburner</sub></td>
+<td align="center" width="33%"><a href="#volt"><img src="previews/themes_all.png" alt="Volt overlays"></a><br><a href="#volt"><b>⚡ Volt</b></a><br><sub>In-game overlay + HWiNFO<br>12V-2x6 / 12VHPWR cable monitoring</sub></td>
+<td align="center" width="33%"><a href="#rainmeter"><img src="previews/rainmeter/second-screen.png" alt="Monitors and Widgets"></a><br><a href="#rainmeter"><b>📱 Monitors & Widgets</b></a><br><sub>Second screen, case screen & desktop<br>Rainmeter + MSI Afterburner</sub></td>
+</tr>
+</table>
+
+<p align="center"><a href="#get-started"><b>⬇️ Get started</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
+
+**Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
 > Previews below are rendered with sample in-game numbers. Real colours and spacing may differ slightly in game.
 
+<a id="whats-new"></a>
 ## 🆕 What's new
 
 **October 2026**
-- **📱 New: Apple Style Monitor 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens, **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
-- **🕘 New: Island Bar Time (MSI Edition).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
-- **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
-- **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (MSI Edition and Original) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
+- **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. Same files, same downloads, just easier to tell apart.
+- **📱 New: Monitors & Widgets 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens, **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
+- **🕘 New: Island Bar Time (Essential).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
+- **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both Essential and Volt (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
+- **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (Essential and Volt) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
 
-- **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
+- **🟢 New: Essential** (first called the MSI Edition): every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#essential).
 - **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
 - **📺 TV versions:** new **TV Pill** and **TV Side**, with big numbers made for gaming on a TV from the couch. Packs for 4K and 1080p TVs (any screen size).
@@ -46,13 +58,15 @@ Takes about 5 minutes. Just follow these in order. 👇
 
 ### 🟢 First: which version do you want?
 
-| | **MSI Edition** (easiest) | **Original** |
+| | **🟢 Essential** (easiest) | **⚡ Volt** |
 |---|---|---|
 | **Needs** | MSI Afterburner + RTSS | MSI Afterburner + RTSS + **HWiNFO** |
 | **Shows** | CPU & GPU usage, temps, power, clocks, RAM, VRAM, FPS, 1% / 0.1% lows, frametime, Power/Thermal limit warnings | All of that **plus 12V cable voltage and VRAM temperature** |
 | **Setup** | Skip step 2 | All steps |
 
-**Not sure? Pick the MSI Edition.** You can always add HWiNFO later.
+**Not sure? Pick Essential.** You can always switch to Volt later.
+
+Want your stats on a **second screen, case screen or desktop** instead? That's [📱 Monitors & Widgets](#rainmeter), with its own setup.
 
 ### 1️⃣ Install the free programs
 
@@ -60,7 +74,7 @@ Takes about 5 minutes. Just follow these in order. 👇
 |---|---|
 | [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
 | [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, CPU clock, FPS, 1% low |
-| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | **Not needed for the [MSI Edition](#msi-edition).** Only the original overlays use it, for **12V cable voltage** and **VRAM temperature** (plus 0.1% lows, GPU clock and limit warnings). Sleek and the TV overlays don't need it either |
+| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | **Not needed for [Essential](#essential).** Only the [Volt](#volt) overlays use it, for **12V cable voltage** and **VRAM temperature** (plus 0.1% lows, GPU clock and limit warnings). Sleek and the TV overlays don't need it either |
 | [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)) |
 
 <a id="install-inter"></a>
@@ -85,7 +99,7 @@ Then **restart RTSS** (close it from the tray and open it again).
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
 
-> **Using the MSI Edition, Sleek or the TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
+> **Using Essential, or Volt's Sleek or TV overlays?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
 
 ### Without this, 12V, VRAM temp, 0.1% lows, GPU clock and limits stay blank.
 
@@ -112,7 +126,7 @@ Then **restart RTSS** (close it from the tray and open it again).
 |---|---|
 | 1 | Click the **gear** (Settings) on the left |
 | 2 | Open the **Monitoring** tab |
-| 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, CPU clock, Framerate, Framerate 1% Low**<br>🟢 **MSI Edition, also tick:** **Core clock, Framerate 0.1% Low, Power limit, Temp limit** (and **Fan tachometer, Core voltage** for Performance) |
+| 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, CPU clock, Framerate, Framerate 1% Low**<br>🟢 **Essential, also tick:** **Core clock, Framerate 0.1% Low, Power limit, Temp limit** (and **Fan tachometer, Core voltage** for Performance) |
 | 4 | Click each ticked item and make sure **Show in On-Screen Display** is ❌ **unticked**, so Afterburner's own text doesn't stack on top of the overlay |
 
 <img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the graphs, untick Show in On-Screen Display">
@@ -158,9 +172,9 @@ Click **OK**.
 
 ### 5️⃣ Download the pack for your screen
 
-Each pack has every overlay in every theme. **🟢 MSI Edition** = no HWiNFO needed:
+Each pack has every overlay in every theme. **🟢 Essential** = no HWiNFO needed (its zips start with `MSI`). **⚡ Volt** zips start with `All`:
 
-| Screen | Resolution | 🟢 MSI Edition | Original |
+| Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
 | 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1080.zip) |
 | 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1440.zip) |
@@ -195,7 +209,7 @@ It should look like this. Every overlay is a **pair**: the `.ovl` file and its `
 | # | Check |
 |---|---|
 | 1 | The address bar ends in **RivaTuner Statistics Server › Plugins › Client › Overlays** |
-| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `sleek.ovl` + `sleek_atlas.png`). MSI Edition files start with `msi_` |
+| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `sleek.ovl` + `sleek_atlas.png`). Essential files start with `msi_` |
 
 <img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: sleek.ovl next to sleek_atlas.png">
 
@@ -259,7 +273,7 @@ Everything stays lined up, and it remembers the new spot. (RTSS's own position b
 <details>
 <summary>Only want one overlay?</summary>
 
-Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/sleek-meters/white/2560x1440` (MSI Edition: `overlays/msi-sleek-meters/white/2560x1440`). Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
+Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/sleek-meters/white/2560x1440` (Essential: `overlays/msi-sleek-meters/white/2560x1440`). Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
 
 </details>
 
@@ -267,8 +281,9 @@ Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues
 
 ---
 
+<a id="essential"></a>
 <a id="msi-edition"></a>
-## 🟢 MSI Edition (no HWiNFO)
+## 🟢 Essential (RTSS + MSI Afterburner, no HWiNFO)
 
 ### Only needs MSI Afterburner + RTSS. Perfect if you don't need VRAM temperature or the 12V cable.
 
@@ -287,10 +302,10 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 | **Sleek Side** | Side panel with CPU / GPU load graphs and FPS |
 | **Performance** | Every number for benchmarking, with graphs |
 
-![MSI Edition lineup](previews/msi/msi_lineup.png)
+![Essential lineup](previews/msi/msi_lineup.png)
 
 <details>
-<summary><b>MSI Edition: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
+<summary><b>Essential: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
 
 #### Island Bar (laptops)
 
@@ -336,174 +351,12 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 
 ---
 
-<a id="rainmeter"></a>
-## 📱 Apple Style Monitor: second screen, HYTE, Lian Li, Xeneon Edge & desktop widgets (Rainmeter)
+<a id="volt"></a>
+## ⚡ Volt (RTSS + MSI Afterburner + HWiNFO)
 
-### Your stats on a second monitor, your case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
+### Everything in Essential, plus the 12V-2x6 / 12VHPWR cable monitor and VRAM temperature.
 
-RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE or Lian Li case screen, a Corsair Xeneon Edge or your desktop and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
-
-![Apple Style Monitor on a second screen](previews/rainmeter/second-screen.png)
-
-**What it shows:** CPU and GPU usage, temperature, clock and power, CPU and GPU temperature graphs, GPU core and memory clock, FPS, 1% and 0.1% lows, frame time with a chart, RAM, VRAM, free space on C:, network speed, and separate CPU, GPU and FPS charts for the last 2 minutes, plus the time, date and uptime.
-
-### Pick your layout
-
-| Screen | Resolution | Layouts |
-|---|---|---|
-| **Second monitor** (1080p, 1440p, 4K) | 16:9 | **Second Screen → 16x9** |
-| **Monitor turned upright** | 1080x1920 | **Second Screen → Portrait** |
-| **Either, as one solid panel** | 16:9 or 1080x1920 | **Second Screen → 16x9 Box** or **Portrait Box** |
-| **HYTE Y70 Touch** (1st gen, 14.1") | 1100x3840 | **Case Screen Classic** or **Case Screen Widgets** |
-| **HYTE Y70 Touch Infinite** (14.5" / 14.9") | 688x2560 / 682x2560 | **Case Screen Classic** or **Case Screen Widgets** |
-| **Lian Li 8.8" Universal Screen** (sideways) | 1920x480 | **Bar Screen Classic** or **Bar Screen Widgets** |
-| **Lian Li 9.2" O11 Vision-M kit** | 1920x462 | **Bar Screen Classic** or **Bar Screen Widgets** |
-| **Lian Li 8.8" Universal Screen** (upright) | 480x1920 | **Case Screen Classic** or **Case Screen Widgets** |
-| **Lian Li Lancool 207 Digital** (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Lian Li Lancool 207 1600x720* |
-| **Lian Li Lancool 207 Digital** (6", set to portrait) | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
-| **Corsair Xeneon Edge** (14.5", sideways) | 2560x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Corsair Xeneon Edge 2560x720* |
-| **Corsair Xeneon Edge** (14.5", upright) | 720x2560 | **Case Screen Classic** or **Case Screen Widgets** → *Corsair Xeneon Edge upright 720x2560* |
-| **Your normal desktop** | any | **Sidebar**, **Alternate Sidebar**, **Alternate Vertical**, **Horizontal**, **Alternate Horizontal** |
-
-**Classic** is one panel that fills the whole screen. **Widgets** are separate rounded cards with your wallpaper showing between them. Every case-screen layout was checked at the screen's real size, so the text stays readable on the small Lian Li screens too.
-
-![Second screen layouts](previews/rainmeter/second-screen-layouts.png)
-
-**Box versions:** the same second-screen dashboards as one solid panel, with thin dividers instead of gaps.
-
-![16x9 Box and Portrait Box](previews/rainmeter/box-versions.png)
-
-![HYTE and Lian Li case screens](previews/rainmeter/case-screens.png)
-
-![Lian Li bar screens](previews/rainmeter/bar-screens.png)
-
-**Lancool 207 Digital:** its 6" screen sits sideways in the front of the case, so it has its own landscape layout with big text.
-
-![Lancool 207 sideways](previews/rainmeter/lancool-sideways.png)
-
-**Corsair Xeneon Edge:** works sideways or upright. It connects with HDMI or USB-C, so Windows sees it as a normal monitor.
-
-![Corsair Xeneon Edge sideways and upright](previews/rainmeter/xeneon-edge.png)
-
-### Desktop widgets
-
-Smaller panels for your normal desktop. Pick a size and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
-
-![Desktop widgets](previews/rainmeter/desktop-widgets.png)
-
-<a id="monitor-options"></a>
-### Make it yours (right-click menu)
-
-Right-click any skin → **Custom skin actions**. Every Apple Style Monitor skin you have open switches together, and the ✓ shows what's picked.
-
-| Option | What it does |
-|---|---|
-| **RAM meter: off / 16 / 32 / 64 GB** | Adds "of 32 GB" and a bar under RAM. **Off** shows plain numbers (the default) |
-| **VRAM meter: off / 8 / 16 / 32 GB** | The same for VRAM. A bar turns **red** above 90% |
-| **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
-| **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
-| **Gaps: on / off** | **Off** makes the cards reach right to the edges of the screen when you use **Fit to monitor** (great with square corners). See [which layouts have gaps](#gaps) |
-| **Theme: Dark / White / Clear / Float** | Same four themes as the overlays |
-
-![Options: memory meters, FPS scale and corners](previews/rainmeter/options.png)
-
-<a id="gaps"></a>
-**Which layouts have gaps?** Only the ones made of separate cards. The **Gaps** option changes these:
-
-| Has gaps (Gaps option works) | One solid panel (no gaps to remove) |
-|---|---|
-| Second Screen → **16x9** and **Portrait** | Second Screen → **16x9 Box** and **Portrait Box** |
-| **Case Screen Widgets** (all screens) | **Case Screen Classic** (all screens) |
-| **Bar Screen Widgets** (Lian Li bars, Lancool 207, Xeneon Edge) | **Bar Screen Classic** (Lian Li bars, Lancool 207, Xeneon Edge) |
-| | The five **desktop widgets** (one box each) |
-
-Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on a card layout. Add **Corners: square** for sharp edges.
-
-![Dark, White, Clear and Float](previews/rainmeter/themes.png)
-
-### ⬇️ Set it up (about 5 minutes)
-
-**1️⃣ Install the programs**
-
-| Program | What it does |
-|---|---|
-| [**Rainmeter**](https://www.rainmeter.net/) | Shows the skins on your desktop |
-| [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Reads your temperatures, clocks, power and FPS. Keep it running in the background |
-
-You **don't** need to install the Inter font for this one: it comes inside the pack.
-
-**2️⃣ Turn on the readings in MSI Afterburner**
-
-Open Afterburner → **Settings → Monitoring**. In the list, tick each of these, then press **OK**:
-
-*GPU temperature, GPU usage, Memory usage, Core clock, Memory clock, Power, CPU temperature, CPU clock, CPU power, Framerate, Frametime, Framerate 1% low, Framerate 0.1% low.*
-
-Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame time only fill in **while a game is running** (Afterburner gets them from RTSS, which installs together with Afterburner).
-
-![Afterburner monitoring tab](previews/setup/ab_monitoring.png)
-
-**3️⃣ Install the skin**
-
-Download **`Apple Style Monitor 1.4.rmskin`** from the [Apple Style Monitor 1.4 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitors-and-Widgets-1.4v) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
-
-**4️⃣ Pick your layout**
-
-Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **AppleStyleMonitor**, then the folder for your screen (see the table above). Click the layout file, for example **Second Screen → 16x9 Box**, and click **Load**. Each folder can show one layout at a time; unload the ones you don't use.
-
-![Manage Rainmeter](previews/rainmeter/setup_manage.png)
-
-**5️⃣ Put it on your screen**
-
-Right-click the skin → **Custom skin actions**:
-
-- **Fit to monitor 1 / 2 / 3**: fills that whole screen. This is the one for a HYTE or Lian Li screen or a second monitor. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number and name.
-- **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
-- **Center on its monitor** puts it back in the middle.
-- **GPU 2** if your PC has integrated graphics and the GPU numbers look wrong.
-- Plus the meters, FPS scale, corners, gaps and theme from [the options above](#monitor-options).
-
-![Right-click menu: Custom skin actions](previews/rainmeter/setup_menu.png)
-
-The ✓ shows what's picked. Scroll down the menu for **FPS scale**, **Theme** and **GPU**.
-
-It remembers its size, screen and options after a restart.
-
-**6️⃣ HYTE and Lian Li screens only**
-
-- **Lian Li:** in **L-Connect 3**, switch the screen to **secondary screen** mode so Windows uses it as a normal monitor.
-- **HYTE and Corsair Xeneon Edge:** make sure the screen shows up as a monitor in **Windows Settings → System → Display**. Set it to **Landscape** or **Portrait** to match how it's mounted.
-- **Upright screens:** set the screen to **Portrait** in Windows display settings and use a Case Screen layout.
-- **Lancool 207 Digital:** set the screen to **Landscape** (1600x720) in Windows display settings and use the *Lian Li Lancool 207 1600x720* layout in **Bar Screen Classic** or **Bar Screen Widgets**.
-- **Taskbar:** turn off **Settings → Personalization → Taskbar → Taskbar behaviors → "Show my taskbar on all displays"**, or Windows puts a taskbar on the small screen too and the skin can't fill it.
-
-### Good to know
-
-- **No VRAM temperature or fan speed.** Most graphics cards don't send these to Afterburner, so they're left out to keep it working on every PC.
-- The **charts fill up over time**: they start empty and cover the last 2 minutes (frame time: the last 60 seconds) once full.
-- **Frame time** is worked out from your FPS if Afterburner doesn't send it.
-- **Network** is your internet download (blue) and upload (orange) speed.
-- **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE, Lian Li and Xeneon Edge layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
-
-### Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#rainmeter)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
-| Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
-| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **GPU 2**. |
-| It fills the wrong screen | Use **Fit to monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
-| It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu. |
-| The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
-| Gaps at the edges or corners when it fills a screen | Pick **Gaps: off** and **Corners: square**. Also check you picked the layout for your screen's shape (16x9 for a normal monitor, Portrait for an upright one). |
-| A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
-| Text from other skins shows behind it | That's Rainmeter's built-in **illustro** skins. In Manage, open **illustro** and **Unload** each one. |
-| The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
-
----
-
-## Overlays (Original, with HWiNFO extras)
-
-Here's the full original lineup. Every overlay comes in **Dark, White, Clear and Float** ([see themes](#themes)).
+Volt reads your graphics card's 12V cable voltage and VRAM temperature through HWiNFO ([step 2](#hwinfo-setup-shared-memory)). Every overlay comes in **Dark, White, Clear and Float** ([see themes](#themes)).
 
 ### Sleek
 A compact pill: CPU and GPU usage rings with temperature and power, FPS and 1% low in the middle.
@@ -537,7 +390,7 @@ Sleek Meters with scales that fit **any build**, up to an RTX 5090 with a top-en
 | RAM | 64 GB | Fits 32 GB and 64 GB builds |
 | VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
 
-The **MSI Edition** of Meters Universal uses the same scales.
+The **Essential** version of Meters Universal uses the same scales.
 
 ![Sleek Meters Universal](previews/sleek_meters_universal.png)
 
@@ -552,7 +405,7 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 <img src="previews/sleek_side.png" width="260" alt="Sleek Side">
 
 ### 📱 HYTE screen / Lian Li screen / second monitor
-Now available as **Apple Style Monitor** for Rainmeter. [See it below](#rainmeter).
+Now available as **📱 Monitors & Widgets** for Rainmeter. [See it below](#rainmeter).
 
 ### Performance Overlay
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
@@ -664,15 +517,179 @@ These come from how RTSS's OverlayEditor works, so every OverlayEditor layout ha
 |---|---|
 | Overlay Editor looks empty | The overlay is placed for a full screen (top centre, or right edge for Side and Performance). **Maximize the Overlay Editor window** to see it. Also turn on **Show On-Screen Display** in the main RTSS window, or nothing shows in game. |
 | CPU clock is blank or N/A | The CPU clock comes from **MSI Afterburner**. Go to **Settings → Monitoring** and tick **CPU clock**, then click Apply. |
-| GPU clock is blank | **MSI Edition:** tick **Core clock** in Afterburner's Monitoring tab. **Original:** the GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
+| GPU clock is blank | **Essential:** tick **Core clock** in Afterburner's Monitoring tab. **Volt:** the GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
 | GPU load, temperature or power are blank | These come from **MSI Afterburner**. Make sure it's running, then go to **Settings → Monitoring** and enable *GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power* and *CPU clock*. With two GPUs (integrated + graphics card), open **Data sources**, select **GPU1 usage**, click **Setup** and pick your graphics card. Do the same for GPU1 temperature and GPU1 power. |
 | Text looks different, too wide, or doesn't line up with the panel | The **Inter** font isn't installed, so Windows uses a different font. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
 | Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
 | Some values show `N/A` or are blank | HWiNFO isn't running, or Shared Memory Support is off. See [HWiNFO setup](#hwinfo-setup-shared-memory). |
 | A value stays blank even with HWiNFO running | In OverlayEditor, open **Data sources**, select the row, click **Setup**, and pick the matching sensor from your HWiNFO list. |
-| 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. In the **MSI Edition**, also tick **Framerate 1% Low** and **Framerate 0.1% Low** in Afterburner, and check the [RTSS General settings](#rtss-setup). |
-| Want 12V or VRAM temperature? | Those need **HWiNFO**, so use the **Original** overlays and follow [step 2](#hwinfo-setup-shared-memory). |
+| 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. In **Essential**, also tick **Framerate 1% Low** and **Framerate 0.1% Low** in Afterburner, and check the [RTSS General settings](#rtss-setup). |
+| Want 12V or VRAM temperature? | Those need **HWiNFO**, so use the **⚡ Volt** overlays and follow [step 2](#hwinfo-setup-shared-memory). |
 | Text looks blurry or smudged on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window. The shadow is meant for white text on dark backgrounds; the Dark themes don't need it, and the Clear and Float themes have their own shadow built in. |
+
+---
+
+<a id="rainmeter"></a>
+## 📱 Monitors & Widgets (Rainmeter + MSI Afterburner)
+
+### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
+
+RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE or Lian Li case screen, a Corsair Xeneon Edge or your desktop and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
+
+![Monitors & Widgets on a second screen](previews/rainmeter/second-screen.png)
+
+**What it shows:** CPU and GPU usage, temperature, clock and power, CPU and GPU temperature graphs, GPU core and memory clock, FPS, 1% and 0.1% lows, frame time with a chart, RAM, VRAM, free space on C:, network speed, and separate CPU, GPU and FPS charts for the last 2 minutes, plus the time, date and uptime.
+
+### Pick your layout
+
+| Screen | Resolution | Layouts |
+|---|---|---|
+| **Second monitor** (1080p, 1440p, 4K) | 16:9 | **Second Screen → 16x9** |
+| **Monitor turned upright** | 1080x1920 | **Second Screen → Portrait** |
+| **Either, as one solid panel** | 16:9 or 1080x1920 | **Second Screen → 16x9 Box** or **Portrait Box** |
+| **HYTE Y70 Touch** (1st gen, 14.1") | 1100x3840 | **Case Screen Classic** or **Case Screen Widgets** |
+| **HYTE Y70 Touch Infinite** (14.5" / 14.9") | 688x2560 / 682x2560 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Lian Li 8.8" Universal Screen** (sideways) | 1920x480 | **Bar Screen Classic** or **Bar Screen Widgets** |
+| **Lian Li 9.2" O11 Vision-M kit** | 1920x462 | **Bar Screen Classic** or **Bar Screen Widgets** |
+| **Lian Li 8.8" Universal Screen** (upright) | 480x1920 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Lian Li Lancool 207 Digital** (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Lian Li Lancool 207 1600x720* |
+| **Lian Li Lancool 207 Digital** (6", set to portrait) | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Corsair Xeneon Edge** (14.5", sideways) | 2560x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Corsair Xeneon Edge 2560x720* |
+| **Corsair Xeneon Edge** (14.5", upright) | 720x2560 | **Case Screen Classic** or **Case Screen Widgets** → *Corsair Xeneon Edge upright 720x2560* |
+| **Your normal desktop** | any | **Sidebar**, **Alternate Sidebar**, **Alternate Vertical**, **Horizontal**, **Alternate Horizontal** |
+
+**Classic** is one panel that fills the whole screen. **Widgets** are separate rounded cards with your wallpaper showing between them. Every case-screen layout was checked at the screen's real size, so the text stays readable on the small Lian Li screens too.
+
+<table>
+<tr>
+<td width="50%" align="center"><a href="previews/rainmeter/second-screen-layouts.png"><img src="previews/rainmeter/second-screen-layouts.png" alt=""></a><br><sub><b>Second monitor</b> · 16x9 and Portrait</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/box-versions.png"><img src="previews/rainmeter/box-versions.png" alt=""></a><br><sub><b>Box versions</b> · one solid panel, thin dividers instead of gaps</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="previews/rainmeter/case-screens.png"><img src="previews/rainmeter/case-screens.png" alt=""></a><br><sub><b>HYTE Y70 & Lian Li</b> · upright case screens</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/bar-screens.png"><img src="previews/rainmeter/bar-screens.png" alt=""></a><br><sub><b>Lian Li bar screens</b> · 8.8" and 9.2"</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="previews/rainmeter/lancool-sideways.png"><img src="previews/rainmeter/lancool-sideways.png" alt=""></a><br><sub><b>Lancool 207 Digital</b> · its 6" screen sits sideways, so it gets big text</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/xeneon-edge.png"><img src="previews/rainmeter/xeneon-edge.png" alt=""></a><br><sub><b>Corsair Xeneon Edge</b> · sideways or upright, connects as a normal monitor</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="previews/rainmeter/desktop-widgets.png"><img src="previews/rainmeter/desktop-widgets.png" alt=""></a><br><sub><b>Desktop widgets</b> · 5 sizes for your normal desktop</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/themes.png"><img src="previews/rainmeter/themes.png" alt=""></a><br><sub><b>Themes</b> · Dark, White, Clear and Float</sub></td>
+</tr>
+</table>
+
+<sub>Click any picture to open it full size.</sub>
+
+### Desktop widgets
+
+Smaller panels for your normal desktop (pictured in the grid above). Pick a size and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
+
+<a id="monitor-options"></a>
+### Make it yours (right-click menu)
+
+Right-click any skin → **Custom skin actions**. Every Monitors & Widgets skin you have open switches together, and the ✓ shows what's picked.
+
+| Option | What it does |
+|---|---|
+| **RAM meter: off / 16 / 32 / 64 GB** | Adds "of 32 GB" and a bar under RAM. **Off** shows plain numbers (the default) |
+| **VRAM meter: off / 8 / 16 / 32 GB** | The same for VRAM. A bar turns **red** above 90% |
+| **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
+| **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
+| **Gaps: on / off** | **Off** makes the cards reach right to the edges of the screen when you use **Fit to monitor** (great with square corners). See [which layouts have gaps](#gaps) |
+| **Theme: Dark / White / Clear / Float** | Same four themes as the overlays |
+
+![Options: memory meters, FPS scale and corners](previews/rainmeter/options.png)
+
+<a id="gaps"></a>
+**Which layouts have gaps?** Only the ones made of separate cards. The **Gaps** option changes these:
+
+| Has gaps (Gaps option works) | One solid panel (no gaps to remove) |
+|---|---|
+| Second Screen → **16x9** and **Portrait** | Second Screen → **16x9 Box** and **Portrait Box** |
+| **Case Screen Widgets** (all screens) | **Case Screen Classic** (all screens) |
+| **Bar Screen Widgets** (Lian Li bars, Lancool 207, Xeneon Edge) | **Bar Screen Classic** (Lian Li bars, Lancool 207, Xeneon Edge) |
+| | The five **desktop widgets** (one box each) |
+
+Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on a card layout. Add **Corners: square** for sharp edges.
+
+### ⬇️ Set it up (about 5 minutes)
+
+**1️⃣ Install the programs**
+
+| Program | What it does |
+|---|---|
+| [**Rainmeter**](https://www.rainmeter.net/) | Shows the skins on your desktop |
+| [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Reads your temperatures, clocks, power and FPS. Keep it running in the background |
+
+You **don't** need to install the Inter font for this one: it comes inside the pack.
+
+**2️⃣ Turn on the readings in MSI Afterburner**
+
+Open Afterburner → **Settings → Monitoring**. In the list, tick each of these, then press **OK**:
+
+*GPU temperature, GPU usage, Memory usage, Core clock, Memory clock, Power, CPU temperature, CPU clock, CPU power, Framerate, Frametime, Framerate 1% low, Framerate 0.1% low.*
+
+Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame time only fill in **while a game is running** (Afterburner gets them from RTSS, which installs together with Afterburner).
+
+![Afterburner monitoring tab](previews/setup/ab_monitoring.png)
+
+**3️⃣ Install the skin**
+
+Download **`Apple Style Monitor 1.4.rmskin`** (the file keeps its first name) from the [Monitors & Widgets 1.4 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitors-and-Widgets-1.4v) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+
+**4️⃣ Pick your layout**
+
+Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **AppleStyleMonitor** (the skin's folder name), then the folder for your screen (see the table above). Click the layout file, for example **Second Screen → 16x9 Box**, and click **Load**. Each folder can show one layout at a time; unload the ones you don't use.
+
+![Manage Rainmeter](previews/rainmeter/setup_manage.png)
+
+**5️⃣ Put it on your screen**
+
+Right-click the skin → **Custom skin actions**:
+
+- **Fit to monitor 1 / 2 / 3**: fills that whole screen. This is the one for a HYTE or Lian Li screen or a second monitor. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number and name.
+- **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
+- **Center on its monitor** puts it back in the middle.
+- **GPU 2** if your PC has integrated graphics and the GPU numbers look wrong.
+- Plus the meters, FPS scale, corners, gaps and theme from [the options above](#monitor-options).
+
+![Right-click menu: Custom skin actions](previews/rainmeter/setup_menu.png)
+
+The ✓ shows what's picked. Scroll down the menu for **FPS scale**, **Theme** and **GPU**.
+
+It remembers its size, screen and options after a restart.
+
+**6️⃣ HYTE and Lian Li screens only**
+
+- **Lian Li:** in **L-Connect 3**, switch the screen to **secondary screen** mode so Windows uses it as a normal monitor.
+- **HYTE and Corsair Xeneon Edge:** make sure the screen shows up as a monitor in **Windows Settings → System → Display**. Set it to **Landscape** or **Portrait** to match how it's mounted.
+- **Upright screens:** set the screen to **Portrait** in Windows display settings and use a Case Screen layout.
+- **Lancool 207 Digital:** set the screen to **Landscape** (1600x720) in Windows display settings and use the *Lian Li Lancool 207 1600x720* layout in **Bar Screen Classic** or **Bar Screen Widgets**.
+- **Taskbar:** turn off **Settings → Personalization → Taskbar → Taskbar behaviors → "Show my taskbar on all displays"**, or Windows puts a taskbar on the small screen too and the skin can't fill it.
+
+### Good to know
+
+- **No VRAM temperature or fan speed.** Most graphics cards don't send these to Afterburner, so they're left out to keep it working on every PC.
+- The **charts fill up over time**: they start empty and cover the last 2 minutes (frame time: the last 60 seconds) once full.
+- **Frame time** is worked out from your FPS if Afterburner doesn't send it.
+- **Network** is your internet download (blue) and upload (orange) speed.
+- **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE, Lian Li and Xeneon Edge layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
+
+### Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#rainmeter)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
+| Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
+| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **GPU 2**. |
+| It fills the wrong screen | Use **Fit to monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
+| It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu. |
+| The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
+| Gaps at the edges or corners when it fills a screen | Pick **Gaps: off** and **Corners: square**. Also check you picked the layout for your screen's shape (16x9 for a normal monitor, Portrait for an upright one). |
+| A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
+| Text from other skins shows behind it | That's Rainmeter's built-in **illustro** skins. In Manage, open **illustro** and **Unload** each one. |
+| The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
 
 ---
 
