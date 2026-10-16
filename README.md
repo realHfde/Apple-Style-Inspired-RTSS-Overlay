@@ -231,6 +231,19 @@ It should look like this. Every overlay is a **pair**: the `.ovl` file and its `
 
 In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and launch a game. It shows at the top centre, or on the right edge (Sleek Side and Performance).
 
+<a id="smooth"></a>
+### 🧈 Keep it smooth (no stutter)
+
+The overlay itself is light: it redraws every **500 ms** (the RTSS refresh period from [step 4](#rtss-setup)). Stutter usually comes from the monitoring apps reading sensors too often, so:
+
+| App | Setting | Set it to |
+|---|---|---|
+| **MSI Afterburner** | Settings → Monitoring → **Hardware polling period** | **1000** ms |
+| **HWiNFO** *(Volt only)* | Sensor Settings → **Global** polling period | **2000** ms |
+| **HWiNFO** *(Volt only)* | In the sensors window, right-click sensors you don't need (drive **S.M.A.R.T.**, **embedded controller (EC)**, extra motherboard sensors) → **Disable monitoring** | Off |
+
+Want the lightest setup? Use **🟢 Essential**: it only needs Afterburner + RTSS, with no HWiNFO at all.
+
 <a id="hotkey"></a>
 ### ⌨️ Show / hide the overlay with a hotkey
 
