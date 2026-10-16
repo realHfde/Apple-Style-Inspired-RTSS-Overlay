@@ -16,7 +16,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
 - **🕘 New: Island Bar Time (MSI Edition).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
 - **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (MSI Edition and Original) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
-- **📱 New: Apple Style Monitor 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens and **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital), and five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
+- **📱 New: Apple Style Monitor 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
 - **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
 - **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
@@ -333,7 +333,7 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 <a id="rainmeter"></a>
 ## 📱 Apple Style Monitor: second screen, HYTE, Lian Li & desktop widgets (Rainmeter)
 
-### Your stats on a second monitor, your case screen or your desktop, live while you play.
+### Your stats on a second monitor, your case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
 RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE case screen or a Lian Li screen and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
 
@@ -355,6 +355,8 @@ RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rai
 | **Lian Li 8.8" Universal Screen** (upright) | 480x1920 | **Case Screen Classic** or **Case Screen Widgets** |
 | **Lian Li Lancool 207 Digital** (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Lian Li Lancool 207 1600x720* |
 | **Lian Li Lancool 207 Digital** (6", set to portrait) | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Corsair Xeneon Edge** (14.5", sideways) | 2560x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Corsair Xeneon Edge 2560x720* |
+| **Corsair Xeneon Edge** (14.5", upright) | 720x2560 | **Case Screen Classic** or **Case Screen Widgets** → *Corsair Xeneon Edge upright 720x2560* |
 | **Your normal desktop** | any | **Sidebar**, **Alternate Sidebar**, **Alternate Vertical**, **Horizontal**, **Alternate Horizontal** |
 
 **Classic** is one panel that fills the whole screen. **Widgets** are separate rounded cards with your wallpaper showing between them. Every case-screen layout was checked at the screen's real size, so the text stays readable on the small Lian Li screens too.
@@ -372,6 +374,10 @@ RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rai
 **Lancool 207 Digital:** its 6" screen sits sideways in the front of the case, so it has its own landscape layout with big text.
 
 ![Lancool 207 sideways](previews/rainmeter/lancool-sideways.png)
+
+**Corsair Xeneon Edge:** works sideways or upright. It connects with HDMI or USB-C, so Windows sees it as a normal monitor.
+
+![Corsair Xeneon Edge sideways and upright](previews/rainmeter/xeneon-edge.png)
 
 ### Desktop widgets
 
@@ -401,7 +407,7 @@ Right-click any skin → **Custom skin actions**. Every Apple Style Monitor skin
 |---|---|
 | Second Screen → **16x9** and **Portrait** | Second Screen → **16x9 Box** and **Portrait Box** |
 | **Case Screen Widgets** (all screens) | **Case Screen Classic** (all screens) |
-| **Bar Screen Widgets** (Lian Li bars and Lancool 207) | **Bar Screen Classic** (Lian Li bars and Lancool 207) |
+| **Bar Screen Widgets** (Lian Li bars, Lancool 207, Xeneon Edge) | **Bar Screen Classic** (Lian Li bars, Lancool 207, Xeneon Edge) |
 | | The five **desktop widgets** (one box each) |
 
 Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on a card layout. Add **Corners: square** for sharp edges.
@@ -458,7 +464,7 @@ It remembers its size, screen and options after a restart.
 **6️⃣ HYTE and Lian Li screens only**
 
 - **Lian Li:** in **L-Connect 3**, switch the screen to **secondary screen** mode so Windows uses it as a normal monitor.
-- **HYTE:** make sure the case screen shows up as a monitor in **Windows Settings → System → Display**.
+- **HYTE and Corsair Xeneon Edge:** make sure the screen shows up as a monitor in **Windows Settings → System → Display**. Set it to **Landscape** or **Portrait** to match how it's mounted.
 - **Upright screens:** set the screen to **Portrait** in Windows display settings and use a Case Screen layout.
 - **Lancool 207 Digital:** set the screen to **Landscape** (1600x720) in Windows display settings and use the *Lian Li Lancool 207 1600x720* layout in **Bar Screen Classic** or **Bar Screen Widgets**.
 - **Taskbar:** turn off **Settings → Personalization → Taskbar → Taskbar behaviors → "Show my taskbar on all displays"**, or Windows puts a taskbar on the small screen too and the skin can't fill it.
