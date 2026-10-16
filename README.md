@@ -18,6 +18,12 @@ Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaT
 
 <p align="center"><a href="#get-started"><b>⬇️ Get started</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
+### 🎮 In game
+
+<p align="center"><img src="previews/ingame/essential_sleek_clear.png" alt="Essential Sleek, Clear theme, in game"><br><sub><b>🟢 Essential Sleek</b> · Clear theme · 5120×1440</sub></p>
+
+<p align="center"><img src="previews/ingame/volt_sleek_compact_dark.png" alt="Volt Sleek Compact, Dark theme, in game"><br><sub><b>⚡ Volt Sleek Compact</b> · Dark theme · 5120×1440</sub></p>
+
 **Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
