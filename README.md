@@ -4,18 +4,17 @@ Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaT
 
 ### Pick yours
 
-<table>
-<tr>
-<td align="center" width="33%" valign="top"><a href="#essential"><img src="previews/essential/lineup.png" alt="🟢 Essential"></a><br><a href="#essential"><b>🟢 Essential</b></a><br><sub>In-game overlay<br>RTSS + MSI Afterburner</sub><br><sub><a href="#essential">👀 Preview</a> · <a href="#get-started">⬇️ Set up</a></sub></td>
-<td align="center" width="33%" valign="top"><a href="#volt"><img src="previews/themes_all.png" alt="⚡ Volt"></a><br><a href="#volt"><b>⚡ Volt</b></a><br><sub>In-game overlay + HWiNFO<br>12V-2x6 / 12VHPWR cable monitoring</sub><br><sub><a href="#volt">👀 Preview</a> · <a href="#get-started">⬇️ Set up</a></sub></td>
-<td align="center" width="33%" valign="top"><a href="#rainmeter"><img src="previews/rainmeter/second-screen.png" alt="📱 Monitors & Widgets"></a><br><a href="#rainmeter"><b>📱 Monitors & Widgets</b></a><br><sub>Second screen, case screen & desktop<br>Rainmeter + MSI Afterburner</sub><br><sub><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Set up</a></sub></td>
-</tr>
-<tr>
-<td align="center" width="33%" valign="top"><a href="#laptops"><img src="previews/thumbs/essential-island-bar.png" alt="💻 Laptops"></a><br><a href="#laptops"><b>💻 Laptops</b></a><br><sub>Island Bar and Island Bar Time<br>1920x1200 to 2880x1800</sub><br><sub><a href="#laptops">👀 Preview</a> · <a href="#get-started">⬇️ Set up</a></sub></td>
-<td align="center" width="33%" valign="top"><a href="#tvs"><img src="previews/tv.png" alt="📺 TVs"></a><br><a href="#tvs"><b>📺 TVs</b></a><br><sub>TV Pill and TV Side<br>Big numbers for the couch</sub><br><sub><a href="#tvs">👀 Preview</a> · <a href="#get-started">⬇️ Set up</a></sub></td>
-<td align="center" width="33%" valign="top"><a href="#themes"><img src="previews/volt/sleek.png" alt="🎨 Themes"></a><br><a href="#themes"><b>🎨 Themes</b></a><br><sub>Dark, White, Clear and Float<br>for every overlay</sub></td>
-</tr>
-</table>
+<p align="center">
+<a href="#essential"><img src="previews/cards/essential.png" width="32%" alt="Essential"></a>
+<a href="#volt"><img src="previews/cards/volt.png" width="32%" alt="Volt"></a>
+<a href="#rainmeter"><img src="previews/cards/monitors.png" width="32%" alt="Monitors & Widgets"></a>
+</p>
+
+<p align="center">
+<a href="#laptops"><img src="previews/cards/laptops.png" width="32%" alt="Laptops"></a>
+<a href="#tvs"><img src="previews/cards/tvs.png" width="32%" alt="TVs"></a>
+<a href="#themes"><img src="previews/cards/themes.png" width="32%" alt="Themes"></a>
+</p>
 
 <p align="center"><a href="#get-started"><b>⬇️ Get started</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
