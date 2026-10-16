@@ -34,7 +34,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
-- **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. Clocks now use the **12-hour** format. Works on **Rainmeter 4.5 and 5**.
+- **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. New **Clock** option in Settings: **12-hour** (the default) or **24-hour**. Works on **Rainmeter 4.5 and 5**.
 - **⚙️ New: Settings panel for Monitors & Widgets 1.5.** Right-click → Custom skin actions → **Settings…** and click the theme, FPS scale, meters, corners, gaps or GPU you want. (In 1.4 some of these were cut off the right-click menu.)
 - **🔧 Fixed: 4K 1.5x / 2x overlays and TV Pill 4K** now show their rings, meters and panel correctly.
 - **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. The files are renamed to match: overlays now start with `essential_` or `volt_`, the downloads are called **Essential…zip**, **Volt…zip** and **TV…zip**, and the Rainmeter skin installs as **MonitorsAndWidgets**. Nothing else changed. Had the old ones? See [switching from the old names](#old-names).
@@ -613,6 +613,7 @@ Right-click any skin → **Custom skin actions** → **Settings…**. A panel op
 | **VRAM meter: off / 8 / 16 / 32 GB** | The same for VRAM. A bar turns **red** above 90% |
 | **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
 | **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
+| **Clock: 12-hour / 24-hour** | How the time shows on every clock, e.g. **12:17** or **00:17**. 12-hour is the default |
 | **Theme: Dark / White / Clear / Float** | Same four themes as the overlays |
 | **GPU: 1 / 2** | Pick **2** if your PC has integrated graphics and the GPU numbers look wrong |
 
@@ -660,7 +661,7 @@ Right-click the skin → **Custom skin actions**:
 - **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
   > 💡 If a Size preset doesn't change the size (the **HYTE** layouts don't really resize with them yet), use **Rainmeter 5's Zoom** instead: Manage → pick the skin → **Zoom** (10% to 500%), or the Zoom option in the skin's right-click menu.
 - **Center on its monitor** puts it back in the middle.
-- **Settings…** opens the [Settings panel](#monitor-options) for the theme, FPS scale, meters, corners and GPU.
+- **Settings…** opens the [Settings panel](#monitor-options) for the theme, FPS scale, meters, corners, clock and GPU.
 
 <img src="previews/rainmeter/setup_menu.png" width="420" alt="Right-click menu: Custom skin actions">
 
