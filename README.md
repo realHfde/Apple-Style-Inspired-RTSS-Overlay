@@ -2,6 +2,8 @@
 
 Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops and TVs.
 
+### 📱 New: **Apple Style Monitor** for your second screen, HYTE case screen or Lian Li screen (Rainmeter). [See it below](#rainmeter).
+
 ### 🟢 Don't need VRAM temperature or the 12V cable? Then you only need **MSI Afterburner + RTSS**. Grab the [**MSI Edition**](#msi-edition), with no HWiNFO at all.
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
@@ -14,7 +16,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
 - **🕘 New: Island Bar Time (MSI Edition).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
 - **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (MSI Edition and Original) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
-- **📱 HYTE / second screen: coming soon.** A widget made for HYTE Y70 case screens and second monitors is on the way. RTSS overlays only show inside games, so they can't be used on a case screen; the new widget will.
+- **📱 New: Apple Style Monitor (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, and layouts made for **HYTE Y70** case screens and **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital). Live while you play on your main screen. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
 - **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
 - **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
@@ -328,6 +330,118 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 
 ---
 
+<a id="rainmeter"></a>
+## 📱 Apple Style Monitor: second screen, HYTE & Lian Li (Rainmeter)
+
+### Your stats on a second monitor or your case screen, live while you play.
+
+RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE case screen or a Lian Li screen and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
+
+![Apple Style Monitor on a second screen](previews/rainmeter/second-screen.png)
+
+**What it shows:** CPU and GPU usage, temperature, clock and power, CPU temperature graph, VRAM, GPU core and memory clock, FPS, 1% and 0.1% lows, frame time with a chart, RAM, free space on C:, network speed, a performance chart of CPU, GPU and FPS, plus the time, date and uptime. Memory is shown as plain numbers, so it works the same on any PC (16, 32 or 64 GB, any graphics card).
+
+### Pick your layout
+
+| Screen | Resolution | Layouts |
+|---|---|---|
+| **Second monitor** (1080p, 1440p, 4K) | 16:9 | **Second Screen → 16x9** |
+| **Monitor turned upright** | 1080x1920 | **Second Screen → Portrait** |
+| **HYTE Y70 Touch** (1st gen, 14.1") | 1100x3840 | **Case Screen Classic** or **Case Screen Widgets** |
+| **HYTE Y70 Touch Infinite** (14.5" / 14.9") | 688x2560 / 682x2560 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Lian Li 8.8" Universal Screen** (sideways) | 1920x480 | **Bar Screen Classic** or **Bar Screen Widgets** |
+| **Lian Li 9.2" O11 Vision-M kit** | 1920x462 | **Bar Screen Classic** or **Bar Screen Widgets** |
+| **Lian Li 8.8" Universal Screen** (upright) | 480x1920 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Lian Li Lancool 207 Digital** (6") | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
+
+**Classic** is one panel that fills the whole screen. **Widgets** are separate rounded cards with your wallpaper showing between them. Every layout was checked at the screen's real size, so the text stays readable on the small Lian Li screens too.
+
+![Second screen layouts](previews/rainmeter/second-screen-layouts.png)
+
+![HYTE and Lian Li case screens](previews/rainmeter/case-screens.png)
+
+![Lian Li bar screens](previews/rainmeter/bar-screens.png)
+
+### Four themes
+
+Same as the overlays: **Dark**, **White**, **Clear** and **Float**. Change it any time from the right-click menu; every skin switches together.
+
+![Dark, White, Clear and Float](previews/rainmeter/themes.png)
+
+### ⬇️ Set it up (about 5 minutes)
+
+**1️⃣ Install the programs**
+
+| Program | What it does |
+|---|---|
+| [**Rainmeter**](https://www.rainmeter.net/) | Shows the skins on your desktop |
+| [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Reads your temperatures, clocks, power and FPS. Keep it running in the background |
+
+You **don't** need to install the Inter font for this one: it comes inside the pack.
+
+**2️⃣ Turn on the readings in MSI Afterburner**
+
+Open Afterburner → **Settings → Monitoring**. In the list, tick each of these, then press **OK**:
+
+*GPU temperature, GPU usage, Memory usage, Core clock, Memory clock, Power, CPU temperature, CPU clock, CPU power, Framerate, Frametime, Framerate 1% low, Framerate 0.1% low.*
+
+Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame time only fill in **while a game is running** (Afterburner gets them from RTSS, which installs together with Afterburner).
+
+![Afterburner monitoring tab](previews/setup/ab_monitoring.png)
+
+**3️⃣ Install the skin**
+
+Download **`Apple Style Monitor 1.3.rmskin`** from the [latest release](../../releases/latest) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+
+**4️⃣ Pick your layout**
+
+Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **AppleStyleMonitor**, pick the layout for your screen (see the table above) and click **Load**. Unload the ones you don't use.
+
+![Manage Rainmeter](previews/rainmeter/setup_manage.png)
+
+**5️⃣ Put it on your screen**
+
+Right-click the skin → **Custom skin actions**:
+
+- **Fit to monitor 1 / 2 / 3**: fills that whole screen. This is the one for a HYTE or Lian Li screen or a second monitor. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number and name.
+- **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
+- **Center on its monitor** puts it back in the middle.
+- **Theme: Dark / White / Clear / Float**, and **GPU 2** if your PC has integrated graphics and the GPU numbers look wrong.
+
+![Right-click menu](previews/rainmeter/setup_menu.png)
+
+It remembers its size, screen and theme after a restart.
+
+**6️⃣ HYTE and Lian Li screens only**
+
+- **Lian Li:** in **L-Connect 3**, switch the screen to **secondary screen** mode so Windows uses it as a normal monitor.
+- **HYTE:** make sure the case screen shows up as a monitor in **Windows Settings → System → Display**.
+- **Upright screens:** set the screen to **Portrait** in Windows display settings and use a Case Screen layout.
+- **Taskbar:** turn off **Settings → Personalization → Taskbar → Taskbar behaviors → "Show my taskbar on all displays"**, or Windows puts a taskbar on the small screen too and the skin can't fill it.
+
+### Good to know
+
+- **No VRAM temperature or fan speed.** Most graphics cards don't send these to Afterburner, so they're left out to keep it simple and working on every PC.
+- The **graphs fill up over time**: they start empty and move one pixel per second.
+- **Network** is your internet download (blue) and upload (orange) speed.
+- RAM, VRAM and disk are shown as **plain numbers with no limits**, so they work on any PC.
+- **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE and Lian Li layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
+
+### Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#rainmeter)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
+| Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
+| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **GPU 2**. |
+| It fills the wrong screen | Use **Fit to monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
+| It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu. |
+| A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
+| Text from other skins shows behind it | That's Rainmeter's built-in **illustro** skins. In Manage, open **illustro** and **Unload** each one. |
+| The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
+
+---
+
 ## Overlays (Original, with HWiNFO extras)
 
 Here's the full original lineup. Every overlay comes in **Dark, White, Clear and Float** ([see themes](#themes)).
@@ -378,8 +492,8 @@ A vertical panel for the side of the screen, with CPU and GPU usage graphs.
 
 <img src="previews/sleek_side.png" width="260" alt="Sleek Side">
 
-### 📱 HYTE screen / second monitor: coming soon
-A widget made for **HYTE Y70 case screens** and **second monitors** is on the way. RTSS overlays only appear **inside a game**, so they can't show stats on a case screen while you play on your main monitor. The new widget runs on the desktop of any screen, in the same Apple style.
+### 📱 HYTE screen / Lian Li screen / second monitor
+Now available as **Apple Style Monitor** for Rainmeter. [See it below](#rainmeter).
 
 ### Performance Overlay
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
