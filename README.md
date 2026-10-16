@@ -236,11 +236,13 @@ In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and l
 
 The overlay itself is light: it redraws every **500 ms** (the RTSS refresh period from [step 4](#rtss-setup)). Stutter usually comes from the monitoring apps reading sensors too often, so:
 
-| App | Setting | Set it to |
-|---|---|---|
-| **MSI Afterburner** | Settings → Monitoring → **Hardware polling period** | **1000** ms |
-| **HWiNFO** *(Volt only)* | Sensor Settings → **Global** polling period | **2000** ms |
-| **HWiNFO** *(Volt only)* | In the sensors window, right-click sensors you don't need (drive **S.M.A.R.T.**, **embedded controller (EC)**, extra motherboard sensors) → **Disable monitoring** | Off |
+| # | App | Setting | Set it to |
+|---|---|---|---|
+| 1 | **MSI Afterburner** | Settings → Monitoring → **Hardware polling period** | **1000** ms |
+| 2 | **HWiNFO** *(Volt only)* | Sensor Settings → General → **Global** polling period | **2000** ms |
+| 3 | **HWiNFO** *(Volt only)* | Same box: **Disk S.M.A.R.T. every** … cycles and **Emb. Controller every** … cycles | **100** and **10** (checks drives and the embedded controller less often, the usual stutter cause), then click **Set** |
+
+<img src="previews/setup/ab_polling.png" width="420" alt="Afterburner: Hardware polling period 1000"> <img src="previews/hwinfo/4_polling.png" width="420" alt="HWiNFO Sensor Settings: Global 2000 ms, Disk S.M.A.R.T. and Emb. Controller cycles, Set">
 
 Want the lightest setup? Use **🟢 Essential**: it only needs Afterburner + RTSS, with no HWiNFO at all.
 
