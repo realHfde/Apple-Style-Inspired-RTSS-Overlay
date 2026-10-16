@@ -232,7 +232,7 @@ It should look like this. Every overlay is a **pair**: the `.ovl` file and its `
 | 1 | The address bar ends in **RivaTuner Statistics Server › Plugins › Client › Overlays** |
 | 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `essential_sleek.ovl` + `essential_sleek_atlas.png`). Essential files start with `essential_`, Volt files with `volt_` |
 
-<img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: sleek.ovl next to sleek_atlas.png">
+<img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: essential_performance_overlay.ovl next to essential_performance_overlay_atlas.png">
 
 ### 7️⃣ Load it and play 🎮
 
