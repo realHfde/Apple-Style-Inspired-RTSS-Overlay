@@ -256,6 +256,8 @@ Want the lightest setup? Use **🟢 Essential**: it only needs Afterburner + RTS
 | 3 | Click the box next to **Toggle On-Screen Display** and press the key you want (e.g. **F10**) |
 | 4 | Click **OK** |
 
+<img src="previews/setup/ab_hotkey.png" width="560" alt="Afterburner: Settings gear, On-Screen Display tab, Toggle On-Screen Display, OK">
+
 Now press that key in game to show or hide the overlay. Handy for screenshots and recordings.
 
 <a id="two-gpus"></a>
