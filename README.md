@@ -18,6 +18,12 @@ Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaT
 
 <p align="center"><a href="#get-started"><b>⬇️ Get started</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
+## 📣 Announcement
+
+- **Coming next:** testing on more resolutions, new designs and new color versions. These take time to get right, so updates will come a bit slower for a while.
+- **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+- See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/categories/announcements) for the full to-do list.
+
 ### 🎮 In game
 
 <p align="center"><img src="previews/ingame/essential_sleek_clear.png" alt="Essential Sleek, Clear theme, in game"><br><sub><b>🟢 Essential Sleek</b> · Clear theme · 5120×1440</sub></p>
@@ -34,8 +40,6 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
 <a id="whats-new"></a>
 ## 🆕 What's new
-
-> 🗺️ **What's next?** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/categories/announcements) for upcoming updates.
 
 **October 2026**
 - **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. New **Clock** option in Settings: **12-hour** (the default) or **24-hour**. Works on **Rainmeter 4.5 and 5**.
