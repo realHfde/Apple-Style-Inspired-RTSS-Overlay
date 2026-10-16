@@ -14,7 +14,7 @@ PingAddr=127.0.0.1
 [General]
 Sources=16
 Tables=0
-Layers=94
+Layers=103
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -155,29 +155,101 @@ ReadingType=8
 ReadingName=Performance Limit - Thermal
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,0,1230,138>
+Text=<I=0,0,0,1412,128,138>
 PositionX=1305
 PositionY=24
-ExtentX=1230
+ExtentX=128
 ExtentY=138
 ExtentOrigin=0
 [Layer1]
+Name=Panel 2
+Text=<I=0,0,130,1412,128,138>
+PositionX=1433
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer2]
+Name=Panel 3
+Text=<I=0,0,130,1412,128,138>
+PositionX=1561
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer3]
+Name=Panel 4
+Text=<I=0,0,260,1412,128,138>
+PositionX=1689
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer4]
+Name=Panel 5
+Text=<I=0,0,130,1412,128,138>
+PositionX=1817
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer5]
+Name=Panel 6
+Text=<I=0,0,130,1412,128,138>
+PositionX=1945
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer6]
+Name=Panel 7
+Text=<I=0,0,390,1412,128,138>
+PositionX=2073
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer7]
+Name=Panel 8
+Text=<I=0,0,130,1412,128,138>
+PositionX=2201
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer8]
+Name=Panel 9
+Text=<I=0,0,520,1412,128,138>
+PositionX=2329
+PositionY=24
+ExtentX=128
+ExtentY=138
+ExtentOrigin=0
+[Layer9]
+Name=Panel 10
+Text=<I=0,0,650,1412,78,138>
+PositionX=2457
+PositionY=24
+ExtentX=78
+ExtentY=138
+ExtentOrigin=0
+[Layer10]
 Name=CPU ring
-Text=<AI=CPU usage,0,0,0,102,0,140,90,90,51,17,0>
+Text=<AI=CPU usage,0,0,0,102,0,0,90,90,51,11,0>
 PositionX=1329
 PositionY=48
 ExtentX=90
 ExtentY=90
 ExtentOrigin=0
-[Layer2]
+[Layer11]
 Name=CPU temp ring
-Text=<AI=CPU temperature,0,0,0,102,0,412,63,63,51,17,0>
+Text=<AI=CPU temperature,0,0,0,102,0,904,63,63,51,16,0>
 PositionX=1343
 PositionY=62
 ExtentX=63
 ExtentY=63
 ExtentOrigin=0
-[Layer3]
+[Layer12]
 Name=CPU label shadow
 Text=CPU
 PositionX=1445
@@ -187,7 +259,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer4]
+[Layer13]
 Name=CPU label shadow
 Text=CPU
 PositionX=1443
@@ -197,7 +269,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer5]
+[Layer14]
 Name=CPU label
 Text=CPU
 PositionX=1443
@@ -207,7 +279,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=0A84FF
-[Layer6]
+[Layer15]
 Name=CPU usage shadow
 Text=%CPU usage%%
 PositionX=1445
@@ -217,7 +289,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=150
 TextColor=000000
-[Layer7]
+[Layer16]
 Name=CPU usage shadow
 Text=%CPU usage%%
 PositionX=1443
@@ -227,7 +299,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=150
 TextColor=000000
-[Layer8]
+[Layer17]
 Name=CPU usage
 Text=%CPU usage%%
 PositionX=1443
@@ -237,7 +309,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=150
 TextColor=FFFFFF
-[Layer9]
+[Layer18]
 Name=CPU temperature shadow
 Text=%CPU temperature%°C
 PositionX=1445
@@ -247,7 +319,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=98
 TextColor=000000
-[Layer10]
+[Layer19]
 Name=CPU temperature shadow
 Text=%CPU temperature%°C
 PositionX=1443
@@ -257,7 +329,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=98
 TextColor=000000
-[Layer11]
+[Layer20]
 Name=CPU temperature
 Text=%CPU temperature%°C
 PositionX=1443
@@ -267,7 +339,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=98
 TextColor=FF9F0A
-[Layer12]
+[Layer21]
 Name=CPU Power label shadow
 Text=Power
 PositionX=1541
@@ -277,7 +349,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer13]
+[Layer22]
 Name=CPU Power label shadow
 Text=Power
 PositionX=1539
@@ -287,7 +359,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer14]
+[Layer23]
 Name=CPU Power label
 Text=Power
 PositionX=1539
@@ -297,7 +369,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer15]
+[Layer24]
 Name=CPU Power shadow
 Text=%CPU power% W
 PositionX=1541
@@ -307,7 +379,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer16]
+[Layer25]
 Name=CPU Power shadow
 Text=%CPU power% W
 PositionX=1539
@@ -317,7 +389,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer17]
+[Layer26]
 Name=CPU Power
 Text=%CPU power% W
 PositionX=1539
@@ -327,7 +399,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer18]
+[Layer27]
 Name=CPU Clock label shadow
 Text=Clock
 PositionX=1541
@@ -337,7 +409,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer19]
+[Layer28]
 Name=CPU Clock label shadow
 Text=Clock
 PositionX=1539
@@ -347,7 +419,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer20]
+[Layer29]
 Name=CPU Clock label
 Text=Clock
 PositionX=1539
@@ -357,7 +429,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer21]
+[Layer30]
 Name=CPU Clock shadow
 Text=%CPU clock% GHz
 PositionX=1541
@@ -367,7 +439,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer22]
+[Layer31]
 Name=CPU Clock shadow
 Text=%CPU clock% GHz
 PositionX=1539
@@ -377,7 +449,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer23]
+[Layer32]
 Name=CPU Clock
 Text=%CPU clock% GHz
 PositionX=1539
@@ -387,7 +459,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer24]
+[Layer33]
 Name=CPU RAM label shadow
 Text=RAM
 PositionX=1541
@@ -397,7 +469,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer25]
+[Layer34]
 Name=CPU RAM label shadow
 Text=RAM
 PositionX=1539
@@ -407,7 +479,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer26]
+[Layer35]
 Name=CPU RAM label
 Text=RAM
 PositionX=1539
@@ -417,7 +489,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer27]
+[Layer36]
 Name=CPU RAM shadow
 Text=%RAM usage% GB
 PositionX=1541
@@ -427,7 +499,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer28]
+[Layer37]
 Name=CPU RAM shadow
 Text=%RAM usage% GB
 PositionX=1539
@@ -437,7 +509,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer29]
+[Layer38]
 Name=CPU RAM
 Text=%RAM usage% GB
 PositionX=1539
@@ -447,23 +519,23 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer30]
+[Layer39]
 Name=GPU ring
-Text=<AI=GPU1 usage,0,0,0,102,0,603,90,90,51,17,0>
+Text=<AI=GPU1 usage,0,0,0,102,0,452,90,90,51,11,0>
 PositionX=1734
 PositionY=48
 ExtentX=90
 ExtentY=90
 ExtentOrigin=0
-[Layer31]
+[Layer40]
 Name=GPU temp ring
-Text=<AI=GPU1 temperature,0,0,0,102,0,875,63,63,51,17,0>
+Text=<AI=GPU1 temperature,0,0,0,102,0,1158,63,63,51,16,0>
 PositionX=1747
 PositionY=62
 ExtentX=63
 ExtentY=63
 ExtentOrigin=0
-[Layer32]
+[Layer41]
 Name=GPU label shadow
 Text=GPU
 PositionX=1849
@@ -473,7 +545,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer33]
+[Layer42]
 Name=GPU label shadow
 Text=GPU
 PositionX=1848
@@ -483,7 +555,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer34]
+[Layer43]
 Name=GPU label
 Text=GPU
 PositionX=1848
@@ -493,7 +565,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=BF5AF2
-[Layer35]
+[Layer44]
 Name=GPU usage shadow
 Text=%GPU1 usage%%
 PositionX=1849
@@ -503,7 +575,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=150
 TextColor=000000
-[Layer36]
+[Layer45]
 Name=GPU usage shadow
 Text=%GPU1 usage%%
 PositionX=1848
@@ -513,7 +585,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=150
 TextColor=000000
-[Layer37]
+[Layer46]
 Name=GPU usage
 Text=%GPU1 usage%%
 PositionX=1848
@@ -523,7 +595,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=150
 TextColor=FFFFFF
-[Layer38]
+[Layer47]
 Name=GPU temperature shadow
 Text=%GPU1 temperature%°C
 PositionX=1849
@@ -533,7 +605,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=98
 TextColor=000000
-[Layer39]
+[Layer48]
 Name=GPU temperature shadow
 Text=%GPU1 temperature%°C
 PositionX=1848
@@ -543,7 +615,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=98
 TextColor=000000
-[Layer40]
+[Layer49]
 Name=GPU temperature
 Text=%GPU1 temperature%°C
 PositionX=1848
@@ -553,7 +625,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=98
 TextColor=FFD60A
-[Layer41]
+[Layer50]
 Name=GPU Power label shadow
 Text=Power
 PositionX=1945
@@ -563,7 +635,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer42]
+[Layer51]
 Name=GPU Power label shadow
 Text=Power
 PositionX=1944
@@ -573,7 +645,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer43]
+[Layer52]
 Name=GPU Power label
 Text=Power
 PositionX=1944
@@ -583,7 +655,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer44]
+[Layer53]
 Name=GPU Power shadow
 Text=%GPU1 power% W
 PositionX=1945
@@ -593,7 +665,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer45]
+[Layer54]
 Name=GPU Power shadow
 Text=%GPU1 power% W
 PositionX=1944
@@ -603,7 +675,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer46]
+[Layer55]
 Name=GPU Power
 Text=%GPU1 power% W
 PositionX=1944
@@ -613,7 +685,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer47]
+[Layer56]
 Name=GPU Clock label shadow
 Text=Clock
 PositionX=1945
@@ -623,7 +695,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer48]
+[Layer57]
 Name=GPU Clock label shadow
 Text=Clock
 PositionX=1944
@@ -633,7 +705,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer49]
+[Layer58]
 Name=GPU Clock label
 Text=Clock
 PositionX=1944
@@ -643,7 +715,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer50]
+[Layer59]
 Name=GPU Clock shadow
 Text=%GPU clock% GHz
 PositionX=1945
@@ -653,7 +725,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer51]
+[Layer60]
 Name=GPU Clock shadow
 Text=%GPU clock% GHz
 PositionX=1944
@@ -663,7 +735,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer52]
+[Layer61]
 Name=GPU Clock
 Text=%GPU clock% GHz
 PositionX=1944
@@ -673,7 +745,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer53]
+[Layer62]
 Name=GPU VRAM label shadow
 Text=VRAM
 PositionX=1945
@@ -683,7 +755,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer54]
+[Layer63]
 Name=GPU VRAM label shadow
 Text=VRAM
 PositionX=1944
@@ -693,7 +765,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer55]
+[Layer64]
 Name=GPU VRAM label
 Text=VRAM
 PositionX=1944
@@ -703,7 +775,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer56]
+[Layer65]
 Name=GPU VRAM shadow
 Text=%GPU1 memory usage% GB
 PositionX=1945
@@ -713,7 +785,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer57]
+[Layer66]
 Name=GPU VRAM shadow
 Text=%GPU1 memory usage% GB
 PositionX=1944
@@ -723,7 +795,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer58]
+[Layer67]
 Name=GPU VRAM
 Text=%GPU1 memory usage% GB
 PositionX=1944
@@ -733,7 +805,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer59]
+[Layer68]
 Name=Limit power shadow
 Text=Power limit
 PositionX=1727
@@ -744,7 +816,7 @@ ExtentOrigin=4
 Size=68
 TextColor=000000
 VisibilitySource=Limit power
-[Layer60]
+[Layer69]
 Name=Limit power shadow
 Text=Power limit
 PositionX=1725
@@ -755,7 +827,7 @@ ExtentOrigin=4
 Size=68
 TextColor=000000
 VisibilitySource=Limit power
-[Layer61]
+[Layer70]
 Name=Limit power
 Text=Power limit
 PositionX=1725
@@ -766,7 +838,7 @@ ExtentOrigin=4
 Size=68
 TextColor=FF9F0A
 VisibilitySource=Limit power
-[Layer62]
+[Layer71]
 Name=Limit thermal shadow
 Text=Thermal limit
 PositionX=1727
@@ -777,7 +849,7 @@ ExtentOrigin=4
 Size=68
 TextColor=000000
 VisibilitySource=Limit thermal
-[Layer63]
+[Layer72]
 Name=Limit thermal shadow
 Text=Thermal limit
 PositionX=1725
@@ -788,7 +860,7 @@ ExtentOrigin=4
 Size=68
 TextColor=000000
 VisibilitySource=Limit thermal
-[Layer64]
+[Layer73]
 Name=Limit thermal
 Text=Thermal limit
 PositionX=1725
@@ -799,7 +871,7 @@ ExtentOrigin=4
 Size=68
 TextColor=FF453A
 VisibilitySource=Limit thermal
-[Layer65]
+[Layer74]
 Name=FPS label shadow
 Text=FPS
 PositionX=2143
@@ -809,7 +881,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer66]
+[Layer75]
 Name=FPS label shadow
 Text=FPS
 PositionX=2142
@@ -819,7 +891,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer67]
+[Layer76]
 Name=FPS label
 Text=FPS
 PositionX=2142
@@ -829,7 +901,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=30D158
-[Layer68]
+[Layer77]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=2143
@@ -839,7 +911,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=255
 TextColor=000000
-[Layer69]
+[Layer78]
 Name=FPS shadow
 Text=%Framerate%
 PositionX=2142
@@ -849,7 +921,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=255
 TextColor=000000
-[Layer70]
+[Layer79]
 Name=FPS
 Text=%Framerate%
 PositionX=2142
@@ -859,7 +931,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=255
 TextColor=FFFFFF
-[Layer71]
+[Layer80]
 Name=1% label shadow
 Text=1%
 PositionX=2273
@@ -869,7 +941,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer72]
+[Layer81]
 Name=1% label shadow
 Text=1%
 PositionX=2271
@@ -879,7 +951,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer73]
+[Layer82]
 Name=1% label
 Text=1%
 PositionX=2271
@@ -889,7 +961,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer74]
+[Layer83]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=2273
@@ -899,7 +971,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer75]
+[Layer84]
 Name=1% shadow
 Text=%Framerate 1% Low%
 PositionX=2271
@@ -909,7 +981,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=000000
-[Layer76]
+[Layer85]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=2271
@@ -919,7 +991,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer77]
+[Layer86]
 Name=FT label shadow
 Text=FT
 PositionX=2273
@@ -929,7 +1001,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer78]
+[Layer87]
 Name=FT label shadow
 Text=FT
 PositionX=2271
@@ -939,7 +1011,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer79]
+[Layer88]
 Name=FT label
 Text=FT
 PositionX=2271
@@ -949,7 +1021,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=8E8E93
-[Layer80]
+[Layer89]
 Name=FT
 Text=<FT> ms
 PositionX=2271
@@ -959,7 +1031,7 @@ ExtentY=24
 ExtentOrigin=2
 Size=98
 TextColor=FFFFFF
-[Layer81]
+[Layer90]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=2142
@@ -968,7 +1040,7 @@ ExtentX=234
 ExtentY=24
 ExtentOrigin=0
 TextColor=30D158
-[Layer82]
+[Layer91]
 Name=Cable dot shadow
 Text=•
 PositionX=2421
@@ -978,7 +1050,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=135
 TextColor=000000
-[Layer83]
+[Layer92]
 Name=Cable dot shadow
 Text=•
 PositionX=2419
@@ -988,7 +1060,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=135
 TextColor=000000
-[Layer84]
+[Layer93]
 Name=Cable dot
 Text=•
 PositionX=2419
@@ -998,7 +1070,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=135
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
-[Layer85]
+[Layer94]
 Name=Cable label shadow
 Text=12V
 PositionX=2441
@@ -1008,7 +1080,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer86]
+[Layer95]
 Name=Cable label shadow
 Text=12V
 PositionX=2439
@@ -1018,7 +1090,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=000000
-[Layer87]
+[Layer96]
 Name=Cable label
 Text=12V
 PositionX=2439
@@ -1028,7 +1100,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=87
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
-[Layer88]
+[Layer97]
 Name=Cable voltage shadow
 Text=%12V cable%
 PositionX=2423
@@ -1038,7 +1110,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=158
 TextColor=000000
-[Layer89]
+[Layer98]
 Name=Cable voltage shadow
 Text=%12V cable%
 PositionX=2421
@@ -1048,7 +1120,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=158
 TextColor=000000
-[Layer90]
+[Layer99]
 Name=Cable voltage
 Text=%12V cable%
 PositionX=2421
@@ -1058,7 +1130,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=158
 TextColor=FFFFFF
-[Layer91]
+[Layer100]
 Name=Cable V shadow
 Text=V
 PositionX=2513
@@ -1068,7 +1140,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=90
 TextColor=000000
-[Layer92]
+[Layer101]
 Name=Cable V shadow
 Text=V
 PositionX=2511
@@ -1078,7 +1150,7 @@ ExtentY=0
 ExtentOrigin=0
 Size=90
 TextColor=000000
-[Layer93]
+[Layer102]
 Name=Cable V
 Text=V
 PositionX=2511

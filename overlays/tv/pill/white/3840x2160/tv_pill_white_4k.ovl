@@ -14,7 +14,7 @@ PingAddr=127.0.0.1
 [General]
 Sources=8
 Tables=0
-Layers=15
+Layers=29
 [Source0]
 Name=CPU temperature
 Units=°C
@@ -89,21 +89,133 @@ Gpu=FFFFFFFF
 SrcName=
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,1238,1800,290>
+Text=<I=0,0,826,826,128,290>
 PositionX=1020
 PositionY=48
-ExtentX=1800
+ExtentX=128
 ExtentY=290
 ExtentOrigin=0
 [Layer1]
+Name=Panel 2
+Text=<I=0,0,0,1652,128,290>
+PositionX=1148
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer2]
+Name=Panel 3
+Text=<I=0,0,130,1652,128,290>
+PositionX=1276
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer3]
+Name=Panel 4
+Text=<I=0,0,130,1652,128,290>
+PositionX=1404
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer4]
+Name=Panel 5
+Text=<I=0,0,260,1652,128,290>
+PositionX=1532
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer5]
+Name=Panel 6
+Text=<I=0,0,130,1652,128,290>
+PositionX=1660
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer6]
+Name=Panel 7
+Text=<I=0,0,130,1652,128,290>
+PositionX=1788
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer7]
+Name=Panel 8
+Text=<I=0,0,130,1652,128,290>
+PositionX=1916
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer8]
+Name=Panel 9
+Text=<I=0,0,130,1652,128,290>
+PositionX=2044
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer9]
+Name=Panel 10
+Text=<I=0,0,390,1652,128,290>
+PositionX=2172
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer10]
+Name=Panel 11
+Text=<I=0,0,520,1652,128,290>
+PositionX=2300
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer11]
+Name=Panel 12
+Text=<I=0,0,130,1652,128,290>
+PositionX=2428
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer12]
+Name=Panel 13
+Text=<I=0,0,650,1652,128,290>
+PositionX=2556
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer13]
+Name=Panel 14
+Text=<I=0,0,780,1652,128,290>
+PositionX=2684
+PositionY=48
+ExtentX=128
+ExtentY=290
+ExtentOrigin=0
+[Layer14]
+Name=Panel 15
+Text=<I=0,0,910,1652,8,290>
+PositionX=2812
+PositionY=48
+ExtentX=8
+ExtentY=290
+ExtentOrigin=0
+[Layer15]
 Name=CPU ring
-Text=<AI=CPU usage,0,0,0,104,0,0,206,206,26,9,0>
+Text=<AI=CPU usage,0,0,0,101,0,0,206,206,16,4,0>
 PositionX=1057
 PositionY=90
 ExtentX=206
 ExtentY=206
 ExtentOrigin=0
-[Layer2]
+[Layer16]
 Name=CPU usage
 Text=%CPU usage%
 PositionX=1057
@@ -113,7 +225,7 @@ ExtentY=206
 ExtentOrigin=4
 Size=350
 TextColor=0A0A0C
-[Layer3]
+[Layer17]
 Name=CPU label
 Text=CPU
 PositionX=1282
@@ -123,7 +235,7 @@ ExtentY=50
 ExtentOrigin=4
 Size=200
 TextColor=007AFF
-[Layer4]
+[Layer18]
 Name=CPU temperature
 Text=%CPU temperature%°
 PositionX=1282
@@ -133,7 +245,7 @@ ExtentY=146
 ExtentOrigin=4
 Size=590
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(CPU temperature,1)
-[Layer5]
+[Layer19]
 Name=CPU power
 Text=%CPU power% W
 PositionX=1282
@@ -143,15 +255,15 @@ ExtentY=70
 ExtentOrigin=4
 Size=280
 TextColor=2C2C2E
-[Layer6]
+[Layer20]
 Name=GPU ring
-Text=<AI=GPU1 usage,0,0,0,104,0,618,206,206,26,9,0>
+Text=<AI=GPU1 usage,0,0,0,101,0,826,206,206,16,4,0>
 PositionX=2577
 PositionY=90
 ExtentX=206
 ExtentY=206
 ExtentOrigin=0
-[Layer7]
+[Layer21]
 Name=GPU usage
 Text=%GPU1 usage%
 PositionX=2577
@@ -161,7 +273,7 @@ ExtentY=206
 ExtentOrigin=4
 Size=350
 TextColor=0A0A0C
-[Layer8]
+[Layer22]
 Name=GPU label
 Text=GPU
 PositionX=2328
@@ -171,7 +283,7 @@ ExtentY=50
 ExtentOrigin=4
 Size=200
 TextColor=AF52DE
-[Layer9]
+[Layer23]
 Name=GPU temperature
 Text=%GPU1 temperature%°
 PositionX=2328
@@ -181,7 +293,7 @@ ExtentY=146
 ExtentOrigin=4
 Size=590
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(GPU1 temperature,1)
-[Layer10]
+[Layer24]
 Name=GPU power
 Text=%GPU1 power% W
 PositionX=2328
@@ -191,7 +303,7 @@ ExtentY=70
 ExtentOrigin=4
 Size=280
 TextColor=2C2C2E
-[Layer11]
+[Layer25]
 Name=FPS label
 Text=FPS
 PositionX=1620
@@ -201,7 +313,7 @@ ExtentY=50
 ExtentOrigin=4
 Size=200
 TextColor=248A3D
-[Layer12]
+[Layer26]
 Name=FPS
 Text=%Framerate%
 PositionX=1620
@@ -211,7 +323,7 @@ ExtentY=172
 ExtentOrigin=4
 Size=700
 TextColor=0A0A0C
-[Layer13]
+[Layer27]
 Name=1% low label
 Text=1% LOW
 PositionX=1920
@@ -221,7 +333,7 @@ ExtentY=50
 ExtentOrigin=4
 Size=200
 TextColor=48484A
-[Layer14]
+[Layer28]
 Name=1% low
 Text=%Framerate 1% Low%
 PositionX=1920

@@ -89,7 +89,7 @@ Gpu=FFFFFFFF
 SrcName=
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,1238,900,145>
+Text=<I=0,0,0,1240,900,145>
 PositionX=510
 PositionY=24
 ExtentX=900
@@ -97,7 +97,7 @@ ExtentY=145
 ExtentOrigin=0
 [Layer1]
 Name=CPU ring
-Text=<AI=CPU usage,0,0,0,102,0,0,103,103,51,10,0>
+Text=<AI=CPU usage,0,0,0,102,0,0,103,103,51,9,0>
 PositionX=529
 PositionY=45
 ExtentX=103
@@ -145,7 +145,7 @@ Size=140
 TextColor=2C2C2E
 [Layer6]
 Name=GPU ring
-Text=<AI=GPU1 usage,0,0,0,102,0,618,103,103,51,10,0>
+Text=<AI=GPU1 usage,0,0,0,102,0,620,103,103,51,9,0>
 PositionX=1289
 PositionY=45
 ExtentX=103
