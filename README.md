@@ -6,7 +6,7 @@ Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaT
 
 <table>
 <tr>
-<td align="center" width="33%"><a href="#essential"><img src="previews/msi/msi_lineup.png" alt="Essential overlays"></a><br><a href="#essential"><b>🟢 Essential</b></a><br><sub>In-game overlay<br>RTSS + MSI Afterburner</sub></td>
+<td align="center" width="33%"><a href="#essential"><img src="previews/essential/lineup.png" alt="Essential overlays"></a><br><a href="#essential"><b>🟢 Essential</b></a><br><sub>In-game overlay<br>RTSS + MSI Afterburner</sub></td>
 <td align="center" width="33%"><a href="#volt"><img src="previews/themes_all.png" alt="Volt overlays"></a><br><a href="#volt"><b>⚡ Volt</b></a><br><sub>In-game overlay + HWiNFO<br>12V-2x6 / 12VHPWR cable monitoring</sub></td>
 <td align="center" width="33%"><a href="#rainmeter"><img src="previews/rainmeter/second-screen.png" alt="Monitors and Widgets"></a><br><a href="#rainmeter"><b>📱 Monitors & Widgets</b></a><br><sub>Second screen, case screen & desktop<br>Rainmeter + MSI Afterburner</sub></td>
 </tr>
@@ -24,7 +24,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
-- **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. Same files, same downloads, just easier to tell apart.
+- **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. The files are renamed to match: overlays now start with `essential_` or `volt_`, the downloads are called **Essential…zip** and **Volt…zip**, and the Rainmeter skin installs as **MonitorsAndWidgets**. Nothing else changed. Had the old ones? See [switching from the old names](#old-names).
 - **📱 New: Monitors & Widgets 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens, **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
 - **🕘 New: Island Bar Time (Essential).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
 - **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both Essential and Volt (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
@@ -172,25 +172,25 @@ Click **OK**.
 
 ### 5️⃣ Download the pack for your screen
 
-Each pack has every overlay in every theme. **🟢 Essential** = no HWiNFO needed (its zips start with `MSI`). **⚡ Volt** zips start with `All`:
+Each pack has every overlay in every theme. **🟢 Essential** = no HWiNFO needed:
 
 | Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
-| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1080.zip) |
-| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1440.zip) |
-| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3440x1440.zip) |
-| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x1600.zip) |
-| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.zip) |
-| 4K, **bigger (1.5×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3840x2160.1.5x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.1.5x.zip) |
-| 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.3840x2160.2x.zip) |
-| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x1440.zip) |
-| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.5120x2160.zip) |
-| 32:9 dual-4K ultrawide (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.7680x2160.zip) |
-| 💻 Laptop 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.1920x1200.zip) |
-| 💻 Laptop 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2560x1600.zip) |
-| 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/MSI.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.2880x1800.zip) |
-| 📺 **4K TV** (any size: 43", 55", 65", 75", 85"…) | `3840x2160` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.3840x2160.zip) |
-| 📺 1080p TV | `1920x1080` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/All.overlays.TV.1920x1080.zip) |
+| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1080.zip) |
+| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1440.zip) |
+| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3440x1440.zip) |
+| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x1600.zip) |
+| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.zip) |
+| 4K, **bigger (1.5×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.1.5x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.1.5x.zip) |
+| 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.2x.zip) |
+| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x1440.zip) |
+| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x2160.zip) |
+| 32:9 dual-4K ultrawide (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
+| 💻 Laptop 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1200.zip) |
+| 💻 Laptop 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1600.zip) |
+| 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2880x1800.zip) |
+| 📺 **4K TV** (any size: 43", 55", 65", 75", 85"…) | `3840x2160` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.TV.3840x2160.zip) |
+| 📺 1080p TV | `1920x1080` | — *(already no HWiNFO)* | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.TV.1920x1080.zip) |
 
 **Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
 
@@ -209,7 +209,7 @@ It should look like this. Every overlay is a **pair**: the `.ovl` file and its `
 | # | Check |
 |---|---|
 | 1 | The address bar ends in **RivaTuner Statistics Server › Plugins › Client › Overlays** |
-| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `sleek.ovl` + `sleek_atlas.png`). Essential files start with `msi_` |
+| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `essential_sleek.ovl` + `essential_sleek_atlas.png`). Essential files start with `essential_`, Volt files with `volt_` |
 
 <img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: sleek.ovl next to sleek_atlas.png">
 
@@ -273,7 +273,7 @@ Everything stays lined up, and it remembers the new spot. (RTSS's own position b
 <details>
 <summary>Only want one overlay?</summary>
 
-Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/sleek-meters/white/2560x1440` (Essential: `overlays/msi-sleek-meters/white/2560x1440`). Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
+Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/volt/sleek-meters/white/2560x1440` or `overlays/essential/sleek-meters/white/2560x1440`. Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
 
 </details>
 
@@ -287,7 +287,7 @@ Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues
 
 ### Only needs MSI Afterburner + RTSS. Perfect if you don't need VRAM temperature or the 12V cable.
 
-Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, **Simple Sleek**. Same four themes (Dark, White, Clear, Float), every resolution. Files start with `msi_`.
+Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, **Simple Sleek**. Same four themes (Dark, White, Clear, Float), every resolution. Files start with `essential_`.
 
 | Overlay | What it shows |
 |---|---|
@@ -302,50 +302,50 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 | **Sleek Side** | Side panel with CPU / GPU load graphs and FPS |
 | **Performance** | Every number for benchmarking, with graphs |
 
-![Essential lineup](previews/msi/msi_lineup.png)
+![Essential lineup](previews/essential/lineup.png)
 
 <details>
 <summary><b>Essential: every overlay in Dark, White, Clear and Float</b> (click to open)</summary>
 
 #### Island Bar (laptops)
 
-![Island Bar](previews/msi/msi-island-bar.png)
+![Island Bar](previews/essential/island-bar.png)
 
 #### Island Bar Time (laptops)
 
-![Island Bar Time](previews/msi/msi-island-bar-time.png)
+![Island Bar Time](previews/essential/island-bar-time.png)
 
 #### Simple Sleek
 
-![Simple Sleek](previews/msi/simple-sleek.png)
+![Simple Sleek](previews/essential/simple-sleek.png)
 
 #### Sleek
 
-![Sleek](previews/msi/sleek.png)
+![Sleek](previews/essential/sleek.png)
 
 #### Sleek Compact
 
-![Sleek Compact](previews/msi/sleek-compact.png)
+![Sleek Compact](previews/essential/sleek-compact.png)
 
 #### Sleek Meters
 
-![Sleek Meters](previews/msi/sleek-meters.png)
+![Sleek Meters](previews/essential/sleek-meters.png)
 
 #### Sleek Meters Universal
 
-![Sleek Meters Universal](previews/msi/sleek-meters-universal.png)
+![Sleek Meters Universal](previews/essential/sleek-meters-universal.png)
 
 #### Sleek Rings
 
-![Sleek Rings](previews/msi/sleek-rings.png)
+![Sleek Rings](previews/essential/sleek-rings.png)
 
 #### Sleek Side
 
-![Sleek Side](previews/msi/sleek-side.png)
+![Sleek Side](previews/essential/sleek-side.png)
 
 #### Performance
 
-![Performance](previews/msi/performance.png)
+![Performance](previews/essential/performance.png)
 
 </details>
 
@@ -366,7 +366,7 @@ A compact pill: CPU and GPU usage rings with temperature and power, FPS and 1% l
 ### Island Bar 💻 (gaming laptops)
 A slim pill at the top of the screen, made for **laptop screens** where every pixel counts: CPU and GPU load and temperature, FPS and 1% low, RAM, and VRAM with its temperature. Only 38 px tall. In the laptop packs (1920x1200, 2560x1600, 2880x1800).
 
-![Island Bar](previews/all/island-bar.png)
+![Island Bar](previews/volt/island-bar.png)
 
 ### Sleek Compact
 Full stats in one wide bar: CPU, GPU, FPS with a frametime graph, 12V cable voltage, and GPU limit warnings that only appear when a limit is hit.
@@ -410,7 +410,7 @@ Now available as **📱 Monitors & Widgets** for Rainmeter. [See it below](#rain
 ### Performance Overlay
 Every number you could want, in a benchmark-style side panel: FPS, 1% / 0.1% lows and frametime with a frametime graph; CPU temp, load, power, clock and RAM; GPU temp, load, power, clock, voltage, fan, VRAM and VRAM temp; and CPU and GPU load graphs. Made for benchmarking and testing new parts.
 
-<img src="previews/all/performance.png" width="780" alt="Performance Overlay in Dark, White, Clear and Float">
+<img src="previews/volt/performance.png" width="780" alt="Performance Overlay in Dark, White, Clear and Float">
 
 ### 📺 TV Pill & TV Side (for TVs)
 Made for gaming on a **TV from the couch**: only big numbers you can read from across the room. **TV Pill** shows CPU and GPU temperature, power and usage rings, FPS and 1% low. **TV Side** is a panel on the right edge with FPS, 1% low, and CPU/GPU temperature, load and power.
@@ -444,55 +444,68 @@ Every overlay comes in four themes:
 
 #### Sleek
 
-![Sleek](previews/all/sleek.png)
+![Sleek](previews/volt/sleek.png)
 
 #### Sleek Compact
 
-![Sleek Compact](previews/all/sleek-compact.png)
+![Sleek Compact](previews/volt/sleek-compact.png)
 
 #### Sleek Compact No 12V
 
-![Sleek Compact No 12V](previews/all/sleek-compact-no-12v.png)
+![Sleek Compact No 12V](previews/volt/sleek-compact-no-12v.png)
 
 #### Sleek Meters
 
-![Sleek Meters](previews/all/sleek-meters.png)
+![Sleek Meters](previews/volt/sleek-meters.png)
 
 #### Sleek Meters No 12V
 
-![Sleek Meters No 12V](previews/all/sleek-meters-no-12v.png)
+![Sleek Meters No 12V](previews/volt/sleek-meters-no-12v.png)
 
 #### Sleek Meters Universal
 
-![Sleek Meters Universal](previews/all/sleek-meters-universal.png)
+![Sleek Meters Universal](previews/volt/sleek-meters-universal.png)
 
 #### Sleek Meters Universal No 12V
 
-![Sleek Meters Universal No 12V](previews/all/sleek-meters-universal-no-12v.png)
+![Sleek Meters Universal No 12V](previews/volt/sleek-meters-universal-no-12v.png)
 
 #### Sleek Rings
 
-![Sleek Rings](previews/all/sleek-rings.png)
+![Sleek Rings](previews/volt/sleek-rings.png)
 
 #### Sleek Rings No 12V
 
-![Sleek Rings No 12V](previews/all/sleek-rings-no-12v.png)
+![Sleek Rings No 12V](previews/volt/sleek-rings-no-12v.png)
 
 #### Sleek Side
 
-![Sleek Side](previews/all/sleek-side.png)
+![Sleek Side](previews/volt/sleek-side.png)
 
 #### Sleek Side No 12V
 
-![Sleek Side No 12V](previews/all/sleek-side-no-12v.png)
+![Sleek Side No 12V](previews/volt/sleek-side-no-12v.png)
 
 #### Performance Overlay
 
-![Performance Overlay](previews/all/performance.png)
+![Performance Overlay](previews/volt/performance.png)
 
 </details>
 
 ---
+
+<a id="old-names"></a>
+## 🏷️ Switching from the old names
+
+The overlays and the Rainmeter skin got new names in **v1.5**. Nothing else changed, but the old copies don't get replaced automatically:
+
+| You had | Now called | What to do |
+|---|---|---|
+| **MSI Edition** (`msi_…` files) | **🟢 Essential** (`essential_…`) | Copy in the new pack, then delete the old `msi_…` files from the Overlays folder so they don't show twice in **Layouts → Load** |
+| The original overlays (`sleek.ovl`, `sleek_compact.ovl`…) | **⚡ Volt** (`volt_…`) | The same: copy in the new pack, then delete the old files whose names start with `sleek`, `performance_overlay`, `island_bar`, `tv_pill` or `tv_side` |
+| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete the folder `Documents\Rainmeter\Skins\AppleStyleMonitor` |
+
+Your settings in RTSS stay as they are. If you moved an overlay in OverlayEditor, move the new one the same way and save it.
 
 ## Notes
 
@@ -636,11 +649,11 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Apple Style Monitor 1.4.rmskin`** (the file keeps its first name) from the [Monitors & Widgets 1.4 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitors-and-Widgets-1.4v) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+Download **`Monitors and Widgets 1.4.rmskin`** from the [Monitors & Widgets 1.4 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitors-and-Widgets-1.4v) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
 
 **4️⃣ Pick your layout**
 
-Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **AppleStyleMonitor** (the skin's folder name), then the folder for your screen (see the table above). Click the layout file, for example **Second Screen → 16x9 Box**, and click **Load**. Each folder can show one layout at a time; unload the ones you don't use.
+Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **MonitorsAndWidgets**, then the folder for your screen (see the table above). Click the layout file, for example **Second Screen → 16x9 Box**, and click **Load**. Each folder can show one layout at a time; unload the ones you don't use.
 
 ![Manage Rainmeter](previews/rainmeter/setup_manage.png)
 

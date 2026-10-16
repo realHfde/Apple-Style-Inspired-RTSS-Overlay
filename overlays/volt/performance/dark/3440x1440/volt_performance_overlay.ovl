@@ -1,0 +1,622 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Volt Performance Overlay
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=volt_performance_overlay_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=18
+Tables=0
+Layers=45
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source1]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000100
+Gpu=FFFFFFFF
+SrcName=
+[Source2]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000061
+Gpu=00000000
+SrcName=
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Source8]
+Name=Framerate 0.1% Low
+Units=FPS
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Framerate 0.1% Low
+[Source9]
+Name=CPU clock
+Units=GHz
+Format=%.2f
+Formula=x / 1000
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
+[Source10]
+Name=RAM usage
+Units=GB
+Format=%.1f
+Formula=x / 1024
+Provider=HAL
+ID=RAM usage
+[Source11]
+Name=GPU mem temp
+Units=°C
+Format=%.0f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU Memory Junction Temperature
+[Source12]
+Name=GPU fan
+Units=RPM
+Format=%.0f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=GPU Fan1
+[Source13]
+Name=GPU clock
+Units=GHz
+Format=%.2f
+Formula=x / 1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=GPU Clock
+[Source14]
+Name=GPU1 memory usage
+Units=GB
+Format=%.1f
+Formula=x / 1024
+Provider=HAL
+ID=GPU1 memory usage
+[Source15]
+Name=Limit power
+Units=
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Performance Limit - Power
+[Source16]
+Name=Limit thermal
+Units=
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Performance Limit - Thermal
+[Source17]
+Name=GPU core voltage
+Units=V
+Format=%.2f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU Core Voltage
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,264,610>
+PositionX=3152
+PositionY=160
+ExtentX=264
+ExtentY=610
+ExtentOrigin=0
+[Layer1]
+Name=FPS header
+Text=FPS
+PositionX=3168
+PositionY=175
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=60
+TextColor=30D158
+[Layer2]
+Name=FPS
+Text=%Framerate%
+PositionX=3168
+PositionY=193
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=170
+TextColor=FFFFFF
+[Layer3]
+Name=1% low label
+Text=1% low
+PositionX=3168
+PositionY=237
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer4]
+Name=1% low
+Text=%Framerate 1% Low%
+PositionX=3168
+PositionY=235
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer5]
+Name=0.1% low label
+Text=0.1% low
+PositionX=3168
+PositionY=256
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer6]
+Name=0.1% low
+Text=%Framerate 0.1% Low%
+PositionX=3168
+PositionY=254
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer7]
+Name=Frametime label
+Text=Frametime
+PositionX=3168
+PositionY=275
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer8]
+Name=Frametime
+Text=<FT> ms
+PositionX=3168
+PositionY=273
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer9]
+Name=FT graph label
+Text=frametime · 0–40 ms
+PositionX=3168
+PositionY=293
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=50
+TextColor=8E8E93
+[Layer10]
+Name=Frametime graph
+Text=<G=Frametime,0,0,1,0,40,0>
+PositionX=3168
+PositionY=309
+ExtentX=232
+ExtentY=40
+ExtentOrigin=0
+TextColor=30D158
+[Layer11]
+Name=CPU header
+Text=CPU
+PositionX=3168
+PositionY=366
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=60
+TextColor=0A84FF
+[Layer12]
+Name=CPU temperature label
+Text=Temp
+PositionX=3168
+PositionY=388
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer13]
+Name=CPU temperature
+Text=%CPU temperature%°
+PositionX=3168
+PositionY=386
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
+[Layer14]
+Name=CPU usage label
+Text=Load
+PositionX=3168
+PositionY=407
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer15]
+Name=CPU usage
+Text=%CPU usage%%
+PositionX=3168
+PositionY=405
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer16]
+Name=CPU power label
+Text=Power
+PositionX=3168
+PositionY=426
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer17]
+Name=CPU power
+Text=%CPU power% W
+PositionX=3168
+PositionY=424
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer18]
+Name=CPU clock label
+Text=Clock
+PositionX=3168
+PositionY=445
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer19]
+Name=CPU clock
+Text=%CPU clock% GHz
+PositionX=3168
+PositionY=443
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer20]
+Name=RAM label
+Text=RAM
+PositionX=3168
+PositionY=464
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer21]
+Name=RAM
+Text=%RAM usage% GB
+PositionX=3168
+PositionY=462
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer22]
+Name=CPU graph label
+Text=load · 0–100%
+PositionX=3168
+PositionY=486
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=50
+TextColor=8E8E93
+[Layer23]
+Name=CPU load graph
+Text=<G=CPU usage,0,0,1,0,100,11>
+PositionX=3168
+PositionY=500
+ExtentX=232
+ExtentY=26
+ExtentOrigin=0
+TextColor=0A84FF
+[Layer24]
+Name=GPU header
+Text=GPU
+PositionX=3168
+PositionY=543
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=60
+TextColor=BF5AF2
+[Layer25]
+Name=GPU1 temperature label
+Text=Temp
+PositionX=3168
+PositionY=565
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer26]
+Name=GPU1 temperature
+Text=%GPU1 temperature%°
+PositionX=3168
+PositionY=563
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
+[Layer27]
+Name=GPU1 usage label
+Text=Load
+PositionX=3168
+PositionY=584
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer28]
+Name=GPU1 usage
+Text=%GPU1 usage%%
+PositionX=3168
+PositionY=582
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer29]
+Name=GPU1 power label
+Text=Power
+PositionX=3168
+PositionY=603
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer30]
+Name=GPU1 power
+Text=%GPU1 power% W
+PositionX=3168
+PositionY=601
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer31]
+Name=GPU clock label
+Text=Clock
+PositionX=3168
+PositionY=622
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer32]
+Name=GPU clock
+Text=%GPU clock% GHz
+PositionX=3168
+PositionY=620
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer33]
+Name=GPU core voltage label
+Text=Voltage
+PositionX=3168
+PositionY=641
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer34]
+Name=GPU core voltage
+Text=%GPU core voltage% V
+PositionX=3168
+PositionY=639
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer35]
+Name=GPU fan label
+Text=Fan
+PositionX=3168
+PositionY=660
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer36]
+Name=GPU fan
+Text=%GPU fan% rpm
+PositionX=3168
+PositionY=658
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer37]
+Name=VRAM label
+Text=VRAM
+PositionX=3168
+PositionY=679
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer38]
+Name=VRAM
+Text=%GPU1 memory usage% GB
+PositionX=3168
+PositionY=677
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer39]
+Name=VRAM temp label
+Text=VRAM temp
+PositionX=3168
+PositionY=698
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=58
+TextColor=8E8E93
+[Layer40]
+Name=VRAM temp
+Text=%GPU mem temp%°
+PositionX=3168
+PositionY=696
+ExtentX=232
+ExtentY=16
+ExtentOrigin=2
+Size=65
+TextColor=FFFFFF
+[Layer41]
+Name=GPU graph label
+Text=load · 0–100%
+PositionX=3168
+PositionY=720
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=50
+TextColor=8E8E93
+[Layer42]
+Name=GPU load graph
+Text=<G=GPU1 usage,0,0,1,0,100,11>
+PositionX=3168
+PositionY=734
+ExtentX=232
+ExtentY=26
+ExtentOrigin=0
+TextColor=BF5AF2
+[Layer43]
+Name=Limit power
+Text=Power limit
+PositionX=3168
+PositionY=547
+ExtentX=232
+ExtentY=13
+ExtentOrigin=2
+Size=52
+TextColor=FF9F0A
+VisibilitySource=Limit power
+[Layer44]
+Name=Limit thermal
+Text=Thermal limit
+PositionX=3168
+PositionY=547
+ExtentX=232
+ExtentY=13
+ExtentOrigin=2
+Size=52
+TextColor=FF453A
+VisibilitySource=Limit thermal
