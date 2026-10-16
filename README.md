@@ -353,7 +353,8 @@ RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rai
 | **Lian Li 8.8" Universal Screen** (sideways) | 1920x480 | **Bar Screen Classic** or **Bar Screen Widgets** |
 | **Lian Li 9.2" O11 Vision-M kit** | 1920x462 | **Bar Screen Classic** or **Bar Screen Widgets** |
 | **Lian Li 8.8" Universal Screen** (upright) | 480x1920 | **Case Screen Classic** or **Case Screen Widgets** |
-| **Lian Li Lancool 207 Digital** (6") | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
+| **Lian Li Lancool 207 Digital** (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Lian Li Lancool 207 1600x720* |
+| **Lian Li Lancool 207 Digital** (6", set to portrait) | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
 | **Your normal desktop** | any | **Sidebar**, **Alternate Sidebar**, **Alternate Vertical**, **Horizontal**, **Alternate Horizontal** |
 
 **Classic** is one panel that fills the whole screen. **Widgets** are separate rounded cards with your wallpaper showing between them. Every case-screen layout was checked at the screen's real size, so the text stays readable on the small Lian Li screens too.
@@ -367,6 +368,10 @@ RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rai
 ![HYTE and Lian Li case screens](previews/rainmeter/case-screens.png)
 
 ![Lian Li bar screens](previews/rainmeter/bar-screens.png)
+
+**Lancool 207 Digital:** its 6" screen sits sideways in the front of the case, so it has its own landscape layout with big text.
+
+![Lancool 207 sideways](previews/rainmeter/lancool-sideways.png)
 
 ### Desktop widgets
 
@@ -396,7 +401,7 @@ Right-click any skin → **Custom skin actions**. Every Apple Style Monitor skin
 |---|---|
 | Second Screen → **16x9** and **Portrait** | Second Screen → **16x9 Box** and **Portrait Box** |
 | **Case Screen Widgets** (all screens) | **Case Screen Classic** (all screens) |
-| **Bar Screen Widgets** (both Lian Li bars) | **Bar Screen Classic** (both Lian Li bars) |
+| **Bar Screen Widgets** (Lian Li bars and Lancool 207) | **Bar Screen Classic** (Lian Li bars and Lancool 207) |
 | | The five **desktop widgets** (one box each) |
 
 Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on a card layout. Add **Corners: square** for sharp edges.
@@ -455,6 +460,7 @@ It remembers its size, screen and options after a restart.
 - **Lian Li:** in **L-Connect 3**, switch the screen to **secondary screen** mode so Windows uses it as a normal monitor.
 - **HYTE:** make sure the case screen shows up as a monitor in **Windows Settings → System → Display**.
 - **Upright screens:** set the screen to **Portrait** in Windows display settings and use a Case Screen layout.
+- **Lancool 207 Digital:** set the screen to **Landscape** (1600x720) in Windows display settings and use the *Lian Li Lancool 207 1600x720* layout in **Bar Screen Classic** or **Bar Screen Widgets**.
 - **Taskbar:** turn off **Settings → Personalization → Taskbar → Taskbar behaviors → "Show my taskbar on all displays"**, or Windows puts a taskbar on the small screen too and the skin can't fill it.
 
 ### Good to know
