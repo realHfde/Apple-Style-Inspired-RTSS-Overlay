@@ -134,10 +134,12 @@ Then **restart RTSS** (close it from the tray and open it again).
 | 2 | Open the **Monitoring** tab |
 | 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, CPU clock, Framerate, Framerate 1% Low**<br>🟢 **Essential, also tick:** **Core clock, Framerate 0.1% Low, Power limit, Temp limit** (and **Fan tachometer, Core voltage** for Performance) |
 | 4 | Click each ticked item and make sure **Show in On-Screen Display** is ❌ **unticked**, so Afterburner's own text doesn't stack on top of the overlay |
+| 5 | Click **Apply** |
+| 6 | Click **OK** |
 
-<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the graphs, untick Show in On-Screen Display">
+<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the graphs, untick Show in On-Screen Display, Apply, OK">
 
-Click **OK** and keep Afterburner running in the background.
+Keep Afterburner running in the background.
 
 <a id="rtss-setup"></a>
 ### 4️⃣ Set up RTSS
@@ -173,6 +175,11 @@ Still in **Setup**, check the **General** tab. These are the settings the FPS, 1
 | 11 | **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
 
 <img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring">
+
+<a id="benchmark-tip"></a>
+> 💡 **Tip:** still on the **General** tab, scroll down to **Compatibility properties** and tick ✅ **Enable benchmark mode**. Sometimes this is what makes the overlay appear in a game.
+>
+> <img src="previews/setup/rtss_benchmark.png" width="380" alt="RTSS Setup General tab: Compatibility properties, Enable benchmark mode ticked">
 
 Click **OK**.
 
@@ -475,7 +482,7 @@ These come from how RTSS's OverlayEditor works, so every OverlayEditor layout ha
 
 | Problem | Fix |
 |---|---|
-| Overlay doesn't appear in a game | In RTSS click **Setup**, stay on the **General** tab, scroll down to **Compatibility properties** and tick ✅ **Enable benchmark mode**, then click **OK**. Sometimes this makes the overlay appear.<br><img src="previews/setup/rtss_benchmark.png" width="380" alt="RTSS Setup General tab: Compatibility properties, Enable benchmark mode ticked"> |
+| Overlay doesn't appear in a game | Tick **Enable benchmark mode** in RTSS. See the [tip in step 4](#benchmark-tip). |
 | Overlay Editor looks empty | The overlay is placed for a full screen (top centre, or right edge for Side and Performance). **Maximize the Overlay Editor window** to see it. Also turn on **Show On-Screen Display** in the main RTSS window, or nothing shows in game. |
 | CPU clock is blank or N/A | The CPU clock comes from **MSI Afterburner**. Go to **Settings → Monitoring** and tick **CPU clock**, then click Apply. |
 | GPU clock is blank | **Essential:** tick **Core clock** in Afterburner's Monitoring tab. **Volt:** the GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
@@ -633,7 +640,7 @@ You **don't** need to install the Inter font for this one: it comes inside the p
 
 **2️⃣ Turn on the readings in MSI Afterburner**
 
-Open Afterburner → **Settings → Monitoring**. In the list, tick each of these, then press **OK**:
+Open Afterburner → **Settings → Monitoring**. In the list, tick each of these, then press **Apply** and **OK**:
 
 *GPU temperature, GPU usage, Memory usage, Core clock, Memory clock, Power, CPU temperature, CPU clock, CPU power, Framerate, Frametime, Framerate 1% low, Framerate 0.1% low.*
 
