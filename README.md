@@ -34,7 +34,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
-- **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. Works on **Rainmeter 4.5 and 5**.
+- **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. Clocks now use the **12-hour** format. Works on **Rainmeter 4.5 and 5**.
 - **⚙️ New: Settings panel for Monitors & Widgets 1.5.** Right-click → Custom skin actions → **Settings…** and click the theme, FPS scale, meters, corners, gaps or GPU you want. (In 1.4 some of these were cut off the right-click menu.)
 - **🔧 Fixed: 4K 1.5x / 2x overlays and TV Pill 4K** now show their rings, meters and panel correctly.
 - **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. The files are renamed to match: overlays now start with `essential_` or `volt_`, the downloads are called **Essential…zip**, **Volt…zip** and **TV…zip**, and the Rainmeter skin installs as **MonitorsAndWidgets**. Nothing else changed. Had the old ones? See [switching from the old names](#old-names).
