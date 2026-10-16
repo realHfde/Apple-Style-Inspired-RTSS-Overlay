@@ -349,6 +349,9 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 
 </details>
 
+<p align="center"><a href="#get-started"><img src="previews/buttons/setup-essential.png" alt="Set up Essential" height="38"></a><br><sub>RTSS + MSI Afterburner · skip step 2, no HWiNFO needed</sub></p>
+
+
 ---
 
 <a id="volt"></a>
@@ -492,6 +495,9 @@ Every overlay comes in four themes:
 
 </details>
 
+<p align="center"><a href="#get-started"><img src="previews/buttons/setup-volt.png" alt="Set up Volt" height="38"></a><br><sub>RTSS + MSI Afterburner + HWiNFO · do every step, including step 2</sub></p>
+
+
 ---
 
 <a id="old-names"></a>
@@ -594,6 +600,9 @@ RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rain
 
 <sub>Click any picture to open it full size.</sub>
 
+<p align="center"><a href="#monitor-setup"><img src="previews/buttons/setup-monitors-widgets.png" alt="Set up Monitors & Widgets" height="38"></a><br><sub>Rainmeter + MSI Afterburner · about 5 minutes</sub></p>
+
+
 ### Desktop widgets
 
 Smaller panels for your normal desktop (pictured in the grid above). Pick a size and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
@@ -626,6 +635,7 @@ Right-click any skin → **Custom skin actions**. Every Monitors & Widgets skin 
 
 Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on a card layout. Add **Corners: square** for sharp edges.
 
+<a id="monitor-setup"></a>
 ### ⬇️ Set it up (about 5 minutes)
 
 **1️⃣ Install the programs**
