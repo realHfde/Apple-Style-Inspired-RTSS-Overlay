@@ -35,6 +35,8 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 <a id="whats-new"></a>
 ## 🆕 What's new
 
+> 🗺️ **What's next?** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/categories/announcements) for upcoming updates.
+
 **October 2026**
 - **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. New **Clock** option in Settings: **12-hour** (the default) or **24-hour**. Works on **Rainmeter 4.5 and 5**.
 - **⚙️ New: Settings panel for Monitors & Widgets 1.5.** Right-click → Custom skin actions → **Settings…** and click the theme, FPS scale, meters, corners, gaps or GPU you want. (In 1.4 some of these were cut off the right-click menu.)
