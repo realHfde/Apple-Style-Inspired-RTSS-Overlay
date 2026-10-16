@@ -158,9 +158,9 @@ Then in **Setup**:
 | # | Setting | Set it to |
 |---|---|---|
 | 5 | **Plugins** tab | Open it |
-| 6 | **OverlayEditor.dll** | ✅ **Ticked** (this is what loads the overlays) |
+| 6 | **HotkeyHandler.dll** and **OverlayEditor.dll** | ✅ **Both ticked** (OverlayEditor is what loads the overlays) |
 
-<img src="previews/setup/rtss_plugins.png" width="420" alt="RTSS Setup: Plugins tab with OverlayEditor.dll ticked">
+<img src="previews/setup/rtss_plugins.png" width="420" alt="RTSS Setup: Plugins tab with HotkeyHandler.dll and OverlayEditor.dll both ticked">
 
 Still in **Setup**, check the **General** tab. These are the settings the FPS, 1% low and 0.1% low numbers depend on. If they're changed, the lows can show **0** or freeze:
 
@@ -475,6 +475,7 @@ These come from how RTSS's OverlayEditor works, so every OverlayEditor layout ha
 
 | Problem | Fix |
 |---|---|
+| Overlay doesn't appear in a game | In RTSS click **Setup**, stay on the **General** tab, scroll down to **Compatibility properties** and tick ✅ **Enable benchmark mode**, then click **OK**. Sometimes this makes the overlay appear.<br><img src="previews/setup/rtss_benchmark.png" width="380" alt="RTSS Setup General tab: Compatibility properties, Enable benchmark mode ticked"> |
 | Overlay Editor looks empty | The overlay is placed for a full screen (top centre, or right edge for Side and Performance). **Maximize the Overlay Editor window** to see it. Also turn on **Show On-Screen Display** in the main RTSS window, or nothing shows in game. |
 | CPU clock is blank or N/A | The CPU clock comes from **MSI Afterburner**. Go to **Settings → Monitoring** and tick **CPU clock**, then click Apply. |
 | GPU clock is blank | **Essential:** tick **Core clock** in Afterburner's Monitoring tab. **Volt:** the GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
