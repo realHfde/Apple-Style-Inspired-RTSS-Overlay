@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-30
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -245,7 +245,7 @@ PositionY=48
 ExtentX=90
 ExtentY=90
 ExtentOrigin=4
-Size=80
+Size=120
 TextColor=FFFFFF
 [Layer3]
 Name=CPU label
@@ -255,7 +255,7 @@ PositionY=44
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=0A84FF
 [Layer4]
 Name=CPU temperature
@@ -265,7 +265,7 @@ PositionY=68
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=150
+Size=225
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer5]
 Name=CPU Power label
@@ -275,7 +275,7 @@ PositionY=45
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer6]
 Name=CPU Power
@@ -285,7 +285,7 @@ PositionY=42
 ExtentX=156
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer7]
 Name=CPU Power meter
@@ -303,7 +303,7 @@ PositionY=78
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer9]
 Name=CPU Clock
@@ -313,7 +313,7 @@ PositionY=75
 ExtentX=156
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer10]
 Name=CPU Clock meter
@@ -331,7 +331,7 @@ PositionY=111
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer12]
 Name=CPU RAM
@@ -341,7 +341,7 @@ PositionY=108
 ExtentX=156
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer13]
 Name=CPU RAM meter
@@ -367,7 +367,7 @@ PositionY=48
 ExtentX=90
 ExtentY=90
 ExtentOrigin=4
-Size=80
+Size=120
 TextColor=FFFFFF
 [Layer16]
 Name=GPU label
@@ -377,7 +377,7 @@ PositionY=44
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=BF5AF2
 [Layer17]
 Name=GPU temperature
@@ -387,7 +387,7 @@ PositionY=68
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=150
+Size=225
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
 [Layer18]
 Name=GPU sub
@@ -397,7 +397,7 @@ PositionY=123
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=52
+Size=78
 TextColor=8E8E93
 [Layer19]
 Name=GPU Power label
@@ -407,7 +407,7 @@ PositionY=45
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer20]
 Name=GPU Power
@@ -417,7 +417,7 @@ PositionY=42
 ExtentX=156
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer21]
 Name=GPU Power meter
@@ -435,7 +435,7 @@ PositionY=78
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer23]
 Name=GPU Clock
@@ -445,7 +445,7 @@ PositionY=75
 ExtentX=156
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer24]
 Name=GPU Clock meter
@@ -463,7 +463,7 @@ PositionY=111
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer26]
 Name=GPU VRAM
@@ -473,7 +473,7 @@ PositionY=108
 ExtentX=156
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer27]
 Name=GPU VRAM meter
@@ -491,7 +491,7 @@ PositionY=140
 ExtentX=108
 ExtentY=18
 ExtentOrigin=4
-Size=45
+Size=68
 TextColor=FF9F0A
 VisibilitySource=Limit power
 [Layer29]
@@ -502,7 +502,7 @@ PositionY=140
 ExtentX=108
 ExtentY=18
 ExtentOrigin=4
-Size=45
+Size=68
 TextColor=FF453A
 VisibilitySource=Limit thermal
 [Layer30]
@@ -513,7 +513,7 @@ PositionY=44
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=30D158
 [Layer31]
 Name=FPS
@@ -523,7 +523,7 @@ PositionY=62
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=170
+Size=255
 TextColor=FFFFFF
 [Layer32]
 Name=1% label
@@ -533,7 +533,7 @@ PositionY=50
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer33]
 Name=1%
@@ -543,7 +543,7 @@ PositionY=46
 ExtentX=105
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer34]
 Name=FT label
@@ -553,7 +553,7 @@ PositionY=78
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=8E8E93
 [Layer35]
 Name=FT
@@ -563,7 +563,7 @@ PositionY=75
 ExtentX=105
 ExtentY=24
 ExtentOrigin=2
-Size=65
+Size=98
 TextColor=FFFFFF
 [Layer36]
 Name=Frametime graph
@@ -582,7 +582,7 @@ PositionY=42
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=90
+Size=135
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
 [Layer38]
 Name=Cable label
@@ -592,7 +592,7 @@ PositionY=44
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=87
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
 [Layer39]
 Name=Cable voltage
@@ -602,7 +602,7 @@ PositionY=72
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=105
+Size=158
 TextColor=FFFFFF
 [Layer40]
 Name=Cable V
@@ -612,7 +612,7 @@ PositionY=84
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=60
+Size=90
 TextColor=8E8E93
 [Layer41]
 Name=Cable meter

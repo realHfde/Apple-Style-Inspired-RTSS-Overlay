@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -89,7 +89,7 @@ Gpu=FFFFFFFF
 SrcName=
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,2474,1800,290>
+Text=<I=0,0,0,1238,1800,290>
 PositionX=1020
 PositionY=48
 ExtentX=1800
@@ -97,7 +97,7 @@ ExtentY=290
 ExtentOrigin=0
 [Layer1]
 Name=CPU ring
-Text=<AI=CPU usage,0,0,0,102,0,0,206,206,51,10,0>
+Text=<AI=CPU usage,0,0,0,104,0,0,206,206,26,9,0>
 PositionX=1057
 PositionY=90
 ExtentX=206
@@ -111,7 +111,7 @@ PositionY=90
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=0A0A0C
 [Layer3]
 Name=CPU label
@@ -121,7 +121,7 @@ PositionY=79
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=007AFF
 [Layer4]
 Name=CPU temperature
@@ -131,7 +131,7 @@ PositionY=123
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(CPU temperature,1)
 [Layer5]
 Name=CPU power
@@ -141,11 +141,11 @@ PositionY=253
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=2C2C2E
 [Layer6]
 Name=GPU ring
-Text=<AI=GPU1 usage,0,0,0,102,0,1236,206,206,51,10,0>
+Text=<AI=GPU1 usage,0,0,0,104,0,618,206,206,26,9,0>
 PositionX=2577
 PositionY=90
 ExtentX=206
@@ -159,7 +159,7 @@ PositionY=90
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=0A0A0C
 [Layer8]
 Name=GPU label
@@ -169,7 +169,7 @@ PositionY=79
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=AF52DE
 [Layer9]
 Name=GPU temperature
@@ -179,7 +179,7 @@ PositionY=123
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(GPU1 temperature,1)
 [Layer10]
 Name=GPU power
@@ -189,7 +189,7 @@ PositionY=253
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=2C2C2E
 [Layer11]
 Name=FPS label
@@ -199,7 +199,7 @@ PositionY=91
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=248A3D
 [Layer12]
 Name=FPS
@@ -209,7 +209,7 @@ PositionY=135
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=0A0A0C
 [Layer13]
 Name=1% low label
@@ -219,7 +219,7 @@ PositionY=91
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=48484A
 [Layer14]
 Name=1% low
@@ -229,5 +229,5 @@ PositionY=135
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=2C2C2E

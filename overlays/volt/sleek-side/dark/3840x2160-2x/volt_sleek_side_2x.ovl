@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -169,7 +169,7 @@ PositionY=184
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=0A84FF
 [Layer2]
 Name=CPU temperature
@@ -179,7 +179,7 @@ PositionY=208
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=150
+Size=300
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer3]
 Name=CPU usage
@@ -189,7 +189,7 @@ PositionY=216
 ExtentX=392
 ExtentY=48
 ExtentOrigin=2
-Size=110
+Size=220
 TextColor=FFFFFF
 [Layer4]
 Name=CPU usage label
@@ -199,7 +199,7 @@ PositionY=188
 ExtentX=392
 ExtentY=24
 ExtentOrigin=2
-Size=50
+Size=100
 TextColor=8E8E93
 [Layer5]
 Name=CPU usage graph
@@ -218,7 +218,7 @@ PositionY=286
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer7]
 Name=CPU Power
@@ -228,7 +228,7 @@ PositionY=286
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer8]
 Name=CPU Clock label
@@ -238,7 +238,7 @@ PositionY=320
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer9]
 Name=CPU Clock
@@ -248,7 +248,7 @@ PositionY=320
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer10]
 Name=CPU RAM label
@@ -258,7 +258,7 @@ PositionY=354
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer11]
 Name=CPU RAM
@@ -268,7 +268,7 @@ PositionY=354
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer12]
 Name=GPU label
@@ -278,7 +278,7 @@ PositionY=426
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=BF5AF2
 [Layer13]
 Name=GPU temperature
@@ -288,7 +288,7 @@ PositionY=450
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=150
+Size=300
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
 [Layer14]
 Name=GPU usage
@@ -298,7 +298,7 @@ PositionY=458
 ExtentX=392
 ExtentY=48
 ExtentOrigin=2
-Size=110
+Size=220
 TextColor=FFFFFF
 [Layer15]
 Name=GPU usage label
@@ -308,7 +308,7 @@ PositionY=430
 ExtentX=392
 ExtentY=24
 ExtentOrigin=2
-Size=50
+Size=100
 TextColor=8E8E93
 [Layer16]
 Name=GPU usage graph
@@ -327,7 +327,7 @@ PositionY=528
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer18]
 Name=GPU Power
@@ -337,7 +337,7 @@ PositionY=528
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer19]
 Name=GPU Clock label
@@ -347,7 +347,7 @@ PositionY=562
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer20]
 Name=GPU Clock
@@ -357,7 +357,7 @@ PositionY=562
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer21]
 Name=GPU VRAM label
@@ -367,7 +367,7 @@ PositionY=596
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer22]
 Name=GPU VRAM
@@ -377,7 +377,7 @@ PositionY=596
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer23]
 Name=GPU VRAM temp label
@@ -387,7 +387,7 @@ PositionY=630
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer24]
 Name=GPU VRAM temp
@@ -397,7 +397,7 @@ PositionY=630
 ExtentX=228
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer25]
 Name=FPS label
@@ -407,7 +407,7 @@ PositionY=702
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=30D158
 [Layer26]
 Name=FPS
@@ -417,7 +417,7 @@ PositionY=726
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=170
+Size=340
 TextColor=FFFFFF
 [Layer27]
 Name=1% label
@@ -427,7 +427,7 @@ PositionY=706
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer28]
 Name=1%
@@ -437,7 +437,7 @@ PositionY=706
 ExtentX=200
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer29]
 Name=0.1% label
@@ -447,7 +447,7 @@ PositionY=740
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer30]
 Name=0.1%
@@ -457,7 +457,7 @@ PositionY=740
 ExtentX=200
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer31]
 Name=FT label
@@ -467,7 +467,7 @@ PositionY=774
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=8E8E93
 [Layer32]
 Name=FT
@@ -477,7 +477,7 @@ PositionY=774
 ExtentX=200
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer33]
 Name=Frametime graph
@@ -505,7 +505,7 @@ PositionY=886
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
 [Layer36]
 Name=Cable voltage
@@ -515,5 +515,5 @@ PositionY=880
 ExtentX=392
 ExtentY=40
 ExtentOrigin=2
-Size=85
+Size=170
 TextColor=FFFFFF

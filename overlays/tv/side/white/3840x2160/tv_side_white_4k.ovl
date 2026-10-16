@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -103,7 +103,7 @@ PositionY=300
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=248A3D
 [Layer2]
 Name=FPS value
@@ -113,7 +113,7 @@ PositionY=348
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=0A0A0C
 [Layer3]
 Name=FPS 1% low label
@@ -123,7 +123,7 @@ PositionY=518
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=48484A
 [Layer4]
 Name=FPS 1% low
@@ -133,7 +133,7 @@ PositionY=514
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=0A0A0C
 [Layer5]
 Name=CPU label
@@ -143,7 +143,7 @@ PositionY=690
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=007AFF
 [Layer6]
 Name=CPU value
@@ -153,7 +153,7 @@ PositionY=738
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(CPU temperature,1)
 [Layer7]
 Name=CPU Load label
@@ -163,7 +163,7 @@ PositionY=908
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=48484A
 [Layer8]
 Name=CPU Load
@@ -173,7 +173,7 @@ PositionY=904
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=0A0A0C
 [Layer9]
 Name=CPU Power label
@@ -183,7 +183,7 @@ PositionY=988
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=48484A
 [Layer10]
 Name=CPU Power
@@ -193,7 +193,7 @@ PositionY=984
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=0A0A0C
 [Layer11]
 Name=GPU label
@@ -203,7 +203,7 @@ PositionY=1152
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=AF52DE
 [Layer12]
 Name=GPU value
@@ -213,7 +213,7 @@ PositionY=1200
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(GPU1 temperature,1)
 [Layer13]
 Name=GPU Load label
@@ -223,7 +223,7 @@ PositionY=1370
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=48484A
 [Layer14]
 Name=GPU Load
@@ -233,7 +233,7 @@ PositionY=1366
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=0A0A0C
 [Layer15]
 Name=GPU Power label
@@ -243,7 +243,7 @@ PositionY=1450
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=48484A
 [Layer16]
 Name=GPU Power
@@ -253,5 +253,5 @@ PositionY=1446
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=0A0A0C

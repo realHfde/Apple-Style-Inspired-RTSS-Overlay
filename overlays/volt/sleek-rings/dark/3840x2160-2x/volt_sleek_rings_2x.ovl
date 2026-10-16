@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -185,7 +185,7 @@ PositionY=50
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=0A84FF
 [Layer4]
 Name=CPU usage
@@ -195,7 +195,7 @@ PositionY=86
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=100
+Size=200
 TextColor=FFFFFF
 [Layer5]
 Name=CPU temperature
@@ -205,7 +205,7 @@ PositionY=138
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=65
+Size=130
 TextColor=FF9F0A
 [Layer6]
 Name=CPU Power label
@@ -215,7 +215,7 @@ PositionY=58
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer7]
 Name=CPU Power
@@ -225,7 +225,7 @@ PositionY=54
 ExtentX=208
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer8]
 Name=CPU Clock label
@@ -235,7 +235,7 @@ PositionY=96
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer9]
 Name=CPU Clock
@@ -245,7 +245,7 @@ PositionY=92
 ExtentX=208
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer10]
 Name=CPU RAM label
@@ -255,7 +255,7 @@ PositionY=134
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer11]
 Name=CPU RAM
@@ -265,7 +265,7 @@ PositionY=130
 ExtentX=208
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer12]
 Name=GPU ring
@@ -291,7 +291,7 @@ PositionY=50
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=BF5AF2
 [Layer15]
 Name=GPU usage
@@ -301,7 +301,7 @@ PositionY=86
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=100
+Size=200
 TextColor=FFFFFF
 [Layer16]
 Name=GPU temperature
@@ -311,7 +311,7 @@ PositionY=138
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=65
+Size=130
 TextColor=FFD60A
 [Layer17]
 Name=GPU Power label
@@ -321,7 +321,7 @@ PositionY=58
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer18]
 Name=GPU Power
@@ -331,7 +331,7 @@ PositionY=54
 ExtentX=208
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer19]
 Name=GPU Clock label
@@ -341,7 +341,7 @@ PositionY=96
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer20]
 Name=GPU Clock
@@ -351,7 +351,7 @@ PositionY=92
 ExtentX=208
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer21]
 Name=GPU VRAM label
@@ -361,7 +361,7 @@ PositionY=134
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer22]
 Name=GPU VRAM
@@ -371,7 +371,7 @@ PositionY=130
 ExtentX=208
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer23]
 Name=Limit power
@@ -381,7 +381,7 @@ PositionY=178
 ExtentX=144
 ExtentY=24
 ExtentOrigin=4
-Size=45
+Size=90
 TextColor=FF9F0A
 VisibilitySource=Limit power
 [Layer24]
@@ -392,7 +392,7 @@ PositionY=178
 ExtentX=144
 ExtentY=24
 ExtentOrigin=4
-Size=45
+Size=90
 TextColor=FF453A
 VisibilitySource=Limit thermal
 [Layer25]
@@ -403,7 +403,7 @@ PositionY=50
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=30D158
 [Layer26]
 Name=FPS
@@ -413,7 +413,7 @@ PositionY=74
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=170
+Size=340
 TextColor=FFFFFF
 [Layer27]
 Name=1% label
@@ -423,7 +423,7 @@ PositionY=58
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer28]
 Name=1%
@@ -433,7 +433,7 @@ PositionY=54
 ExtentX=140
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer29]
 Name=FT label
@@ -443,7 +443,7 @@ PositionY=96
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=8E8E93
 [Layer30]
 Name=FT
@@ -453,7 +453,7 @@ PositionY=92
 ExtentX=140
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=FFFFFF
 [Layer31]
 Name=Frametime graph
@@ -472,7 +472,7 @@ PositionY=48
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=90
+Size=180
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
 [Layer33]
 Name=Cable label
@@ -482,7 +482,7 @@ PositionY=50
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=58
+Size=116
 TextColor=FF453A,,11.75,FF453A,11.75,11.85,FF9F0A,11.85,11.95,30D158,11.95,(12V status,2)
 [Layer34]
 Name=Cable voltage
@@ -492,7 +492,7 @@ PositionY=88
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=105
+Size=210
 TextColor=FFFFFF
 [Layer35]
 Name=Cable V
@@ -502,5 +502,5 @@ PositionY=104
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=60
+Size=120
 TextColor=8E8E93

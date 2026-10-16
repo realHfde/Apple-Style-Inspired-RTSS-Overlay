@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -103,7 +103,7 @@ PositionY=302
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=000000
 [Layer2]
 Name=FPS label shadow
@@ -113,7 +113,7 @@ PositionY=304
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=000000
 [Layer3]
 Name=FPS label
@@ -123,7 +123,7 @@ PositionY=300
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=30D158
 [Layer4]
 Name=FPS value shadow
@@ -133,7 +133,7 @@ PositionY=350
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer5]
 Name=FPS value shadow
@@ -143,7 +143,7 @@ PositionY=352
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer6]
 Name=FPS value
@@ -153,7 +153,7 @@ PositionY=348
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=FFFFFF
 [Layer7]
 Name=FPS 1% low label shadow
@@ -163,7 +163,7 @@ PositionY=520
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer8]
 Name=FPS 1% low label shadow
@@ -173,7 +173,7 @@ PositionY=522
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer9]
 Name=FPS 1% low label
@@ -183,7 +183,7 @@ PositionY=518
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=C7C7CC
 [Layer10]
 Name=FPS 1% low shadow
@@ -193,7 +193,7 @@ PositionY=516
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer11]
 Name=FPS 1% low shadow
@@ -203,7 +203,7 @@ PositionY=518
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer12]
 Name=FPS 1% low
@@ -213,7 +213,7 @@ PositionY=514
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=FFFFFF
 [Layer13]
 Name=CPU label shadow
@@ -223,7 +223,7 @@ PositionY=692
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=000000
 [Layer14]
 Name=CPU label shadow
@@ -233,7 +233,7 @@ PositionY=694
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=000000
 [Layer15]
 Name=CPU label
@@ -243,7 +243,7 @@ PositionY=690
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=0A84FF
 [Layer16]
 Name=CPU value shadow
@@ -253,7 +253,7 @@ PositionY=740
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer17]
 Name=CPU value shadow
@@ -263,7 +263,7 @@ PositionY=742
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer18]
 Name=CPU value
@@ -273,7 +273,7 @@ PositionY=738
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer19]
 Name=CPU Load label shadow
@@ -283,7 +283,7 @@ PositionY=910
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer20]
 Name=CPU Load label shadow
@@ -293,7 +293,7 @@ PositionY=912
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer21]
 Name=CPU Load label
@@ -303,7 +303,7 @@ PositionY=908
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=C7C7CC
 [Layer22]
 Name=CPU Load shadow
@@ -313,7 +313,7 @@ PositionY=906
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer23]
 Name=CPU Load shadow
@@ -323,7 +323,7 @@ PositionY=908
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer24]
 Name=CPU Load
@@ -333,7 +333,7 @@ PositionY=904
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=FFFFFF
 [Layer25]
 Name=CPU Power label shadow
@@ -343,7 +343,7 @@ PositionY=990
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer26]
 Name=CPU Power label shadow
@@ -353,7 +353,7 @@ PositionY=992
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer27]
 Name=CPU Power label
@@ -363,7 +363,7 @@ PositionY=988
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=C7C7CC
 [Layer28]
 Name=CPU Power shadow
@@ -373,7 +373,7 @@ PositionY=986
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer29]
 Name=CPU Power shadow
@@ -383,7 +383,7 @@ PositionY=988
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer30]
 Name=CPU Power
@@ -393,7 +393,7 @@ PositionY=984
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=FFFFFF
 [Layer31]
 Name=GPU label shadow
@@ -403,7 +403,7 @@ PositionY=1154
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=000000
 [Layer32]
 Name=GPU label shadow
@@ -413,7 +413,7 @@ PositionY=1156
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=000000
 [Layer33]
 Name=GPU label
@@ -423,7 +423,7 @@ PositionY=1152
 ExtentX=560
 ExtentY=56
 ExtentOrigin=4
-Size=110
+Size=220
 TextColor=BF5AF2
 [Layer34]
 Name=GPU value shadow
@@ -433,7 +433,7 @@ PositionY=1202
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer35]
 Name=GPU value shadow
@@ -443,7 +443,7 @@ PositionY=1204
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer36]
 Name=GPU value
@@ -453,7 +453,7 @@ PositionY=1200
 ExtentX=560
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
 [Layer37]
 Name=GPU Load label shadow
@@ -463,7 +463,7 @@ PositionY=1372
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer38]
 Name=GPU Load label shadow
@@ -473,7 +473,7 @@ PositionY=1374
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer39]
 Name=GPU Load label
@@ -483,7 +483,7 @@ PositionY=1370
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=C7C7CC
 [Layer40]
 Name=GPU Load shadow
@@ -493,7 +493,7 @@ PositionY=1368
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer41]
 Name=GPU Load shadow
@@ -503,7 +503,7 @@ PositionY=1370
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer42]
 Name=GPU Load
@@ -513,7 +513,7 @@ PositionY=1366
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=FFFFFF
 [Layer43]
 Name=GPU Power label shadow
@@ -523,7 +523,7 @@ PositionY=1452
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer44]
 Name=GPU Power label shadow
@@ -533,7 +533,7 @@ PositionY=1454
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=000000
 [Layer45]
 Name=GPU Power label
@@ -543,7 +543,7 @@ PositionY=1450
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=120
+Size=240
 TextColor=C7C7CC
 [Layer46]
 Name=GPU Power shadow
@@ -553,7 +553,7 @@ PositionY=1448
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer47]
 Name=GPU Power shadow
@@ -563,7 +563,7 @@ PositionY=1450
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=000000
 [Layer48]
 Name=GPU Power
@@ -573,5 +573,5 @@ PositionY=1446
 ExtentX=460
 ExtentY=72
 ExtentOrigin=2
-Size=145
+Size=290
 TextColor=FFFFFF

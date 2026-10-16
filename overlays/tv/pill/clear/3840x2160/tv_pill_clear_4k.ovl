@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -89,7 +89,7 @@ Gpu=FFFFFFFF
 SrcName=
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,2474,1800,290>
+Text=<I=0,0,0,1238,1800,290>
 PositionX=1020
 PositionY=48
 ExtentX=1800
@@ -97,7 +97,7 @@ ExtentY=290
 ExtentOrigin=0
 [Layer1]
 Name=CPU ring
-Text=<AI=CPU usage,0,0,0,102,0,0,206,206,51,10,0>
+Text=<AI=CPU usage,0,0,0,104,0,0,206,206,26,9,0>
 PositionX=1057
 PositionY=90
 ExtentX=206
@@ -111,7 +111,7 @@ PositionY=92
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=000000
 [Layer3]
 Name=CPU usage shadow
@@ -121,7 +121,7 @@ PositionY=94
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=000000
 [Layer4]
 Name=CPU usage
@@ -131,7 +131,7 @@ PositionY=90
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=FFFFFF
 [Layer5]
 Name=CPU label shadow
@@ -141,7 +141,7 @@ PositionY=81
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer6]
 Name=CPU label shadow
@@ -151,7 +151,7 @@ PositionY=83
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer7]
 Name=CPU label
@@ -161,7 +161,7 @@ PositionY=79
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=0A84FF
 [Layer8]
 Name=CPU temperature shadow
@@ -171,7 +171,7 @@ PositionY=125
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=000000
 [Layer9]
 Name=CPU temperature shadow
@@ -181,7 +181,7 @@ PositionY=127
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=000000
 [Layer10]
 Name=CPU temperature
@@ -191,7 +191,7 @@ PositionY=123
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer11]
 Name=CPU power shadow
@@ -201,7 +201,7 @@ PositionY=255
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=000000
 [Layer12]
 Name=CPU power shadow
@@ -211,7 +211,7 @@ PositionY=257
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=000000
 [Layer13]
 Name=CPU power
@@ -221,11 +221,11 @@ PositionY=253
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=EBEBF0
 [Layer14]
 Name=GPU ring
-Text=<AI=GPU1 usage,0,0,0,102,0,1236,206,206,51,10,0>
+Text=<AI=GPU1 usage,0,0,0,104,0,618,206,206,26,9,0>
 PositionX=2577
 PositionY=90
 ExtentX=206
@@ -239,7 +239,7 @@ PositionY=92
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=000000
 [Layer16]
 Name=GPU usage shadow
@@ -249,7 +249,7 @@ PositionY=94
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=000000
 [Layer17]
 Name=GPU usage
@@ -259,7 +259,7 @@ PositionY=90
 ExtentX=206
 ExtentY=206
 ExtentOrigin=4
-Size=175
+Size=350
 TextColor=FFFFFF
 [Layer18]
 Name=GPU label shadow
@@ -269,7 +269,7 @@ PositionY=81
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer19]
 Name=GPU label shadow
@@ -279,7 +279,7 @@ PositionY=83
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer20]
 Name=GPU label
@@ -289,7 +289,7 @@ PositionY=79
 ExtentX=230
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=BF5AF2
 [Layer21]
 Name=GPU temperature shadow
@@ -299,7 +299,7 @@ PositionY=125
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=000000
 [Layer22]
 Name=GPU temperature shadow
@@ -309,7 +309,7 @@ PositionY=127
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=000000
 [Layer23]
 Name=GPU temperature
@@ -319,7 +319,7 @@ PositionY=123
 ExtentX=230
 ExtentY=146
 ExtentOrigin=4
-Size=295
+Size=590
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
 [Layer24]
 Name=GPU power shadow
@@ -329,7 +329,7 @@ PositionY=255
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=000000
 [Layer25]
 Name=GPU power shadow
@@ -339,7 +339,7 @@ PositionY=257
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=000000
 [Layer26]
 Name=GPU power
@@ -349,7 +349,7 @@ PositionY=253
 ExtentX=230
 ExtentY=70
 ExtentOrigin=4
-Size=140
+Size=280
 TextColor=EBEBF0
 [Layer27]
 Name=FPS label shadow
@@ -359,7 +359,7 @@ PositionY=93
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer28]
 Name=FPS label shadow
@@ -369,7 +369,7 @@ PositionY=95
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer29]
 Name=FPS label
@@ -379,7 +379,7 @@ PositionY=91
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=30D158
 [Layer30]
 Name=FPS shadow
@@ -389,7 +389,7 @@ PositionY=137
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer31]
 Name=FPS shadow
@@ -399,7 +399,7 @@ PositionY=139
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer32]
 Name=FPS
@@ -409,7 +409,7 @@ PositionY=135
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=FFFFFF
 [Layer33]
 Name=1% low label shadow
@@ -419,7 +419,7 @@ PositionY=93
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer34]
 Name=1% low label shadow
@@ -429,7 +429,7 @@ PositionY=95
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=000000
 [Layer35]
 Name=1% low label
@@ -439,7 +439,7 @@ PositionY=91
 ExtentX=300
 ExtentY=50
 ExtentOrigin=4
-Size=100
+Size=200
 TextColor=C7C7CC
 [Layer36]
 Name=1% low shadow
@@ -449,7 +449,7 @@ PositionY=137
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer37]
 Name=1% low shadow
@@ -459,7 +459,7 @@ PositionY=139
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=000000
 [Layer38]
 Name=1% low
@@ -469,5 +469,5 @@ PositionY=135
 ExtentX=300
 ExtentY=172
 ExtentOrigin=4
-Size=350
+Size=700
 TextColor=EBEBF0

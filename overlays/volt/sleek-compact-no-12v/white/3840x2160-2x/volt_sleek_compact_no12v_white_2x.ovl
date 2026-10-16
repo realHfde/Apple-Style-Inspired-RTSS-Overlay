@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-40
+FontHeight=-20
 FontWeight=800
 ZoomRatio=1
 [Settings]
@@ -179,7 +179,7 @@ PositionY=52
 ExtentX=120
 ExtentY=120
 ExtentOrigin=4
-Size=85
+Size=170
 TextColor=0A0A0C
 [Layer3]
 Name=CPU label
@@ -189,7 +189,7 @@ PositionY=52
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=007AFF
 [Layer4]
 Name=CPU temperature
@@ -199,7 +199,7 @@ PositionY=78
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=150
+Size=300
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(CPU temperature,1)
 [Layer5]
 Name=CPU Power label
@@ -209,7 +209,7 @@ PositionY=54
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer6]
 Name=CPU Power
@@ -219,7 +219,7 @@ PositionY=54
 ExtentX=220
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer7]
 Name=CPU Clock label
@@ -229,7 +229,7 @@ PositionY=90
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer8]
 Name=CPU Clock
@@ -239,7 +239,7 @@ PositionY=90
 ExtentX=220
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer9]
 Name=CPU RAM label
@@ -249,7 +249,7 @@ PositionY=126
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer10]
 Name=CPU RAM
@@ -259,7 +259,7 @@ PositionY=126
 ExtentX=220
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer11]
 Name=GPU ring
@@ -277,7 +277,7 @@ PositionY=52
 ExtentX=120
 ExtentY=120
 ExtentOrigin=4
-Size=85
+Size=170
 TextColor=0A0A0C
 [Layer13]
 Name=GPU label
@@ -287,7 +287,7 @@ PositionY=52
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=AF52DE
 [Layer14]
 Name=GPU temperature
@@ -297,7 +297,7 @@ PositionY=78
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=150
+Size=300
 TextColor=0A0A0C,,75,C93400,75,85,D70015,85,(GPU1 temperature,1)
 [Layer15]
 Name=GPU sub
@@ -307,7 +307,7 @@ PositionY=146
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=50
+Size=100
 TextColor=3A3A3C
 [Layer16]
 Name=GPU Power label
@@ -317,7 +317,7 @@ PositionY=54
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer17]
 Name=GPU Power
@@ -327,7 +327,7 @@ PositionY=54
 ExtentX=220
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer18]
 Name=GPU Clock label
@@ -337,7 +337,7 @@ PositionY=90
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer19]
 Name=GPU Clock
@@ -347,7 +347,7 @@ PositionY=90
 ExtentX=220
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer20]
 Name=GPU VRAM label
@@ -357,7 +357,7 @@ PositionY=126
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer21]
 Name=GPU VRAM
@@ -367,7 +367,7 @@ PositionY=126
 ExtentX=220
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer22]
 Name=Limit power
@@ -378,7 +378,7 @@ PositionY=162
 ExtentX=220
 ExtentY=28
 ExtentOrigin=2
-Size=50
+Size=100
 TextColor=C93400
 [Layer23]
 Name=Limit thermal
@@ -389,7 +389,7 @@ PositionY=162
 ExtentX=220
 ExtentY=28
 ExtentOrigin=2
-Size=50
+Size=100
 TextColor=D70015
 [Layer24]
 Name=FPS label
@@ -399,7 +399,7 @@ PositionY=52
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=248A3D
 [Layer25]
 Name=FPS
@@ -409,7 +409,7 @@ PositionY=76
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=170
+Size=340
 TextColor=0A0A0C
 [Layer26]
 Name=1% label
@@ -419,7 +419,7 @@ PositionY=54
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer27]
 Name=1%
@@ -429,7 +429,7 @@ PositionY=54
 ExtentX=160
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer28]
 Name=0.1% label
@@ -439,7 +439,7 @@ PositionY=90
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer29]
 Name=0.1%
@@ -449,7 +449,7 @@ PositionY=90
 ExtentX=160
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer30]
 Name=FT label
@@ -459,7 +459,7 @@ PositionY=126
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=55
+Size=110
 TextColor=3A3A3C
 [Layer31]
 Name=FT
@@ -469,7 +469,7 @@ PositionY=126
 ExtentX=160
 ExtentY=32
 ExtentOrigin=2
-Size=65
+Size=130
 TextColor=0A0A0C
 [Layer32]
 Name=Frametime graph

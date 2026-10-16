@@ -1,7 +1,7 @@
 [Master]
 Implementation=2
 FontFace=Inter
-FontHeight=-30
+FontHeight=-20
 FontWeight=700
 ZoomRatio=1
 [Settings]
@@ -111,7 +111,7 @@ PositionY=34
 ExtentX=93
 ExtentY=93
 ExtentOrigin=4
-Size=95
+Size=142
 TextColor=FFFFFF
 [Layer3]
 Name=CPU label
@@ -121,7 +121,7 @@ PositionY=36
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=61
+Size=92
 TextColor=409CFF
 [Layer4]
 Name=CPU temperature
@@ -131,7 +131,7 @@ PositionY=57
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=110
+Size=165
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer5]
 Name=CPU power
@@ -141,7 +141,7 @@ PositionY=102
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=66
+Size=99
 TextColor=F2F2F7
 [Layer6]
 Name=FPS label
@@ -151,7 +151,7 @@ PositionY=48
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=61
+Size=92
 TextColor=C7C7CC
 [Layer7]
 Name=Framerate
@@ -161,7 +161,7 @@ PositionY=69
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=143
+Size=214
 TextColor=FFFFFF
 [Layer8]
 Name=1% low label
@@ -171,7 +171,7 @@ PositionY=48
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=61
+Size=92
 TextColor=C7C7CC
 [Layer9]
 Name=1% low
@@ -181,7 +181,7 @@ PositionY=76
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=110
+Size=165
 TextColor=EBEBF0
 [Layer10]
 Name=GPU label
@@ -191,7 +191,7 @@ PositionY=36
 ExtentX=129
 ExtentY=21
 ExtentOrigin=2
-Size=61
+Size=92
 TextColor=DA8FFF
 [Layer11]
 Name=GPU temperature
@@ -201,7 +201,7 @@ PositionY=57
 ExtentX=129
 ExtentY=45
 ExtentOrigin=2
-Size=110
+Size=165
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
 [Layer12]
 Name=GPU power
@@ -211,7 +211,7 @@ PositionY=102
 ExtentX=129
 ExtentY=27
 ExtentOrigin=2
-Size=66
+Size=99
 TextColor=F2F2F7
 [Layer13]
 Name=GPU ring
@@ -229,5 +229,5 @@ PositionY=34
 ExtentX=93
 ExtentY=93
 ExtentOrigin=4
-Size=95
+Size=142
 TextColor=FFFFFF

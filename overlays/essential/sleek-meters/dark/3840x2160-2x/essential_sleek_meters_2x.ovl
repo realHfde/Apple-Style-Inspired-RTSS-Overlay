@@ -283,7 +283,7 @@ Size=142
 TextColor=FFFFFF
 [Layer10]
 Name=CPU Clock meter
-Text=<AI=CPU clock pct,0,0,0,102,0,872,213,32,51,9,0>
+Text=<AI=CPU clock pct,0,0,0,102,0,678,213,32,51,9,0>
 PositionX=1470
 PositionY=129
 ExtentX=213
@@ -311,7 +311,7 @@ Size=142
 TextColor=FFFFFF
 [Layer13]
 Name=CPU RAM meter
-Text=<AI=RAM pct,0,0,0,102,0,1066,213,32,51,9,0>
+Text=<AI=RAM pct,0,0,0,102,0,678,213,32,51,9,0>
 PositionX=1470
 PositionY=175
 ExtentX=213
@@ -405,7 +405,7 @@ Size=142
 TextColor=FFFFFF
 [Layer23]
 Name=GPU Clock meter
-Text=<AI=GPU clock pct,0,0,0,102,0,1944,213,32,51,9,0>
+Text=<AI=GPU clock pct,0,0,0,102,0,1750,213,32,51,9,0>
 PositionX=1995
 PositionY=129
 ExtentX=213
@@ -433,7 +433,7 @@ Size=142
 TextColor=FFFFFF
 [Layer26]
 Name=GPU VRAM meter
-Text=<AI=VRAM pct,0,0,0,102,0,2138,213,32,51,9,0>
+Text=<AI=VRAM pct,0,0,0,102,0,1750,213,32,51,9,0>
 PositionX=1995
 PositionY=175
 ExtentX=213
