@@ -639,7 +639,7 @@ Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on
 
 | Program | What it does |
 |---|---|
-| [**Rainmeter**](https://www.rainmeter.net/) | Shows the skins on your desktop |
+| [**Rainmeter 5**](https://www.rainmeter.net/changes-5.0/) | Shows the skins on your desktop. Works on Rainmeter 5 and on [4.5](https://www.rainmeter.net/) (5 needs 64-bit Windows 10 1903 or newer, or Windows 11) |
 | [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Reads your temperatures, clocks, power and FPS. Keep it running in the background |
 
 You **don't** need to install the Inter font for this one: it comes inside the pack.
