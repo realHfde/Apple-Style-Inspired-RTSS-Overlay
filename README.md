@@ -657,7 +657,6 @@ These come from how RTSS's OverlayEditor works, so every OverlayEditor layout ha
 
 - **RTSS's position box and zoom slider don't move these overlays.** Move them in OverlayEditor instead ([how](#move-an-overlay)). A normal Afterburner overlay is one block of text that RTSS places where you choose. An OverlayEditor layout is made of separate layers (panel, rings, each number), and each layer has its own fixed spot on the screen. There's no "whole overlay" position for RTSS to move.
 - **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack that matches the resolution you play at most.
-- 🔬 **Working on it:** corner-anchored versions (e.g. bottom-left) that stay in their corner at any resolution. Testing now.
 
 ## Troubleshooting
 
