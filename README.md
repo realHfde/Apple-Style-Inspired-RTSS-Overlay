@@ -34,6 +34,7 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. Works on **Rainmeter 4.5 and 5**.
 - **⚙️ New: Settings panel for Monitors & Widgets 1.5.** Right-click → Custom skin actions → **Settings…** and click the theme, FPS scale, meters, corners, gaps or GPU you want. (In 1.4 some of these were cut off the right-click menu.)
 - **🔧 Fixed: 4K 1.5x / 2x overlays and TV Pill 4K** now show their rings, meters and panel correctly.
 - **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. The files are renamed to match: overlays now start with `essential_` or `volt_`, the downloads are called **Essential…zip**, **Volt…zip** and **TV…zip**, and the Rainmeter skin installs as **MonitorsAndWidgets**. Nothing else changed. Had the old ones? See [switching from the old names](#old-names).
@@ -612,25 +613,12 @@ Right-click any skin → **Custom skin actions** → **Settings…**. A panel op
 | **VRAM meter: off / 8 / 16 / 32 GB** | The same for VRAM. A bar turns **red** above 90% |
 | **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
 | **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
-| **Gaps: on / off** | **Off** makes the cards reach right to the edges of the screen when you use **Fit to monitor** (great with square corners). See [which layouts have gaps](#gaps) |
 | **Theme: Dark / White / Clear / Float** | Same four themes as the overlays |
 | **GPU: 1 / 2** | Pick **2** if your PC has integrated graphics and the GPU numbers look wrong |
 
 ![Options: memory meters, FPS scale and corners](previews/rainmeter/options.png)
 
 ![Dark, White, Clear and Float](previews/rainmeter/themes.png)
-
-<a id="gaps"></a>
-**Which layouts have gaps?** Only the ones made of separate cards. The **Gaps** option changes these:
-
-| Has gaps (Gaps option works) | One solid panel (no gaps to remove) |
-|---|---|
-| Second Screen → **16x9** and **Portrait** | Second Screen → **16x9 Box** and **Portrait Box** |
-| **Case Screen Widgets** (all screens) | **Case Screen Classic** (all screens) |
-| **Bar Screen Widgets** (Lian Li bars, Lancool 207, Xeneon Edge) | **Bar Screen Classic** (Lian Li bars, Lancool 207, Xeneon Edge) |
-| | The five **desktop widgets** (one box each) |
-
-Want edge to edge? Use a **Box** or **Classic** layout, or turn **Gaps: off** on a card layout. Add **Corners: square** for sharp edges.
 
 <a id="monitor-setup"></a>
 ### ⬇️ Set it up (about 5 minutes)
@@ -656,7 +644,7 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.5.rmskin`** from the [Monitors & Widgets 1.5 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.5) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+Download **`Monitors and Widgets 1.6.rmskin`** from the [Monitors & Widgets 1.6 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.6) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
 
 **4️⃣ Pick your layout**
 
@@ -670,8 +658,9 @@ Right-click the skin → **Custom skin actions**:
 
 - **Fit to monitor 1 / 2 / 3**: fills that whole screen. This is the one for a HYTE or Lian Li screen or a second monitor. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number and name.
 - **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
+  > 💡 If a Size preset doesn't change the size (the **HYTE** layouts don't really resize with them yet), use **Rainmeter 5's Zoom** instead: Manage → pick the skin → **Zoom** (10% to 500%), or the Zoom option in the skin's right-click menu.
 - **Center on its monitor** puts it back in the middle.
-- **Settings…** opens the [Settings panel](#monitor-options) for the theme, FPS scale, meters, corners, gaps and GPU.
+- **Settings…** opens the [Settings panel](#monitor-options) for the theme, FPS scale, meters, corners and GPU.
 
 <img src="previews/rainmeter/setup_menu.png" width="420" alt="Right-click menu: Custom skin actions">
 
@@ -701,9 +690,9 @@ It remembers its size, screen and options after a restart.
 | Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
 | GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Settings…** → **GPU: 2**. |
 | It fills the wrong screen | Use **Fit to monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
-| It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu. |
+| It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu, or use **Zoom** in Rainmeter 5 (Manage → Zoom). |
 | The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
-| Gaps at the edges or corners when it fills a screen | Pick **Gaps: off** and **Corners: square**. Also check you picked the layout for your screen's shape (16x9 for a normal monitor, Portrait for an upright one). |
+| Dark corners at the edges when it fills a screen | Pick **Corners: square**. Also check you picked the layout for your screen's shape (16x9 for a normal monitor, Portrait for an upright one). |
 | A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
 | Text from other skins shows behind it | That's Rainmeter's built-in **illustro** skins. In Manage, open **illustro** and **Unload** each one. |
 | The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
