@@ -28,6 +28,8 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
+- **⚙️ New: Settings panel for Monitors & Widgets 1.5.** Right-click → Custom skin actions → **Settings…** and click the theme, FPS scale, meters, corners, gaps or GPU you want. (In 1.4 some of these were cut off the right-click menu.)
+- **🔧 Fixed: 4K 1.5x / 2x overlays and TV Pill 4K** now show their rings, meters and panel correctly.
 - **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. The files are renamed to match: overlays now start with `essential_` or `volt_`, the downloads are called **Essential…zip**, **Volt…zip** and **TV…zip**, and the Rainmeter skin installs as **MonitorsAndWidgets**. Nothing else changed. Had the old ones? See [switching from the old names](#old-names).
 - **📱 New: Monitors & Widgets 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens, **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
 - **🕘 New: Island Bar Time (Essential).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
@@ -567,9 +569,11 @@ Smaller panels for your normal desktop: **Sidebar**, **Alternate Sidebar**, **Al
 <p align="center"><a href="#monitor-setup"><img src="previews/buttons/setup-monitors-widgets.png" alt="Set up Monitors & Widgets" height="38"></a><br><sub>Rainmeter + MSI Afterburner · about 5 minutes</sub></p>
 
 <a id="monitor-options"></a>
-### Make it yours (right-click menu)
+### Make it yours (Settings panel)
 
-Right-click any skin → **Custom skin actions**. Every Monitors & Widgets skin you have open switches together, and the ✓ shows what's picked.
+Right-click any skin → **Custom skin actions** → **Settings…**. A panel opens in the middle of that screen: click any option and every Monitors & Widgets skin you have open switches straight away. Close it with **×**.
+
+<img src="previews/rainmeter/setup_settings.png" width="420" alt="Settings panel">
 
 | Option | What it does |
 |---|---|
@@ -579,6 +583,7 @@ Right-click any skin → **Custom skin actions**. Every Monitors & Widgets skin 
 | **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
 | **Gaps: on / off** | **Off** makes the cards reach right to the edges of the screen when you use **Fit to monitor** (great with square corners). See [which layouts have gaps](#gaps) |
 | **Theme: Dark / White / Clear / Float** | Same four themes as the overlays |
+| **GPU: 1 / 2** | Pick **2** if your PC has integrated graphics and the GPU numbers look wrong |
 
 ![Options: memory meters, FPS scale and corners](previews/rainmeter/options.png)
 
@@ -620,7 +625,7 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.4.rmskin`** from the [Monitors & Widgets 1.4 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitors-and-Widgets-1.4v) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+Download **`Monitors and Widgets 1.5.rmskin`** from the [Monitors & Widgets 1.5 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.5) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
 
 **4️⃣ Pick your layout**
 
@@ -635,12 +640,9 @@ Right-click the skin → **Custom skin actions**:
 - **Fit to monitor 1 / 2 / 3**: fills that whole screen. This is the one for a HYTE or Lian Li screen or a second monitor. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number and name.
 - **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
 - **Center on its monitor** puts it back in the middle.
-- **GPU 2** if your PC has integrated graphics and the GPU numbers look wrong.
-- Plus the meters, FPS scale, corners, gaps and theme from [the options above](#monitor-options).
+- **Settings…** opens the [Settings panel](#monitor-options) for the theme, FPS scale, meters, corners, gaps and GPU.
 
-![Right-click menu: Custom skin actions](previews/rainmeter/setup_menu.png)
-
-The ✓ shows what's picked. Scroll down the menu for **FPS scale**, **Theme** and **GPU**.
+<img src="previews/rainmeter/setup_menu.png" width="420" alt="Right-click menu: Custom skin actions">
 
 It remembers its size, screen and options after a restart.
 
@@ -666,7 +668,7 @@ It remembers its size, screen and options after a restart.
 |---|---|
 | A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#rainmeter)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
 | Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
-| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **GPU 2**. |
+| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Settings…** → **GPU: 2**. |
 | It fills the wrong screen | Use **Fit to monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
 | It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu. |
 | The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
