@@ -2,7 +2,7 @@
 
 Hey! 👋 These are clean, Apple-style performance overlays for **RivaTuner Statistics Server (RTSS)**. Pick a look you like, drop the files in, and see your FPS, temps, usage and more while you play. They're free, and there are 10 overlay designs in 4 themes, plus an **MSI Edition** that doesn't need HWiNFO, for screens from 1080p up to 5K2K, gaming laptops and TVs.
 
-### 📱 New: **Apple Style Monitor** for your second screen, HYTE case screen or Lian Li screen (Rainmeter). [See it below](#rainmeter).
+### 📱 New: **Apple Style Monitor** for your second screen, HYTE or Lian Li case screen, Corsair Xeneon Edge or desktop (Rainmeter). [See it below](#rainmeter).
 
 ### 🟢 Don't need VRAM temperature or the 12V cable? Then you only need **MSI Afterburner + RTSS**. Grab the [**MSI Edition**](#msi-edition), with no HWiNFO at all.
 
@@ -13,10 +13,14 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 ## 🆕 What's new
 
 **October 2026**
-- **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
+- **📱 New: Apple Style Monitor 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens, **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
 - **🕘 New: Island Bar Time (MSI Edition).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
+- **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both the MSI Edition and the Original (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
 - **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (MSI Edition and Original) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
-- **📱 New: Apple Style Monitor 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
+
+<details>
+<summary><b>Older updates</b> (click to open)</summary>
+
 - **🟢 New MSI Edition:** every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#msi-edition).
 - **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
 - **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
@@ -28,6 +32,8 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
 - **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
 - **No 12V versions** of Compact, Meters, Meters Universal, Rings and Side, for graphics cards that don't report 12V or if you don't want it. Look for the folders ending in `-no-12v`. [See them below](#no-12v-versions).
+
+</details>
 
 Thanks to everyone on Reddit who asked for these!
 
@@ -331,11 +337,11 @@ Every overlay redesigned with **bigger, easier-to-read text**, plus a new one, *
 ---
 
 <a id="rainmeter"></a>
-## 📱 Apple Style Monitor: second screen, HYTE, Lian Li & desktop widgets (Rainmeter)
+## 📱 Apple Style Monitor: second screen, HYTE, Lian Li, Xeneon Edge & desktop widgets (Rainmeter)
 
 ### Your stats on a second monitor, your case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE case screen or a Lian Li screen and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
+RTSS overlays only show **inside a game**. Apple Style Monitor is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE or Lian Li case screen, a Corsair Xeneon Edge or your desktop and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
 
 ![Apple Style Monitor on a second screen](previews/rainmeter/second-screen.png)
 
@@ -385,6 +391,7 @@ Smaller panels for your normal desktop. Pick a size and drag them anywhere. Thei
 
 ![Desktop widgets](previews/rainmeter/desktop-widgets.png)
 
+<a id="monitor-options"></a>
 ### Make it yours (right-click menu)
 
 Right-click any skin → **Custom skin actions**. Every Apple Style Monitor skin you have open switches together, and the ✓ shows what's picked.
@@ -437,7 +444,7 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Apple Style Monitor 1.4.rmskin`** from the [latest release](../../releases/latest) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+Download **`Apple Style Monitor 1.4.rmskin`** from the [Apple Style Monitor 1.4 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitors-and-Widgets-1.4v) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
 
 **4️⃣ Pick your layout**
 
@@ -453,7 +460,7 @@ Right-click the skin → **Custom skin actions**:
 - **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
 - **Center on its monitor** puts it back in the middle.
 - **GPU 2** if your PC has integrated graphics and the GPU numbers look wrong.
-- Plus the meters, FPS scale, corners, gaps and theme from [the options above](#rainmeter).
+- Plus the meters, FPS scale, corners, gaps and theme from [the options above](#monitor-options).
 
 ![Right-click menu: Custom skin actions](previews/rainmeter/setup_menu.png)
 
@@ -475,7 +482,7 @@ It remembers its size, screen and options after a restart.
 - The **charts fill up over time**: they start empty and cover the last 2 minutes (frame time: the last 60 seconds) once full.
 - **Frame time** is worked out from your FPS if Afterburner doesn't send it.
 - **Network** is your internet download (blue) and upload (orange) speed.
-- **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE and Lian Li layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
+- **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE, Lian Li and Xeneon Edge layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
 
 ### Troubleshooting
 
