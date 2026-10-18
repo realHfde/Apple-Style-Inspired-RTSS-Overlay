@@ -92,7 +92,15 @@ Thanks to everyone on Reddit who asked for these!
 <a id="get-started"></a>
 ## 🧭 Get started
 
-Takes about 5 minutes. Follow these in order. 👇
+> ⚡ **Already know RTSS? Quick start**
+> 1. Install **MSI Afterburner with RTSS**, the **[Inter font](#install-inter)**, and for Volt **HWiNFO** with [Shared Memory](#hwinfo-setup-shared-memory) on.
+> 2. Afterburner → Settings → **Monitoring**: tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** (On-Screen Display off).
+> 3. [Download the pack](#download) for your resolution and copy the files from one theme folder into `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`.
+> 4. RTSS → **Setup → Plugins → OverlayEditor.dll → Setup** → **Layouts → Load** → pick the `.ovl`. Play!
+>
+> Stuck on any step? The full picture guide is right below.
+
+New to this? Takes about 5 minutes. Follow these in order. 👇
 
 ### 🟢 First: which version do you want?
 
@@ -127,11 +135,16 @@ Takes about 5 minutes. Follow these in order. 👇
 | 4 | In the folder that opens, **right-click Inter.ttc** |
 | 5 | Click **Install for all users**. Some programs only see fonts installed for all users |
 
+<details>
+<summary>📷 Show the pictures</summary>
+
 <img src="previews/font/1_download.png" width="520" alt="Inter website: Download button">
 
 <img src="previews/font/2_extract.png" width="520" alt="Downloads: Inter zip and Extract all">
 
 <img src="previews/font/3_install.png" width="520" alt="Right-click Inter.ttc, Install for all users">
+
+</details>
 
 Then **restart RTSS** (close it from the tray and open it again).
 
@@ -302,12 +315,15 @@ Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins 
 | 10 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
 | 11 | **Open** | Click it, then launch a game |
 
-> 💡 **Can't see your overlay in the editor?** These are demo pictures. **Maximize the Overlay editor (full screen)** to see your overlay where it will sit in game, e.g. top centre of your screen.
+> 💡 **Can't see your overlay in the editor?** These are demo pictures. **Maximize the Overlay editor (full screen)** to see your overlay where it will sit in game: at the **top centre**, or on the **right edge** for Sleek Side and Performance.
 
-> 📝 **These are demo pictures.** The overlay is placed for a full screen, so **maximize the Overlay editor** (make it full screen) to see it where it will be in game: at the **top centre**, or on the **right edge** for Sleek Side and Performance.
+### 🧰 Optional extras
+
+Open the ones you need:
 
 <a id="smooth"></a>
-### 🧈 Keep it smooth (no stutter)
+<details>
+<summary><b>🧈 Keep it smooth (no stutter)</b> (click to open)</summary>
 
 The overlay itself is light: it redraws every **500 ms** (the RTSS refresh period from [step 4](#rtss-setup)). Stutter usually comes from monitoring apps reading sensors too often, so:
 
@@ -321,8 +337,11 @@ The overlay itself is light: it redraws every **500 ms** (the RTSS refresh perio
 
 Want the lightest setup? Use **🟢 Essential**: no HWiNFO at all.
 
+</details>
+
 <a id="hotkey"></a>
-### ⌨️ Show / hide the overlay with a hotkey
+<details>
+<summary><b>⌨️ Show / hide the overlay with a hotkey</b> (click to open)</summary>
 
 | # | What to do |
 |---|---|
@@ -335,10 +354,13 @@ Want the lightest setup? Use **🟢 Essential**: no HWiNFO at all.
 
 Now press that key in game to show or hide the overlay. Handy for screenshots and recordings.
 
-<a id="two-gpus"></a>
-### 🖥️ CPU with integrated graphics, or two GPUs?
+</details>
 
-### If GPU load, temperature or power show 0 or look wrong, the overlay is probably reading your integrated graphics.
+<a id="two-gpus"></a>
+<details>
+<summary><b>🖥️ CPU with integrated graphics, or two GPUs?</b> (click to open)</summary>
+
+**If GPU load, temperature or power show 0 or look wrong, the overlay is probably reading your integrated graphics.**
 
 **Which number is your graphics card?** Open **Task Manager** (Ctrl + Shift + Esc) → **Performance** and look at the GPU list. The number next to your graphics card (e.g. **GPU 1**) is the one to use:
 
@@ -358,8 +380,11 @@ Now press that key in game to show or hide the overlay. Handy for screenshots an
 
 Tip: watch the **Value** column in Data sources. Once it's right, GPU usage jumps up when you start a game.
 
+</details>
+
 <a id="move-an-overlay"></a>
-### 📍 Move it anywhere you like
+<details>
+<summary><b>📍 Move it anywhere you like</b> (click to open)</summary>
 
 1. Open the overlay in the **Overlay editor**.
 2. ### Turn off "Snap to grid" first! ⚠️
@@ -371,6 +396,8 @@ Tip: watch the **Value** column in Data sources. Once it's right, GPU usage jump
 4. **Save** the layout.
 
 Everything stays lined up, and it remembers the new spot. (RTSS's own position box doesn't move these overlays, so this is the way to do it.)
+
+</details>
 
 <details>
 <summary>Only want one overlay?</summary>
@@ -482,91 +509,6 @@ Made and tested on **55" and 65" 4K TVs** from about 3 m away. Only need **MSI A
 </table>
 
 Only copy in **one** TV pack, the one that matches your TV's resolution. TV size doesn't matter: a 55" and an 85" 4K TV use the same 4K pack.
-
----
-
-<a id="themes"></a>
-## 🎨 Themes
-
-Every overlay (Essential, Volt, laptop and TV) comes in four themes:
-
-| Theme | Folder / file ending | Look |
-|---|---|---|
-| **Dark** | `dark` / no ending | Dark panel, white text |
-| **White** | `white` / `_white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text |
-| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers |
-| **Float** | `float` / `_float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
-
-![Dark, White, Smoke and Float](previews/themes_all.png)
-
-<a id="smoke"></a>
-### 🌫️ Why Smoke replaced Clear
-
-The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
-
-<img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
-
----
-
-<a id="old-names"></a>
-## 🏷️ Switching from older versions
-
-The old copies don't get replaced automatically. RTSS also keeps showing an old picture until it's fully closed, so **exit RTSS and Afterburner once** after copying in new files.
-
-| You had | Now | What to do |
-|---|---|---|
-| **Clear** theme (`…_clear.ovl`) | **Smoke** (`…_smoke.ovl`) | Delete the old `…_clear` files from the Overlays folder and load the `…_smoke` ones |
-| **Island Bar / Island Bar Time** | The new [💻 laptop designs](#laptops) | Delete the `…island_bar…` files and copy in a laptop pack |
-| **Volt Sleek** and the Volt **no 12V** versions (`…no12v…`) | Removed | Delete them. Use **Essential Sleek** instead of Volt Sleek; if your card doesn't report 12V, use **Essential** |
-| Old **TV Pill / TV Side** | The new [📺 TV designs](#tvs) | Delete the old `tv_…` files, then copy in the TV pack for your TV |
-| **MSI Edition** (`msi_…`) or the original overlays (`sleek.ovl`, `performance_overlay.ovl`…) | **🟢 Essential** (`essential_…`) / **⚡ Volt** (`volt_…`) | Copy in the new pack, then delete the old files so they don't show twice in **Layouts → Load** |
-| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor` |
-
-If you moved an overlay in the Overlay editor, move the new one the same way and save it.
-
-## Notes
-
-- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
-- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
-- **The 12V warning:** the **12V** label turns **amber** if the cable voltage drops below 11.85 V and **red** below 11.75 V, but only while you're gaming (GPU using more than 150 W). The cable is only under real stress under heavy load. At idle almost no power flows through it, so a low number there doesn't mean anything and the label stays green. The number itself always shows the real voltage.
-- **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
-<a id="meter-scales"></a>
-- **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
-
-  | Meter | Full at | Why |
-  |---|---|---|
-  | CPU power | 300 W | Above the max turbo power of today's top Intel and AMD CPUs |
-  | CPU clock | 7.0 GHz | Headroom above the fastest desktop CPUs (about 6.2 GHz) |
-  | GPU power | 800 W | Room for an RTX 5090 (575 W) and overclocked cards |
-  | GPU clock | 4.0 GHz | Above the fastest boosting cards |
-  | RAM | 64 GB | Fits 32 GB and 64 GB builds |
-  | VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
-- To change a meter's scale, open **Data sources** in the Overlay editor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
-- On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
-
-## Known limitations
-
-These come from how RTSS's Overlay editor works, so every Overlay editor layout has them:
-
-- **RTSS's position box and zoom slider don't move these overlays.** Move them in the Overlay editor instead ([how](#move-an-overlay)). Each layer (panel, rings, each number) has its own fixed spot on the screen, so there's no "whole overlay" position for RTSS to move.
-- **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack for the resolution you play at most.
-
-<a id="troubleshooting"></a>
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([tip](#benchmark-tip)). |
-| I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
-| The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
-| I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
-| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
-| GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
-| 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
-| Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
-| Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
-| I still see the old look after updating | RTSS keeps old pictures until it's closed. Exit **RTSS and Afterburner** fully (from the tray) and open them again. |
-| Text looks blurry on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window ([step 4](#rtss-setup), #3). |
 
 ---
 
@@ -781,6 +723,91 @@ It remembers its size, screen and options after a restart.
 | The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
 | Old folders (Case Screen Classic, Sidebar 2…) still show in Manage | Close Rainmeter, delete `Documents\Rainmeter\Skins\MonitorsAndWidgets`, and install 1.7 again. |
 | I can't show Sidebar and Sidebar 2 together | Rainmeter shows one file per folder at a time. Pick the one you like best. |
+
+---
+
+<a id="themes"></a>
+## 🎨 Themes
+
+Every overlay (Essential, Volt, laptop and TV) comes in four themes:
+
+| Theme | Folder / file ending | Look |
+|---|---|---|
+| **Dark** | `dark` / no ending | Dark panel, white text |
+| **White** | `white` / `_white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text |
+| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers |
+| **Float** | `float` / `_float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
+
+![Dark, White, Smoke and Float](previews/themes_all.png)
+
+<a id="smoke"></a>
+### 🌫️ Why Smoke replaced Clear
+
+The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
+
+<img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
+
+---
+
+<a id="old-names"></a>
+## 🏷️ Switching from older versions
+
+The old copies don't get replaced automatically. RTSS also keeps showing an old picture until it's fully closed, so **exit RTSS and Afterburner once** after copying in new files.
+
+| You had | Now | What to do |
+|---|---|---|
+| **Clear** theme (`…_clear.ovl`) | **Smoke** (`…_smoke.ovl`) | Delete the old `…_clear` files from the Overlays folder and load the `…_smoke` ones |
+| **Island Bar / Island Bar Time** | The new [💻 laptop designs](#laptops) | Delete the `…island_bar…` files and copy in a laptop pack |
+| **Volt Sleek** and the Volt **no 12V** versions (`…no12v…`) | Removed | Delete them. Use **Essential Sleek** instead of Volt Sleek; if your card doesn't report 12V, use **Essential** |
+| Old **TV Pill / TV Side** | The new [📺 TV designs](#tvs) | Delete the old `tv_…` files, then copy in the TV pack for your TV |
+| **MSI Edition** (`msi_…`) or the original overlays (`sleek.ovl`, `performance_overlay.ovl`…) | **🟢 Essential** (`essential_…`) / **⚡ Volt** (`volt_…`) | Copy in the new pack, then delete the old files so they don't show twice in **Layouts → Load** |
+| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor` |
+
+If you moved an overlay in the Overlay editor, move the new one the same way and save it.
+
+## Notes
+
+- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
+- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
+- **The 12V warning:** the **12V** label turns **amber** if the cable voltage drops below 11.85 V and **red** below 11.75 V, but only while you're gaming (GPU using more than 150 W). The cable is only under real stress under heavy load. At idle almost no power flows through it, so a low number there doesn't mean anything and the label stays green. The number itself always shows the real voltage.
+- **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
+<a id="meter-scales"></a>
+- **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
+
+  | Meter | Full at | Why |
+  |---|---|---|
+  | CPU power | 300 W | Above the max turbo power of today's top Intel and AMD CPUs |
+  | CPU clock | 7.0 GHz | Headroom above the fastest desktop CPUs (about 6.2 GHz) |
+  | GPU power | 800 W | Room for an RTX 5090 (575 W) and overclocked cards |
+  | GPU clock | 4.0 GHz | Above the fastest boosting cards |
+  | RAM | 64 GB | Fits 32 GB and 64 GB builds |
+  | VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
+- To change a meter's scale, open **Data sources** in the Overlay editor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
+- On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
+
+## Known limitations
+
+These come from how RTSS's Overlay editor works, so every Overlay editor layout has them:
+
+- **RTSS's position box and zoom slider don't move these overlays.** Move them in the Overlay editor instead ([how](#move-an-overlay)). Each layer (panel, rings, each number) has its own fixed spot on the screen, so there's no "whole overlay" position for RTSS to move.
+- **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack for the resolution you play at most.
+
+<a id="troubleshooting"></a>
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([tip](#benchmark-tip)). |
+| I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
+| The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
+| I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
+| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
+| GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
+| 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
+| Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
+| Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
+| I still see the old look after updating | RTSS keeps old pictures until it's closed. Exit **RTSS and Afterburner** fully (from the tray) and open them again. |
+| Text looks blurry on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window ([step 4](#rtss-setup), #3). |
 
 ---
 
