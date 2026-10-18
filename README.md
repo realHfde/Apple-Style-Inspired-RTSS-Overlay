@@ -206,13 +206,14 @@ Open RTSS (the monitor icon in your taskbar tray). The numbers in the pictures m
 <a id="benchmark-tip"></a>
 In **Setup**, stay on the **General** tab. The FPS, 1% low and 0.1% low numbers depend on these. If they're changed, the lows can show **0** or freeze:
 
-| Setting (General tab) | Set it to |
-|---|---|
-| **Framerate averaging interval** | **1000** |
-| **Refresh period** | **500** |
-| **Percentile calculation mode** | **integral** |
-| **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
-| **Enable benchmark mode** (**scroll down** to *Compatibility properties*) | ✅ **ON**. Sometimes this is what makes the overlay show up in a game |
+| # | In **Setup → General** tab | Set it to |
+|---|---|---|
+| 5 | **General** tab | It opens on this tab |
+| 6 | **Framerate averaging interval** | **1000** |
+| 7 | **Refresh period** | **500** |
+| 8 | **Percentile calculation mode** | **integral** |
+| 9 | **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
+| 10 | **Enable benchmark mode**: **scroll down** to *Compatibility properties* | ✅ **ON**. Sometimes this is what makes the overlay show up in a game |
 
 <img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring"> <img src="previews/setup/rtss_benchmark.png" width="420" alt="Scroll down: Compatibility properties, Enable benchmark mode ticked">
 
@@ -220,11 +221,11 @@ Then open the **Plugins** tab:
 
 | # | In **Setup → Plugins** tab | Do this |
 |---|---|---|
-| 5 | **HotkeyHandler.dll** | ✅ Tick it |
-| 6 | **OverlayEditor.dll** | ✅ Tick it, then **click its name** so it's highlighted in blue |
-| 7 | **Setup** button (under the list) | Click it. This opens the **Overlay editor**, where you load the overlays. ⚠️ It only opens if OverlayEditor.dll is both **ticked and highlighted** |
+| 11 | **HotkeyHandler.dll** | ✅ Tick it |
+| 12 | **OverlayEditor.dll** | ✅ Tick it, then **click its name** so it's highlighted in blue |
+| 13 | **Setup** button (under the list) | Click it. This opens the **Overlay editor**, where you load the overlays. ⚠️ It only opens if OverlayEditor.dll is both **ticked and highlighted** |
 
-<img src="previews/setup/rtss_plugins.png" width="320" alt="RTSS Setup, Plugins tab: 5 HotkeyHandler.dll, 6 OverlayEditor.dll, 7 Setup">
+<img src="previews/setup/rtss_plugins.png" width="320" alt="RTSS Setup, Plugins tab: 11 HotkeyHandler.dll, 12 OverlayEditor.dll, 13 Setup">
 
 Close the Overlay editor for now and click **OK** in Setup. You'll open it again in [step 7](#load-it) to load your overlay.
 
@@ -233,7 +234,7 @@ Close the Overlay editor for now and click **OK** in Setup. You'll open it again
 
 Each pack has every overlay in every theme, sorted into **Dark**, **White**, **Smoke** and **Float** folders. **🟢 Essential** = no HWiNFO needed.
 
-> 💻 **On a laptop?** Use the [laptop packs](#laptop-download) below: they have slim designs made for laptop screens. The 16:10 rows here are the normal desktop overlays for 16:10 **monitors**.
+> 💻 **On a laptop?** Use the [laptop packs](#laptop-download) below.
 
 | Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
@@ -247,20 +248,19 @@ Each pack has every overlay in every theme, sorted into **Dark**, **White**, **S
 | 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x1440.zip) |
 | 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x2160.zip) |
 | 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
-| 16:10 monitor | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1200.zip) |
-| 16:10 monitor | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1600.zip) |
-| 16:10 monitor | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2880x1800.zip) |
 
 <a id="laptop-download"></a>
-**💻 Laptop packs** (the new laptop designs; no HWiNFO needed):
+**💻 Laptop packs** (no HWiNFO needed). Two choices for every laptop screen:
+- **Laptop designs**: the slim Notch, Minibar, Island and Card, made for laptops.
+- **Normal designs**: the regular 🟢 Essential overlays (Sleek, Sleek Compact, Rings and the rest), sized for your laptop screen.
 
-| Laptop screen | Resolution | Download |
-|---|---|---|
-| 💻 Full HD | `1920x1080` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1080.zip) |
-| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1200.zip) |
-| 💻 QHD | `2560x1440` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1440.zip) |
-| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1600.zip) |
-| 💻 16:10 OLED | `2880x1800` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2880x1800.zip) |
+| Laptop screen | Resolution | 💻 Laptop designs | 🟢 Normal designs |
+|---|---|---|---|
+| 💻 Full HD | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1080.zip) |
+| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) |
+| 💻 QHD | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1440.zip) |
+| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) |
+| 💻 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) |
 
 <a id="tv-download"></a>
 **📺 TV packs** (no HWiNFO needed, any TV size):
@@ -302,19 +302,19 @@ The theme is in the file name: no ending = **Dark**, then `_white`, `_smoke` and
 
 Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins → select OverlayEditor.dll → Setup**.
 
-<img src="previews/setup/editor_load.png" width="640" alt="Overlay editor: 8 Layouts menu, 9 Load">
+<img src="previews/setup/editor_load.png" width="640" alt="Overlay editor: 14 Layouts menu, 15 Load">
 
 | # | In the Overlay editor | Do this |
 |---|---|---|
-| 8 | **Layouts** menu (top left) | Click it |
-| 9 | **Load** | Click it |
+| 14 | **Layouts** menu (top left) | Click it |
+| 15 | **Load** | Click it |
 
-<img src="previews/setup/editor_open.png" width="640" alt="Open window: 10 pick the overlay file, 11 Open">
+<img src="previews/setup/editor_open.png" width="640" alt="Open window: 16 pick the overlay file, 17 Open">
 
 | # | In the Open window | Do this |
 |---|---|---|
-| 10 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
-| 11 | **Open** | Click it, then launch a game |
+| 16 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
+| 17 | **Open** | Click it, then launch a game |
 
 > 💡 **Can't see your overlay in the editor?** These are demo pictures. **Maximize the Overlay editor (full screen)** to see your overlay where it will sit in game: at the **top centre**, or on the **right edge** for Sleek Side and Performance.
 
