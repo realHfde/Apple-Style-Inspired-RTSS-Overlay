@@ -61,13 +61,13 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **✨ Every overlay polished:** thinner rounded rings, better spacing and alignment, easier-to-read grey labels, smooth panel edges, and graphs that are a line on a soft background (a plain line on White).
 - **🔌 Fewer things to set up:** the temperatures, usage, power, clocks, RAM and VRAM now come from **RTSS itself**. MSI Afterburner is only used for **FPS, 1% low and 0.1% low**, and Volt only uses HWiNFO for the **12V cable**.
 - **🧹 Simpler line-up:** the Power / Thermal limit text is gone, and so are Volt Sleek, the Volt "no 12V" versions and the old Island Bar (replaced by the new laptop designs). Had them? See [switching from older versions](#old-names).
-- **📱 Monitors & Widgets 1.7:** the new **Smoke** theme, plus **Tint** (the old see-through look, still loved on a desktop). New **16x9 Compact** and **Portrait Compact** second-screen layouts with network. Everything is now in one **Settings** panel: theme, fit to monitor 1 / 2 / 3, center, and size from **25% to 150%** with presets, a slider, 1% buttons or a typed number. Clearer folder names too. [See it](#rainmeter).
+- **📱 Monitors & Widgets 1.7:** the new **Smoke** theme, plus **Tint** (the old see-through look, still loved on a desktop). New **16x9 Compact** and **Portrait Compact** second-screen layouts with network. Everything is now in one **Menu** (right-click → **Menu…**): theme, fit to monitor 1 / 2 / 3, center, and size from **25% to 150%** with presets, a slider, 1% buttons or a typed number. Clearer folder names too. [See it](#rainmeter).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
 
 - **📱 Monitors & Widgets 1.6:** no empty border around the cards, new 12-hour / 24-hour **Clock** option, works on Rainmeter 4.5 and 5.
-- **⚙️ Settings panel for Monitors & Widgets 1.5:** right-click → Custom skin actions → **Settings…**.
+- **⚙️ Settings panel for Monitors & Widgets 1.5** (now called the **Menu**: right-click a skin → **Menu…**).
 - **🔧 Fixed:** 4K 1.5x / 2x overlays show their rings, meters and panel correctly.
 - **🏷️ New names (1.5):** the MSI Edition became **🟢 Essential**, the original overlays became **⚡ Volt**, and Apple Style Monitor became **📱 Monitors & Widgets**.
 - **📱 Monitors & Widgets 1.4 (Rainmeter):** dashboards for a second monitor, HYTE Y70, Lian Li screens, Corsair Xeneon Edge and the desktop.
@@ -194,47 +194,46 @@ Keep Afterburner running in the background.
 
 Open RTSS (the monitor icon in your taskbar tray). The numbers in the pictures match the steps.
 
-<img src="previews/setup/rtss_main.png" width="420" alt="RTSS main window: 1 Show On-Screen Display, 2 On-Screen Display support, 3 On-Screen Display shadow, 4 Setup button">
-
 | # | In the main RTSS window | Set it to | Why |
 |---|---|---|---|
 | 1 | **Show On-Screen Display** | ✅ **ON** | Nothing shows in game without it |
 | 2 | **On-Screen Display support** | ✅ **ON** | Also needed for any overlay |
 | 3 | **On-Screen Display shadow** | ❌ **OFF** | Keeps text sharp (White looks blurry with it on) |
-| 4 | **Setup** button (bottom) | Click it | Opens the settings window with the plugins |
+| 4 | **Setup** button (bottom) | Click it | Opens the settings window |
 
-<img src="previews/setup/rtss_plugins.png" width="320" alt="RTSS Setup, Plugins tab: 5 HotkeyHandler.dll, 6 OverlayEditor.dll, 7 Setup">
+<img src="previews/setup/rtss_main.png" width="420" alt="RTSS main window: 1 Show On-Screen Display, 2 On-Screen Display support, 3 On-Screen Display shadow, 4 Setup button">
 
-| # | In **Setup → Plugins** tab | Do this |
-|---|---|---|
-| 5 | **HotkeyHandler.dll** | ✅ Tick it |
-| 6 | **OverlayEditor.dll** | ✅ Tick it, then **click its name** so it's highlighted in blue |
-| 7 | **Setup** button (under the list) | Click it. This opens the **Overlay editor**, where you load the overlays |
+<a id="benchmark-tip"></a>
+In **Setup**, stay on the **General** tab. The FPS, 1% low and 0.1% low numbers depend on these. If they're changed, the lows can show **0** or freeze:
 
-> ⚠️ The Overlay editor only opens from here: **Setup → Plugins → select OverlayEditor.dll → Setup**. It's easy to miss, so if nothing opens, check that OverlayEditor.dll is both ticked **and** highlighted.
-
-Still in **Setup**, check the **General** tab. The FPS, 1% low and 0.1% low numbers depend on these. If they're changed, the lows can show **0** or freeze:
-
-| Setting | Set it to |
+| Setting (General tab) | Set it to |
 |---|---|
 | **Framerate averaging interval** | **1000** |
 | **Refresh period** | **500** |
 | **Percentile calculation mode** | **integral** |
 | **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
+| **Enable benchmark mode** (**scroll down** to *Compatibility properties*) | ✅ **ON**. Sometimes this is what makes the overlay show up in a game |
 
-<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring">
+<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring"> <img src="previews/setup/rtss_benchmark.png" width="420" alt="Scroll down: Compatibility properties, Enable benchmark mode ticked">
 
-<a id="benchmark-tip"></a>
-> 💡 **Tip:** still on the **General** tab, scroll down to **Compatibility properties** and tick ✅ **Enable benchmark mode**. Sometimes this is what makes the overlay appear in a game.
->
-> <img src="previews/setup/rtss_benchmark.png" width="380" alt="RTSS Setup General tab: Compatibility properties, Enable benchmark mode ticked">
+Then open the **Plugins** tab:
 
-Click **OK**.
+| # | In **Setup → Plugins** tab | Do this |
+|---|---|---|
+| 5 | **HotkeyHandler.dll** | ✅ Tick it |
+| 6 | **OverlayEditor.dll** | ✅ Tick it, then **click its name** so it's highlighted in blue |
+| 7 | **Setup** button (under the list) | Click it. This opens the **Overlay editor**, where you load the overlays. ⚠️ It only opens if OverlayEditor.dll is both **ticked and highlighted** |
+
+<img src="previews/setup/rtss_plugins.png" width="320" alt="RTSS Setup, Plugins tab: 5 HotkeyHandler.dll, 6 OverlayEditor.dll, 7 Setup">
+
+Close the Overlay editor for now and click **OK** in Setup. You'll open it again in [step 7](#load-it) to load your overlay.
 
 <a id="download"></a>
 ### 5️⃣ Download the pack for your screen
 
 Each pack has every overlay in every theme, sorted into **Dark**, **White**, **Smoke** and **Float** folders. **🟢 Essential** = no HWiNFO needed.
+
+> 💻 **On a laptop?** Use the [laptop packs](#laptop-download) below: they have slim designs made for laptop screens. The 16:10 rows here are the normal desktop overlays for 16:10 **monitors**.
 
 | Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
@@ -248,9 +247,9 @@ Each pack has every overlay in every theme, sorted into **Dark**, **White**, **S
 | 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x1440.zip) |
 | 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x2160.zip) |
 | 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
-| 16:10 | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1200.zip) |
-| 16:10 | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1600.zip) |
-| 16:10 | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2880x1800.zip) |
+| 16:10 monitor | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1200.zip) |
+| 16:10 monitor | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1600.zip) |
+| 16:10 monitor | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2880x1800.zip) |
 
 <a id="laptop-download"></a>
 **💻 Laptop packs** (the new laptop designs; no HWiNFO needed):
@@ -298,6 +297,7 @@ That's where RTSS installs by default. If you installed it somewhere else, open 
 
 The theme is in the file name: no ending = **Dark**, then `_white`, `_smoke` and `_float`.
 
+<a id="load-it"></a>
 ### 7️⃣ Load it and play 🎮
 
 Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins → select OverlayEditor.dll → Setup**.
@@ -320,11 +320,11 @@ Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins 
 
 ### 🧰 Optional extras
 
-Open the ones you need:
+Click the ones you need to open them:
 
 <a id="smooth"></a>
 <details>
-<summary><b>🧈 Keep it smooth (no stutter)</b> (click to open)</summary>
+<summary><h3>🧈 Keep it smooth (no stutter)</h3></summary>
 
 The overlay itself is light: it redraws every **500 ms** (the RTSS refresh period from [step 4](#rtss-setup)). Stutter usually comes from monitoring apps reading sensors too often, so:
 
@@ -342,7 +342,7 @@ Want the lightest setup? Use **🟢 Essential**: no HWiNFO at all.
 
 <a id="hotkey"></a>
 <details>
-<summary><b>⌨️ Show / hide the overlay with a hotkey</b> (click to open)</summary>
+<summary><h3>⌨️ Show / hide the overlay with a hotkey</h3></summary>
 
 | # | What to do |
 |---|---|
@@ -359,7 +359,7 @@ Now press that key in game to show or hide the overlay. Handy for screenshots an
 
 <a id="two-gpus"></a>
 <details>
-<summary><b>🖥️ CPU with integrated graphics, or two GPUs?</b> (click to open)</summary>
+<summary><h3>🖥️ CPU with integrated graphics, or two GPUs?</h3></summary>
 
 **If GPU load, temperature or power show 0 or look wrong, the overlay is probably reading your integrated graphics.**
 
@@ -385,7 +385,7 @@ Tip: watch the **Value** column in Data sources. Once it's right, GPU usage jump
 
 <a id="move-an-overlay"></a>
 <details>
-<summary><b>📍 Move it anywhere you like</b> (click to open)</summary>
+<summary><h3>📍 Move it anywhere you like</h3></summary>
 
 1. Open the overlay in the **Overlay editor**.
 2. ### Turn off "Snap to grid" first! ⚠️
@@ -401,7 +401,7 @@ Everything stays lined up, and it remembers the new spot. (RTSS's own position b
 </details>
 
 <details>
-<summary>Only want one overlay?</summary>
+<summary><h3>📦 Only want one overlay?</h3></summary>
 
 Download this repo (**Code → Download ZIP**), then open `overlays/` → the version → the overlay → the theme (`dark`, `white`, `smoke` or `float`) → your resolution, e.g. `overlays/essential/sleek-meters/smoke/2560x1440`. Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
 
@@ -540,7 +540,7 @@ In Rainmeter's **Manage** window, the **MonitorsAndWidgets** folder looks like t
 | **Case Screen (upright)** | HYTE Y70, Lian Li 8.8" and Lancool 207, Corsair Xeneon Edge, standing up |
 | **Bar Screen (sideways)** | Lian Li 8.8" and 9.2", Lancool 207, Corsair Xeneon Edge, lying down |
 | **Desktop Widgets** | **Horizontal** (Horizontal, Horizontal 2) and **Vertical** (Vertical, Sidebar, Sidebar 2) |
-| **Settings** | The Settings panel. You don't load it yourself; it opens from the right-click menu |
+| **Settings** | The Menu panel. You don't load it yourself; it opens when you right-click a skin → **Menu…** |
 
 <a id="mw-second"></a>
 ### 🖥️ Second monitor
@@ -618,7 +618,7 @@ Smaller panels for your normal desktop, in **Desktop Widgets**:
 - **Horizontal** folder: **Horizontal** and **Horizontal 2**
 - **Vertical** folder: **Vertical**, **Sidebar** and **Sidebar 2**
 
-Rainmeter shows one file per folder at a time, so loading Sidebar 2 swaps out Sidebar. Set the size in [Settings](#monitor-options) and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
+Rainmeter shows one file per folder at a time, so loading Sidebar 2 swaps out Sidebar. Set the size in the [Menu](#monitor-options) and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
 
 <table>
 <tr>
@@ -627,11 +627,11 @@ Rainmeter shows one file per folder at a time, so loading Sidebar 2 swaps out Si
 </table>
 
 <a id="monitor-options"></a>
-### Make it yours (Settings panel)
+### Make it yours (the Menu)
 
-Right-click any Monitors & Widgets skin → **Custom skin actions** → **Settings…**. Everything is controlled from this one panel. Theme and the options below change every skin you have open; the **This layout** rows change only the skin you right-clicked. Close it with **×**.
+Right-click any Monitors & Widgets skin → **Menu…**. Everything is controlled from this one panel. Theme and the options below change every skin you have open; the **This layout** rows change only the skin you right-clicked. Close it with **×**.
 
-<img src="previews/rainmeter/setup_settings.png" width="420" alt="Settings panel">
+<img src="previews/rainmeter/setup_settings.png" width="420" alt="The Menu panel">
 
 | Option | What it does |
 |---|---|
@@ -663,9 +663,15 @@ You **don't** need to install the Inter font for this one: it comes inside the p
 
 **2️⃣ Turn on the readings in MSI Afterburner**
 
-Open Afterburner → **Settings → Monitoring**. In the list, tick each of these, then press **Apply** and **OK**:
+Open Afterburner → **Settings → Monitoring**. Scroll through the list, tick each of these, then press **Apply** and **OK**:
 
-*GPU temperature, GPU usage, Memory usage, Core clock, Memory clock, Power, CPU temperature, CPU clock, CPU power, Framerate, Frametime, Framerate 1% low, Framerate 0.1% low.*
+| Tick these | Used for |
+|---|---|
+| **GPU temperature**, **GPU usage**, **Power** | GPU card and graph |
+| **Core clock**, **Memory clock** | GPU clocks |
+| **Memory usage** | VRAM |
+| **CPU temperature**, **CPU clock**, **CPU power** | CPU card and graph |
+| **Framerate**, **Frametime**, **Framerate 1% low**, **Framerate 0.1% low** | FPS card and charts |
 
 Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame time only fill in **while a game is running** (Afterburner gets them from RTSS, which installs together with Afterburner).
 
@@ -673,7 +679,16 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.7.rmskin`** from the [Monitors & Widgets 1.7 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+Download **`Monitors and Widgets 1.7.rmskin`** from the [Monitors & Widgets 1.7 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
+
+| # | In the installer | Do this |
+|---|---|---|
+| 1 | **MonitorsAndWidgets** (Skins) | ✅ Ticked |
+| 2 | **AfterburnerData.dll** (Plugins) | ✅ Ticked. This is what reads Afterburner; without it everything stays blank |
+| 3 | **Load included skins** | ✅ Ticked |
+| 4 | **Install** | Click it. The 16:9 dashboard opens straight away |
+
+<img src="previews/rainmeter/setup_install.png" width="400" alt="Rainmeter Skin Installer: 1 MonitorsAndWidgets, 2 AfterburnerData.dll, 3 Load included skins, 4 Install">
 
 **4️⃣ Pick your layout**
 
@@ -683,7 +698,11 @@ Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **Monito
 
 **5️⃣ Put it on your screen**
 
-Right-click the skin → **Custom skin actions** → **Settings…**, then:
+Right-click the skin and click **Menu…** (at the top, under *Custom skin actions*). Don't confuse it with Rainmeter's own **Settings** further down.
+
+<img src="previews/rainmeter/setup_menu.png" width="300" alt="Right-click menu: 1 Menu…"> <img src="previews/rainmeter/setup_settings.png" width="300" alt="The Menu panel">
+
+In the Menu:
 
 - **Fit monitor 1 / 2 / 3** to fill a HYTE, Lian Li or Xeneon screen, or a second monitor.
 - Or pick a **size** and drag the skin where you want it. **Center** puts it back in the middle.
@@ -702,9 +721,7 @@ It remembers its size, screen and options after a restart.
 
 ### Good to know
 
-- **No VRAM temperature or fan speed** here: most graphics cards don't send these to Afterburner, so they're left out to keep it working on every PC.
 - The **charts fill up over time**: they start empty and cover the last 2 minutes (frame time: the last 60 seconds) once full.
-- **Frame time** is worked out from your FPS if Afterburner doesn't send it.
 - **Network** is your internet download (blue) and upload (orange) speed.
 - **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE, Lian Li and Xeneon Edge layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
 
@@ -714,9 +731,9 @@ It remembers its size, screen and options after a restart.
 |---|---|
 | A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#monitor-setup)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
 | Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
-| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Settings…** → **GPU: 2**. |
-| It fills the wrong screen | In **Settings…**, use **Fit monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
-| It's too big on my monitor | In **Settings…**, pick a size (down to 25%) with the presets, slider, **−** / **+**, or type one. |
+| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Menu…** → **GPU: 2**. |
+| It fills the wrong screen | In **Menu…**, use **Fit monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
+| It's too big on my monitor | In **Menu…**, pick a size (down to 25%) with the presets, slider, **−** / **+**, or type one. |
 | The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
 | Dark corners at the edges when it fills a screen | Pick **Corners: square**. Also check you picked the layout for your screen's shape. |
 | A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
@@ -786,19 +803,12 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 - To change a meter's scale, open **Data sources** in the Overlay editor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
 - On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
 
-## Known limitations
-
-These come from how RTSS's Overlay editor works, so every Overlay editor layout has them:
-
-- **RTSS's position box and zoom slider don't move these overlays.** Move them in the Overlay editor instead ([how](#move-an-overlay)). Each layer (panel, rings, each number) has its own fixed spot on the screen, so there's no "whole overlay" position for RTSS to move.
-- **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack for the resolution you play at most.
-
 <a id="troubleshooting"></a>
 ## Troubleshooting
 
 | Problem | Fix |
 |---|---|
-| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([tip](#benchmark-tip)). |
+| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([step 4](#benchmark-tip)). |
 | I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
 | The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
 | I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
