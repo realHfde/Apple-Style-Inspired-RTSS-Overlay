@@ -1,0 +1,279 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=TV Box Float 4K
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=tv_box_float_4k_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=10
+Tables=0
+Layers=19
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source6]
+Name=GPU mem temp
+Units=°C
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 memory temperature
+[Source7]
+Name=GPU1 memory usage
+Units=GB
+Format=%.1f
+Formula=x / 1024
+Provider=HAL
+ID=GPU1 memory usage
+[Source8]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source9]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,870,211>
+PositionX=1485
+PositionY=64
+ExtentX=870
+ExtentY=211
+ExtentOrigin=0
+[Layer1]
+Name=FPS label shadow
+Text=FPS
+PositionX=1512
+PositionY=83
+ExtentX=240
+ExtentY=36
+ExtentOrigin=4
+Size=200
+TextColor=000000
+[Layer2]
+Name=FPS label
+Text=FPS
+PositionX=1510
+PositionY=81
+ExtentX=240
+ExtentY=36
+ExtentOrigin=4
+Size=200
+TextColor=30D158
+[Layer3]
+Name=FPS shadow
+Text=%Framerate%
+PositionX=1497
+PositionY=109
+ExtentX=270
+ExtentY=88
+ExtentOrigin=4
+Size=489
+TextColor=000000
+[Layer4]
+Name=FPS
+Text=%Framerate%
+PositionX=1495
+PositionY=107
+ExtentX=270
+ExtentY=88
+ExtentOrigin=4
+Size=489
+TextColor=FFFFFF
+[Layer5]
+Name=FPS sub shadow
+Text=LOW %Framerate 1% Low%
+PositionX=1492
+PositionY=213
+ExtentX=280
+ExtentY=32
+ExtentOrigin=4
+Size=178
+TextColor=000000
+[Layer6]
+Name=FPS sub
+Text=LOW %Framerate 1% Low%
+PositionX=1490
+PositionY=211
+ExtentX=280
+ExtentY=32
+ExtentOrigin=4
+Size=178
+TextColor=E5E5EA
+[Layer7]
+Name=CPU label shadow
+Text=CPU
+PositionX=1802
+PositionY=83
+ExtentX=240
+ExtentY=36
+ExtentOrigin=4
+Size=200
+TextColor=000000
+[Layer8]
+Name=CPU label
+Text=CPU
+PositionX=1800
+PositionY=81
+ExtentX=240
+ExtentY=36
+ExtentOrigin=4
+Size=200
+TextColor=0A84FF
+[Layer9]
+Name=CPU shadow
+Text=%CPU temperature%°
+PositionX=1793
+PositionY=109
+ExtentX=270
+ExtentY=88
+ExtentOrigin=4
+Size=489
+TextColor=000000
+[Layer10]
+Name=CPU
+Text=%CPU temperature%°
+PositionX=1791
+PositionY=107
+ExtentX=270
+ExtentY=88
+ExtentOrigin=4
+Size=489
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
+[Layer11]
+Name=CPU sub shadow
+Text=%CPU power% W
+PositionX=1782
+PositionY=213
+ExtentX=280
+ExtentY=32
+ExtentOrigin=4
+Size=178
+TextColor=000000
+[Layer12]
+Name=CPU sub
+Text=%CPU power% W
+PositionX=1780
+PositionY=211
+ExtentX=280
+ExtentY=32
+ExtentOrigin=4
+Size=178
+TextColor=E5E5EA
+[Layer13]
+Name=GPU label shadow
+Text=GPU
+PositionX=2092
+PositionY=83
+ExtentX=240
+ExtentY=36
+ExtentOrigin=4
+Size=200
+TextColor=000000
+[Layer14]
+Name=GPU label
+Text=GPU
+PositionX=2090
+PositionY=81
+ExtentX=240
+ExtentY=36
+ExtentOrigin=4
+Size=200
+TextColor=BF5AF2
+[Layer15]
+Name=GPU shadow
+Text=%GPU1 temperature%°
+PositionX=2083
+PositionY=109
+ExtentX=270
+ExtentY=88
+ExtentOrigin=4
+Size=489
+TextColor=000000
+[Layer16]
+Name=GPU
+Text=%GPU1 temperature%°
+PositionX=2081
+PositionY=107
+ExtentX=270
+ExtentY=88
+ExtentOrigin=4
+Size=489
+TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
+[Layer17]
+Name=GPU sub shadow
+Text=%GPU1 power% W
+PositionX=2072
+PositionY=213
+ExtentX=280
+ExtentY=32
+ExtentOrigin=4
+Size=178
+TextColor=000000
+[Layer18]
+Name=GPU sub
+Text=%GPU1 power% W
+PositionX=2070
+PositionY=211
+ExtentX=280
+ExtentY=32
+ExtentOrigin=4
+Size=178
+TextColor=E5E5EA

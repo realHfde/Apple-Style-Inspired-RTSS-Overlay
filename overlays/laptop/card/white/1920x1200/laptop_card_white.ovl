@@ -1,0 +1,205 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Laptop Card White
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=laptop_card_white_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=8
+Tables=0
+Layers=13
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,188,220>
+PositionX=30
+PositionY=30
+ExtentX=188
+ExtentY=220
+ExtentOrigin=0
+[Layer1]
+Name=FPS label
+Text=FPS
+PositionX=46
+PositionY=42
+ExtentX=90
+ExtentY=15
+ExtentOrigin=0
+Size=83
+TextColor=248A3D
+[Layer2]
+Name=FPS
+Text=%Framerate%
+PositionX=86
+PositionY=34
+ExtentX=120
+ExtentY=30
+ExtentOrigin=2
+Size=167
+TextColor=0A0A0C
+[Layer3]
+Name=low a
+Text=1% low
+PositionX=46
+PositionY=75
+ExtentX=90
+ExtentY=16
+ExtentOrigin=0
+Size=88
+TextColor=3A3A3C
+[Layer4]
+Name=low b
+Text=%Framerate 1% Low%
+PositionX=100
+PositionY=75
+ExtentX=105
+ExtentY=16
+ExtentOrigin=2
+Size=88
+TextColor=0A0A0C
+[Layer5]
+Name=CPU label
+Text=CPU
+PositionX=46
+PositionY=111
+ExtentX=90
+ExtentY=15
+ExtentOrigin=0
+Size=83
+TextColor=007AFF
+[Layer6]
+Name=CPU
+Text=%CPU temperature%°
+PositionX=86
+PositionY=104
+ExtentX=120
+ExtentY=30
+ExtentOrigin=2
+Size=167
+TextColor=0A0A0C,,90,C93400,90,95,D70015,95,(CPU temperature,1)
+[Layer7]
+Name=cpu a
+Text=%CPU usage%%
+PositionX=46
+PositionY=145
+ExtentX=90
+ExtentY=16
+ExtentOrigin=0
+Size=88
+TextColor=0A0A0C
+[Layer8]
+Name=cpu b
+Text=%CPU power% W
+PositionX=100
+PositionY=145
+ExtentX=105
+ExtentY=16
+ExtentOrigin=2
+Size=88
+TextColor=0A0A0C
+[Layer9]
+Name=GPU label
+Text=GPU
+PositionX=46
+PositionY=181
+ExtentX=90
+ExtentY=15
+ExtentOrigin=0
+Size=83
+TextColor=AF52DE
+[Layer10]
+Name=GPU
+Text=%GPU1 temperature%°
+PositionX=86
+PositionY=173
+ExtentX=120
+ExtentY=30
+ExtentOrigin=2
+Size=167
+TextColor=0A0A0C,,85,C93400,85,92,D70015,92,(GPU1 temperature,1)
+[Layer11]
+Name=gpu a
+Text=%GPU1 usage%%
+PositionX=46
+PositionY=214
+ExtentX=90
+ExtentY=16
+ExtentOrigin=0
+Size=88
+TextColor=0A0A0C
+[Layer12]
+Name=gpu b
+Text=%GPU1 power% W
+PositionX=100
+PositionY=214
+ExtentX=105
+ExtentY=16
+ExtentOrigin=2
+Size=88
+TextColor=0A0A0C

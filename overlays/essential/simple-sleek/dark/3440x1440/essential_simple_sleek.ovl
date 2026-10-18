@@ -20,73 +20,57 @@ Name=CPU temperature
 Units=°C
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000080
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU temperature
 [Source1]
 Name=CPU usage
 Units=%
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000090
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU usage
 [Source2]
 Name=CPU power
 Units=W
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000100
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU power
 [Source3]
 Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=MSI Afterburner
-SrcId=000000A0
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU clock
 [Source4]
 Name=GPU1 temperature
 Units=°C
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000000
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 temperature
 [Source5]
 Name=GPU1 usage
 Units=%
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000030
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 usage
 [Source6]
 Name=GPU1 power
 Units=W
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000061
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 power
 [Source7]
 Name=GPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=MSI Afterburner
-SrcId=00000020
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 clock
 [Source8]
 Name=Framerate
 Units=FPS
@@ -107,16 +91,16 @@ Gpu=FFFFFFFF
 SrcName=
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,0,600,69>
-PositionX=1420
+Text=<I=0,0,0,0,546,69>
+PositionX=1447
 PositionY=24
-ExtentX=600
+ExtentX=546
 ExtentY=69
 ExtentOrigin=0
 [Layer1]
 Name=CPU ring
 Text=<AI=CPU usage,0,0,0,102,0,71,56,56,51,17,0>
-PositionX=1434
+PositionX=1461
 PositionY=30
 ExtentX=56
 ExtentY=56
@@ -124,7 +108,7 @@ ExtentOrigin=0
 [Layer2]
 Name=CPU usage
 Text=%CPU usage%
-PositionX=1435
+PositionX=1462
 PositionY=49
 ExtentX=54
 ExtentY=19
@@ -134,17 +118,17 @@ TextColor=FFFFFF
 [Layer3]
 Name=CPU label
 Text=CPU
-PositionX=1498
-PositionY=38
+PositionX=1525
+PositionY=35
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=56
+Size=72
 TextColor=0A84FF
 [Layer4]
 Name=CPU temperature
 Text=%CPU temperature%°
-PositionX=1497
+PositionX=1524
 PositionY=52
 ExtentX=0
 ExtentY=0
@@ -154,27 +138,27 @@ TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer5]
 Name=CPU power
 Text=%CPU power% W
-PositionX=1548
+PositionX=1575
 PositionY=41
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=71
+Size=78
 TextColor=FFFFFF
 [Layer6]
 Name=CPU clock
 Text=%CPU clock% GHz
-PositionX=1548
+PositionX=1575
 PositionY=60
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=71
+Size=78
 TextColor=FFFFFF
 [Layer7]
 Name=GPU ring
 Text=<AI=GPU1 usage,0,0,0,102,0,241,56,56,51,17,0>
-PositionX=1630
+PositionX=1653
 PositionY=30
 ExtentX=56
 ExtentY=56
@@ -182,7 +166,7 @@ ExtentOrigin=0
 [Layer8]
 Name=GPU usage
 Text=%GPU1 usage%
-PositionX=1631
+PositionX=1654
 PositionY=49
 ExtentX=54
 ExtentY=19
@@ -192,17 +176,17 @@ TextColor=FFFFFF
 [Layer9]
 Name=GPU label
 Text=GPU
-PositionX=1694
-PositionY=38
+PositionX=1717
+PositionY=35
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=56
+Size=72
 TextColor=BF5AF2
 [Layer10]
 Name=GPU temperature
 Text=%GPU1 temperature%°
-PositionX=1694
+PositionX=1717
 PositionY=52
 ExtentX=0
 ExtentY=0
@@ -212,37 +196,37 @@ TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
 [Layer11]
 Name=GPU power
 Text=%GPU1 power% W
-PositionX=1744
+PositionX=1767
 PositionY=41
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=71
+Size=78
 TextColor=FFFFFF
 [Layer12]
 Name=GPU clock
 Text=%GPU clock% GHz
-PositionX=1744
+PositionX=1767
 PositionY=60
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=71
+Size=78
 TextColor=FFFFFF
 [Layer13]
 Name=FPS label
 Text=FPS
-PositionX=1849
-PositionY=38
+PositionX=1860
+PositionY=35
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=56
+Size=72
 TextColor=30D158
 [Layer14]
 Name=FPS
 Text=%Framerate%
-PositionX=1848
+PositionX=1859
 PositionY=52
 ExtentX=0
 ExtentY=0
@@ -252,20 +236,20 @@ TextColor=FFFFFF
 [Layer15]
 Name=1% low
 Text=1% %Framerate 1% Low%
-PositionX=1916
+PositionX=1919
 PositionY=41
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=71
+Size=78
 TextColor=FFFFFF
 [Layer16]
 Name=FT
 Text=<FT> ms
-PositionX=1916
+PositionX=1919
 PositionY=60
 ExtentX=0
 ExtentY=0
 ExtentOrigin=0
-Size=71
+Size=78
 TextColor=FFFFFF

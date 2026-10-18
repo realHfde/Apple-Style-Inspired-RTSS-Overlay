@@ -1,0 +1,261 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Laptop Minibar Float
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=laptop_minibar_float_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=8
+Tables=0
+Layers=19
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,605,64>
+PositionX=977
+PositionY=24
+ExtentX=605
+ExtentY=64
+ExtentOrigin=0
+[Layer1]
+Name=CPU ring
+Text=<AI=CPU usage,0,0,0,100,0,66,44,44,26,7,0>
+PositionX=987
+PositionY=34
+ExtentX=44
+ExtentY=44
+ExtentOrigin=0
+[Layer2]
+Name=GPU ring
+Text=<AI=GPU1 usage,0,0,0,100,0,244,44,44,26,7,0>
+PositionX=1170
+PositionY=34
+ExtentX=44
+ExtentY=44
+ExtentOrigin=0
+[Layer3]
+Name=CPU label shadow
+Text=CPU
+PositionX=1045
+PositionY=46
+ExtentX=60
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=000000
+[Layer4]
+Name=CPU label
+Text=CPU
+PositionX=1043
+PositionY=44
+ExtentX=60
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=0A84FF
+[Layer5]
+Name=CPU shadow
+Text=%CPU temperature%°
+PositionX=1094
+PositionY=39
+ExtentX=90
+ExtentY=28
+ExtentOrigin=0
+Size=156
+TextColor=000000
+[Layer6]
+Name=CPU
+Text=%CPU temperature%°
+PositionX=1092
+PositionY=37
+ExtentX=90
+ExtentY=28
+ExtentOrigin=0
+Size=156
+TextColor=FFFFFF,,90,FF9F0A,90,95,FF453A,95,(CPU temperature,1)
+[Layer7]
+Name=GPU label shadow
+Text=GPU
+PositionX=1228
+PositionY=46
+ExtentX=60
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=000000
+[Layer8]
+Name=GPU label
+Text=GPU
+PositionX=1226
+PositionY=44
+ExtentX=60
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=BF5AF2
+[Layer9]
+Name=GPU shadow
+Text=%GPU1 temperature%°
+PositionX=1278
+PositionY=39
+ExtentX=90
+ExtentY=28
+ExtentOrigin=0
+Size=156
+TextColor=000000
+[Layer10]
+Name=GPU
+Text=%GPU1 temperature%°
+PositionX=1276
+PositionY=37
+ExtentX=90
+ExtentY=28
+ExtentOrigin=0
+Size=156
+TextColor=FFFFFF,,85,FF9F0A,85,92,FF453A,92,(GPU1 temperature,1)
+[Layer11]
+Name=FPS label shadow
+Text=FPS
+PositionX=1371
+PositionY=46
+ExtentX=60
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=000000
+[Layer12]
+Name=FPS label
+Text=FPS
+PositionX=1369
+PositionY=44
+ExtentX=60
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=30D158
+[Layer13]
+Name=FPS shadow
+Text=%Framerate%
+PositionX=1416
+PositionY=38
+ExtentX=80
+ExtentY=30
+ExtentOrigin=0
+Size=167
+TextColor=000000
+[Layer14]
+Name=FPS
+Text=%Framerate%
+PositionX=1414
+PositionY=36
+ExtentX=80
+ExtentY=30
+ExtentOrigin=0
+Size=167
+TextColor=FFFFFF
+[Layer15]
+Name=low label shadow
+Text=1%
+PositionX=1489
+PositionY=46
+ExtentX=40
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=000000
+[Layer16]
+Name=low label
+Text=1%
+PositionX=1487
+PositionY=44
+ExtentX=40
+ExtentY=18
+ExtentOrigin=0
+Size=100
+TextColor=E5E5EA
+[Layer17]
+Name=low shadow
+Text=%Framerate 1% Low%
+PositionX=1523
+PositionY=43
+ExtentX=60
+ExtentY=22
+ExtentOrigin=0
+Size=122
+TextColor=000000
+[Layer18]
+Name=low
+Text=%Framerate 1% Low%
+PositionX=1521
+PositionY=41
+ExtentX=60
+ExtentY=22
+ExtentOrigin=0
+Size=122
+TextColor=FFFFFF

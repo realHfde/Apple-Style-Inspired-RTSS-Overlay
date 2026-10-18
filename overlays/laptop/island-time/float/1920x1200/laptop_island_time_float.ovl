@@ -1,0 +1,345 @@
+[Master]
+Implementation=2
+FontFace=Inter
+FontHeight=-20
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Laptop Island Time Float
+EnvVars=
+RefreshPeriod=500
+LockUserSettings=1
+EmbeddedImage=laptop_island_time_float_atlas.png
+PingAddr=127.0.0.1
+[General]
+Sources=8
+Tables=0
+Layers=27
+[Source0]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source3]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source4]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source5]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source6]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=Framerate 1% Low
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000055
+Gpu=FFFFFFFF
+SrcName=
+[Layer0]
+Name=Panel
+Text=<I=0,0,0,0,715,42>
+PositionX=602
+PositionY=18
+ExtentX=715
+ExtentY=42
+ExtentOrigin=0
+[Layer1]
+Name=CPU label shadow
+Text=CPU
+PositionX=626
+PositionY=30
+ExtentX=52
+ExtentY=16
+ExtentOrigin=0
+Size=92
+TextColor=000000
+[Layer2]
+Name=CPU label
+Text=CPU
+PositionX=624
+PositionY=28
+ExtentX=52
+ExtentY=16
+ExtentOrigin=0
+Size=92
+TextColor=0A84FF
+[Layer3]
+Name=CPU v0 shadow
+Text=%CPU usage%%
+PositionX=673
+PositionY=28
+ExtentX=64
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer4]
+Name=CPU v0
+Text=%CPU usage%%
+PositionX=671
+PositionY=26
+ExtentX=64
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF
+[Layer5]
+Name=CPU dot1 shadow
+Text=·
+PositionX=730
+PositionY=28
+ExtentX=15
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer6]
+Name=CPU dot1
+Text=·
+PositionX=728
+PositionY=26
+ExtentX=15
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=E5E5EA
+[Layer7]
+Name=CPU v1 shadow
+Text=%CPU temperature%°
+PositionX=744
+PositionY=28
+ExtentX=52
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer8]
+Name=CPU v1
+Text=%CPU temperature%°
+PositionX=742
+PositionY=26
+ExtentX=52
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF,,90,FF9F0A,90,95,FF453A,95,(CPU temperature,1)
+[Layer9]
+Name=GPU label shadow
+Text=GPU
+PositionX=816
+PositionY=30
+ExtentX=53
+ExtentY=16
+ExtentOrigin=0
+Size=92
+TextColor=000000
+[Layer10]
+Name=GPU label
+Text=GPU
+PositionX=814
+PositionY=28
+ExtentX=53
+ExtentY=16
+ExtentOrigin=0
+Size=92
+TextColor=BF5AF2
+[Layer11]
+Name=GPU v0 shadow
+Text=%GPU1 usage%%
+PositionX=863
+PositionY=28
+ExtentX=64
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer12]
+Name=GPU v0
+Text=%GPU1 usage%%
+PositionX=861
+PositionY=26
+ExtentX=64
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF
+[Layer13]
+Name=GPU dot1 shadow
+Text=·
+PositionX=919
+PositionY=28
+ExtentX=15
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer14]
+Name=GPU dot1
+Text=·
+PositionX=917
+PositionY=26
+ExtentX=15
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=E5E5EA
+[Layer15]
+Name=GPU v1 shadow
+Text=%GPU1 temperature%°
+PositionX=932
+PositionY=28
+ExtentX=52
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer16]
+Name=GPU v1
+Text=%GPU1 temperature%°
+PositionX=930
+PositionY=26
+ExtentX=52
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF,,85,FF9F0A,85,92,FF453A,92,(GPU1 temperature,1)
+[Layer17]
+Name=FPS label shadow
+Text=FPS
+PositionX=1004
+PositionY=30
+ExtentX=49
+ExtentY=16
+ExtentOrigin=0
+Size=92
+TextColor=000000
+[Layer18]
+Name=FPS label
+Text=FPS
+PositionX=1002
+PositionY=28
+ExtentX=49
+ExtentY=16
+ExtentOrigin=0
+Size=92
+TextColor=30D158
+[Layer19]
+Name=FPS v0 shadow
+Text=%Framerate%
+PositionX=1048
+PositionY=28
+ExtentX=42
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer20]
+Name=FPS v0
+Text=%Framerate%
+PositionX=1046
+PositionY=26
+ExtentX=42
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF
+[Layer21]
+Name=FPS dot1 shadow
+Text=·
+PositionX=1082
+PositionY=28
+ExtentX=15
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer22]
+Name=FPS dot1
+Text=·
+PositionX=1080
+PositionY=26
+ExtentX=15
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=E5E5EA
+[Layer23]
+Name=FPS v1 shadow
+Text=1% %Framerate 1% Low%
+PositionX=1096
+PositionY=28
+ExtentX=78
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer24]
+Name=FPS v1
+Text=1% %Framerate 1% Low%
+PositionX=1094
+PositionY=26
+ExtentX=78
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF
+[Layer25]
+Name=TIME v0 shadow
+Text=<TIME=%I:%M %p>
+PositionX=1194
+PositionY=28
+ExtentX=110
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=000000
+[Layer26]
+Name=TIME v0
+Text=<TIME=%I:%M %p>
+PositionX=1192
+PositionY=26
+ExtentX=110
+ExtentY=20
+ExtentOrigin=0
+Size=108
+TextColor=FFFFFF

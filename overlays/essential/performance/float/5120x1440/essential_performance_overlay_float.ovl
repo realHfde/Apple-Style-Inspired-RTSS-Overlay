@@ -12,81 +12,65 @@ LockUserSettings=1
 EmbeddedImage=essential_performance_overlay_float_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=17
+Sources=16
 Tables=0
-Layers=108
+Layers=112
 [Source0]
 Name=CPU temperature
 Units=°C
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000080
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU temperature
 [Source1]
 Name=CPU usage
 Units=%
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000090
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU usage
 [Source2]
 Name=CPU power
 Units=W
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000100
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU power
 [Source3]
 Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=MSI Afterburner
-SrcId=000000A0
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU clock
 [Source4]
 Name=GPU1 temperature
 Units=°C
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000000
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 temperature
 [Source5]
 Name=GPU1 usage
 Units=%
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000030
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 usage
 [Source6]
 Name=GPU1 power
 Units=W
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000061
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 power
 [Source7]
 Name=GPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=MSI Afterburner
-SrcId=00000020
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 clock
 [Source8]
 Name=Framerate
 Units=FPS
@@ -129,48 +113,33 @@ Formula=x / 1024
 Provider=HAL
 ID=GPU1 memory usage
 [Source13]
-Name=Limit power
-Units=
-Format=
-Formula=
-Provider=MSI Afterburner
-SrcId=00000071
-Gpu=00000000
-SrcName=
-[Source14]
-Name=Limit thermal
-Units=
-Format=
-Formula=
-Provider=MSI Afterburner
-SrcId=00000070
-Gpu=00000000
-SrcName=
-[Source15]
 Name=GPU fan
 Units=RPM
 Format=%.0f
 Formula=
-Provider=MSI Afterburner
-SrcId=00000011
-Gpu=00000000
-SrcName=
-[Source16]
+Provider=HAL
+ID=GPU1 fan tachometer
+[Source14]
 Name=GPU core voltage
 Units=V
 Format=%.2f
+Formula=x / 1000
+Provider=HAL
+ID=GPU1 voltage
+[Source15]
+Name=GPU mem temp
+Units=°C
+Format=%.0f
 Formula=
-Provider=MSI Afterburner
-SrcId=00000040
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 memory temperature
 [Layer0]
 Name=Panel
-Text=<I=0,0,0,0,225,525>
+Text=<I=0,0,0,0,225,544>
 PositionX=4871
 PositionY=160
 ExtentX=225
-ExtentY=525
+ExtentY=544
 ExtentOrigin=0
 [Layer1]
 Name=FPS label shadow
@@ -414,7 +383,7 @@ Size=71
 TextColor=FFFFFF
 [Layer25]
 Name=Frametime graph
-Text=<G=Frametime,0,0,1,0,40,0>
+Text=<G=Frametime,0,0,1,0,40,10>
 PositionX=4887
 PositionY=295
 ExtentX=192
@@ -753,7 +722,7 @@ Size=71
 TextColor=FFFFFF
 [Layer59]
 Name=CPU usage graph
-Text=<G=CPU usage,0,0,1,0,100,11>
+Text=<G=CPU usage,0,0,1,0,100,10>
 PositionX=4887
 PositionY=452
 ExtentX=192
@@ -1211,33 +1180,71 @@ ExtentOrigin=2
 Size=71
 TextColor=FFFFFF
 [Layer105]
-Name=GPU usage graph
-Text=<G=GPU1 usage,0,0,1,0,100,11>
+Name=GPU VRAM temp label shadow
+Text=VRAM temp
+PositionX=4888
+PositionY=640
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=64
+TextColor=000000
+[Layer106]
+Name=GPU VRAM temp label shadow
+Text=VRAM temp
 PositionX=4887
-PositionY=642
+PositionY=641
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=64
+TextColor=000000
+[Layer107]
+Name=GPU VRAM temp label
+Text=VRAM temp
+PositionX=4887
+PositionY=639
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+Size=64
+TextColor=E5E5EA
+[Layer108]
+Name=GPU VRAM temp value shadow
+Text=%GPU mem temp%°
+PositionX=4982
+PositionY=639
+ExtentX=98
+ExtentY=18
+ExtentOrigin=2
+Size=71
+TextColor=000000
+[Layer109]
+Name=GPU VRAM temp value shadow
+Text=%GPU mem temp%°
+PositionX=4981
+PositionY=640
+ExtentX=98
+ExtentY=18
+ExtentOrigin=2
+Size=71
+TextColor=000000
+[Layer110]
+Name=GPU VRAM temp value
+Text=%GPU mem temp%°
+PositionX=4981
+PositionY=638
+ExtentX=98
+ExtentY=18
+ExtentOrigin=2
+Size=71
+TextColor=FFFFFF
+[Layer111]
+Name=GPU usage graph
+Text=<G=GPU1 usage,0,0,1,0,100,10>
+PositionX=4887
+PositionY=661
 ExtentX=192
 ExtentY=16
 ExtentOrigin=0
 TextColor=BF5AF2
-[Layer106]
-Name=Limit power
-Text=Power limit
-PositionX=4909
-PositionY=668
-ExtentX=150
-ExtentY=12
-ExtentOrigin=4
-Size=56
-TextColor=FF9F0A
-VisibilitySource=Limit power
-[Layer107]
-Name=Limit thermal
-Text=Thermal limit
-PositionX=4909
-PositionY=668
-ExtentX=150
-ExtentY=12
-ExtentOrigin=4
-Size=56
-TextColor=FF453A
-VisibilitySource=Limit thermal

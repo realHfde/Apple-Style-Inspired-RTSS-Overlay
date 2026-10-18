@@ -1,32 +1,33 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, in 4 themes, for screens from 1080p up to 5K2K, gaming laptops and TVs.
+Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, in 4 themes, for screens from 1080p up to 7680×2160, gaming laptops and TVs.
 
 ### Pick yours
 
-<p align="center">
-<a href="#essential"><img src="previews/cards/essential.png" width="32%" alt="Essential"></a>
-<a href="#volt"><img src="previews/cards/volt.png" width="32%" alt="Volt"></a>
-<a href="#rainmeter"><img src="previews/cards/monitors.png" width="32%" alt="Monitors & Widgets"></a>
-</p>
+Click a picture to **👀 see it**. Every card also has a **⬇️ Download** link that takes you straight to the files.
 
-<p align="center">
-<a href="#laptops"><img src="previews/cards/laptops.png" width="32%" alt="Laptops"></a>
-<a href="#tvs"><img src="previews/cards/tvs.png" width="32%" alt="TVs"></a>
-<a href="#themes"><img src="previews/cards/themes.png" width="32%" alt="Themes"></a>
-</p>
+<table>
+<tr>
+<td width="33%" align="center"><a href="#essential"><img src="previews/cards/essential.png" alt="Essential"></a><br><a href="#essential">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
+<td width="33%" align="center"><a href="#volt"><img src="previews/cards/volt.png" alt="Volt"></a><br><a href="#volt">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
+<td width="33%" align="center"><a href="#rainmeter"><img src="previews/cards/monitors.png" alt="Monitors & Widgets"></a><br><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Download</a></td>
+</tr>
+<tr>
+<td width="33%" align="center"><a href="#laptops"><img src="previews/cards/laptops.png" alt="Laptops"></a><br><a href="#laptops">👀 Preview</a> · <a href="#laptop-download">⬇️ Download</a></td>
+<td width="33%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
+<td width="33%" align="center"><a href="#themes"><img src="previews/cards/themes.png" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
+</tr>
+</table>
 
-<p align="center"><a href="#get-started"><b>⬇️ Get started</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
+<p align="center"><a href="#get-started"><b>🧭 Get started</b></a> · <a href="#download"><b>⬇️ Downloads</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
 ## 📣 Announcement
 
-- **Coming next:** testing on more resolutions, new designs and new color versions. These take time to get right, so updates will come a bit slower for a while.
+- **Version 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
 - See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/categories/announcements) for the full to-do list.
 
 ### 🎮 In game
-
-<p align="center"><img src="previews/ingame/essential_sleek_clear.png" alt="Essential Sleek, Clear theme, in game"><br><sub><b>🟢 Essential Sleek</b> · Clear theme · 5120×1440</sub></p>
 
 <p align="center"><img src="previews/ingame/volt_sleek_compact_dark.png" alt="Volt Sleek Compact, Dark theme, in game"><br><sub><b>⚡ Volt Sleek Compact</b> · Dark theme · 5120×1440</sub></p>
 
@@ -36,35 +37,31 @@ Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaT
 
 If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 
-> Previews below are rendered with sample in-game numbers. Real colours and spacing may differ slightly in game.
+> Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
 
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-**October 2026**
-- **📱 Monitors & Widgets 1.6.** No more empty border around the cards: every layout now reaches right to its edges, so you can place it however you like. The **Gaps** option is gone from the Settings panel. New **Clock** option in Settings: **12-hour** (the default) or **24-hour**. Works on **Rainmeter 4.5 and 5**.
-- **⚙️ New: Settings panel for Monitors & Widgets 1.5.** Right-click → Custom skin actions → **Settings…** and click the theme, FPS scale, meters, corners, gaps or GPU you want. (In 1.4 some of these were cut off the right-click menu.)
-- **🔧 Fixed: 4K 1.5x / 2x overlays and TV Pill 4K** now show their rings, meters and panel correctly.
-- **🏷️ New names:** the MSI Edition is now **🟢 Essential**, the original overlays are now **⚡ Volt**, and Apple Style Monitor is now **📱 Monitors & Widgets**. The files are renamed to match: overlays now start with `essential_` or `volt_`, the downloads are called **Essential…zip**, **Volt…zip** and **TV…zip**, and the Rainmeter skin installs as **MonitorsAndWidgets**. Nothing else changed. Had the old ones? See [switching from the old names](#old-names).
-- **📱 New: Monitors & Widgets 1.4 (Rainmeter).** The same Apple look for your **desktop**: a full dashboard for a **second monitor**, layouts made for **HYTE Y70** case screens, **Lian Li** screens (8.8" Universal Screen, 9.2" O11 Vision-M, Lancool 207 Digital) and the **Corsair Xeneon Edge**, plus five smaller **desktop widgets**. Live while you play on your main screen. Right-click options for **RAM / VRAM meters**, **FPS chart scale** (60 to 480 fps), **rounded or square corners**, **gaps on / off**, size and theme. Needs only MSI Afterburner + Rainmeter. [See it below](#rainmeter).
-- **🕘 New: Island Bar Time (Essential).** The same laptop bar with a 12-hour clock in place of VRAM, so you can see the time without leaving your game. Needs only MSI Afterburner + RTSS. In the laptop packs.
-- **💻 New: Island Bar for gaming laptops.** One slim pill at the top of the screen with CPU, GPU, FPS, RAM and VRAM, only 38 px tall so it barely covers your game. In both Essential and Volt (which adds VRAM temperature). In the laptop packs: 1920x1200, 2560x1600 and 2880x1800.
-- **🔍 Bigger 4K versions:** on a 4K screen the normal size can look small, so every overlay (Essential and Volt) now also comes at **1.5×** and **2×** size for 4K. Pick the one that looks right from your seat. Files end in `_1.5x` or `_2x`.
+**Version 2.0 · October 2026**
+- **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
+- **📺 New TV designs:** **TV Pill**, **TV Line**, **TV Box** and **TV Side**, made and tested on 55" and 65" 4K TVs from the couch. 4K and 1080p packs.
+- **💻 New laptop designs:** **Notch**, **Minibar**, **Island**, **Island Time** (with a clock) and **Card**, in their own laptop packs for 1920×1080, 1920×1200, 2560×1440, 2560×1600 and 2880×1800. Laptop temperature colours are tuned for laptops (CPU 90° / 95°, GPU 85° / 92°).
+- **🌡️ VRAM temperature** is now on Essential's Sleek Compact, Sleek Meters, Sleek Meters Universal, Sleek Rings, Sleek Side and Performance. No HWiNFO needed.
+- **✨ Every overlay polished:** thinner rounded rings, better spacing and alignment, easier-to-read grey labels, smooth panel edges, and graphs that are a line on a soft background (a plain line on White).
+- **🔌 Fewer things to set up:** the temperatures, usage, power, clocks, RAM and VRAM now come from **RTSS itself**. MSI Afterburner is only used for **FPS, 1% low and 0.1% low**, and Volt only uses HWiNFO for the **12V cable**.
+- **🧹 Simpler line-up:** the Power / Thermal limit text is gone, and so are Volt Sleek, the Volt "no 12V" versions and the old Island Bar (replaced by the new laptop designs). Had them? See [switching from older versions](#old-names).
+- **📱 Monitors & Widgets 1.7:** the new **Smoke** theme, plus **Tint** (the old see-through look, still loved on a desktop). New **16x9 Compact** and **Portrait Compact** second-screen layouts with network. Everything is now in one **Settings** panel: theme, fit to monitor 1 / 2 / 3, center, and size from **25% to 150%** with presets, a slider, 1% buttons or a typed number. Clearer folder names too. [See it](#rainmeter).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
 
-- **🟢 New: Essential** (first called the MSI Edition): every overlay redesigned to need **only MSI Afterburner + RTSS**, with no HWiNFO. Bigger, easier-to-read text, plus a new design, **Simple Sleek**. If you don't need VRAM temperature or the 12V cable, this is the easiest way to get started. [See it below](#essential).
-- **🖥️ 7680x2160** for 57" dual-4K super-ultrawides.
-- **💻 Gaming laptop resolutions:** 1920x1200, 2560x1600 and 2880x1800 (16:10), for every overlay and theme.
-- **📺 TV versions:** new **TV Pill** and **TV Side**, with big numbers made for gaming on a TV from the couch. Packs for 4K and 1080p TVs (any screen size).
-- **CPU clock fixed:** now shows the real core speed (it read very low before). It comes from MSI Afterburner, so tick **CPU clock** in Afterburner's Monitoring tab ([step 3](#get-started)).
-- **No more false "Voltage limit" warning:** it showed almost all the time on stock NVIDIA cards. Power and Thermal warnings stay, and in Meters, Universal and Rings they now sit neatly under the GPU ring.
-- **Easier setup:** step-by-step picture guides for every setting, plus fixes for integrated graphics and moving the overlay.
-- **Quick install:** one zip per resolution with every overlay and theme, ready to copy straight into the Overlays folder. See [Get started](#get-started).
-- **New Float theme:** no background at all, just the numbers, rings and meters floating over your game. Less distracting, and nice on OLED screens. [See it below](#themes).
-- **New resolutions:** 3840x1600 and 5120x2160 (5K2K) for every overlay and theme.
-- **No 12V versions** of Compact, Meters, Meters Universal, Rings and Side, for graphics cards that don't report 12V or if you don't want it. Look for the folders ending in `-no-12v`. [See them below](#no-12v-versions).
+- **📱 Monitors & Widgets 1.6:** no empty border around the cards, new 12-hour / 24-hour **Clock** option, works on Rainmeter 4.5 and 5.
+- **⚙️ Settings panel for Monitors & Widgets 1.5:** right-click → Custom skin actions → **Settings…**.
+- **🔧 Fixed:** 4K 1.5x / 2x overlays show their rings, meters and panel correctly.
+- **🏷️ New names (1.5):** the MSI Edition became **🟢 Essential**, the original overlays became **⚡ Volt**, and Apple Style Monitor became **📱 Monitors & Widgets**.
+- **📱 Monitors & Widgets 1.4 (Rainmeter):** dashboards for a second monitor, HYTE Y70, Lian Li screens, Corsair Xeneon Edge and the desktop.
+- **🔍 Bigger 4K versions:** every overlay also comes at **1.5×** and **2×** size for 4K.
+- **🖥️ 7680x2160**, **3840x1600** and **5120x2160** resolutions, the **Float** theme, and step-by-step picture guides.
 
 </details>
 
@@ -73,30 +70,31 @@ Thanks to everyone on Reddit who asked for these!
 ---
 
 <a id="get-started"></a>
-## ⬇️ Get started
+## 🧭 Get started
 
-Takes about 5 minutes. Just follow these in order. 👇
+Takes about 5 minutes. Follow these in order. 👇
 
 ### 🟢 First: which version do you want?
 
-| Version | Needs | Shows | Setup |
-|---|---|---|---|
-| **🟢 [Essential](#essential)** (easiest) | MSI Afterburner + RTSS | CPU & GPU usage, temps, power, clocks, RAM, VRAM, FPS, 1% / 0.1% lows, frametime, Power/Thermal limit warnings | Skip step 2 |
-| **⚡ [Volt](#volt)** | MSI Afterburner + RTSS + **HWiNFO** | All of that **plus 12V cable voltage and VRAM temperature** | All steps |
-| **💻 [Laptops](#laptops)** | MSI Afterburner + RTSS (+ HWiNFO for Volt Island Bar) | One slim 38 px pill: CPU, GPU, FPS, 1% low, RAM, VRAM (or a clock) | Same as **Essential** (or **Volt** for the Volt Island Bar). In step 5 pick a 💻 laptop pack |
-| **📺 [TVs](#tvs)** | MSI Afterburner + RTSS | Big numbers for the couch: CPU/GPU temp, power, usage rings, FPS, 1% low | Same as **Essential**. In step 5 pick a [📺 TV pack](#tv-download) |
-| **📱 [Monitors & Widgets](#rainmeter)** | MSI Afterburner + **Rainmeter** (no RTSS) | Your stats on a second screen, case screen, Xeneon Edge or desktop | [Its own setup](#monitor-setup) |
+| Version | 👀 Preview | ⬇️ Download | Needs | Shows |
+|---|---|---|---|---|
+| 🟢 **Essential** (easiest) | [See it](#essential) | [Pick your screen](#download) | MSI Afterburner + RTSS | CPU & GPU usage, temps, power, clocks, RAM, VRAM, VRAM temp, FPS, 1% / 0.1% lows, frametime |
+| ⚡ **Volt** | [See it](#volt) | [Pick your screen](#download) | MSI Afterburner + RTSS + **HWiNFO** | All of that **plus the 12V cable voltage** |
+| 💻 **Laptops** | [See it](#laptops) | [Laptop packs](#laptop-download) | MSI Afterburner + RTSS | Slim bars and a card made for laptop screens |
+| 📺 **TVs** | [See it](#tvs) | [TV packs](#tv-download) | MSI Afterburner + RTSS | Big numbers for the couch |
+| 📱 **Monitors & Widgets** | [See it](#rainmeter) | [Its own download](#monitor-setup) | MSI Afterburner + **Rainmeter** (no RTSS) | Your stats on a second screen, case screen, Xeneon Edge or desktop |
 
-**Not sure? Pick Essential.** You can always switch to Volt later.
+**Not sure? Pick Essential.** You can always switch to Volt later. Only **Volt** needs step 2.
 
 ### 1️⃣ Install the free programs
 
-| Program | What it does |
+| Program | Why you need it |
 |---|---|
-| [**RivaTuner Statistics Server (RTSS)**](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) | Draws the overlay |
-| [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) | Usage, temperatures, power, CPU clock, FPS, 1% low |
-| [**HWiNFO64**](https://www.hwinfo.com/) *(optional)* | **Not needed for [Essential](#essential).** Only the [Volt](#volt) overlays use it, for **12V cable voltage** and **VRAM temperature** (plus 0.1% lows, GPU clock and limit warnings). Sleek and the TV overlays don't need it either |
-| [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)) |
+| [**MSI Afterburner**](https://www.msi.com/Landing/afterburner) **with RTSS** | **Install this one.** Its installer has a box for **RivaTuner Statistics Server (RTSS)**: keep it ticked and you get both in one go. RTSS draws the overlay. Afterburner gives it the **FPS, 1% low and 0.1% low** numbers: RTSS can't hand those to the overlays on its own. |
+| [**HWiNFO64**](https://www.hwinfo.com/) *(Volt only)* | Reads the **12V cable voltage**. Not needed for Essential, laptops or TVs. |
+| [**Inter font**](https://rsms.me/inter/) | The font the overlays use. Without it the text won't line up ([how to install](#install-inter)). |
+
+> Already have RTSS on its own? It works, but install Afterburner too, or FPS and the lows stay blank. Don't install a second RTSS on top of the one that comes with Afterburner.
 
 <a id="install-inter"></a>
 ### 🔤 Install the Inter font
@@ -107,7 +105,7 @@ Takes about 5 minutes. Just follow these in order. 👇
 | 2 | Find **Inter-4.1.zip** in your Downloads and click it |
 | 3 | Click **Extract all** at the top, then **Extract** |
 | 4 | In the folder that opens, **right-click Inter.ttc** |
-| 5 | Click **Install for all users**. The Inter site recommends this, because some programs only see fonts installed for all users |
+| 5 | Click **Install for all users**. Some programs only see fonts installed for all users |
 
 <img src="previews/font/1_download.png" width="520" alt="Inter website: Download button">
 
@@ -118,11 +116,11 @@ Takes about 5 minutes. Just follow these in order. 👇
 Then **restart RTSS** (close it from the tray and open it again).
 
 <a id="hwinfo-setup-shared-memory"></a>
-### 2️⃣ Turn on HWiNFO Shared Memory ⚠️
+### 2️⃣ Turn on HWiNFO Shared Memory ⚡ (Volt only)
 
-> **Using Essential, a TV overlay or Volt's Sleek?** You don't need HWiNFO, so skip to step 3. Every other overlay uses it for the 12V cable, VRAM temperature, 0.1% lows, GPU clock and limit warnings.
+> **Using Essential, a laptop or a TV overlay?** Skip to step 3.
 
-### Without this, 12V, VRAM temp, 0.1% lows, GPU clock and limits stay blank.
+### Without this, the 12V cable stays blank.
 
 1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
 
@@ -139,7 +137,7 @@ Then **restart RTSS** (close it from the tray and open it again).
 
 5. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
 
-> On the free version, Shared Memory switches itself off after **12 hours**. If values go blank after a long session, tick it again (or restart HWiNFO).
+> On the free version, Shared Memory switches itself off after **12 hours**. If 12V goes blank after a long session, tick it again (or restart HWiNFO).
 
 ### 3️⃣ Set up MSI Afterburner
 
@@ -147,49 +145,52 @@ Then **restart RTSS** (close it from the tray and open it again).
 |---|---|
 | 1 | Click the **gear** (Settings) on the left |
 | 2 | Open the **Monitoring** tab |
-| 3 | In the list, **tick** these (scroll down to find the CPU ones): **GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power, CPU clock, Framerate, Framerate 1% Low**<br>🟢 **Essential, also tick:** **Core clock, Framerate 0.1% Low, Power limit, Temp limit** (and **Fan tachometer, Core voltage** for Performance) |
+| 3 | In the list, **tick** these: **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** |
 | 4 | Click each ticked item and make sure **Show in On-Screen Display** is ❌ **unticked**, so Afterburner's own text doesn't stack on top of the overlay |
-| 5 | Click **Apply** |
-| 6 | Click **OK** |
+| 5 | Click **Apply**, then **OK** |
 
-<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the graphs, untick Show in On-Screen Display, Apply, OK">
+<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the readings, untick Show in On-Screen Display, Apply, OK">
+
+The picture has more readings ticked; for the overlays you only need the three **Framerate** ones (ticking more doesn't hurt).
 
 Keep Afterburner running in the background.
 
 <a id="rtss-setup"></a>
-### 4️⃣ Set up RTSS
+### 4️⃣ Set up RTSS (picture guide)
 
-In the main RTSS window:
+Open RTSS (the monitor icon in your taskbar tray). The numbers in the pictures match the steps.
 
-| # | Setting | Set it to | Why |
+<img src="previews/setup/rtss_main.png" width="420" alt="RTSS main window: 1 Show On-Screen Display, 2 On-Screen Display support, 3 On-Screen Display shadow, 4 Setup button">
+
+| # | In the main RTSS window | Set it to | Why |
 |---|---|---|---|
 | 1 | **Show On-Screen Display** | ✅ **ON** | Nothing shows in game without it |
-| 2 | **On-Screen Display support** | ✅ **ON** | Same, needed for any overlay |
-| 3 | **On-Screen Display shadow** | ❌ **OFF** | Keeps text sharp (White theme looks blurry with it on) |
-| 4 | **Setup** button | Click it | Opens the settings with the plugins |
+| 2 | **On-Screen Display support** | ✅ **ON** | Also needed for any overlay |
+| 3 | **On-Screen Display shadow** | ❌ **OFF** | Keeps text sharp (White looks blurry with it on) |
+| 4 | **Setup** button (bottom) | Click it | Opens the settings window with the plugins |
 
-<img src="previews/setup/rtss_main.png" width="420" alt="RTSS main window: Show On-Screen Display, On-Screen Display support, shadow off, Setup button">
+<img src="previews/setup/rtss_plugins.png" width="320" alt="RTSS Setup, Plugins tab: 5 HotkeyHandler.dll, 6 OverlayEditor.dll, 7 Setup">
 
-Then in **Setup**:
-
-| # | Setting | Set it to |
+| # | In **Setup → Plugins** tab | Do this |
 |---|---|---|
-| 5 | **Plugins** tab | Open it |
-| 6 | **HotkeyHandler.dll** and **OverlayEditor.dll** | ✅ **Both ticked** (OverlayEditor is what loads the overlays) |
+| 5 | **HotkeyHandler.dll** | ✅ Tick it |
+| 6 | **OverlayEditor.dll** | ✅ Tick it, then **click its name** so it's highlighted in blue |
+| 7 | **Setup** button (under the list) | Click it. This opens the **Overlay editor**, where you load the overlays |
 
-<img src="previews/setup/rtss_plugins.png" width="420" alt="RTSS Setup: Plugins tab with HotkeyHandler.dll and OverlayEditor.dll both ticked">
+> ⚠️ The Overlay editor only opens from here: **Setup → Plugins → select OverlayEditor.dll → Setup**. It's easy to miss, so if nothing opens, check that OverlayEditor.dll is both ticked **and** highlighted.
 
-Still in **Setup**, check the **General** tab. These are the settings the FPS, 1% low and 0.1% low numbers depend on. If they're changed, the lows can show **0** or freeze:
+Still in **Setup**, check the **General** tab. The FPS, 1% low and 0.1% low numbers depend on these. If they're changed, the lows can show **0** or freeze:
 
-| # | Setting | Set it to |
-|---|---|---|
-| 7 | **General** tab | Open it |
-| 8 | **Framerate averaging interval** | **1000** |
-| 9 | **Refresh period** | **500** |
-| 10 | **Percentile calculation mode** | **integral** |
-| 11 | **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
+| Setting | Set it to |
+|---|---|
+| **Framerate averaging interval** | **1000** |
+| **Refresh period** | **500** |
+| **Percentile calculation mode** | **integral** |
+| **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
 
-<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring">
+<sub>⚠️ This picture is from an older guide and shows <b>linear</b>. Use the table above: <b>integral</b> is correct. A new picture is coming soon.</sub>
+
+<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab (older picture, shows linear; use integral)">
 
 <a id="benchmark-tip"></a>
 > 💡 **Tip:** still on the **General** tab, scroll down to **Compatibility properties** and tick ✅ **Enable benchmark mode**. Sometimes this is what makes the overlay appear in a game.
@@ -198,9 +199,10 @@ Still in **Setup**, check the **General** tab. These are the settings the FPS, 1
 
 Click **OK**.
 
+<a id="download"></a>
 ### 5️⃣ Download the pack for your screen
 
-Each pack has every overlay in every theme. **🟢 Essential** = no HWiNFO needed:
+Each pack has every overlay in every theme, sorted into **Dark**, **White**, **Smoke** and **Float** folders. **🟢 Essential** = no HWiNFO needed.
 
 | Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
@@ -213,10 +215,21 @@ Each pack has every overlay in every theme. **🟢 Essential** = no HWiNFO neede
 | 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.2x.zip) |
 | 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x1440.zip) |
 | 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x2160.zip) |
-| 32:9 dual-4K ultrawide (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
-| 💻 Laptop 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1200.zip) |
-| 💻 Laptop 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1600.zip) |
-| 💻 Laptop 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2880x1800.zip) |
+| 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
+| 16:10 | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1200.zip) |
+| 16:10 | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1600.zip) |
+| 16:10 | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2880x1800.zip) |
+
+<a id="laptop-download"></a>
+**💻 Laptop packs** (the new laptop designs; no HWiNFO needed):
+
+| Laptop screen | Resolution | Download |
+|---|---|---|
+| 💻 Full HD | `1920x1080` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1080.zip) |
+| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1200.zip) |
+| 💻 QHD | `2560x1440` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1440.zip) |
+| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1600.zip) |
+| 💻 16:10 OLED | `2880x1800` | [⬇️ Download laptop pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2880x1800.zip) |
 
 <a id="tv-download"></a>
 **📺 TV packs** (no HWiNFO needed, any TV size):
@@ -226,47 +239,67 @@ Each pack has every overlay in every theme. **🟢 Essential** = no HWiNFO neede
 | 📺 **4K TV** (43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/TV.overlays.3840x2160.zip) |
 | 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/TV.overlays.1920x1080.zip) |
 
-Only copy in **one** TV pack, the one that matches your TV. The files end in `_4k` or `_1080p`.
-
 **Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
 
 <img src="previews/setup/resolution.png" width="460" alt="Windows Advanced display: Desktop mode shows the resolution">
 
+> The overlays follow your **resolution**, not your screen size: a 27" and a 32" 4K monitor (or a 55" and an 85" 4K TV) use the same pack. Windows display scaling doesn't change them either.
+
 ### 6️⃣ Copy the files into the Overlays folder
 
-Unzip the pack and copy **all the files** straight into this folder:
-```
-C:\Program Files\RivaTuner Statistics Server\Plugins\Client\Overlays
-```
-### ⚠️ Not into a subfolder! Each `.ovl` needs its `_atlas.png` right next to it.
+Unzip the pack, open the theme folder you want (**Dark**, **White**, **Smoke** or **Float**, or several) and copy **the files inside** straight into RTSS's Overlays folder:
 
-It should look like this. Every overlay is a **pair**: the `.ovl` file and its `_atlas.png`, side by side, directly in the **Overlays** folder:
+```
+C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays
+```
+
+That's where RTSS installs by default. If you installed it somewhere else, open RTSS's install folder and go to **Plugins → Client → Overlays**.
+
+### ⚠️ Copy the files, not the theme folder! Each `.ovl` needs its `_atlas.png` right next to it, directly in **Overlays**.
 
 | # | Check |
 |---|---|
 | 1 | The address bar ends in **RivaTuner Statistics Server › Plugins › Client › Overlays** |
-| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `essential_sleek.ovl` + `essential_sleek_atlas.png`). Essential files start with `essential_`, Volt files with `volt_` |
+| 2 | Each `.ovl` has its matching `_atlas.png` right next to it (e.g. `essential_sleek_smoke.ovl` + `essential_sleek_smoke_atlas.png`) |
 
-<img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: essential_performance_overlay.ovl next to essential_performance_overlay_atlas.png">
+<img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: each .ovl next to its _atlas.png">
+
+The theme is in the file name: no ending = **Dark**, then `_white`, `_smoke` and `_float`.
 
 ### 7️⃣ Load it and play 🎮
 
-In RTSS, open **OverlayEditor → Layouts → Load**, pick your favourite, and launch a game. It shows at the top centre, or on the right edge (Sleek Side and Performance).
+Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins → select OverlayEditor.dll → Setup**.
+
+<img src="previews/setup/editor_load.png" width="640" alt="Overlay editor: 8 Layouts menu, 9 Load">
+
+| # | In the Overlay editor | Do this |
+|---|---|---|
+| 8 | **Layouts** menu (top left) | Click it |
+| 9 | **Load** | Click it |
+
+<img src="previews/setup/editor_open.png" width="640" alt="Open window: 10 pick the overlay file, 11 Open">
+
+| # | In the Open window | Do this |
+|---|---|---|
+| 10 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
+| 11 | **Open** | Click it, then launch a game |
+
+> 📝 **These are demo pictures.** The overlay is placed for a full screen, so **maximize the Overlay editor** (make it full screen) to see it where it will be in game: at the **top centre**, or on the **right edge** for Sleek Side and Performance.
 
 <a id="smooth"></a>
 ### 🧈 Keep it smooth (no stutter)
 
-The overlay itself is light: it redraws every **500 ms** (the RTSS refresh period from [step 4](#rtss-setup)). Stutter usually comes from the monitoring apps reading sensors too often, so:
+The overlay itself is light: it redraws every **500 ms** (the RTSS refresh period from [step 4](#rtss-setup)). Stutter usually comes from monitoring apps reading sensors too often, so:
 
 | # | App | Setting | Set it to |
 |---|---|---|---|
 | 1 | **MSI Afterburner** | Settings → Monitoring → **Hardware polling period** | **1000** ms |
 | 2 | **HWiNFO** *(Volt only)* | Sensor Settings → General → **Global** polling period | **2000** ms |
-| 3 | **HWiNFO** *(Volt only)* | Same box: **Disk S.M.A.R.T. every** … cycles and **Emb. Controller every** … cycles | **100** and **10** (checks drives and the embedded controller less often, the usual stutter cause), then click **Set** |
+| 3 | **HWiNFO** *(Volt only)* | Same box: **Disk S.M.A.R.T. every** … cycles and **Emb. Controller every** … cycles | **100** and **10**, then click **Set** |
 
 <img src="previews/setup/ab_polling.png" width="420" alt="Afterburner: Hardware polling period 1000"> <img src="previews/hwinfo/4_polling.png" width="420" alt="HWiNFO Sensor Settings: Global 2000 ms, Disk S.M.A.R.T. and Emb. Controller cycles, Set">
 
-Want the lightest setup? Use **🟢 Essential**: it only needs Afterburner + RTSS, with no HWiNFO at all.
+Want the lightest setup? Use **🟢 Essential**: no HWiNFO at all.
 
 <a id="hotkey"></a>
 ### ⌨️ Show / hide the overlay with a hotkey
@@ -287,36 +320,32 @@ Now press that key in game to show or hide the overlay. Handy for screenshots an
 
 ### If GPU load, temperature or power show 0 or look wrong, the overlay is probably reading your integrated graphics.
 
-The overlays read **GPU instance 0**. With a CPU that has built-in graphics, instance 0 is often the integrated GPU and your graphics card is **1**. ✅ Tested and confirmed on a PC with integrated graphics.
-
-**Which number is your graphics card?** Open **Task Manager** (Ctrl + Shift + Esc) → **Performance** and look at the GPU list. The number next to your graphics card (e.g. **GPU 1**) is the **Instance** to use:
+**Which number is your graphics card?** Open **Task Manager** (Ctrl + Shift + Esc) → **Performance** and look at the GPU list. The number next to your graphics card (e.g. **GPU 1**) is the one to use:
 
 <img src="previews/gpu/0_task_manager.png" width="360" alt="Task Manager: GPU 0 integrated graphics, GPU 1 graphics card">
 
-To switch:
-
 | # | What to do |
 |---|---|
-| 1 | In OverlayEditor, click **Data sources** at the top |
-| 2 | Select **GPU1 temperature** (then repeat for **GPU1 usage** and **GPU1 power**) |
+| 1 | In the Overlay editor, click **Data sources** at the top |
+| 2 | Select **GPU1 temperature** (then repeat for every other row that starts with **GPU**) |
 | 3 | Click **Setup** |
-| 4 | Change **Instance** from **0** to your graphics card's number from Task Manager (usually **1**) |
-| 5 | Click **OK**, then **OK** again, and save the layout |
+| 4 | Pick your graphics card (change the GPU number from **0** to your card's number from Task Manager, usually **1**) |
+| 5 | Click **OK**, then **OK** again, and **save** the layout |
 
-<img src="previews/gpu/1_data_sources.png" width="420" alt="OverlayEditor: Data sources menu">
+<img src="previews/gpu/1_data_sources.png" width="420" alt="Overlay editor: Data sources menu">
 
-<img src="previews/gpu/2_select_gpu.png" width="420" alt="Data sources: GPU1 temperature, usage and power, Setup button"> <img src="previews/gpu/3_instance.png" width="420" alt="Data source settings: Instance 0 to 1, OK">
+<img src="previews/gpu/2_select_gpu.png" width="420" alt="Data sources: GPU rows, Setup button"> <img src="previews/gpu/3_instance.png" width="420" alt="Data source settings: change the GPU number, OK">
 
-Tip: watch the **Value** column in Data sources. Once it's right, GPU1 usage jumps up when you start a game.
+Tip: watch the **Value** column in Data sources. Once it's right, GPU usage jumps up when you start a game.
 
 <a id="move-an-overlay"></a>
 ### 📍 Move it anywhere you like
 
-1. Open the overlay in **OverlayEditor**.
+1. Open the overlay in the **Overlay editor**.
 2. ### Turn off "Snap to grid" first! ⚠️
    Click **View** at the top, then click **Snap to grid** so the ✓ disappears. With snapping on, each piece snaps separately and the numbers slide out of place.
 
-   <img src="previews/setup/snap_to_grid.png" width="440" alt="OverlayEditor: View menu, Snap to grid">
+   <img src="previews/setup/snap_to_grid.png" width="440" alt="Overlay editor: View menu, Snap to grid">
 
 3. Select all the layers and drag the overlay where you want it, e.g. the lower-left corner.
 4. **Save** the layout.
@@ -326,7 +355,7 @@ Everything stays lined up, and it remembers the new spot. (RTSS's own position b
 <details>
 <summary>Only want one overlay?</summary>
 
-Download this repo (**Code → Download ZIP**), then open `overlays/` → the overlay → the theme (`dark`, `white`, `clear` or `float`) → your resolution, e.g. `overlays/volt/sleek-meters/white/2560x1440` or `overlays/essential/sleek-meters/white/2560x1440`. Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
+Download this repo (**Code → Download ZIP**), then open `overlays/` → the version → the overlay → the theme (`dark`, `white`, `smoke` or `float`) → your resolution, e.g. `overlays/essential/sleek-meters/smoke/2560x1440`. Copy the `.ovl` and its `_atlas.png` into the Overlays folder.
 
 </details>
 
@@ -338,85 +367,79 @@ Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues
 <a id="msi-edition"></a>
 ## 🟢 Essential (RTSS + MSI Afterburner, no HWiNFO)
 
-### Only needs MSI Afterburner + RTSS. Perfect if you don't need VRAM temperature or the 12V cable.
+### The easiest one: only needs MSI Afterburner + RTSS.
 
-Every overlay with **bigger, easier-to-read text**, in **Dark, White, Clear and Float**, for every resolution. Files start with `essential_`. Tap **See all 4 themes** under any overlay.
+Every overlay in **Dark, White, Smoke and Float**, for every resolution. Files start with `essential_`. Tap **See all 4 themes** under any overlay.
 
-<p align="center"><a href="#get-started"><img src="previews/buttons/setup-essential.png" alt="Set up Essential" height="38"></a><br><sub>Skip step 2, no HWiNFO needed</sub></p>
+<p align="center"><a href="#download"><b>⬇️ Download Essential</b></a> · <a href="#get-started">🧭 How to set it up</a> (skip step 2)</p>
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-simple-sleek.png" alt="Simple Sleek 🆕"><br><b>Simple Sleek 🆕</b><br><sub>One slim pill: CPU and GPU rings with temp, power and clock, FPS, 1% low and frametime</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/simple-sleek.png" alt="Simple Sleek 🆕 in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek.png" alt="Sleek"><br><b>Sleek</b><br><sub>CPU and GPU rings with temp and power, big FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek.png" alt="Sleek in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-simple-sleek.png" alt="Simple Sleek"><br><b>Simple Sleek</b><br><sub>One slim pill: CPU and GPU rings with temp, power and clock, FPS, 1% low and frametime</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/simple-sleek.png" alt="Simple Sleek in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek.png" alt="Sleek"><br><b>Sleek</b><br><sub>CPU and GPU rings with temp and power, big FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek.png" alt="Sleek in Dark, White, Smoke and Float"></details></td>
 </tr>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-compact.png" alt="Sleek Compact"><br><b>Sleek Compact</b><br><sub>CPU, GPU (power, clock, RAM / VRAM) and FPS with 1%, 0.1%, frametime and a graph</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-compact.png" alt="Sleek Compact in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-meters.png" alt="Sleek Meters"><br><b>Sleek Meters</b><br><sub>Compact with a meter under each value, scaled for a mid-range PC</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-meters.png" alt="Sleek Meters in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-compact.png" alt="Sleek Compact"><br><b>Sleek Compact</b><br><sub>CPU, GPU (power, clock, RAM / VRAM, VRAM temp) and FPS with 1%, 0.1%, frametime and a graph</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-compact.png" alt="Sleek Compact in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-meters.png" alt="Sleek Meters"><br><b>Sleek Meters</b><br><sub>Compact with a meter under each value, scaled for a mid-range PC</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-meters.png" alt="Sleek Meters in Dark, White, Smoke and Float"></details></td>
 </tr>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-meters-universal.png" alt="Sleek Meters Universal"><br><b>Sleek Meters Universal</b><br><sub>Meters scaled for <b>any</b> PC, up to an RTX 5090 (<a href="#meter-scales">scales</a>)</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-meters-universal.png" alt="Sleek Meters Universal in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-rings.png" alt="Sleek Rings"><br><b>Sleek Rings</b><br><sub>Double rings: load outside, temperature inside</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-rings.png" alt="Sleek Rings in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-meters-universal.png" alt="Sleek Meters Universal"><br><b>Sleek Meters Universal</b><br><sub>Meters scaled for <b>any</b> PC, up to an RTX 5090 (<a href="#meter-scales">scales</a>)</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-meters-universal.png" alt="Sleek Meters Universal in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-rings.png" alt="Sleek Rings"><br><b>Sleek Rings</b><br><sub>Double rings: load outside, temperature inside</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-rings.png" alt="Sleek Rings in Dark, White, Smoke and Float"></details></td>
 </tr>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-side.png" width="45%" alt="Sleek Side"><br><b>Sleek Side</b><br><sub>A panel for the side of the screen with CPU / GPU load graphs and FPS</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-side.png" alt="Sleek Side in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-performance.png" width="45%" alt="Performance"><br><b>Performance</b><br><sub>Every number for benchmarking, with graphs</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/performance.png" alt="Performance in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-sleek-side.png" width="45%" alt="Sleek Side"><br><b>Sleek Side</b><br><sub>A panel for the side of the screen with CPU / GPU load graphs, VRAM temp and FPS</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/sleek-side.png" alt="Sleek Side in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/essential-performance.png" width="45%" alt="Performance"><br><b>Performance</b><br><sub>Every number for benchmarking: voltage, fan, VRAM temp and graphs</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/performance.png" alt="Performance in Dark, White, Smoke and Float"></details></td>
 </tr>
 </table>
 
-Gaming laptop? See [💻 Laptops](#laptops) for Island Bar and Island Bar Time.
-
-<p align="center"><a href="#get-started"><img src="previews/buttons/setup-essential.png" alt="Set up Essential" height="38"></a><br><sub>Skip step 2, no HWiNFO needed</sub></p>
+Gaming laptop? See [💻 Laptops](#laptops).
 
 ---
 
 <a id="volt"></a>
 ## ⚡ Volt (RTSS + MSI Afterburner + HWiNFO)
 
-### Everything in Essential, plus the 12V-2x6 / 12VHPWR cable monitor and VRAM temperature.
+### Everything in Essential, plus the 12V-2x6 / 12VHPWR cable monitor.
 
-Volt reads your graphics card's 12V cable voltage and VRAM temperature through HWiNFO ([step 2](#hwinfo-setup-shared-memory)), and shows GPU limit warnings only when a limit is hit. Files start with `volt_`. Tap **See all 4 themes** under any overlay.
+Volt reads your graphics card's 12V cable voltage through HWiNFO ([step 2](#hwinfo-setup-shared-memory)). Files start with `volt_`. Tap **See all 4 themes** under any overlay.
 
-<p align="center"><a href="#get-started"><img src="previews/buttons/setup-volt.png" alt="Set up Volt" height="38"></a><br><sub>Do every step, including step 2 (HWiNFO)</sub></p>
+<p align="center"><a href="#download"><b>⬇️ Download Volt</b></a> · <a href="#get-started">🧭 How to set it up</a> (do every step, including step 2)</p>
 
 <table>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek.png" alt="Sleek"><br><b>Sleek</b><br><sub>A compact pill: CPU and GPU rings with temperature and power, FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek.png" alt="Sleek in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-compact.png" alt="Sleek Compact"><br><b>Sleek Compact</b><br><sub>Full stats in one wide bar, with a frametime graph and the 12V cable voltage</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-compact.png" alt="Sleek Compact in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-compact.png" alt="Sleek Compact"><br><b>Sleek Compact</b><br><sub>Full stats in one wide bar, with a frametime graph and the 12V cable voltage</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-compact.png" alt="Sleek Compact in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-meters.png" alt="Sleek Meters"><br><b>Sleek Meters</b><br><sub>A thin meter under every value, so you see how close each one is to its limit</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-meters.png" alt="Sleek Meters in Dark, White, Smoke and Float"></details></td>
 </tr>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-meters.png" alt="Sleek Meters"><br><b>Sleek Meters</b><br><sub>Compact with a thin meter under every value, so you see how close each one is to its limit</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-meters.png" alt="Sleek Meters in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-meters-universal.png" alt="Sleek Meters Universal"><br><b>Sleek Meters Universal</b><br><sub>Meters scaled for <b>any</b> build, up to an RTX 5090 (<a href="#meter-scales">scales</a>)</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-meters-universal.png" alt="Sleek Meters Universal in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-meters-universal.png" alt="Sleek Meters Universal"><br><b>Sleek Meters Universal</b><br><sub>Meters scaled for <b>any</b> build, up to an RTX 5090 (<a href="#meter-scales">scales</a>)</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-meters-universal.png" alt="Sleek Meters Universal in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-rings.png" alt="Sleek Rings"><br><b>Sleek Rings</b><br><sub>Activity-style double rings: load outside, temperature inside</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-rings.png" alt="Sleek Rings in Dark, White, Smoke and Float"></details></td>
 </tr>
 <tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-rings.png" alt="Sleek Rings"><br><b>Sleek Rings</b><br><sub>Activity-style double rings: load outside, temperature inside</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-rings.png" alt="Sleek Rings in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="middle" align="center"><b><a id="no-12v-versions"></a>No 12V versions</b><br><sub>Compact, Meters, Meters Universal, Rings and Side also come <b>without the 12V section</b>, for cards that don't report it. They're in the same pack, with <code>no12v</code> in the file name.</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-side.png" width="45%" alt="Sleek Side"><br><b>Sleek Side</b><br><sub>A side panel with CPU and GPU usage graphs, VRAM temperature and the 12V cable</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-side.png" alt="Sleek Side in Dark, White, Clear and Float"></details></td>
-<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-performance.png" width="45%" alt="Performance"><br><b>Performance</b><br><sub>Every number for benchmarking: voltage, fan, VRAM temp and load graphs too</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/performance.png" alt="Performance in Dark, White, Clear and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-sleek-side.png" width="45%" alt="Sleek Side"><br><b>Sleek Side</b><br><sub>A side panel with CPU and GPU graphs, VRAM temperature and the 12V cable</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/sleek-side.png" alt="Sleek Side in Dark, White, Smoke and Float"></details></td>
+<td width="50%" valign="top" align="center"><img src="previews/thumbs/volt-performance.png" width="45%" alt="Performance"><br><b>Performance</b><br><sub>Every number for benchmarking, plus a 12V section</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/performance.png" alt="Performance in Dark, White, Smoke and Float"></details></td>
 </tr>
 </table>
-
-Gaming laptop? See [💻 Laptops](#laptops).
-
-<p align="center"><a href="#get-started"><img src="previews/buttons/setup-volt.png" alt="Set up Volt" height="38"></a><br><sub>Do every step, including step 2 (HWiNFO)</sub></p>
 
 ---
 
 <a id="laptops"></a>
 ## 💻 Laptops
 
-### One slim pill at the top of the screen, only 38 px tall, so it barely covers your game.
+### Small, slim designs made for laptop screens, where every pixel counts.
 
-Made for laptop screens where every pixel counts. In the 💻 laptop packs: **1920x1200**, **2560x1600** and **2880x1800** (step 5 of [Get started](#get-started)).
+Only need **MSI Afterburner + RTSS**. No VRAM readings (most laptops don't report them), and the temperature colours are tuned for laptops: CPU turns amber at 90° and red at 95°, GPU at 85° and 92°. In the [💻 laptop packs](#laptop-download).
+
+<p align="center"><a href="#laptop-download"><b>⬇️ Download a laptop pack</b></a> · <a href="#get-started">🧭 How to set it up</a> (skip step 2)</p>
 
 <table>
-<tr><td align="center"><img src="previews/thumbs/essential-island-bar.png" alt="Island Bar"><br><b>Island Bar</b> · 🟢 Essential<br><sub>CPU, GPU, FPS · 1% low, RAM and VRAM</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/island-bar.png" alt="Island Bar in 4 themes"></details></td></tr>
-<tr><td align="center"><img src="previews/thumbs/essential-island-bar-time.png" alt="Island Bar Time"><br><b>Island Bar Time</b> · 🟢 Essential<br><sub>The same bar with a 12-hour clock instead of VRAM</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/essential/island-bar-time.png" alt="Island Bar Time in 4 themes"></details></td></tr>
-<tr><td align="center"><img src="previews/thumbs/volt-island-bar.png" alt="Island Bar"><br><b>Island Bar</b> · ⚡ Volt<br><sub>Adds VRAM temperature (needs HWiNFO)</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/volt/island-bar.png" alt="Island Bar in 4 themes"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/laptop-notch.png" alt="Notch"><br><b>Notch</b><br><sub>Top centre, like a phone's notch: CPU and GPU rings with temperatures, FPS in the middle</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/laptop/notch.png" alt="Notch in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/laptop-minibar.png" alt="Minibar"><br><b>Minibar</b><br><sub>A small bar: CPU and GPU rings with temperatures, FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/laptop/minibar.png" alt="Minibar in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/laptop-island.png" alt="Island"><br><b>Island</b><br><sub>One slim line: CPU and GPU usage and temperature, FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/laptop/island.png" alt="Island in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/laptop-island-time.png" alt="Island Time"><br><b>Island Time</b><br><sub>The same line with a clock, so you see the time without leaving your game</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/laptop/island-time.png" alt="Island Time in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/laptop-card.png" width="30%" alt="Card"><br><b>Card</b><br><sub>A small card in the top-left corner: FPS, 1% low, CPU and GPU temperature, usage and power</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/laptop/card.png" alt="Card in Dark, White, Smoke and Float"></details></td></tr>
 </table>
 
-<p align="center"><a href="#get-started"><img src="previews/buttons/setup-laptops.png" alt="Set up on a laptop" height="38"></a><br><sub>Pick a 💻 laptop pack in step 5 · Essential skips step 2</sub></p>
+Want a bigger desktop design on your laptop instead? The Essential and Volt packs also come in **1920x1200**, **2560x1600** and **2880x1800**.
 
 ---
 
@@ -425,13 +448,20 @@ Made for laptop screens where every pixel counts. In the 💻 laptop packs: **19
 
 ### Big numbers you can read from the couch.
 
-**TV Pill** shows CPU and GPU temperature, power and usage rings, FPS and 1% low. **TV Side** is a panel on the right edge with FPS, 1% low, and CPU/GPU temperature, load and power. Both come in **Dark, White, Clear and Float** and only need **MSI Afterburner** (no HWiNFO).
-
-TV size doesn't matter, only resolution: a 55" and an 85" 4K TV use the same 4K TV pack. Files start with `tv_` and end in `_4k` or `_1080p`.
+Made and tested on **55" and 65" 4K TVs** from about 3 m away. Only need **MSI Afterburner + RTSS** (no HWiNFO). Files start with `tv_` and end in `_4k` or `_1080p`. In the [📺 TV packs](#tv-download).
 
 <img src="previews/tv.png" alt="TV Pill and TV Side on a 4K TV">
 
-<p align="center"><a href="#get-started"><img src="previews/buttons/setup-tv.png" alt="Set up on a TV" height="38"></a><br><sub>Pick a <a href="#tv-download">📺 TV pack</a> · skip step 2</sub></p>
+<p align="center"><a href="#tv-download"><b>⬇️ Download a TV pack</b></a> · <a href="#get-started">🧭 How to set it up</a> (skip step 2)</p>
+
+<table>
+<tr><td align="center"><img src="previews/thumbs/tv-pill.png" alt="TV Pill"><br><b>TV Pill</b><br><sub>Big CPU and GPU rings with temperature and power, FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/tv/pill.png" alt="TV Pill in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/tv-line.png" alt="TV Line"><br><b>TV Line</b><br><sub>One slim line with usage rings, temperatures, FPS and 1% low</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/tv/line.png" alt="TV Line in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/tv-box.png" alt="TV Box"><br><b>TV Box</b><br><sub>Three big columns: FPS, CPU and GPU</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/tv/box.png" alt="TV Box in Dark, White, Smoke and Float"></details></td></tr>
+<tr><td align="center"><img src="previews/thumbs/tv-side.png" width="30%" alt="TV Side"><br><b>TV Side</b><br><sub>A panel on the right edge: FPS, CPU and GPU with load, power, VRAM and VRAM temp</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/tv/side.png" alt="TV Side in Dark, White, Smoke and Float"></details></td></tr>
+</table>
+
+Only copy in **one** TV pack, the one that matches your TV's resolution. TV size doesn't matter: a 55" and an 85" 4K TV use the same 4K pack.
 
 ---
 
@@ -440,39 +470,48 @@ TV size doesn't matter, only resolution: a 55" and an 85" 4K TV use the same 4K 
 
 Every overlay (Essential, Volt, laptop and TV) comes in four themes:
 
-| Theme | Folder | Look |
+| Theme | Folder / file ending | Look |
 |---|---|---|
-| **Dark** | `dark` | Dark glass panel, white text |
-| **White** | `white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text. |
-| **Clear** | `clear` | Mostly see-through panel; every number has a drop shadow so it stays readable over bright scenes |
-| **Float** | `float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
+| **Dark** | `dark` / no ending | Dark panel, white text |
+| **White** | `white` / `_white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text |
+| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers |
+| **Float** | `float` / `_float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
 
-![Dark, White, Clear and Float](previews/themes_all.png)
+![Dark, White, Smoke and Float](previews/themes_all.png)
+
+<a id="smoke"></a>
+### 🌫️ Why Smoke replaced Clear
+
+The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
+
+<img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
 
 ---
 
 <a id="old-names"></a>
-## 🏷️ Switching from the old names
+## 🏷️ Switching from older versions
 
-The overlays and the Rainmeter skin got new names in **v1.5**. Nothing else changed, but the old copies don't get replaced automatically:
+The old copies don't get replaced automatically. RTSS also keeps showing an old picture until it's fully closed, so **exit RTSS and Afterburner once** after copying in new files.
 
-| You had | Now called | What to do |
+| You had | Now | What to do |
 |---|---|---|
-| **MSI Edition** (`msi_…` files) | **🟢 Essential** (`essential_…`) | Copy in the new pack, then delete the old `msi_…` files from the Overlays folder so they don't show twice in **Layouts → Load** |
-| The original overlays (`sleek.ovl`, `sleek_compact.ovl`…) | **⚡ Volt** (`volt_…`) | The same: copy in the new pack, then delete the old files whose names start with `sleek`, `performance_overlay` or `island_bar` |
-| TV overlays (`tv_pill.ovl`, `tv_side.ovl`…) | **📺 TV** (`tv_…_4k` / `tv_…_1080p`) | Delete the old `tv_pill…` and `tv_side…` files (and any `volt_tv_…` ones), then copy in the one TV pack for your TV |
-| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete the folder `Documents\Rainmeter\Skins\AppleStyleMonitor` |
+| **Clear** theme (`…_clear.ovl`) | **Smoke** (`…_smoke.ovl`) | Delete the old `…_clear` files from the Overlays folder and load the `…_smoke` ones |
+| **Island Bar / Island Bar Time** | The new [💻 laptop designs](#laptops) | Delete the `…island_bar…` files and copy in a laptop pack |
+| **Volt Sleek** and the Volt **no 12V** versions (`…no12v…`) | Removed | Delete them. Use **Essential Sleek** instead of Volt Sleek; if your card doesn't report 12V, use **Essential** |
+| Old **TV Pill / TV Side** | The new [📺 TV designs](#tvs) | Delete the old `tv_…` files, then copy in the TV pack for your TV |
+| **MSI Edition** (`msi_…`) or the original overlays (`sleek.ovl`, `performance_overlay.ovl`…) | **🟢 Essential** (`essential_…`) / **⚡ Volt** (`volt_…`) | Copy in the new pack, then delete the old files so they don't show twice in **Layouts → Load** |
+| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor` |
 
-Your settings in RTSS stay as they are. If you moved an overlay in OverlayEditor, move the new one the same way and save it.
+If you moved an overlay in the Overlay editor, move the new one the same way and save it.
 
 ## Notes
 
-- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use the **No 12V** versions.
-- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: there's no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO, which can show a warning or play a sound.
-- The dot next to 12V turns **amber** below 11.85 V and **red** below 11.75 V. It only reacts once the GPU is drawing more than 150 W. At low power hardly any current flows through the cable, so even a bad connection barely lowers the voltage; a low reading only means something under real load. At idle or on the desktop, the dot stays green.
-- **Sleek Meters** uses fixed scales for an upper-mid-range PC (CPU 120 W, GPU 360 W, CPU clock 5.05 GHz, GPU clock 2.9 GHz, RAM 32 GB, VRAM 16 GB). For a high-end PC, use **Sleek Meters Universal**.
+- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
+- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
+- The **12V** label turns **amber** below 11.85 V and **red** below 11.75 V, and only reacts while the GPU draws more than 150 W. At low power hardly any current flows through the cable, so a low reading only means something under real load.
+- **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
 <a id="meter-scales"></a>
-- **Sleek Meters Universal** (Essential and Volt) fills its bars at the limits of today's fastest hardware, so nothing maxes out early on a high-end PC:
+- **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
 
   | Meter | Full at | Why |
   |---|---|---|
@@ -482,33 +521,32 @@ Your settings in RTSS stay as they are. If you moved an overlay in OverlayEditor
   | GPU clock | 4.0 GHz | Above the fastest boosting cards |
   | RAM | 64 GB | Fits 32 GB and 64 GB builds |
   | VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
-- **Sleek Meters Universal:** to change a scale, open **Data sources** in OverlayEditor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
-- The CPU clock comes from **MSI Afterburner** and shows the real core speed. Make sure **CPU clock** is ticked in Afterburner's Monitoring tab.
-- GPU limit warnings show **Power** and **Thermal** limits only. NVIDIA's voltage limit flag is left out on purpose: it's active almost all the time on stock cards and isn't a problem.
+- To change a meter's scale, open **Data sources** in the Overlay editor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
+- On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
 
 ## Known limitations
 
-These come from how RTSS's OverlayEditor works, so every OverlayEditor layout has them, not just these:
+These come from how RTSS's Overlay editor works, so every Overlay editor layout has them:
 
-- **RTSS's position box and zoom slider don't move these overlays.** Move them in OverlayEditor instead ([how](#move-an-overlay)). A normal Afterburner overlay is one block of text that RTSS places where you choose. An OverlayEditor layout is made of separate layers (panel, rings, each number), and each layer has its own fixed spot on the screen. There's no "whole overlay" position for RTSS to move.
-- **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack that matches the resolution you play at most.
+- **RTSS's position box and zoom slider don't move these overlays.** Move them in the Overlay editor instead ([how](#move-an-overlay)). Each layer (panel, rings, each number) has its own fixed spot on the screen, so there's no "whole overlay" position for RTSS to move.
+- **Each file is made for one screen resolution.** If you play some games at 1440p and others at 4K, the overlay won't be in the same place in both. Use the pack for the resolution you play at most.
 
+<a id="troubleshooting"></a>
 ## Troubleshooting
 
 | Problem | Fix |
 |---|---|
-| Overlay doesn't appear in a game | Tick **Enable benchmark mode** in RTSS. See the [tip in step 4](#benchmark-tip). |
-| Overlay Editor looks empty | The overlay is placed for a full screen (top centre, or right edge for Side and Performance). **Maximize the Overlay Editor window** to see it. Also turn on **Show On-Screen Display** in the main RTSS window, or nothing shows in game. |
-| CPU clock is blank or N/A | The CPU clock comes from **MSI Afterburner**. Go to **Settings → Monitoring** and tick **CPU clock**, then click Apply. |
-| GPU clock is blank | **Essential:** tick **Core clock** in Afterburner's Monitoring tab. **Volt:** the GPU clock comes from **HWiNFO**. Follow the [HWiNFO setup](#hwinfo-setup-shared-memory). If it's running and still blank, open **Data sources**, select **GPU clock**, click **Setup** and pick your GPU's clock reading. |
-| GPU load, temperature or power are blank | These come from **MSI Afterburner**. Make sure it's running, then go to **Settings → Monitoring** and enable *GPU usage, GPU temperature, Power, CPU usage, CPU temperature, CPU power* and *CPU clock*. With two GPUs (integrated + graphics card), open **Data sources**, select **GPU1 usage**, click **Setup** and pick your graphics card. Do the same for GPU1 temperature and GPU1 power. |
-| Text looks different, too wide, or doesn't line up with the panel | The **Inter** font isn't installed, so Windows uses a different font. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
+| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([tip](#benchmark-tip)). |
+| I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
+| The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
+| I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
+| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
+| GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
+| 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
+| Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
 | Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
-| Some values show `N/A` or are blank | HWiNFO isn't running, or Shared Memory Support is off. See [HWiNFO setup](#hwinfo-setup-shared-memory). |
-| A value stays blank even with HWiNFO running | In OverlayEditor, open **Data sources**, select the row, click **Setup**, and pick the matching sensor from your HWiNFO list. |
-| 1% / 0.1% show 0 | Normal outside a game. They fill in once a game is running. In **Essential**, also tick **Framerate 1% Low** and **Framerate 0.1% Low** in Afterburner, and check the [RTSS General settings](#rtss-setup). |
-| Want 12V or VRAM temperature? | Those need **HWiNFO**, so use the **⚡ Volt** overlays and follow [step 2](#hwinfo-setup-shared-memory). |
-| Text looks blurry or smudged on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window. The shadow is meant for white text on dark backgrounds; the Dark themes don't need it, and the Clear and Float themes have their own shadow built in. |
+| I still see the old look after updating | RTSS keeps old pictures until it's closed. Exit **RTSS and Afterburner** fully (from the tray) and open them again. |
+| Text looks blurry on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window ([step 4](#rtss-setup), #3). |
 
 ---
 
@@ -517,9 +555,9 @@ These come from how RTSS's OverlayEditor works, so every OverlayEditor layout ha
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. Put it on a second monitor, a HYTE or Lian Li case screen, a Corsair Xeneon Edge or your desktop and watch your PC while you game on the main one. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
+RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
 
-<p align="center"><a href="#monitor-setup"><img src="previews/buttons/setup-monitors-widgets.png" alt="Set up Monitors & Widgets" height="38"></a><br><sub>Rainmeter + MSI Afterburner · about 5 minutes</sub></p>
+<p align="center"><a href="#monitor-setup"><b>⬇️ Download and set up</b></a> · about 5 minutes</p>
 
 ![Monitors & Widgets on a second screen](previews/rainmeter/second-screen.png)
 
@@ -529,31 +567,45 @@ RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rain
 
 <p align="center"><a href="#mw-second"><b>🖥️ Second monitor</b></a> · <a href="#mw-hyte"><b>HYTE Y70</b></a> · <a href="#mw-lianli"><b>Lian Li</b></a> · <a href="#mw-xeneon"><b>Corsair Xeneon Edge</b></a> · <a href="#mw-desktop"><b>Desktop widgets</b></a></p>
 
-**Classic** is one panel that fills the whole screen. **Widgets** are separate rounded cards with your wallpaper showing between them. Every case-screen layout was checked at the screen's real size, so the text stays readable on the small screens too.
+Every layout comes two ways: **Cards** are separate rounded cards with your wallpaper showing between them, and **Box** is one solid panel with thin dividers.
+
+In Rainmeter's **Manage** window, the **MonitorsAndWidgets** folder looks like this:
+
+| Folder | What's in it |
+|---|---|
+| **Second Monitor** | 16x9, 16x9 Compact, Portrait and Portrait Compact, each as Cards or Box |
+| **Case Screen (upright)** | HYTE Y70, Lian Li 8.8" and Lancool 207, Corsair Xeneon Edge, standing up |
+| **Bar Screen (sideways)** | Lian Li 8.8" and 9.2", Lancool 207, Corsair Xeneon Edge, lying down |
+| **Desktop Widgets** | **Horizontal** (Horizontal, Horizontal 2) and **Vertical** (Vertical, Sidebar, Sidebar 2) |
+| **Settings** | The Settings panel. You don't load it yourself; it opens from the right-click menu |
 
 <a id="mw-second"></a>
 ### 🖥️ Second monitor
 
-| Screen | Resolution | Load this |
+| Screen | Resolution | Load this (from **Second Monitor**) |
 |---|---|---|
-| Normal monitor (1080p, 1440p, 4K) | 16:9 | **Second Screen → 16x9** |
-| Monitor turned upright | 1080x1920 | **Second Screen → Portrait** |
-| Either, as one solid panel | 16:9 or 1080x1920 | **Second Screen → 16x9 Box** or **Portrait Box** |
+| Normal monitor (1080p, 1440p, 4K) | 16:9 | **16x9 - Cards** or **16x9 - Box** |
+| Normal monitor, smaller strip (no performance chart) 🆕 | 16:9 | **16x9 Compact - Cards** or **16x9 Compact - Box** |
+| Monitor turned upright | 1080x1920 | **Portrait - Cards** or **Portrait - Box** |
+| Monitor turned upright, top half only 🆕 | 1080x1920 | **Portrait Compact - Cards** or **Portrait Compact - Box** |
 
 <table>
 <tr>
-<td width="50%" align="center"><a href="previews/rainmeter/second-screen-layouts.png"><img src="previews/rainmeter/second-screen-layouts.png" alt=""></a><br><sub><b>16x9 and Portrait</b> · separate cards</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/second-screen-layouts.png"><img src="previews/rainmeter/second-screen-layouts.png" alt=""></a><br><sub><b>16x9 and Portrait</b> · Cards</sub></td>
 <td width="50%" align="center"><a href="previews/rainmeter/box-versions.png"><img src="previews/rainmeter/box-versions.png" alt=""></a><br><sub><b>Box versions</b> · one solid panel, thin dividers instead of gaps</sub></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><a href="previews/rainmeter/compact-layouts.png"><img src="previews/rainmeter/compact-layouts.png" alt=""></a><br><sub><b>🆕 16x9 Compact and Portrait Compact</b> · CPU, GPU, FPS, clock, memory and network, without the big performance chart</sub></td>
 </tr>
 </table>
 
 <a id="mw-hyte"></a>
 ### HYTE Y70
 
-| Screen | Resolution | Load this |
+| Screen | Resolution | Load this (from **Case Screen (upright)**) |
 |---|---|---|
-| HYTE Y70 Touch (1st gen, 14.1") | 1100x3840 | **Case Screen Classic** or **Case Screen Widgets** |
-| HYTE Y70 Touch Infinite (14.5" / 14.9") | 688x2560 / 682x2560 | **Case Screen Classic** or **Case Screen Widgets** |
+| HYTE Y70 Touch (1st gen, 14.1") | 1100x3840 | **HYTE Y70 Touch 1100x3840** - Cards or Box |
+| HYTE Y70 Touch Infinite (14.5" / 14.9") | 688x2560 / 682x2560 | **HYTE Y70 Touch Infinite 688x2560** or **682x2560** - Cards or Box |
 
 <table>
 <tr>
@@ -566,11 +618,11 @@ RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rain
 
 | Screen | Resolution | Load this |
 |---|---|---|
-| 8.8" Universal Screen (sideways) | 1920x480 | **Bar Screen Classic** or **Bar Screen Widgets** |
-| 9.2" O11 Vision-M kit | 1920x462 | **Bar Screen Classic** or **Bar Screen Widgets** |
-| 8.8" Universal Screen (upright) | 480x1920 | **Case Screen Classic** or **Case Screen Widgets** |
-| Lancool 207 Digital (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Lian Li Lancool 207 1600x720* |
-| Lancool 207 Digital (6", set to portrait) | 720x1600 | **Case Screen Classic** or **Case Screen Widgets** |
+| 8.8" Universal Screen (sideways) | 1920x480 | **Bar Screen (sideways) → Lian Li 8.8in 1920x480** - Cards or Box |
+| 9.2" O11 Vision-M kit | 1920x462 | **Bar Screen (sideways) → Lian Li 9.2in O11 Vision-M 1920x462** - Cards or Box |
+| 8.8" Universal Screen (upright) | 480x1920 | **Case Screen (upright) → Lian Li 8.8in 480x1920** - Cards or Box |
+| Lancool 207 Digital (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen (sideways) → Lian Li Lancool 207 1600x720** - Cards or Box |
+| Lancool 207 Digital (6", set to portrait) | 720x1600 | **Case Screen (upright) → Lian Li Lancool 207 720x1600** - Cards or Box |
 
 <table>
 <tr>
@@ -584,8 +636,8 @@ RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rain
 
 | Screen | Resolution | Load this |
 |---|---|---|
-| Xeneon Edge (14.5", sideways) | 2560x720 | **Bar Screen Classic** or **Bar Screen Widgets** → *Corsair Xeneon Edge 2560x720* |
-| Xeneon Edge (14.5", upright) | 720x2560 | **Case Screen Classic** or **Case Screen Widgets** → *Corsair Xeneon Edge upright 720x2560* |
+| Xeneon Edge (14.5", sideways) | 2560x720 | **Bar Screen (sideways) → Corsair Xeneon Edge 2560x720** - Cards or Box |
+| Xeneon Edge (14.5", upright) | 720x2560 | **Case Screen (upright) → Corsair Xeneon Edge 720x2560** - Cards or Box |
 
 It connects with HDMI or USB-C, so Windows sees it as a normal monitor.
 
@@ -598,7 +650,12 @@ It connects with HDMI or USB-C, so Windows sees it as a normal monitor.
 <a id="mw-desktop"></a>
 ### Desktop widgets
 
-Smaller panels for your normal desktop: **Sidebar**, **Alternate Sidebar**, **Alternate Vertical**, **Horizontal** and **Alternate Horizontal**. Pick a size and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
+Smaller panels for your normal desktop, in **Desktop Widgets**:
+
+- **Horizontal** folder: **Horizontal** and **Horizontal 2**
+- **Vertical** folder: **Vertical**, **Sidebar** and **Sidebar 2**
+
+Rainmeter shows one file per folder at a time, so loading Sidebar 2 swaps out Sidebar. Set the size in [Settings](#monitor-options) and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
 
 <table>
 <tr>
@@ -606,28 +663,28 @@ Smaller panels for your normal desktop: **Sidebar**, **Alternate Sidebar**, **Al
 </tr>
 </table>
 
-<p align="center"><a href="#monitor-setup"><img src="previews/buttons/setup-monitors-widgets.png" alt="Set up Monitors & Widgets" height="38"></a><br><sub>Rainmeter + MSI Afterburner · about 5 minutes</sub></p>
-
 <a id="monitor-options"></a>
 ### Make it yours (Settings panel)
 
-Right-click any skin → **Custom skin actions** → **Settings…**. A panel opens in the middle of that screen: click any option and every Monitors & Widgets skin you have open switches straight away. Close it with **×**.
+Right-click any Monitors & Widgets skin → **Custom skin actions** → **Settings…**. Everything is controlled from this one panel. Theme and the options below change every skin you have open; the **This layout** rows change only the skin you right-clicked. Close it with **×**.
 
 <img src="previews/rainmeter/setup_settings.png" width="420" alt="Settings panel">
 
 | Option | What it does |
 |---|---|
+| **Theme: Dark / White / Smoke / Tint / Float** | **Smoke** 🆕 is tinted glass, like the overlays. **Tint** is the older, more see-through look (it used to be called Clear). Had **Clear** picked? You now get **Tint** |
+| **This layout: screen** | **Fit monitor 1 / 2 / 3** fills that whole screen: the one for a case screen or a second monitor. **Center** puts it back in the middle of its screen. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number |
+| **This layout: size** | A set size you can drag anywhere, from **25% to 150%**. Click **50 / 75 / 100 / 125 / 150%**, drag the **slider**, use **−** / **+** or the mouse wheel for 1% steps, or click the **% number** and type an exact size. **100%** is the real size it has on the case screen |
+| **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
 | **RAM meter: off / 16 / 32 / 64 GB** | Adds "of 32 GB" and a bar under RAM. **Off** shows plain numbers (the default) |
 | **VRAM meter: off / 8 / 16 / 32 GB** | The same for VRAM. A bar turns **red** above 90% |
-| **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
 | **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
 | **Clock: 12-hour / 24-hour** | How the time shows on every clock, e.g. **12:17** or **00:17**. 12-hour is the default |
-| **Theme: Dark / White / Clear / Float** | Same four themes as the overlays |
 | **GPU: 1 / 2** | Pick **2** if your PC has integrated graphics and the GPU numbers look wrong |
 
 ![Options: memory meters, FPS scale and corners](previews/rainmeter/options.png)
 
-![Dark, White, Clear and Float](previews/rainmeter/themes.png)
+![Dark, White, Smoke, Tint and Float](previews/rainmeter/themes.png)
 
 <a id="monitor-setup"></a>
 ### ⬇️ Set it up (about 5 minutes)
@@ -653,60 +710,63 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.6.rmskin`** from the [Monitors & Widgets 1.6 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.6) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
+Download **`Monitors and Widgets 1.7.rmskin`** from the [Monitors & Widgets 1.7 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7) (or the [`rainmeter`](rainmeter) folder) and double-click it, then click **Install**. The 16:9 dashboard opens straight away.
 
 **4️⃣ Pick your layout**
 
-Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **MonitorsAndWidgets**, then the folder for your screen (see the table above). Click the layout file, for example **Second Screen → 16x9 Box**, and click **Load**. Each folder can show one layout at a time; unload the ones you don't use.
+Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **MonitorsAndWidgets**, then the folder for your screen (see the tables above). Click the layout file, for example **Second Monitor → 16x9 - Box**, and click **Load**. Each folder can show one layout at a time; unload the ones you don't use.
 
 ![Manage Rainmeter](previews/rainmeter/setup_manage.png)
 
 **5️⃣ Put it on your screen**
 
-Right-click the skin → **Custom skin actions**:
+Right-click the skin → **Custom skin actions** → **Settings…**, then:
 
-- **Fit to monitor 1 / 2 / 3**: fills that whole screen. This is the one for a HYTE or Lian Li screen or a second monitor. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number and name.
-- **Size: 150% / 125% / 100% / 75% / 50%**: a set size you can drag anywhere. **100% (real size)** is the size it has on the real case screen.
-  > 💡 If a Size preset doesn't change the size (the **HYTE** layouts don't really resize with them yet), use **Rainmeter 5's Zoom** instead: Manage → pick the skin → **Zoom** (10% to 500%), or the Zoom option in the skin's right-click menu.
-- **Center on its monitor** puts it back in the middle.
-- **Settings…** opens the [Settings panel](#monitor-options) for the theme, FPS scale, meters, corners, clock and GPU.
-
-<img src="previews/rainmeter/setup_menu.png" width="420" alt="Right-click menu: Custom skin actions">
+- **Fit monitor 1 / 2 / 3** to fill a HYTE, Lian Li or Xeneon screen, or a second monitor.
+- Or pick a **size** and drag the skin where you want it. **Center** puts it back in the middle.
 
 It remembers its size, screen and options after a restart.
+
+> 💡 Updating from 1.6 or older? Close Rainmeter and delete `Documents\Rainmeter\Skins\MonitorsAndWidgets` before installing 1.7, so the old folder names don't stay in the list.
 
 **6️⃣ HYTE and Lian Li screens only**
 
 - **Lian Li:** in **L-Connect 3**, switch the screen to **secondary screen** mode so Windows uses it as a normal monitor.
 - **HYTE and Corsair Xeneon Edge:** make sure the screen shows up as a monitor in **Windows Settings → System → Display**. Set it to **Landscape** or **Portrait** to match how it's mounted.
-- **Upright screens:** set the screen to **Portrait** in Windows display settings and use a Case Screen layout.
-- **Lancool 207 Digital:** set the screen to **Landscape** (1600x720) in Windows display settings and use the *Lian Li Lancool 207 1600x720* layout in **Bar Screen Classic** or **Bar Screen Widgets**.
+- **Upright screens:** set the screen to **Portrait** in Windows display settings and use a layout from **Case Screen (upright)**.
+- **Lancool 207 Digital:** set the screen to **Landscape** (1600x720) and use **Bar Screen (sideways) → Lian Li Lancool 207 1600x720**.
 - **Taskbar:** turn off **Settings → Personalization → Taskbar → Taskbar behaviors → "Show my taskbar on all displays"**, or Windows puts a taskbar on the small screen too and the skin can't fill it.
 
 ### Good to know
 
-- **No VRAM temperature or fan speed.** Most graphics cards don't send these to Afterburner, so they're left out to keep it working on every PC.
+- **No VRAM temperature or fan speed** here: most graphics cards don't send these to Afterburner, so they're left out to keep it working on every PC.
 - The **charts fill up over time**: they start empty and cover the last 2 minutes (frame time: the last 60 seconds) once full.
 - **Frame time** is worked out from your FPS if Afterburner doesn't send it.
 - **Network** is your internet download (blue) and upload (orange) speed.
 - **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE, Lian Li and Xeneon Edge layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
 
-### Troubleshooting
+### Troubleshooting (Monitors & Widgets)
 
 | Problem | Fix |
 |---|---|
-| A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#rainmeter)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
+| A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#monitor-setup)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
 | Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
 | GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Settings…** → **GPU: 2**. |
-| It fills the wrong screen | Use **Fit to monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
-| It's too big on my monitor | Pick a **Size** (100% or smaller) from the right-click menu, or use **Zoom** in Rainmeter 5 (Manage → Zoom). |
+| It fills the wrong screen | In **Settings…**, use **Fit monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
+| It's too big on my monitor | In **Settings…**, pick a size (down to 25%) with the presets, slider, **−** / **+**, or type one. |
 | The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
-| Dark corners at the edges when it fills a screen | Pick **Corners: square**. Also check you picked the layout for your screen's shape (16x9 for a normal monitor, Portrait for an upright one). |
+| Dark corners at the edges when it fills a screen | Pick **Corners: square**. Also check you picked the layout for your screen's shape. |
 | A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
 | Text from other skins shows behind it | That's Rainmeter's built-in **illustro** skins. In Manage, open **illustro** and **Unload** each one. |
 | The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
+| Old folders (Case Screen Classic, Sidebar 2…) still show in Manage | Close Rainmeter, delete `Documents\Rainmeter\Skins\MonitorsAndWidgets`, and install 1.7 again. |
+| I can't show Sidebar and Sidebar 2 together | Rainmeter shows one file per folder at a time. Pick the one you like best. |
 
 ---
+
+## Credits
+
+Idea, design direction and testing by realHfde. AI helped build the files, scale them to every resolution and make the previews.
 
 ## License
 

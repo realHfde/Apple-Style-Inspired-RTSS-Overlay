@@ -12,81 +12,65 @@ LockUserSettings=1
 EmbeddedImage=essential_sleek_meters_universal_2x_atlas.png
 PingAddr=127.0.0.1
 [General]
-Sources=20
+Sources=19
 Tables=0
-Layers=47
+Layers=46
 [Source0]
 Name=CPU temperature
 Units=°C
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000080
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU temperature
 [Source1]
 Name=CPU usage
 Units=%
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000090
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU usage
 [Source2]
 Name=CPU power
 Units=W
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000100
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU power
 [Source3]
 Name=CPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=MSI Afterburner
-SrcId=000000A0
-Gpu=FFFFFFFF
-SrcName=
+Provider=HAL
+ID=CPU clock
 [Source4]
 Name=GPU1 temperature
 Units=°C
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000000
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 temperature
 [Source5]
 Name=GPU1 usage
 Units=%
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000030
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 usage
 [Source6]
 Name=GPU1 power
 Units=W
 Format=
 Formula=
-Provider=MSI Afterburner
-SrcId=00000061
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 power
 [Source7]
 Name=GPU clock
 Units=GHz
 Format=%.2f
 Formula=x / 1000
-Provider=MSI Afterburner
-SrcId=00000020
-Gpu=00000000
-SrcName=
+Provider=HAL
+ID=GPU1 clock
 [Source8]
 Name=Framerate
 Units=FPS
@@ -120,76 +104,57 @@ Formula=x / 1024
 Provider=HAL
 ID=GPU1 memory usage
 [Source12]
-Name=Limit power
-Units=
-Format=
-Formula=
-Provider=MSI Afterburner
-SrcId=00000071
-Gpu=00000000
-SrcName=
-[Source13]
-Name=Limit thermal
-Units=
-Format=
-Formula=
-Provider=MSI Afterburner
-SrcId=00000070
-Gpu=00000000
-SrcName=
-[Source14]
 Name=CPU power pct
 Units=%
 Format=%.0f
 Formula=x / 3
-Provider=MSI Afterburner
-SrcId=00000100
-Gpu=FFFFFFFF
-SrcName=
-[Source15]
+Provider=HAL
+ID=CPU power
+[Source13]
 Name=CPU clock pct
 Units=%
 Format=%.0f
 Formula=x / 70
-Provider=MSI Afterburner
-SrcId=000000A0
-Gpu=FFFFFFFF
-SrcName=
-[Source16]
+Provider=HAL
+ID=CPU clock
+[Source14]
 Name=RAM pct
 Units=%
 Format=%.0f
 Formula=x / 655.36
 Provider=HAL
 ID=RAM usage
-[Source17]
+[Source15]
 Name=GPU power pct
 Units=%
 Format=%.0f
 Formula=x / 8
-Provider=MSI Afterburner
-SrcId=00000061
-Gpu=00000000
-SrcName=
-[Source18]
+Provider=HAL
+ID=GPU1 power
+[Source16]
 Name=GPU clock pct
 Units=%
 Format=%.0f
 Formula=x / 40
-Provider=MSI Afterburner
-SrcId=00000020
-Gpu=00000000
-SrcName=
-[Source19]
+Provider=HAL
+ID=GPU1 clock
+[Source17]
 Name=VRAM pct
 Units=%
 Format=%.0f
 Formula=x / 327.68
 Provider=HAL
 ID=GPU1 memory usage
+[Source18]
+Name=GPU mem temp
+Units=°C
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 memory temperature
 [Layer0]
 Name=Panel
-Text=<I=0,0,854,1238,128,186>
+Text=<I=0,0,850,1194,128,186>
 PositionX=1170
 PositionY=24
 ExtentX=128
@@ -197,7 +162,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer1]
 Name=Panel 2
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=1298
 PositionY=24
 ExtentX=128
@@ -205,7 +170,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer2]
 Name=Panel 3
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=1426
 PositionY=24
 ExtentX=128
@@ -213,7 +178,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer3]
 Name=Panel 4
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=1554
 PositionY=24
 ExtentX=128
@@ -221,7 +186,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer4]
 Name=Panel 5
-Text=<I=0,0,130,1496,128,186>
+Text=<I=0,0,130,1580,128,186>
 PositionX=1682
 PositionY=24
 ExtentX=128
@@ -229,7 +194,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer5]
 Name=Panel 6
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=1810
 PositionY=24
 ExtentX=128
@@ -237,7 +202,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer6]
 Name=Panel 7
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=1938
 PositionY=24
 ExtentX=128
@@ -245,7 +210,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer7]
 Name=Panel 8
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=2066
 PositionY=24
 ExtentX=128
@@ -253,7 +218,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer8]
 Name=Panel 9
-Text=<I=0,0,260,1496,128,186>
+Text=<I=0,0,260,1580,128,186>
 PositionX=2194
 PositionY=24
 ExtentX=128
@@ -261,7 +226,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer9]
 Name=Panel 10
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=2322
 PositionY=24
 ExtentX=128
@@ -269,7 +234,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer10]
 Name=Panel 11
-Text=<I=0,0,0,1496,128,186>
+Text=<I=0,0,0,1580,128,186>
 PositionX=2450
 PositionY=24
 ExtentX=128
@@ -277,7 +242,7 @@ ExtentY=186
 ExtentOrigin=0
 [Layer11]
 Name=Panel 12
-Text=<I=0,0,390,1496,92,186>
+Text=<I=0,0,390,1580,92,186>
 PositionX=2578
 PositionY=24
 ExtentX=92
@@ -285,301 +250,289 @@ ExtentY=186
 ExtentOrigin=0
 [Layer12]
 Name=CPU ring
-Text=<AI=CPU usage,0,0,0,101,0,0,122,122,29,8,0>
-PositionX=1205
-PositionY=56
-ExtentX=122
-ExtentY=122
+Text=<AI=CPU usage,0,0,0,101,0,0,134,134,21,7,0>
+PositionX=1190
+PositionY=52
+ExtentX=134
+ExtentY=134
 ExtentOrigin=0
 [Layer13]
 Name=CPU usage
 Text=%CPU usage%
-PositionX=1206
-PositionY=97
-ExtentX=120
+PositionX=1190
+PositionY=98
+ExtentX=134
 ExtentY=40
 ExtentOrigin=4
-Size=165
+Size=172
 TextColor=FFFFFF
 [Layer14]
 Name=CPU label
 Text=CPU
-PositionX=1350
-PositionY=66
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=112
+PositionX=1332
+PositionY=56
+ExtentX=120
+ExtentY=26
+ExtentOrigin=4
+Size=132
 TextColor=0A84FF
 [Layer15]
 Name=CPU temperature
 Text=%CPU temperature%°
-PositionX=1348
-PositionY=94
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=285
+PositionX=1338
+PositionY=90
+ExtentX=120
+ExtentY=60
+ExtentOrigin=4
+Size=284
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(CPU temperature,1)
 [Layer16]
 Name=CPU Power label
 Text=Power
 PositionX=1470
-PositionY=51
-ExtentX=0
-ExtentY=0
+PositionY=52
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
 [Layer17]
 Name=CPU Power
 Text=%CPU power% W
 PositionX=1470
 PositionY=50
-ExtentX=213
+ExtentX=212
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
 [Layer18]
 Name=CPU Power meter
-Text=<AI=CPU power pct,0,0,0,101,0,980,213,32,29,4,0>
+Text=<AI=CPU power pct,0,0,0,101,0,808,212,64,21,4,0>
 PositionX=1470
-PositionY=85
-ExtentX=213
-ExtentY=32
+PositionY=84
+ExtentX=212
+ExtentY=64
 ExtentOrigin=0
 [Layer19]
 Name=CPU Clock label
 Text=Clock
 PositionX=1470
 PositionY=96
-ExtentX=0
-ExtentY=0
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
 [Layer20]
 Name=CPU Clock
 Text=%CPU clock% GHz
 PositionX=1470
 PositionY=94
-ExtentX=213
+ExtentX=212
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
 [Layer21]
 Name=CPU Clock meter
-Text=<AI=CPU clock pct,0,0,0,101,0,980,213,32,29,4,0>
+Text=<AI=CPU clock pct,0,0,0,101,0,808,212,64,21,4,0>
 PositionX=1470
-PositionY=129
-ExtentX=213
-ExtentY=32
+PositionY=128
+ExtentX=212
+ExtentY=64
 ExtentOrigin=0
 [Layer22]
 Name=CPU RAM label
 Text=RAM
 PositionX=1470
-PositionY=141
-ExtentX=0
-ExtentY=0
+PositionY=140
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
 [Layer23]
 Name=CPU RAM
 Text=%RAM usage% GB
 PositionX=1470
 PositionY=140
-ExtentX=213
+ExtentX=212
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
 [Layer24]
 Name=CPU RAM meter
-Text=<AI=RAM pct,0,0,0,101,0,980,213,32,29,4,0>
+Text=<AI=RAM pct,0,0,0,101,0,808,212,64,21,4,0>
 PositionX=1470
-PositionY=175
-ExtentX=213
-ExtentY=32
+PositionY=174
+ExtentX=212
+ExtentY=64
 ExtentOrigin=0
 [Layer25]
 Name=GPU ring
-Text=<AI=GPU1 usage,0,0,0,101,0,490,122,122,29,8,0>
-PositionX=1730
-PositionY=56
-ExtentX=122
-ExtentY=122
+Text=<AI=GPU1 usage,0,0,0,101,0,404,134,134,21,7,0>
+PositionX=1728
+PositionY=52
+ExtentX=134
+ExtentY=134
 ExtentOrigin=0
 [Layer26]
 Name=GPU usage
 Text=%GPU1 usage%
-PositionX=1731
-PositionY=97
-ExtentX=120
+PositionX=1728
+PositionY=98
+ExtentX=134
 ExtentY=40
 ExtentOrigin=4
-Size=165
+Size=172
 TextColor=FFFFFF
 [Layer27]
 Name=GPU label
 Text=GPU
-PositionX=1875
-PositionY=66
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=112
+PositionX=1870
+PositionY=56
+ExtentX=120
+ExtentY=26
+ExtentOrigin=4
+Size=132
 TextColor=BF5AF2
 [Layer28]
+Name=GPU vram temp
+Text=VRAM %GPU mem temp%°
+PositionX=1870
+PositionY=156
+ExtentX=120
+ExtentY=26
+ExtentOrigin=4
+Size=120
+TextColor=D1D1D6
+[Layer29]
 Name=GPU temperature
 Text=%GPU1 temperature%°
-PositionX=1874
-PositionY=94
-ExtentX=0
-ExtentY=0
-ExtentOrigin=0
-Size=285
+PositionX=1876
+PositionY=90
+ExtentX=120
+ExtentY=60
+ExtentOrigin=4
+Size=284
 TextColor=FFFFFF,,75,FF9F0A,75,85,FF453A,85,(GPU1 temperature,1)
-[Layer29]
+[Layer30]
 Name=GPU Power label
 Text=Power
-PositionX=1995
-PositionY=51
-ExtentX=0
-ExtentY=0
+PositionX=2008
+PositionY=52
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
-[Layer30]
+[Layer31]
 Name=GPU Power
 Text=%GPU1 power% W
-PositionX=1995
+PositionX=2008
 PositionY=50
-ExtentX=213
+ExtentX=212
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
-[Layer31]
-Name=GPU Power meter
-Text=<AI=GPU power pct,0,0,0,101,0,1238,213,32,29,4,0>
-PositionX=1995
-PositionY=85
-ExtentX=213
-ExtentY=32
-ExtentOrigin=0
 [Layer32]
+Name=GPU Power meter
+Text=<AI=GPU power pct,0,0,0,101,0,1194,212,64,21,4,0>
+PositionX=2008
+PositionY=84
+ExtentX=212
+ExtentY=64
+ExtentOrigin=0
+[Layer33]
 Name=GPU Clock label
 Text=Clock
-PositionX=1995
+PositionX=2008
 PositionY=96
-ExtentX=0
-ExtentY=0
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
-[Layer33]
+[Layer34]
 Name=GPU Clock
 Text=%GPU clock% GHz
-PositionX=1995
+PositionX=2008
 PositionY=94
-ExtentX=213
+ExtentX=212
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
-[Layer34]
-Name=GPU Clock meter
-Text=<AI=GPU clock pct,0,0,0,101,0,1238,213,32,29,4,0>
-PositionX=1995
-PositionY=129
-ExtentX=213
-ExtentY=32
-ExtentOrigin=0
 [Layer35]
+Name=GPU Clock meter
+Text=<AI=GPU clock pct,0,0,0,101,0,1194,212,64,21,4,0>
+PositionX=2008
+PositionY=128
+ExtentX=212
+ExtentY=64
+ExtentOrigin=0
+[Layer36]
 Name=GPU VRAM label
 Text=VRAM
-PositionX=1995
-PositionY=141
-ExtentX=0
-ExtentY=0
+PositionX=2008
+PositionY=140
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
-[Layer36]
+[Layer37]
 Name=GPU VRAM
 Text=%GPU1 memory usage% GB
-PositionX=1995
+PositionX=2008
 PositionY=140
-ExtentX=213
+ExtentX=212
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
-[Layer37]
-Name=GPU VRAM meter
-Text=<AI=VRAM pct,0,0,0,101,0,1238,213,32,29,4,0>
-PositionX=1995
-PositionY=175
-ExtentX=213
-ExtentY=32
-ExtentOrigin=0
 [Layer38]
-Name=Limit power
-Text=Power limit
-PositionX=1701
-PositionY=184
-ExtentX=180
-ExtentY=24
-ExtentOrigin=4
-Size=112
-TextColor=FF9F0A
-VisibilitySource=Limit power
+Name=GPU VRAM meter
+Text=<AI=VRAM pct,0,0,0,101,0,1194,212,64,21,4,0>
+PositionX=2008
+PositionY=174
+ExtentX=212
+ExtentY=64
+ExtentOrigin=0
 [Layer39]
-Name=Limit thermal
-Text=Thermal limit
-PositionX=1701
-PositionY=184
-ExtentX=180
-ExtentY=24
-ExtentOrigin=4
-Size=112
-TextColor=FF453A
-VisibilitySource=Limit thermal
-[Layer40]
 Name=FPS label
 Text=FPS
 PositionX=2256
-PositionY=60
-ExtentX=0
-ExtentY=0
+PositionY=56
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=112
+Size=132
 TextColor=30D158
-[Layer41]
+[Layer40]
 Name=FPS
 Text=%Framerate%
-PositionX=2253
-PositionY=87
-ExtentX=0
-ExtentY=0
+PositionX=2254
+PositionY=88
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=315
+Size=316
 TextColor=FFFFFF
-[Layer42]
+[Layer41]
 Name=1% label
 Text=1%
-PositionX=2433
+PositionX=2434
 PositionY=60
-ExtentX=0
-ExtentY=0
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
-[Layer43]
+[Layer42]
 Name=1%
 Text=%Framerate 1% Low%
 PositionX=2484
@@ -589,32 +542,32 @@ ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
-[Layer44]
+[Layer43]
 Name=FT label
 Text=FT
-PositionX=2433
+PositionX=2434
 PositionY=100
-ExtentX=0
-ExtentY=0
+ExtentX=1
+ExtentY=1
 ExtentOrigin=0
-Size=127
+Size=128
 TextColor=D1D1D6
-[Layer45]
+[Layer44]
 Name=FT
 Text=<FT> ms
 PositionX=2484
-PositionY=99
+PositionY=100
 ExtentX=150
 ExtentY=36
 ExtentOrigin=2
 Size=142
 TextColor=FFFFFF
-[Layer46]
+[Layer45]
 Name=Frametime graph
 Text=<G=Frametime,0,0,1,0,40,0>
 PositionX=2256
-PositionY=159
+PositionY=160
 ExtentX=378
-ExtentY=27
+ExtentY=28
 ExtentOrigin=0
 TextColor=30D158
