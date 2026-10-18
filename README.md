@@ -92,15 +92,15 @@ Thanks to everyone on Reddit who asked for these!
 <a id="get-started"></a>
 ## 🧭 Get started
 
-> ⚡ **Already know RTSS? Quick start**
-> 1. Install **MSI Afterburner with RTSS**, the **[Inter font](#install-inter)**, and for Volt **HWiNFO** with [Shared Memory](#hwinfo-setup-shared-memory) on.
+> ⚡ **Already have MSI Afterburner and RTSS? Quick start**
+> 1. Install the **[Inter font](#install-inter)**. For Volt only, also **HWiNFO** with [Shared Memory](#hwinfo-setup-shared-memory) on.
 > 2. Afterburner → Settings → **Monitoring**: tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** (On-Screen Display off).
 > 3. [Download the pack](#download) for your resolution and copy the files from one theme folder into `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`.
 > 4. RTSS → **Setup → Plugins → OverlayEditor.dll → Setup** → **Layouts → Load** → pick the `.ovl`. Play!
 >
-> Stuck on any step? The full picture guide is right below.
+> **Nothing showing in game?** Follow the full setup below, step by step.
 
-New to this? Takes about 5 minutes. Follow these in order. 👇
+**New to this?** Takes about 5 minutes. Follow these in order. 👇
 
 ### 🟢 First: which version do you want?
 
