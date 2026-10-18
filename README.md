@@ -302,21 +302,21 @@ The theme is in the file name: no ending = **Dark**, then `_white`, `_smoke` and
 
 Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins → select OverlayEditor.dll → Setup**.
 
-<img src="previews/setup/editor_load.png" width="640" alt="Overlay editor: 14 Layouts menu, 15 Load">
-
 | # | In the Overlay editor | Do this |
 |---|---|---|
-| 14 | **Layouts** menu (top left) | Click it |
-| 15 | **Load** | Click it |
+| 1 | **Layouts** menu (top left) | Click it |
+| 2 | **Load** | Click it |
 
-<img src="previews/setup/editor_open.png" width="640" alt="Open window: 16 pick the overlay file, 17 Open">
+<img src="previews/setup/editor_load.png" width="640" alt="Overlay editor: 1 Layouts menu, 2 Load">
 
 | # | In the Open window | Do this |
 |---|---|---|
-| 16 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
-| 17 | **Open** | Click it, then launch a game |
+| 3 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
+| 4 | **Open** | Click it, then launch a game |
 
-> 💡 **Can't see your overlay in the editor?** These are demo pictures. **Maximize the Overlay editor (full screen)** to see your overlay where it will sit in game: at the **top centre**, or on the **right edge** for Sleek Side and Performance.
+<img src="previews/setup/editor_open.png" width="640" alt="Open window: 3 pick the overlay file, 4 Open">
+
+Can't see your overlay in the editor? These are demo pictures. Maximize the Overlay editor (full screen) to see your overlay where it will sit in game: at the top centre, or on the right edge for Sleek Side and Performance.
 
 ### 🧰 Optional extras
 
