@@ -517,7 +517,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 
 - The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
 - **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
-- The **12V** label turns **amber** below 11.85 V and **red** below 11.75 V, and only reacts while the GPU draws more than 150 W. At low power hardly any current flows through the cable, so a low reading only means something under real load.
+- **The 12V warning:** the **12V** label turns **amber** if the cable voltage drops below 11.85 V and **red** below 11.75 V, but only while you're gaming (GPU using more than 150 W). The cable is only under real stress under heavy load. At idle almost no power flows through it, so a low number there doesn't mean anything and the label stays green. The number itself always shows the real voltage.
 - **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
 <a id="meter-scales"></a>
 - **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
