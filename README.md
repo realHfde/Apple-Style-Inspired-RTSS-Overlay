@@ -179,13 +179,13 @@ Then **restart RTSS** (close it from the tray and open it again).
 |---|---|
 | 1 | Click the **gear** (Settings) on the left |
 | 2 | Open the **Monitoring** tab |
-| 3 | In the list, **tick** these: **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** |
+| 3 | **Scroll down** the list to the bottom and **tick** these three: **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** |
 | 4 | Click each ticked item and make sure **Show in On-Screen Display** is ❌ **unticked**, so Afterburner's own text doesn't stack on top of the overlay |
 | 5 | Click **Apply**, then **OK** |
 
-<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_monitoring.png" width="420" alt="Afterburner Monitoring tab: tick the readings, untick Show in On-Screen Display, Apply, OK">
+<img src="previews/setup/ab_main.png" width="420" alt="MSI Afterburner: Settings gear"> <img src="previews/setup/ab_framerate.png" width="420" alt="Afterburner Monitoring tab: scroll down, tick Framerate, Framerate 1% Low and 0.1% Low, untick Show in On-Screen Display, Apply, OK">
 
-The picture has more readings ticked; for the overlays you only need the three **Framerate** ones (ticking more doesn't hurt).
+That's all the overlays need from Afterburner: everything else comes from RTSS itself. Ticking more doesn't hurt.
 
 Keep Afterburner running in the background.
 
