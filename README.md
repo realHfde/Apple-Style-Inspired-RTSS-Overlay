@@ -29,7 +29,16 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 
 ### 🎮 In game
 
-<p align="center"><img src="previews/ingame/volt_sleek_compact_dark.png" alt="Volt Sleek Compact, Dark theme, in game"><br><sub><b>⚡ Volt Sleek Compact</b> · Dark theme · 5120×1440</sub></p>
+<p align="center"><img src="previews/ingame/volt_sleek_compact_smoke.png" alt="Volt Sleek Compact, Smoke theme, in game on a bright scene"><br><sub><b>⚡ Volt Sleek Compact</b> · 🆕 Smoke theme · Cyberpunk 2077 · 5120×1440</sub></p>
+
+<details>
+<summary><b>More in-game shots</b> (click to open)</summary>
+
+<p align="center"><img src="previews/ingame/volt_sleek_compact_smoke_city.png" alt="Volt Sleek Compact, Smoke theme, busy city scene"><br><sub><b>Smoke</b> over a busy city · Cyberpunk 2077</sub></p>
+
+<p align="center"><img src="previews/ingame/volt_sleek_compact_dark.png" alt="Volt Sleek Compact, Dark theme, in game"><br><sub><b>Dark</b> theme on a dark scene</sub></p>
+
+</details>
 
 <p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.</p>
 
@@ -188,9 +197,7 @@ Still in **Setup**, check the **General** tab. The FPS, 1% low and 0.1% low numb
 | **Percentile calculation mode** | **integral** |
 | **Percentile buffer** | **ring** (keeps the 1% / 0.1% lows updating live) |
 
-<sub>⚠️ This picture is from an older guide and shows <b>linear</b>. Use the table above: <b>integral</b> is correct. A new picture is coming soon.</sub>
-
-<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab (older picture, shows linear; use integral)">
+<img src="previews/setup/rtss_general.png" width="420" alt="RTSS Setup General tab: framerate averaging 1000, refresh 500, percentile integral, buffer ring">
 
 <a id="benchmark-tip"></a>
 > 💡 **Tip:** still on the **General** tab, scroll down to **Compatibility properties** and tick ✅ **Enable benchmark mode**. Sometimes this is what makes the overlay appear in a game.
@@ -283,6 +290,8 @@ Open the Overlay editor the same way as in step 4: **RTSS → Setup → Plugins 
 |---|---|---|
 | 10 | Pick your overlay | e.g. `essential_sleek_smoke.ovl` |
 | 11 | **Open** | Click it, then launch a game |
+
+> 💡 **Can't see your overlay in the editor?** These are demo pictures. **Maximize the Overlay editor (full screen)** to see your overlay where it will sit in game, e.g. top centre of your screen.
 
 > 📝 **These are demo pictures.** The overlay is placed for a full screen, so **maximize the Overlay editor** (make it full screen) to see it where it will be in game: at the **top centre**, or on the **right edge** for Sleek Side and Performance.
 
