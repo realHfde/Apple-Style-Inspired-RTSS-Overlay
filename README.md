@@ -110,9 +110,9 @@ New to this? Takes about 5 minutes. Follow these in order. 👇
 | ⚡ **Volt** | [See it](#volt) | [Pick your screen](#download) | MSI Afterburner + RTSS + **HWiNFO** | All of that **plus the 12V cable voltage** |
 | 💻 **Laptops** | [See it](#laptops) | [Laptop packs](#laptop-download) | MSI Afterburner + RTSS | Slim bars and a card made for laptop screens |
 | 📺 **TVs** | [See it](#tvs) | [TV packs](#tv-download) | MSI Afterburner + RTSS | Big numbers for the couch |
-| 📱 **Monitors & Widgets** | [See it](#rainmeter) | [Its own download](#monitor-setup) | MSI Afterburner + **Rainmeter** (no RTSS) | Your stats on a second screen, case screen, Xeneon Edge or desktop |
+| 📱 **Monitors & Widgets** | [See it](#rainmeter) | [Its own download](#monitor-setup) | MSI Afterburner + **Rainmeter** (no RTSS) | Your stats on a **second monitor**, a **case screen** (**HYTE Y70**, **Lian Li** 8.8" / 9.2" / Lancool 207), a **Corsair Xeneon Edge** or your desktop |
 
-**Not sure? Pick Essential.** You can always switch to Volt later. Only **Volt** needs step 2.
+**Not sure? Pick Essential.** You can always switch to Volt later. **Only Volt needs HWiNFO (step 2).** Everyone else skips it.
 
 ### 1️⃣ Install the free programs
 
@@ -151,9 +151,9 @@ Then **restart RTSS** (close it from the tray and open it again).
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚡ (Volt only)
 
-> **Using Essential, a laptop or a TV overlay?** Skip to step 3.
+### 🛑 Using Essential, a laptop or a TV overlay? You don't need HWiNFO. Skip to [step 3](#afterburner-setup).
 
-### Without this, the 12V cable stays blank.
+### ⚡ Volt only: without this, the 12V cable stays blank.
 
 1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
 
@@ -172,6 +172,7 @@ Then **restart RTSS** (close it from the tray and open it again).
 
 > On the free version, Shared Memory switches itself off after **12 hours**. If 12V goes blank after a long session, tick it again (or restart HWiNFO).
 
+<a id="afterburner-setup"></a>
 ### 3️⃣ Set up MSI Afterburner
 
 | # | What to do |
