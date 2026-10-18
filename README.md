@@ -8,14 +8,16 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 
 <table>
 <tr>
-<td width="33%" align="center"><a href="#essential"><img src="previews/cards/essential.png" alt="Essential"></a><br><a href="#essential">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
-<td width="33%" align="center"><a href="#volt"><img src="previews/cards/volt.png" alt="Volt"></a><br><a href="#volt">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
-<td width="33%" align="center"><a href="#rainmeter"><img src="previews/cards/monitors.png" alt="Monitors & Widgets"></a><br><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#essential"><img src="previews/cards/essential.png" alt="Essential"></a><br><a href="#essential">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#volt"><img src="previews/cards/volt.png" alt="Volt"></a><br><a href="#volt">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
 </tr>
 <tr>
-<td width="33%" align="center"><a href="#laptops"><img src="previews/cards/laptops.png" alt="Laptops"></a><br><a href="#laptops">👀 Preview</a> · <a href="#laptop-download">⬇️ Download</a></td>
-<td width="33%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
-<td width="33%" align="center"><a href="#themes"><img src="previews/cards/themes.png" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
+<td width="50%" align="center"><a href="#rainmeter"><img src="previews/cards/monitors.png" alt="Monitors & Widgets"></a><br><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#laptops"><img src="previews/cards/laptops.png" alt="Laptops"></a><br><a href="#laptops">👀 Preview</a> · <a href="#laptop-download">⬇️ Download</a></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#themes"><img src="previews/cards/themes.png" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
 </tr>
 </table>
 
@@ -71,6 +73,15 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **📱 Monitors & Widgets 1.4 (Rainmeter):** dashboards for a second monitor, HYTE Y70, Lian Li screens, Corsair Xeneon Edge and the desktop.
 - **🔍 Bigger 4K versions:** every overlay also comes at **1.5×** and **2×** size for 4K.
 - **🖥️ 7680x2160**, **3840x1600** and **5120x2160** resolutions, the **Float** theme, and step-by-step picture guides.
+
+</details>
+
+<details>
+<summary><b>👀 Old (1.5) vs new (2.0)</b> (click to open)</summary>
+
+<p align="center"><img src="previews/old_vs_new.png" alt="Old 1.5 overlays next to the new 2.0 versions"></p>
+
+Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spacing, and the Power / Thermal limit text removed.
 
 </details>
 
