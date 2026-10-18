@@ -344,14 +344,31 @@ Want the lightest setup? Use **🟢 Essential**: no HWiNFO at all.
 <details>
 <summary><h3>⌨️ Show / hide the overlay with a hotkey</h3></summary>
 
+Pick **one** of the two ways. Both do the same thing.
+
+**Option A: in RTSS** (works without Afterburner)
+
+| # | What to do |
+|---|---|
+| 1 | Open **RTSS** and click **Setup**, then open the **Plugins** tab |
+| 2 | Click the name **HotkeyHandler.dll** so it's highlighted (keep it ticked) |
+| 3 | Click **Setup** under the list |
+| 4 | Click the box next to **Toggle On-Screen Display** and press the key you want (e.g. **F10**) |
+| 5 | Click **OK**, then **OK** again in RTSS Setup |
+
+<img src="previews/setup/rtss_hotkey_plugin.png" width="320" alt="RTSS Plugins tab: 2 HotkeyHandler.dll, 3 Setup"> <img src="previews/setup/rtss_hotkey.png" width="320" alt="Hotkey handler: 4 Toggle On-Screen Display, 5 OK">
+
+**Option B: in MSI Afterburner**
+
 | # | What to do |
 |---|---|
 | 1 | Open **MSI Afterburner** → **Settings** (gear) |
 | 2 | Open the **On-Screen Display** tab |
 | 3 | Click the box next to **Toggle On-Screen Display** and press the key you want (e.g. **F10**) |
-| 4 | Click **OK** |
+| 4 | Click **Apply** |
+| 5 | Click **OK** |
 
-<img src="previews/setup/ab_hotkey.png" width="560" alt="Afterburner: Settings gear, On-Screen Display tab, Toggle On-Screen Display, OK">
+<img src="previews/setup/ab_hotkey.png" width="560" alt="Afterburner: 1 Settings gear, 2 On-Screen Display tab, 3 Toggle On-Screen Display, 4 Apply, 5 OK">
 
 Now press that key in game to show or hide the overlay. Handy for screenshots and recordings.
 
