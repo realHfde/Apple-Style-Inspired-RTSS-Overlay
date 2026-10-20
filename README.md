@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, in 4 themes, for screens from 1080p up to 7680×2160, gaming laptops and TVs.
+Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
 ### Pick yours
 
@@ -21,13 +21,16 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 </tr>
 </table>
 
+**Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
+
 <p align="center"><a href="#get-started"><b>🧭 Get started</b></a> · <a href="#download"><b>⬇️ Downloads</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
 ## 📣 Announcement
 
-- **Version 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
+- **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
+- **Monitors & Widgets 2.0 is in testing:** every layout remade in a new dashboard look that fits any screen by itself, with 17 themes. It isn't ready yet, so **1.7** is still the current version.
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
-- See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/categories/announcements) for the full to-do list.
+- See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12) for what I'm working on.
 
 ### 🎮 In game
 
@@ -42,18 +45,14 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 
 </details>
 
-<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.</p>
-
-**Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
-
-If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
+<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
 
 > Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
 
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-**Version 2.0 · October 2026**
+### 🎮 Overlays 2.0 · October 2026
 - **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
 - **📺 New TV designs:** **TV Pill**, **TV Line**, **TV Box** and **TV Side**, made and tested on 55" and 65" 4K TVs from the couch. 4K and 1080p packs.
 - **💻 New laptop designs:** **Notch**, **Minibar**, **Island**, **Island Time** (with a clock) and **Card**, in their own laptop packs for 1920×1080, 1920×1200, 2560×1440, 2560×1600 and 2880×1800. Laptop temperature colours are tuned for laptops (CPU 90° / 95°, GPU 85° / 92°).
@@ -61,7 +60,22 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **✨ Every overlay polished:** thinner rounded rings, better spacing and alignment, easier-to-read grey labels, smooth panel edges, and graphs that are a line on a soft background (a plain line on White).
 - **🔌 Fewer things to set up:** the temperatures, usage, power, clocks, RAM and VRAM now come from **RTSS itself**. MSI Afterburner is only used for **FPS, 1% low and 0.1% low**, and Volt only uses HWiNFO for the **12V cable**.
 - **🧹 Simpler line-up:** the Power / Thermal limit text is gone, and so are Volt Sleek, the Volt "no 12V" versions and the old Island Bar (replaced by the new laptop designs). Had them? See [switching from older versions](#old-names).
-- **📱 Monitors & Widgets 1.7:** the new **Smoke** theme, plus **Tint** (the old see-through look, still loved on a desktop). New **16x9 Compact** and **Portrait Compact** second-screen layouts with network. Everything is now in one **Menu** (right-click → **Menu…**): theme, fit to monitor 1 / 2 / 3, center, and size from **25% to 150%** with presets, a slider, 1% buttons or a typed number. Clearer folder names too. [See it](#rainmeter).
+
+<details>
+<summary><b>👀 Old (1.5) vs new (2.0)</b> (click to open)</summary>
+
+<p align="center"><img src="previews/old_vs_new.png" alt="Old 1.5 overlays next to the new 2.0 versions"></p>
+
+Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spacing, and the Power / Thermal limit text removed.
+
+</details>
+
+### 📱 Monitors & Widgets 1.7
+- The new **Smoke** theme, plus **Tint** (the old see-through look, still loved on a desktop).
+- New **16x9 Compact** and **Portrait Compact** second-screen layouts with network.
+- Everything is in one **Menu** (right-click → **Menu…**): theme, fit to monitor 1 / 2 / 3, center, and size from **25% to 150%** with presets, a slider, 1% buttons or a typed number.
+- Clearer folder names. [See it](#rainmeter)
+- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
@@ -73,15 +87,6 @@ If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!
 - **📱 Monitors & Widgets 1.4 (Rainmeter):** dashboards for a second monitor, HYTE Y70, Lian Li screens, Corsair Xeneon Edge and the desktop.
 - **🔍 Bigger 4K versions:** every overlay also comes at **1.5×** and **2×** size for 4K.
 - **🖥️ 7680x2160**, **3840x1600** and **5120x2160** resolutions, the **Float** theme, and step-by-step picture guides.
-
-</details>
-
-<details>
-<summary><b>👀 Old (1.5) vs new (2.0)</b> (click to open)</summary>
-
-<p align="center"><img src="previews/old_vs_new.png" alt="Old 1.5 overlays next to the new 2.0 versions"></p>
-
-Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spacing, and the Power / Thermal limit text removed.
 
 </details>
 
@@ -110,9 +115,9 @@ Thanks to everyone on Reddit who asked for these!
 | ⚡ **Volt** | [See it](#volt) | [Pick your screen](#download) | MSI Afterburner + RTSS + **HWiNFO** | All of that **plus the 12V cable voltage** |
 | 💻 **Laptops** | [See it](#laptops) | [Laptop packs](#laptop-download) | MSI Afterburner + RTSS | Slim bars and a card made for laptop screens |
 | 📺 **TVs** | [See it](#tvs) | [TV packs](#tv-download) | MSI Afterburner + RTSS | Big numbers for the couch |
-| 📱 **Monitors & Widgets** | [See it](#rainmeter) | [Its own download](#monitor-setup) | MSI Afterburner + **Rainmeter** (no RTSS) | Your stats on a **second monitor**, a **case screen** (**HYTE Y70**, **Lian Li** 8.8" / 9.2" / Lancool 207), a **Corsair Xeneon Edge** or your desktop |
+| 📱 **Monitors & Widgets** | [See it](#rainmeter) | [Its own download](#monitor-setup) | MSI Afterburner + **Rainmeter** (no RTSS setup) | Your stats on a **second monitor**, a **case screen** (**HYTE Y70**, **Lian Li** 8.8" / 9.2" / Lancool 207), a **Corsair Xeneon Edge** or your desktop |
 
-**Not sure? Pick Essential.** You can always switch to Volt later. **Only Volt needs HWiNFO (step 2).** Everyone else skips it.
+**Only Volt needs HWiNFO (step 2).** Everyone else skips it. You can always switch from Essential to Volt later.
 
 ### 1️⃣ Install the free programs
 
@@ -531,11 +536,13 @@ Only copy in **one** TV pack, the one that matches your TV's resolution. TV size
 ---
 
 <a id="rainmeter"></a>
-## 📱 Monitors & Widgets (Rainmeter + MSI Afterburner)
+## 📱 Monitors & Widgets 1.7 (Rainmeter + MSI Afterburner)
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**, with no HWiNFO and no RTSS.
+> 🔜 **Monitors & Widgets 2.0** is in testing: a remake that fits any screen by itself, with 17 themes. Everything below is for **1.7**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
+
+RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
 <p align="center"><a href="#monitor-setup"><b>⬇️ Download and set up</b></a> · about 5 minutes</p>
 
@@ -545,29 +552,33 @@ RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rain
 
 ### Pick your screen
 
-<p align="center"><a href="#mw-second"><b>🖥️ Second monitor</b></a> · <a href="#mw-hyte"><b>HYTE Y70</b></a> · <a href="#mw-lianli"><b>Lian Li</b></a> · <a href="#mw-xeneon"><b>Corsair Xeneon Edge</b></a> · <a href="#mw-desktop"><b>Desktop widgets</b></a></p>
+Every layout comes two ways: **Cards** are separate rounded cards with your wallpaper showing between them, and **Box** is one solid panel with thin dividers. In Rainmeter's **Manage** window, open **MonitorsAndWidgets**, then the folder below.
 
-Every layout comes two ways: **Cards** are separate rounded cards with your wallpaper showing between them, and **Box** is one solid panel with thin dividers.
-
-In Rainmeter's **Manage** window, the **MonitorsAndWidgets** folder looks like this:
-
-| Folder | What's in it |
-|---|---|
-| **Second Monitor** | 16x9, 16x9 Compact, Portrait and Portrait Compact, each as Cards or Box |
-| **Case Screen (upright)** | HYTE Y70, Lian Li 8.8" and Lancool 207, Corsair Xeneon Edge, standing up |
-| **Bar Screen (sideways)** | Lian Li 8.8" and 9.2", Lancool 207, Corsair Xeneon Edge, lying down |
-| **Desktop Widgets** | **Horizontal** (Horizontal, Horizontal 2) and **Vertical** (Vertical, Sidebar, Sidebar 2) |
-| **Settings** | The Menu panel. You don't load it yourself; it opens when you right-click a skin → **Menu…** |
-
-<a id="mw-second"></a>
-### 🖥️ Second monitor
-
-| Screen | Resolution | Load this (from **Second Monitor**) |
+| Your screen | Resolution | Load this |
 |---|---|---|
-| Normal monitor (1080p, 1440p, 4K) | 16:9 | **16x9 - Cards** or **16x9 - Box** |
-| Normal monitor, smaller strip (no performance chart) 🆕 | 16:9 | **16x9 Compact - Cards** or **16x9 Compact - Box** |
-| Monitor turned upright | 1080x1920 | **Portrait - Cards** or **Portrait - Box** |
-| Monitor turned upright, top half only 🆕 | 1080x1920 | **Portrait Compact - Cards** or **Portrait Compact - Box** |
+| <a id="mw-second"></a>🖥️ **Second monitor** (1080p, 1440p, 4K) | 16:9 | **Second Monitor → 16x9** |
+| Second monitor, smaller strip (no performance chart) | 16:9 | **Second Monitor → 16x9 Compact** |
+| Monitor turned upright | 1080x1920 | **Second Monitor → Portrait** |
+| Monitor turned upright, top half only | 1080x1920 | **Second Monitor → Portrait Compact** |
+| <a id="mw-hyte"></a>**HYTE Y70 Touch** (1st gen, 14.1") | 1100x3840 | **Case Screen (upright) → HYTE Y70 Touch 1100x3840** |
+| **HYTE Y70 Touch Infinite** (14.5" / 14.9") | 688x2560 / 682x2560 | **Case Screen (upright) → HYTE Y70 Touch Infinite 688x2560** or **682x2560** |
+| <a id="mw-lianli"></a>**Lian Li 8.8"** Universal Screen, sideways | 1920x480 | **Bar Screen (sideways) → Lian Li 8.8in 1920x480** |
+| **Lian Li 8.8"** Universal Screen, upright | 480x1920 | **Case Screen (upright) → Lian Li 8.8in 480x1920** |
+| **Lian Li 9.2"** O11 Vision-M kit | 1920x462 | **Bar Screen (sideways) → Lian Li 9.2in O11 Vision-M 1920x462** |
+| **Lian Li Lancool 207 Digital** (6"), sideways as it sits in the case | 1600x720 | **Bar Screen (sideways) → Lian Li Lancool 207 1600x720** |
+| **Lian Li Lancool 207 Digital**, set to portrait | 720x1600 | **Case Screen (upright) → Lian Li Lancool 207 720x1600** |
+| <a id="mw-xeneon"></a>**Corsair Xeneon Edge** (14.5"), sideways | 2560x720 | **Bar Screen (sideways) → Corsair Xeneon Edge 2560x720** |
+| **Corsair Xeneon Edge**, upright | 720x2560 | **Case Screen (upright) → Corsair Xeneon Edge 720x2560** |
+| <a id="mw-desktop"></a>💻 **Desktop widgets** | any | **Desktop Widgets → Horizontal** (Horizontal, Horizontal 2) or **Vertical** (Vertical, Sidebar, Sidebar 2) |
+
+- Each file ends in **- Cards** or **- Box**, for example **16x9 - Box**.
+- Rainmeter shows **one file per folder** at a time, so loading Sidebar 2 swaps out Sidebar.
+- **Desktop widgets:** set the size in the [Menu](#monitor-options) and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
+- The **Xeneon Edge** connects with HDMI or USB-C, so Windows sees it as a normal monitor.
+- The **Settings** folder is the Menu. You don't load it yourself; it opens when you right-click a skin → **Menu…**
+
+<details>
+<summary><b>👀 See every layout</b> (click to open)</summary>
 
 <table>
 <tr>
@@ -575,73 +586,22 @@ In Rainmeter's **Manage** window, the **MonitorsAndWidgets** folder looks like t
 <td width="50%" align="center"><a href="previews/rainmeter/box-versions.png"><img src="previews/rainmeter/box-versions.png" alt=""></a><br><sub><b>Box versions</b> · one solid panel, thin dividers instead of gaps</sub></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><a href="previews/rainmeter/compact-layouts.png"><img src="previews/rainmeter/compact-layouts.png" alt=""></a><br><sub><b>🆕 16x9 Compact and Portrait Compact</b> · CPU, GPU, FPS, clock, memory and network, without the big performance chart</sub></td>
+<td colspan="2" align="center"><a href="previews/rainmeter/compact-layouts.png"><img src="previews/rainmeter/compact-layouts.png" alt=""></a><br><sub><b>16x9 Compact and Portrait Compact</b> · CPU, GPU, FPS, clock, memory and network, without the big performance chart</sub></td>
 </tr>
-</table>
-
-<a id="mw-hyte"></a>
-### HYTE Y70
-
-| Screen | Resolution | Load this (from **Case Screen (upright)**) |
-|---|---|---|
-| HYTE Y70 Touch (1st gen, 14.1") | 1100x3840 | **HYTE Y70 Touch 1100x3840** - Cards or Box |
-| HYTE Y70 Touch Infinite (14.5" / 14.9") | 688x2560 / 682x2560 | **HYTE Y70 Touch Infinite 688x2560** or **682x2560** - Cards or Box |
-
-<table>
 <tr>
-<td width="100%" align="center"><a href="previews/rainmeter/case-screens.png"><img src="previews/rainmeter/case-screens.png" alt=""></a><br><sub><b>Upright case screens</b> · HYTE Y70, plus Lian Li 8.8" and Lancool 207 set upright</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/case-screens.png"><img src="previews/rainmeter/case-screens.png" alt=""></a><br><sub><b>Upright case screens</b> · HYTE Y70, plus Lian Li 8.8" and Lancool 207 set upright</sub></td>
+<td width="50%" align="center"><a href="previews/rainmeter/xeneon-edge.png"><img src="previews/rainmeter/xeneon-edge.png" alt=""></a><br><sub><b>Corsair Xeneon Edge</b> · sideways and upright</sub></td>
 </tr>
-</table>
-
-<a id="mw-lianli"></a>
-### Lian Li
-
-| Screen | Resolution | Load this |
-|---|---|---|
-| 8.8" Universal Screen (sideways) | 1920x480 | **Bar Screen (sideways) → Lian Li 8.8in 1920x480** - Cards or Box |
-| 9.2" O11 Vision-M kit | 1920x462 | **Bar Screen (sideways) → Lian Li 9.2in O11 Vision-M 1920x462** - Cards or Box |
-| 8.8" Universal Screen (upright) | 480x1920 | **Case Screen (upright) → Lian Li 8.8in 480x1920** - Cards or Box |
-| Lancool 207 Digital (6", sideways, how it sits in the case) | 1600x720 | **Bar Screen (sideways) → Lian Li Lancool 207 1600x720** - Cards or Box |
-| Lancool 207 Digital (6", set to portrait) | 720x1600 | **Case Screen (upright) → Lian Li Lancool 207 720x1600** - Cards or Box |
-
-<table>
 <tr>
 <td width="50%" align="center"><a href="previews/rainmeter/bar-screens.png"><img src="previews/rainmeter/bar-screens.png" alt=""></a><br><sub><b>8.8" and 9.2" bar screens</b></sub></td>
 <td width="50%" align="center"><a href="previews/rainmeter/lancool-sideways.png"><img src="previews/rainmeter/lancool-sideways.png" alt=""></a><br><sub><b>Lancool 207 Digital</b> · sideways, with big text</sub></td>
 </tr>
-</table>
-
-<a id="mw-xeneon"></a>
-### Corsair Xeneon Edge
-
-| Screen | Resolution | Load this |
-|---|---|---|
-| Xeneon Edge (14.5", sideways) | 2560x720 | **Bar Screen (sideways) → Corsair Xeneon Edge 2560x720** - Cards or Box |
-| Xeneon Edge (14.5", upright) | 720x2560 | **Case Screen (upright) → Corsair Xeneon Edge 720x2560** - Cards or Box |
-
-It connects with HDMI or USB-C, so Windows sees it as a normal monitor.
-
-<table>
 <tr>
-<td width="100%" align="center"><a href="previews/rainmeter/xeneon-edge.png"><img src="previews/rainmeter/xeneon-edge.png" alt=""></a><br><sub><b>Sideways and upright</b></sub></td>
+<td colspan="2" align="center"><a href="previews/rainmeter/desktop-widgets.png"><img src="previews/rainmeter/desktop-widgets.png" width="70%" alt=""></a><br><sub><b>5 desktop widgets</b> · any screen</sub></td>
 </tr>
 </table>
 
-<a id="mw-desktop"></a>
-### Desktop widgets
-
-Smaller panels for your normal desktop, in **Desktop Widgets**:
-
-- **Horizontal** folder: **Horizontal** and **Horizontal 2**
-- **Vertical** folder: **Vertical**, **Sidebar** and **Sidebar 2**
-
-Rainmeter shows one file per folder at a time, so loading Sidebar 2 swaps out Sidebar. Set the size in the [Menu](#monitor-options) and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
-
-<table>
-<tr>
-<td width="100%" align="center"><a href="previews/rainmeter/desktop-widgets.png"><img src="previews/rainmeter/desktop-widgets.png" width="70%" alt=""></a><br><sub><b>5 widgets</b> · any screen</sub></td>
-</tr>
-</table>
+</details>
 
 <a id="monitor-options"></a>
 ### Make it yours (the Menu)
@@ -750,6 +710,7 @@ It remembers its size, screen and options after a restart.
 | Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
 | GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Menu…** → **GPU: 2**. |
 | It fills the wrong screen | In **Menu…**, use **Fit monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
+| The size presets don't fit right on a HYTE screen | A known issue in 1.7, fixed in 2.0. For now, use Rainmeter 5's **Zoom**. |
 | It's too big on my monitor | In **Menu…**, pick a size (down to 25%) with the presets, slider, **−** / **+**, or type one. |
 | The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
 | Dark corners at the edges when it fills a screen | Pick **Corners: square**. Also check you picked the layout for your screen's shape. |
