@@ -28,7 +28,8 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 ## 📣 Announcement
 
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
-- **Monitors & Widgets 2.0 is in testing:** every layout remade in a new dashboard look that fits any screen by itself, with 17 themes. It isn't ready yet, so **1.7** is still the current version.
+- **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
+- **Monitors & Widgets 2.0 is in testing:** every layout remade in a new dashboard look that fits any screen by itself, with 17 themes. It isn't ready yet, so **1.7.1** is the current version.
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
 - See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12) for what I'm working on.
 
@@ -70,16 +71,20 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 
 </details>
 
-### 📱 Monitors & Widgets 1.7
-- The new **Smoke** theme, plus **Tint** (the old see-through look, still loved on a desktop).
-- New **16x9 Compact** and **Portrait Compact** second-screen layouts with network.
-- Everything is in one **Menu** (right-click → **Menu…**): theme, fit to monitor 1 / 2 / 3, center, and size from **25% to 150%** with presets, a slider, 1% buttons or a typed number.
-- Clearer folder names. [See it](#rainmeter)
+### 📱 Monitors & Widgets 1.7.1 · October 2026
+- **🧭 A cleaner Menu**, grouped into Look, This layout and Readings. Size now goes from **1% to 300%**, with a **Reset** button back to 100%. [See it](#monitor-options)
+- **🖱️ Click a layout to switch:** while the Menu is open, click any layout and **This layout** (screen and size) changes that one. No need to reopen the Menu for each skin.
+- **📊 Memory bars:** one **Off / On** switch shows RAM and VRAM out of your PC's **real** sizes, so a 12 GB or 24 GB card shows right. It replaces the fixed 8 / 16 / 32 GB choices.
+- **📅 Date:** pick **21 October**, **October 21** or **10/21/2026**.
+- **🔧 Fixed:** the desktop widgets could show the wrong total video memory (often 8 GB), and the Menu didn't change their RAM and VRAM bars.
+- **✨ Tidier layouts:** case screens use their space better, bar screens show the FPS stats on one line, the repeated **Core clock** is gone from the second-monitor layouts, and **Horizontal 2** now shows RAM.
+- **🖐️ Every skin can be dragged**, and installing over 1.7 keeps your settings.
 - 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
 
+- **📱 Monitors & Widgets 1.7:** the **Smoke** and **Tint** themes, **16x9 Compact** and **Portrait Compact** layouts with network, everything in one **Menu**, and clearer folder names.
 - **📱 Monitors & Widgets 1.6:** no empty border around the cards, new 12-hour / 24-hour **Clock** option, works on Rainmeter 4.5 and 5.
 - **⚙️ Settings panel for Monitors & Widgets 1.5** (now called the **Menu**: right-click a skin → **Menu…**).
 - **🔧 Fixed:** 4K 1.5x / 2x overlays show their rings, meters and panel correctly.
@@ -536,11 +541,11 @@ Only copy in **one** TV pack, the one that matches your TV's resolution. TV size
 ---
 
 <a id="rainmeter"></a>
-## 📱 Monitors & Widgets 1.7 (Rainmeter + MSI Afterburner)
+## 📱 Monitors & Widgets 1.7.1 (Rainmeter + MSI Afterburner)
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-> 🔜 **Monitors & Widgets 2.0** is in testing: a remake that fits any screen by itself, with 17 themes. Everything below is for **1.7**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
+> 🔜 **Monitors & Widgets 2.0** is in testing: a remake that fits any screen by itself, with 17 themes. Everything below is for **1.7.1**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
@@ -573,7 +578,7 @@ Every layout comes two ways: **Cards** are separate rounded cards with your wall
 
 - Each file ends in **- Cards** or **- Box**, for example **16x9 - Box**.
 - Rainmeter shows **one file per folder** at a time, so loading Sidebar 2 swaps out Sidebar.
-- **Desktop widgets:** set the size in the [Menu](#monitor-options) and drag them anywhere. Their RAM and VRAM bars use your PC's real total.
+- **Desktop widgets:** set the size in the [Menu](#monitor-options) and drag them anywhere. With **Memory bars** on, they show RAM and VRAM bars out of your PC's real sizes.
 - The **Xeneon Edge** connects with HDMI or USB-C, so Windows sees it as a normal monitor.
 - The **Settings** folder is the Menu. You don't load it yourself; it opens when you right-click a skin → **Menu…**
 
@@ -606,23 +611,23 @@ Every layout comes two ways: **Cards** are separate rounded cards with your wall
 <a id="monitor-options"></a>
 ### Make it yours (the Menu)
 
-Right-click any Monitors & Widgets skin → **Menu…**. Everything is controlled from this one panel. Theme and the options below change every skin you have open; the **This layout** rows change only the skin you right-clicked. Close it with **×**.
+Right-click any Monitors & Widgets skin → **Menu…**. Everything is controlled from this one panel. **Look** and **Readings** change every skin you have open. **This layout** changes one skin: the one you opened the Menu from, or **any layout you click while the Menu is open** (its name shows under **Menu**). Close it with **×**.
 
 <img src="previews/rainmeter/setup_settings.png" width="420" alt="The Menu panel">
 
 | Option | What it does |
 |---|---|
-| **Theme: Dark / White / Smoke / Tint / Float** | **Smoke** 🆕 is tinted glass, like the overlays. **Tint** is the older, more see-through look (it used to be called Clear). Had **Clear** picked? You now get **Tint** |
-| **This layout: screen** | **Fit monitor 1 / 2 / 3** fills that whole screen: the one for a case screen or a second monitor. **Center** puts it back in the middle of its screen. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number |
-| **This layout: size** | A set size you can drag anywhere, from **25% to 150%**. Click **50 / 75 / 100 / 125 / 150%**, drag the **slider**, use **−** / **+** or the mouse wheel for 1% steps, or click the **% number** and type an exact size. **100%** is the real size it has on the case screen |
-| **FPS scale: auto / 60 / 120 / 144 / 165 / 240 / 360 / 480 fps** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
-| **RAM meter: off / 16 / 32 / 64 GB** | Adds "of 32 GB" and a bar under RAM. **Off** shows plain numbers (the default) |
-| **VRAM meter: off / 8 / 16 / 32 GB** | The same for VRAM. A bar turns **red** above 90% |
-| **Corners: rounded / square** | Square looks cleaner when a skin sits in the corner of a screen |
+| **Theme: Dark / White / Smoke / Tint / Float** | **Smoke** is tinted glass, like the overlays. **Tint** is the older, more see-through look (it used to be called Clear). Had **Clear** picked? You now get **Tint** |
+| **Corners: Rounded / Square** | Square looks cleaner when a skin sits in the corner of a screen |
 | **Clock: 12-hour / 24-hour** | How the time shows on every clock, e.g. **12:17** or **00:17**. 12-hour is the default |
-| **GPU: 1 / 2** | Pick **2** if your PC has integrated graphics and the GPU numbers look wrong |
+| **Date: 21 October / October 21 / 10/21/2026** 🆕 | How the date shows on every layout. Day first is the default |
+| **Fill a screen: Screen 1 / 2 / 3 / Center** | **Screen 1 / 2 / 3** fills that whole screen: the one for a case screen or a second monitor. **Center** puts it back in the middle of its screen. Not sure which number is which? In **Manage**, the **Display monitor** list shows each screen's number |
+| **Size** | A set size you can drag anywhere, from **1% to 300%** 🆕: drag the **slider**, use **−** / **+** or the mouse wheel for 1% steps, or click the **% number** and type a size. **Reset** goes back to **100%**, the real size it has on the case screen. A layout never grows bigger than its screen |
+| **FPS chart top: Auto / 60 / 120 / 144 / 165 / 240 / 360 / 480** | The top of the FPS charts. Pick your **FPS cap**, or your **monitor's refresh rate** if you don't cap. **Auto** zooms to your recent FPS |
+| **Memory bars: Off / On** 🆕 | **On** adds "of 32 GB" and a bar under RAM and VRAM, using your PC's real sizes. A bar turns **red** above 90%. **Off** shows plain numbers (the default) |
+| **GPU: First / Second** | Pick **Second** if your PC has integrated graphics and the GPU numbers look wrong |
 
-![Options: memory meters, FPS scale and corners](previews/rainmeter/options.png)
+![Options: Memory bars off and on, and the date](previews/rainmeter/options.png)
 
 ![Dark, White, Smoke, Tint and Float](previews/rainmeter/themes.png)
 
@@ -656,7 +661,7 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.7.rmskin`** from the [Monitors & Widgets 1.7 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
+Download **`Monitors and Widgets 1.7.1.rmskin`** from the [Monitors & Widgets 1.7.1 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7.1) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
 
 | # | In the installer | Do this |
 |---|---|---|
@@ -681,12 +686,13 @@ Right-click the skin and click **Menu…** (at the top, under *Custom skin actio
 
 In the Menu:
 
-- **Fit monitor 1 / 2 / 3** to fill a HYTE, Lian Li or Xeneon screen, or a second monitor.
+- **Screen 1 / 2 / 3** (under *Fill a screen*) to fill a HYTE, Lian Li or Xeneon screen, or a second monitor.
 - Or pick a **size** and drag the skin where you want it. **Center** puts it back in the middle.
+- More than one layout? Keep the Menu open and click the next layout.
 
 It remembers its size, screen and options after a restart.
 
-> 💡 Updating from 1.6 or older? Close Rainmeter and delete `Documents\Rainmeter\Skins\MonitorsAndWidgets` before installing 1.7, so the old folder names don't stay in the list.
+> 💡 **Updating from 1.7?** Just install 1.7.1 over it; your settings stay. **From 1.6 or older?** Close Rainmeter and delete `Documents\Rainmeter\Skins\MonitorsAndWidgets` before installing, so the old folder names don't stay in the list.
 
 **6️⃣ HYTE and Lian Li screens only**
 
@@ -708,16 +714,18 @@ It remembers its size, screen and options after a restart.
 |---|---|
 | A value shows **"–"** | That reading isn't ticked in Afterburner's **Monitoring** tab ([step 2](#monitor-setup)), or Afterburner isn't running. FPS, 1% / 0.1% lows and frame time only show **during a game**. |
 | Everything is **0** or blank | Start **MSI Afterburner** and keep it running. |
-| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Menu…** → **GPU: 2**. |
-| It fills the wrong screen | In **Menu…**, use **Fit monitor 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
-| The size presets don't fit right on a HYTE screen | A known issue in 1.7, fixed in 2.0. For now, use Rainmeter 5's **Zoom**. |
-| It's too big on my monitor | In **Menu…**, pick a size (down to 25%) with the presets, slider, **−** / **+**, or type one. |
-| The FPS chart sits at the top or bottom | Set **FPS scale** to your FPS cap or refresh rate, or **auto**. |
+| GPU numbers look wrong on a laptop or a PC with integrated graphics | Right-click → Custom skin actions → **Menu…** → **GPU: Second**. |
+| It fills the wrong screen | In **Menu…**, use **Fill a screen: Screen 1 / 2 / 3** and check the numbers in Manage → **Display monitor**. |
+| The Menu changes the wrong layout | Click the layout you want while the Menu is open. Its name shows under **Menu**. |
+| The size doesn't fit right on a HYTE screen | A known issue, fixed in 2.0. For now, use Rainmeter 5's **Zoom**. |
+| It's too big on my monitor | In **Menu…**, set **Size** (1% to 300%) with the slider, **−** / **+**, or type one. **Reset** goes back to 100%. |
+| RAM or VRAM shows the wrong total (like 8 GB on a 12 GB card) | Update to 1.7.1. With **Memory bars** on, it uses your PC's real sizes. |
+| The FPS chart sits at the top or bottom | Set **FPS chart top** to your FPS cap or refresh rate, or **Auto**. |
 | Dark corners at the edges when it fills a screen | Pick **Corners: square**. Also check you picked the layout for your screen's shape. |
 | A strip is left empty on the case screen | Turn off **"Show my taskbar on all displays"** in Windows taskbar settings. |
 | Text from other skins shows behind it | That's Rainmeter's built-in **illustro** skins. In Manage, open **illustro** and **Unload** each one. |
 | The Lian Li screen doesn't show up in Windows | Turn on **secondary screen** mode in L-Connect 3. |
-| Old folders (Case Screen Classic, Sidebar 2…) still show in Manage | Close Rainmeter, delete `Documents\Rainmeter\Skins\MonitorsAndWidgets`, and install 1.7 again. |
+| Old folders (Case Screen Classic, Sidebar 2…) still show in Manage | Close Rainmeter, delete `Documents\Rainmeter\Skins\MonitorsAndWidgets`, and install 1.7.1 again. |
 | I can't show Sidebar and Sidebar 2 together | Rainmeter shows one file per folder at a time. Pick the one you like best. |
 
 ---
