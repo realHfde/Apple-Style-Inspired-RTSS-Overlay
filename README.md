@@ -1,6 +1,6 @@
 # Apple-Style RTSS Overlays
 
-Hey! 👋 Clean, Apple-style performance stats for your PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
+Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
 ### Pick yours
 
