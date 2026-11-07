@@ -29,7 +29,7 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
-- **Monitors & Widgets 2.0 is in testing:** new dashboards for 32:9, 21:9 and 16:9 screens with **20 Themes**, **24 Quick Looks** and a new Menu. See [What's new](#whats-new). It isn't ready yet, so **1.7.1** is the current version.
+- **Monitors & Widgets 2.0 is in beta:** new dashboards, Themes and a new Menu. See [What's new](#whats-new). It isn't ready yet, so **1.7.1** is the current version.
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
 - See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12) for what I'm working on.
 
@@ -53,21 +53,13 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-### 📱 Monitors & Widgets 2.0 · in testing · November 2026
-> **Not released yet:** **1.7.1** is still the current version. This is a first look at what's coming.
+### 📱 Monitors & Widgets 2.0 · beta · November 2026
+> **In beta:** **1.7.1** is still the current version.
 
-- **🖥️ New dashboards for second screens:** **32:9**, **21:9** and **16:9**, each in four layouts (the full dashboard, **Photo Hero**, **Dock** and **Minimal Band**), as glass **Cards** or one **Box**. They fit your screen by themselves, edge to edge.
-- **🎨 20 Themes:** each brings its own pictures, textures, fonts, ring art, card icons and banners, in one click. A few of them: **Vigil**, **Kintsugi**, **Sumi**, **Cyanotype**, **Peacock Nocturne** and **Sun and Moon**.
-- **🌈 24 Quick Looks** in three sets (Everyday, Light and Bold), **My colours** to make your own, a **Fonts** page that lists every font on your PC, and **Auto / Dark / Light**.
-- **🖼️ Banners** beside the clock: pictures that go with your look, or the Theme's own.
-- **🎬 The Photo card** shows a picture, a GIF or a video, plays your **Wallpaper Engine** wallpapers, or takes a browser video in picture-in-picture.
-- **🎵 Now Playing and Sound together:** skip back and forward, a volume slider with your output device, Mute and a per-app **Mixer**.
-- **🎮 Game card:** FPS with 1% and 0.1% lows and a graph, or "No game running" when you're not playing.
-- **🚀 Shortcuts** open apps on the screen you pick, with sharper icons.
-- **💾 Drives** and the **Recycle Bin** update the moment they change, USB sticks too.
-- **⚡ Built to stay light:** every card is its own small window that redraws only when its numbers change.
-- **🧭 A new Menu** with a sidebar: Looks, My colours, Colors, Fonts, Size and place, Cards, Shortcuts, Banners, Setup and Menu look.
-- Case screens, bar screens and desktop widgets stay on **1.7.1** for now.
+- **🖥️ New dashboards** for 32:9, 21:9 and 16:9 screens.
+- **🎨 Themes** with their own art and fonts, plus **Quick Looks** and your own colours.
+- **🎬 Photos, GIFs and videos** right on the dashboard.
+- **🧭 A new Menu**, and a lot more to come. 👀
 
 ### 🎮 Overlays 2.0 · October 2026
 - **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
@@ -561,7 +553,7 @@ Only copy in **one** TV pack, the one that matches your TV's resolution. TV size
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-> 🔜 **Monitors & Widgets 2.0** is in testing: new dashboards for 32:9, 21:9 and 16:9 screens with 20 Themes and 24 Quick Looks ([What's new](#whats-new)). Everything below is for **1.7.1**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
+> 🔜 **Monitors & Widgets 2.0** is in beta ([What's new](#whats-new)). Everything below is for **1.7.1**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
