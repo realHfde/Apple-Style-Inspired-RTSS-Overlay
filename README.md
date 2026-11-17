@@ -21,10 +21,11 @@
   Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 </p>
 
+<!-- Buttons: one SVG per button and per GitHub theme, in previews/brand. Change the #link in href to change where a button goes. -->
 <p align="center">
-  <a href="https://github.com/realHfde/Ring-Pill-Overlays-RTSS/stargazers"><img src="https://img.shields.io/github/stars/realHfde/Ring-Pill-Overlays-RTSS?style=flat&color=BF5AF2&label=stars" alt="GitHub stars"></a>
-  <a href="https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases"><img src="https://img.shields.io/github/downloads/realHfde/Ring-Pill-Overlays-RTSS/total?style=flat&color=0A84FF&label=downloads" alt="Total downloads"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-8E8E93?style=flat" alt="MIT license"></a>
+  <a href="#download"><picture><source media="(prefers-color-scheme: dark)" srcset="previews/brand/btn-download-dark.svg"><img src="previews/brand/btn-download-light.svg" height="36" alt="Download"></picture></a>&nbsp;
+  <a href="#get-started"><picture><source media="(prefers-color-scheme: dark)" srcset="previews/brand/btn-setup-dark.svg"><img src="previews/brand/btn-setup-light.svg" height="36" alt="Set up in 5 minutes"></picture></a>&nbsp;
+  <a href="#troubleshooting"><picture><source media="(prefers-color-scheme: dark)" srcset="previews/brand/btn-help-dark.svg"><img src="previews/brand/btn-help-light.svg" height="36" alt="Get help"></picture></a>
 </p>
 
 <p align="center"><sub>Formerly <b>Apple-Style RTSS Overlays</b>. Old links still work.</sub></p>
