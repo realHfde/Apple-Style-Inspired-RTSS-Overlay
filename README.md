@@ -2,6 +2,8 @@
 
 <h1 align="center">Ring Pill Overlays — RTSS</h1>
 
+<p align="center">⭐ <b>Thank you for 100 stars!</b> Every one of them keeps me making these. 💜</p>
+
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
 ### Pick yours
