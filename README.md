@@ -1,6 +1,40 @@
-# Apple-Style RTSS Overlays
+<!--
+  HOW TO EDIT THIS PAGE
+  - Header icon: previews/brand/icon.png (swap the file, keep the name).
+  - Download links: the tables in step 5 ("download"). Every link points to the
+    LATEST release, so you only change them if a zip gets a new file name.
+  - New version: add it to the top of "What's new" and update the line in
+    "Latest" right under the header.
+  - Anchors like <a id="download"></a> are link targets used all over this page
+    (and maybe on Reddit). Rename one only if you also update every #link to it.
+-->
 
-Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
+<p align="center">
+  <img src="previews/brand/icon.png" width="128" alt="Ring Pill Overlays icon: a purple ring and a blue dot">
+</p>
+
+<h1 align="center">Ring Pill Overlays — RTSS</h1>
+
+<p align="center">
+  <b>Clean, Apple-inspired performance stats for PC.</b><br>
+  Overlays for <b>RivaTuner Statistics Server (RTSS)</b> that show while you play, and <b>Monitors &amp; Widgets</b> for your second screen, case screen or desktop.<br>
+  Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
+</p>
+
+<p align="center">
+  <a href="https://github.com/realHfde/Ring-Pill-Overlays-RTSS/stargazers"><img src="https://img.shields.io/github/stars/realHfde/Ring-Pill-Overlays-RTSS?style=flat&color=BF5AF2&label=stars" alt="GitHub stars"></a>
+  <a href="https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases"><img src="https://img.shields.io/github/downloads/realHfde/Ring-Pill-Overlays-RTSS/total?style=flat&color=0A84FF&label=downloads" alt="Total downloads"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-8E8E93?style=flat" alt="MIT license"></a>
+</p>
+
+<p align="center"><sub>Formerly <b>Apple-Style RTSS Overlays</b>. Old links still work.</sub></p>
+
+<a id="latest"></a>
+> 📣 **Latest:** 🎮 **Overlays 2.0** (new **Smoke** theme, **TV** and **laptop** designs, VRAM temperature) · 📱 **Monitors & Widgets 1.7.1** (cleaner Menu, real RAM and VRAM sizes, date option) · 🔜 **Monitors & Widgets 2.0** in beta. Details in [What's new](#whats-new) · [Roadmap](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/discussions/12)
+>
+> 💬 **I reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/issues) with a screenshot and your resolution.
+
+Hey! 👋 I designed and made these myself.
 
 ### Pick yours
 
@@ -23,15 +57,7 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 
 **Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
 
-<p align="center"><a href="#get-started"><b>🧭 Get started</b></a> · <a href="#download"><b>⬇️ Downloads</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
-
-## 📣 Announcement
-
-- **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
-- **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
-- **Monitors & Widgets 2.0 is in beta:** new dashboards, Themes and a new Menu. See [What's new](#whats-new). It isn't ready yet, so **1.7.1** is the current version.
-- **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
-- See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12) for what I'm working on.
+<p align="center"><a href="#get-started"><b>🧭 Get started</b></a> · <a href="#download"><b>⬇️ Downloads</b></a> · <a href="#rainmeter"><b>📱 Monitors &amp; Widgets</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
 ### 🎮 In game
 
@@ -46,7 +72,7 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 
 </details>
 
-<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
+<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Ring-Pill-Overlays-RTSS/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
 
 > Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
 
@@ -62,9 +88,9 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 - **🧭 A new Menu**, and a lot more to come. 👀
 
 ### 🎮 Overlays 2.0 · October 2026
-- **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
-- **📺 New TV designs:** **TV Pill**, **TV Line**, **TV Box** and **TV Side**, made and tested on 55" and 65" 4K TVs from the couch. 4K and 1080p packs.
-- **💻 New laptop designs:** **Notch**, **Minibar**, **Island**, **Island Time** (with a clock) and **Card**, in their own laptop packs for 1920×1080, 1920×1200, 2560×1440, 2560×1600 and 2880×1800. Laptop temperature colours are tuned for laptops (CPU 90° / 95°, GPU 85° / 92°).
+- **🌫️ New theme: Smoke** (replaces Clear): a tinted-glass panel that keeps the numbers crisp on any scene. [Why it replaced Clear, with pictures](#smoke).
+- **📺 New TV designs:** **TV Pill**, **TV Line**, **TV Box** and **TV Side**, made and tested on 55" and 65" 4K TVs from the couch. 4K and 1080p packs. [See them](#tvs).
+- **💻 New laptop designs:** **Notch**, **Minibar**, **Island**, **Island Time** (with a clock) and **Card**, in their own laptop packs for 1920×1080, 1920×1200, 2560×1440, 2560×1600 and 2880×1800, with temperature colours tuned for laptops. [See them](#laptops).
 - **🌡️ VRAM temperature** is now on Essential's Sleek Compact, Sleek Meters, Sleek Meters Universal, Sleek Rings, Sleek Side and Performance. No HWiNFO needed.
 - **✨ Every overlay polished:** thinner rounded rings, better spacing and alignment, easier-to-read grey labels, smooth panel edges, and graphs that are a line on a soft background (a plain line on White).
 - **🔌 Fewer things to set up:** the temperatures, usage, power, clocks, RAM and VRAM now come from **RTSS itself**. MSI Afterburner is only used for **FPS, 1% low and 0.1% low**, and Volt only uses HWiNFO for the **12V cable**.
@@ -87,7 +113,7 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 - **🔧 Fixed:** the desktop widgets could show the wrong total video memory (often 8 GB), and the Menu didn't change their RAM and VRAM bars.
 - **✨ Tidier layouts:** case screens use their space better, bar screens show the FPS stats on one line, the repeated **Core clock** is gone from the second-monitor layouts, and **Horizontal 2** now shows RAM.
 - **🖐️ Every skin can be dragged**, and installing over 1.7 keeps your settings.
-- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12).
+- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/discussions/12).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
@@ -177,16 +203,15 @@ Then **restart RTSS** (close it from the tray and open it again).
 
    <img src="previews/hwinfo/1_sensor_settings.png" width="380" alt="Sensors window: gear button">
 
-2. *(Optional)* In **Sensor Settings**, the **Global** polling period can stay at **2000 ms**. That's plenty for an overlay and keeps HWiNFO light.
-3. Click **Main Settings** at the bottom.
+2. In **Sensor Settings**, click **Main Settings** at the bottom. (The polling period in this window can stay at **2000 ms**: see [Keep it smooth](#smooth) for the best values.)
 
    <img src="previews/hwinfo/2_main_settings.png" width="560" alt="Sensor Settings: polling period and Main Settings button">
 
-4. Tick **Shared Memory Support** and click **OK**.
+3. Tick **Shared Memory Support** and click **OK**.
 
    <img src="previews/hwinfo/3_shared_memory.png" width="360" alt="Main Settings: Shared Memory Support">
 
-5. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
+4. Keep HWiNFO running in the background (ticking **Auto Start** in the same window starts it with Windows).
 
 > On the free version, Shared Memory switches itself off after **12 hours**. If 12V goes blank after a long session, tick it again (or restart HWiNFO).
 
@@ -256,16 +281,16 @@ Each pack has every overlay in every theme, sorted into **Dark**, **White**, **S
 
 | Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
-| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1080.zip) |
-| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1440.zip) |
-| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3440x1440.zip) |
-| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x1600.zip) |
-| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.zip) |
-| 4K, **bigger (1.5×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.1.5x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.1.5x.zip) |
-| 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.2x.zip) |
-| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x1440.zip) |
-| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x2160.zip) |
-| 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
+| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.1920x1080.zip) |
+| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.2560x1440.zip) |
+| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.3440x1440.zip) |
+| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.3840x1600.zip) |
+| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.3840x2160.zip) |
+| 4K, **bigger (1.5×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.3840x2160.1.5x.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.3840x2160.1.5x.zip) |
+| 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.3840x2160.2x.zip) |
+| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.5120x1440.zip) |
+| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.5120x2160.zip) |
+| 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Volt.overlays.7680x2160.zip) |
 
 <a id="laptop-download"></a>
 **💻 Laptop packs** (no HWiNFO needed). Two choices for every laptop screen:
@@ -274,25 +299,27 @@ Each pack has every overlay in every theme, sorted into **Dark**, **White**, **S
 
 | Laptop screen | Resolution | 💻 Laptop designs | 🟢 Normal designs |
 |---|---|---|---|
-| 💻 Full HD | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1080.zip) |
-| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) |
-| 💻 QHD | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1440.zip) |
-| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) |
-| 💻 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) |
+| 💻 Full HD | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Laptop.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.1920x1080.zip) |
+| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Laptop.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.1920x1200.zip) |
+| 💻 QHD | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Laptop.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.2560x1440.zip) |
+| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Laptop.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.2560x1600.zip) |
+| 💻 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Laptop.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/Essential.overlays.2880x1800.zip) |
 
 <a id="tv-download"></a>
 **📺 TV packs** (no HWiNFO needed, any TV size):
 
 | TV | Resolution | Download |
 |---|---|---|
-| 📺 **4K TV** (43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/TV.overlays.3840x2160.zip) |
-| 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/TV.overlays.1920x1080.zip) |
+| 📺 **4K TV** (43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/TV.overlays.3840x2160.zip) |
+| 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/latest/download/TV.overlays.1920x1080.zip) |
 
 **Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
 
 <img src="previews/setup/resolution.png" width="460" alt="Windows Advanced display: Desktop mode shows the resolution">
 
 > The overlays follow your **resolution**, not your screen size: a 27" and a 32" 4K monitor (or a 55" and an 85" 4K TV) use the same pack. Windows display scaling doesn't change them either.
+>
+> 💻 **On a laptop and want a bigger design?** The 🟢 Essential and ⚡ Volt packs also come in **1920x1200**, **2560x1600** and **2880x1800** (the "Normal designs" column above).
 
 ### 6️⃣ Copy the files into the Overlays folder
 
@@ -313,7 +340,7 @@ That's where RTSS installs by default. If you installed it somewhere else, open 
 
 <img src="previews/setup/overlays_folder.png" width="640" alt="Overlays folder: each .ovl next to its _atlas.png">
 
-The theme is in the file name: no ending = **Dark**, then `_white`, `_smoke` and `_float`.
+The theme is in the file name: no ending = **Dark**, then `_white`, `_smoke` and `_float` ([all themes](#themes)).
 
 <a id="load-it"></a>
 ### 7️⃣ Load it and play 🎮
@@ -522,7 +549,7 @@ Only need **MSI Afterburner + RTSS**. No VRAM readings (most laptops don't repor
 <tr><td align="center"><img src="previews/thumbs/laptop-card.png" width="30%" alt="Card"><br><b>Card</b><br><sub>A small card in the top-left corner: FPS, 1% low, CPU and GPU temperature, usage and power</sub><details><summary><sub>🎨 See all 4 themes</sub></summary><img src="previews/laptop/card.png" alt="Card in Dark, White, Smoke and Float"></details></td></tr>
 </table>
 
-Want a bigger desktop design on your laptop instead? The Essential and Volt packs also come in **1920x1200**, **2560x1600** and **2880x1800**.
+Want a bigger desktop design on your laptop instead? Use the **Normal designs** column in the [laptop packs](#laptop-download).
 
 ---
 
@@ -553,7 +580,7 @@ Only copy in **one** TV pack, the one that matches your TV's resolution. TV size
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-> 🔜 **Monitors & Widgets 2.0** is in beta ([What's new](#whats-new)). Everything below is for **1.7.1**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
+> 🔜 **Monitors & Widgets 2.0** is in beta ([What's new](#whats-new)). Everything below is for **1.7.1**, the current version. [Roadmap](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
@@ -669,7 +696,7 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.7.1.rmskin`** from the [Monitors & Widgets 1.7.1 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7.1) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
+Download **`Monitors and Widgets 1.7.1.rmskin`** from the [Monitors & Widgets 1.7.1 release](https://github.com/realHfde/Ring-Pill-Overlays-RTSS/releases/tag/monitor-1.7.1) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
 
 | # | In the installer | Do this |
 |---|---|---|
@@ -690,9 +717,9 @@ Right-click the Rainmeter icon in the taskbar tray → **Manage**, open **Monito
 
 Right-click the skin and click **Menu…** (at the top, under *Custom skin actions*). Don't confuse it with Rainmeter's own **Settings** further down.
 
-<img src="previews/rainmeter/setup_menu.png" width="300" alt="Right-click menu: 1 Menu…"> <img src="previews/rainmeter/setup_settings.png" width="300" alt="The Menu panel">
+<img src="previews/rainmeter/setup_menu.png" width="300" alt="Right-click menu: 1 Menu…">
 
-In the Menu:
+In the Menu ([every option explained](#monitor-options)):
 
 - **Screen 1 / 2 / 3** (under *Fill a screen*) to fill a HYTE, Lian Li or Xeneon screen, or a second monitor.
 - Or pick a **size** and drag the skin where you want it. **Center** puts it back in the middle.
@@ -747,7 +774,7 @@ Every overlay (Essential, Volt, laptop and TV) comes in four themes:
 |---|---|---|
 | **Dark** | `dark` / no ending | Dark panel, white text |
 | **White** | `white` / `_white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text |
-| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers |
+| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers. Replaces Clear ([why](#smoke)) |
 | **Float** | `float` / `_float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
 
 ![Dark, White, Smoke and Float](previews/themes_all.png)
@@ -755,7 +782,7 @@ Every overlay (Essential, Volt, laptop and TV) comes in four themes:
 <a id="smoke"></a>
 ### 🌫️ Why Smoke replaced Clear
 
-The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
+The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game while playing. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene.
 
 <img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
 
@@ -806,7 +833,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 | I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
 | The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
 | I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
-| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
+| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#afterburner-setup)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
 | GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
 | 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
 | Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
