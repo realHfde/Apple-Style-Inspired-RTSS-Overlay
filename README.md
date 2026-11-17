@@ -1,4 +1,4 @@
-<p align="center"><img src="previews/brand/icon.png" width="112" alt="Ring Pill Overlays icon"></p>
+<p align="center"><img src="previews/brand/icon.png" width="80" alt="Ring Pill Overlays icon"></p>
 
 <h1 align="center">Ring Pill Overlays — RTSS</h1>
 
