@@ -72,8 +72,6 @@ A new Monitors & Widgets, rebuilt from the ground up:
 - **✨ Motion** made in Blender.
 - **🎬 Photos, GIFs and videos** right on the dashboard.
 
-<p align="center"><a href="previews/beta/menu-preview.mp4"><b>▶ Watch the new Menu and its animations (video)</b></a></p>
-
 ### 🎮 Overlays 2.0 · October 2026
 - **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
 - **📺 New TV designs:** **TV Pill**, **TV Line**, **TV Box** and **TV Side**, made and tested on 55" and 65" 4K TVs from the couch. 4K and 1080p packs.
