@@ -72,7 +72,7 @@ A new Monitors & Widgets, rebuilt from the ground up:
 - **✨ Motion** made in Blender.
 - **🎬 Photos, GIFs and videos** right on the dashboard.
 
-<p align="center"><img src="previews/beta/menu.gif" width="640" alt="2.0 beta: the new Menu and its animations, recorded"><br><sub>The new Menu and its animations, recorded on a real PC. <a href="previews/beta/menu-preview.mp4"><b>▶ Watch the full video</b></a></sub></p>
+<p align="center"><a href="previews/beta/menu-preview.mp4"><b>▶ Watch the new Menu and its animations (video)</b></a></p>
 
 ### 🎮 Overlays 2.0 · October 2026
 - **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
