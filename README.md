@@ -6,6 +6,15 @@
 
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
+### Are you here for the overlays, or for the dashboard?
+
+<table>
+<tr>
+<td width="50%" align="center"><br><a href="#pick-yours"><img src="previews/brand/icon.png" width="220" alt="Ring Pill Overlays icon"></a><br><br><a href="#pick-yours"><b>🎮 Ring Pill Overlays</b></a><br><sub>CPU, GPU and FPS inside your games · RTSS</sub><br><br></td>
+<td width="50%" align="center"><br><a href="#rainmeter"><img src="previews/brand/monitors-icon.png" width="220" alt="Monitors & Widgets icon"></a><br><br><a href="#rainmeter"><b>🖥️ Monitors & Widgets</b></a><br><sub>A dashboard for your second screen, case screen or desktop · Rainmeter</sub><br><br></td>
+</tr>
+</table>
+
 ### Pick yours
 
 Click a picture to **👀 see it**. Every card also has a **⬇️ Download** link that takes you straight to the files.
@@ -57,13 +66,19 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-### 📱 Monitors & Widgets 2.0 · beta · November 2026
-> **In beta:** **1.7.1** is still the current version.
+### 📱 Monitors & Widgets 2.0 · beta · coming very soon
+> **Almost ready.** 2.0 beta will be uploaded here as soon as it is finished. Until then **1.7.1** is the current version.
 
-- **🖥️ New dashboards** for 32:9, 21:9 and 16:9 screens.
-- **🎨 Themes** with their own art and fonts, plus **Quick Looks** and your own colours.
+A new Monitors & Widgets, rebuilt from the ground up:
+
+- **🖥️ New dashboards** for 32:9, 21:9, 16:9 and portrait screens.
+- **🎨 62 looks in one click**, plus your own colours.
+- **🖼️ Hand-made Themes** with their own art, fonts and ornaments.
+- **🧭 A new Menu in two styles**, Console and Classic. Everything is set by clicking, no files to edit.
+- **✨ Motion** made in Blender.
 - **🎬 Photos, GIFs and videos** right on the dashboard.
-- **🧭 A new Menu**, and a lot more to come. 👀
+
+<p align="center"><img src="previews/beta/menu.gif" width="640" alt="2.0 beta: the new Menu and its animations, recorded"><br><sub>The new Menu and its animations, recorded on a real PC. <a href="previews/beta/menu-preview.mp4"><b>▶ Watch the full video</b></a></sub></p>
 
 ### 🎮 Overlays 2.0 · October 2026
 - **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
