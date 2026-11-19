@@ -1,9 +1,3 @@
-<h1 align="center">Ring Pill Overlays & Monitors and Widgets</h1>
-
-<p align="center">
-<a href="#essential"><img src="previews/brand/choose-overlays.png" width="49%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
-<a href="#rainmeter"><img src="previews/brand/choose-monitors.png" width="49%" alt="Monitors & Widgets: a dashboard for your screen, for Rainmeter"></a>
-</p>
 
 <p align="center">⭐ <b>Thank you for 100 stars!</b> Every one of them keeps me making these. 💜</p>
 
