@@ -1,4 +1,4 @@
-<h1 align="center">Ring Pill Overlays — RTSS</h1>
+<h1 align="center">Ring Pill Overlays & Monitors and Widgets</h1>
 
 <p align="center">
 <a href="#pick-yours"><img src="previews/brand/choose-overlays.png" width="49%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
