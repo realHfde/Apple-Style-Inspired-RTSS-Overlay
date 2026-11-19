@@ -1,19 +1,13 @@
-<p align="center"><img src="previews/brand/icon.png" width="80" alt="Ring Pill Overlays icon"></p>
-
 <h1 align="center">Ring Pill Overlays — RTSS</h1>
 
 <p align="center">⭐ <b>Thank you for 100 stars!</b> Every one of them keeps me making these. 💜</p>
 
+<p align="center">
+<a href="#pick-yours"><img src="previews/brand/choose-overlays.png" width="49%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
+<a href="#rainmeter"><img src="previews/brand/choose-monitors.png" width="49%" alt="Monitors & Widgets: a dashboard for your screen, for Rainmeter"></a>
+</p>
+
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
-
-### Are you here for the overlays, or for the dashboard?
-
-<table>
-<tr>
-<td width="50%" align="center"><br><a href="#pick-yours"><img src="previews/brand/icon.png" width="220" alt="Ring Pill Overlays icon"></a><br><br><a href="#pick-yours"><b>🎮 Ring Pill Overlays</b></a><br><sub>CPU, GPU and FPS inside your games · RTSS</sub><br><br></td>
-<td width="50%" align="center"><br><a href="#rainmeter"><img src="previews/brand/monitors-icon.png" width="220" alt="Monitors & Widgets icon"></a><br><br><a href="#rainmeter"><b>🖥️ Monitors & Widgets</b></a><br><sub>A dashboard for your second screen, case screen or desktop · Rainmeter</sub><br><br></td>
-</tr>
-</table>
 
 ### Pick yours
 
