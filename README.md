@@ -681,7 +681,38 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 - **It installs beside 1.7.1.** It has its own folder and touches none of 1.7.1's files, so you can keep both.
 - **Your choices are kept** in `Skins\MonitorsAndWidgets2\@Resources\UserSettings.inc`. An update keeps them.
 - **Without MSI Afterburner** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes.
-- **Browser videos in the Photo card (optional):** download the [browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip) and follow "How to add it.txt" inside.
+- **Browser videos in the Photo card (optional):** add the small [browser extension](#mw2-extension), a picture guide is just below.
+
+<a id="mw2-extension"></a>
+### 🌐 Browser videos in the Photo card (optional, picture guide)
+
+With the extension, a video you play in your browser goes into the Photo card. It works in **Brave, Chrome, Vivaldi, Opera GX** and other Chromium browsers. Monitors & Widgets 2.0 beta must be installed first: the extension talks to it.
+
+**First:** download the **[browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip)** and unzip it somewhere it can stay. The browser reads the folder from there, so don't delete it afterwards.
+
+**1.** Click the **Extensions** button (the puzzle piece) next to the address bar.<br>
+**2.** Click **Manage extensions**. (Or type `brave://extensions` or `chrome://extensions` in the address bar.)
+
+<img src="previews/mw2/extension-1-open.png" width="560" alt="The browser's Extensions button, then Manage extensions">
+
+**3.** Turn on **Developer mode** at the top right.<br>
+**4.** Click **Load unpacked** at the top left.
+
+<img src="previews/mw2/extension-2-developer-mode.png" width="620" alt="Developer mode on, then Load unpacked">
+
+**5.** Pick the folder **Monitors and Widgets browser extension** that you unzipped.<br>
+**6.** Click **Select Folder**.
+
+<img src="previews/mw2/extension-3-choose-folder.png" width="700" alt="Choosing the folder Monitors and Widgets browser extension">
+
+**7.** Click the extension's new button next to the address bar. It shows **ON** when it is on.<br>
+**8.** Keep **Send videos to the card** switched on.
+
+<img src="previews/mw2/extension-4-turn-on.png" width="560" alt="The extension's button and its Send videos to the card switch">
+
+**Last:** on the dashboard, click **Browser** under the Photo card's clock. Now play a video in your browser and it shows in the card.
+
+> The button says "The card's Browser button is off"? That is the last step: turn **Browser** on under the Photo card's clock.
 
 <a id="mw2-screens"></a>
 ### Pick your screen
