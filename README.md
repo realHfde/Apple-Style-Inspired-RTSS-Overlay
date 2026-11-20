@@ -1,3 +1,7 @@
+<h1 align="center">HFDE Overlays & Dashboards</h1>
+
+<p align="center"><a href="#overlays"><b>Ring Pill Overlays</b></a> &nbsp;·&nbsp; <a href="#monitors-and-widgets"><b>Monitors & Widgets</b></a></p>
+
 <p align="center">⭐ <b>Thank you for 100 stars!</b> Every one of them keeps me making these. 💜</p>
 
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
@@ -17,14 +21,14 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
 - **🆕 Monitors & Widgets 2.0 beta is out:** new dashboards, 62 looks, Themes and a new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version.
-- **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
-- See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12) for what I'm working on.
+- **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/issues) with a screenshot and your resolution.
+- See the [roadmap](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/discussions/12) for what I'm working on.
 
 <a id="whats-new"></a>
 ## 🆕 What's new
 
 ### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta · November 2026
-> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
+> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
 
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone.
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.
@@ -62,7 +66,7 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 - **🔧 Fixed:** the desktop widgets could show the wrong total video memory (often 8 GB), and the Menu didn't change their RAM and VRAM bars.
 - **✨ Tidier layouts:** case screens use their space better, bar screens show the FPS stats on one line, the repeated **Core clock** is gone from the second-monitor layouts, and **Horizontal 2** now shows RAM.
 - **🖐️ Every skin can be dragged**, and installing over 1.7 keeps your settings.
-- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12).
+- 🔜 **2.0 is in testing.** See the [roadmap](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/discussions/12).
 
 <details>
 <summary><b>Older updates</b> (click to open)</summary>
@@ -100,7 +104,7 @@ Thanks to everyone on Reddit who asked for these!
 
 </details>
 
-<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
+<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/HFDE-Overlays-and-Dashboards/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
 
 > Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
 
@@ -277,16 +281,16 @@ Each pack has every overlay in every theme, sorted into **Dark**, **White**, **S
 
 | Screen | Resolution | 🟢 Essential | ⚡ Volt |
 |---|---|---|---|
-| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.1920x1080.zip) |
-| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.2560x1440.zip) |
-| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3440x1440.zip) |
-| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x1600.zip) |
-| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.zip) |
-| 4K, **bigger (1.5×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.1.5x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.1.5x.zip) |
-| 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.3840x2160.2x.zip) |
-| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x1440.zip) |
-| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.5120x2160.zip) |
-| 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Volt.overlays.7680x2160.zip) |
+| 1080p | `1920x1080` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.1920x1080.zip) |
+| 1440p | `2560x1440` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.2560x1440.zip) |
+| 21:9 ultrawide | `3440x1440` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.3440x1440.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.3440x1440.zip) |
+| 24:10 ultrawide | `3840x1600` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.3840x1600.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.3840x1600.zip) |
+| 4K | `3840x2160` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.3840x2160.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.3840x2160.zip) |
+| 4K, **bigger (1.5×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.3840x2160.1.5x.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.3840x2160.1.5x.zip) |
+| 4K, **biggest (2×)** 🔍 | `3840x2160` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.3840x2160.2x.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.3840x2160.2x.zip) |
+| 32:9 super-ultrawide | `5120x1440` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.5120x1440.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.5120x1440.zip) |
+| 5K2K ultrawide (e.g. LG 45" / 40" 5K2K) | `5120x2160` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.5120x2160.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.5120x2160.zip) |
+| 32:9 dual-4K (e.g. Samsung Odyssey Neo G9 57") | `7680x2160` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.7680x2160.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Volt.overlays.7680x2160.zip) |
 
 <a id="laptop-download"></a>
 **💻 Laptop packs** (no HWiNFO needed). Two choices for every laptop screen:
@@ -295,19 +299,19 @@ Each pack has every overlay in every theme, sorted into **Dark**, **White**, **S
 
 | Laptop screen | Resolution | 💻 Laptop designs | 🟢 Normal designs |
 |---|---|---|---|
-| 💻 Full HD | `1920x1080` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1080.zip) |
-| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.1920x1200.zip) |
-| 💻 QHD | `2560x1440` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1440.zip) |
-| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2560x1600.zip) |
-| 💻 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Laptop.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/Essential.overlays.2880x1800.zip) |
+| 💻 Full HD | `1920x1080` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Laptop.overlays.1920x1080.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.1920x1080.zip) |
+| 💻 16:10 (most budget / mid-range gaming laptops) | `1920x1200` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Laptop.overlays.1920x1200.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.1920x1200.zip) |
+| 💻 QHD | `2560x1440` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Laptop.overlays.2560x1440.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.2560x1440.zip) |
+| 💻 16:10 (most new high-end gaming laptops) | `2560x1600` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Laptop.overlays.2560x1600.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.2560x1600.zip) |
+| 💻 16:10 OLED | `2880x1800` | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Laptop.overlays.2880x1800.zip) | [⬇️ Download](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/Essential.overlays.2880x1800.zip) |
 
 <a id="tv-download"></a>
 **📺 TV packs** (no HWiNFO needed, any TV size):
 
 | TV | Resolution | Download |
 |---|---|---|
-| 📺 **4K TV** (43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/TV.overlays.3840x2160.zip) |
-| 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/latest/download/TV.overlays.1920x1080.zip) |
+| 📺 **4K TV** (43", 55", 65", 75", 85"…) | `3840x2160` | [⬇️ Download TV pack](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/TV.overlays.3840x2160.zip) |
+| 📺 1080p TV | `1920x1080` | [⬇️ Download TV pack](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/latest/download/TV.overlays.1920x1080.zip) |
 
 **Not sure about your resolution?** Open Windows **Settings → System → Display → Advanced display** and look at **Desktop mode**. The first two numbers are your resolution (e.g. **5120 × 1440** → download the `5120x1440` pack):
 
@@ -663,7 +667,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 
 ![Monitors & Widgets 2.0 beta on a 32:9 screen](previews/mw2/dashboard-32x9.png)
 
-> **It is a beta**, so things may still change. Found something? Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+> **It is a beta**, so things may still change. Found something? Open an [issue](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/issues) with a screenshot and your resolution.
 
 <a id="mw2-screens"></a>
 ### Pick your screen
@@ -732,7 +736,7 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 **You need:** Windows 10 or 11 (64-bit), [Rainmeter](https://www.rainmeter.net) 5.0 or newer, and [MSI Afterburner](https://www.msi.com/Landing/afterburner) running for the processor and graphics card readings. For the frame rate, keep RTSS running too (it comes with Afterburner).
 
 1. Install Rainmeter, and MSI Afterburner with RTSS.
-2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
+2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
 3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
 4. To change anything later: right-click the dashboard → **Menu...**
 
@@ -748,7 +752,7 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 
 With the extension, a video you play in your browser goes into the Photo card. It works in **Brave, Chrome, Vivaldi, Opera GX** and other Chromium browsers. Monitors & Widgets 2.0 beta must be installed first: the extension talks to it.
 
-**First:** download the **[browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip)** and unzip it somewhere it can stay. The browser reads the folder from there, so don't delete it afterwards.
+**First:** download the **[browser extension](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip)** and unzip it somewhere it can stay. The browser reads the folder from there, so don't delete it afterwards.
 
 **1.** Click the **Extensions** button (the puzzle piece) next to the address bar.<br>
 **2.** Click **Manage extensions**. (Or type `brave://extensions` or `chrome://extensions` in the address bar.)
@@ -780,14 +784,14 @@ With the extension, a video you play in your browser goes into the Photo card. I
 - **It opened on the wrong screen, or the wrong shape:** Menu → Size and place → Screen, and Dashboard.
 - **Too big or too small:** Menu → Size and place → Scale.
 - **Coming from 1.7.1:** both can stay installed. To use only 2.0, unload 1.7.1's skins in Rainmeter's Manage window.
-- **Anything else:** open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+- **Anything else:** open an [issue](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/issues) with a screenshot and your resolution.
 
 <a id="rainmeter"></a>
 ## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 1.7.1 (Rainmeter + MSI Afterburner)
 
 **Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.**
 
-> 🆕 **[Monitors & Widgets 2.0 beta](#mw2)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
+> 🆕 **[Monitors & Widgets 2.0 beta](#mw2)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
@@ -903,7 +907,7 @@ Anything that isn't ticked shows **"–"** on the skin. FPS, the lows and frame 
 
 **3️⃣ Install the skin**
 
-Download **`Monitors and Widgets 1.7.1.rmskin`** from the [Monitors & Widgets 1.7.1 release](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/monitor-1.7.1) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
+Download **`Monitors and Widgets 1.7.1.rmskin`** from the [Monitors & Widgets 1.7.1 release](https://github.com/realHfde/HFDE-Overlays-and-Dashboards/releases/tag/monitor-1.7.1) (or the [`rainmeter`](rainmeter) folder) and double-click it. In the installer, make sure **both boxes are ticked**:
 
 | # | In the installer | Do this |
 |---|---|---|
