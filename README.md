@@ -1,68 +1,36 @@
-
 <p align="center">⭐ <b>Thank you for 100 stars!</b> Every one of them keeps me making these. 💜</p>
 
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
-### Pick yours
+### Are you here for the overlays, or for the dashboard?
 
-Click a picture to **👀 see it**. Every card also has a **⬇️ Download** link that takes you straight to the files.
+<p align="center">
+<a href="#overlays"><img src="previews/brand/choose-overlays.png" width="40%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#monitors-and-widgets"><img src="previews/brand/choose-monitors.png" width="40%" alt="Monitors & Widgets: a dashboard for your screen, for Rainmeter"></a>
+</p>
 
-<table>
-<tr>
-<td width="50%" align="center"><a href="#essential"><img src="previews/cards/essential.png" alt="Essential"></a><br><a href="#essential">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
-<td width="50%" align="center"><a href="#volt"><img src="previews/cards/volt.png" alt="Volt"></a><br><a href="#volt">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
-</tr>
-<tr>
-<td width="50%" align="center"><a href="#rainmeter"><img src="previews/cards/monitors.png" alt="Monitors & Widgets"></a><br><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Download</a></td>
-<td width="50%" align="center"><a href="#laptops"><img src="previews/cards/laptops.png" alt="Laptops"></a><br><a href="#laptops">👀 Preview</a> · <a href="#laptop-download">⬇️ Download</a></td>
-</tr>
-<tr>
-<td width="50%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
-<td width="50%" align="center"><a href="#themes"><img src="previews/cards/themes.png" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
-</tr>
-</table>
-
-**Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
-
-<p align="center"><a href="#get-started"><b>🧭 Get started</b></a> · <a href="#download"><b>⬇️ Downloads</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
+<p align="center"><sub>Click the one you want.</sub></p>
 
 ## 📣 Announcement
 
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
-- **Monitors & Widgets 2.0 is in beta:** new dashboards, Themes and a new Menu. See [What's new](#whats-new). It isn't ready yet, so **1.7.1** is the current version.
+- **🆕 Monitors & Widgets 2.0 beta is out:** new dashboards, 62 looks, Themes and a new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version.
 - **I'll still reply to every issue and problem.** Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
 - See the [roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12) for what I'm working on.
-
-### 🎮 In game
-
-<p align="center"><img src="previews/ingame/volt_sleek_compact_smoke.png" alt="Volt Sleek Compact, Smoke theme, in game on a bright scene"><br><sub><b>⚡ Volt Sleek Compact</b> · 🆕 Smoke theme · Cyberpunk 2077 · 5120×1440</sub></p>
-
-<details>
-<summary><b>More in-game shots</b> (click to open)</summary>
-
-<p align="center"><img src="previews/ingame/volt_sleek_compact_smoke_city.png" alt="Volt Sleek Compact, Smoke theme, busy city scene"><br><sub><b>Smoke</b> over a busy city · Cyberpunk 2077</sub></p>
-
-<p align="center"><img src="previews/ingame/volt_sleek_compact_dark.png" alt="Volt Sleek Compact, Dark theme, in game"><br><sub><b>Dark</b> theme on a dark scene</sub></p>
-
-</details>
-
-<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
-
-> Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
 
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-### 📱 Monitors & Widgets 2.0 · beta · coming very soon
-> **Almost ready.** 2.0 beta will be uploaded here as soon as it is finished. Until then **1.7.1** is the current version.
+### 📱 Monitors & Widgets 2.0 beta · November 2026
+> **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
 
-A new Monitors & Widgets, rebuilt from the ground up:
-
-- **🖥️ New dashboards** for 32:9, 21:9, 16:9 and portrait screens.
-- **🎨 62 looks in one click**, plus your own colours.
-- **🖼️ Hand-made Themes** with their own art, fonts and ornaments.
+- **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone (Beta).
+- **🎨 62 looks in one click**, 51 accents, plus your own colours.
+- **🖼️ Hand-made Themes** with their own art, fonts and ornaments (Beta).
 - **🧭 A new Menu in two styles**, Console and Classic. Everything is set by clicking, no files to edit.
+- **📐 One Scale slider**, 1 to 300 %, for every dashboard.
 - **✨ Motion** made in Blender.
 - **🎬 Photos, GIFs and videos** right on the dashboard.
 
@@ -113,6 +81,53 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 Thanks to everyone on Reddit who asked for these!
 
 ---
+
+---
+
+<a id="overlays"></a>
+# 🎮 Ring Pill Overlays
+
+<p align="center"><a href="#pick-yours"><b>Pick yours</b></a> · <a href="#get-started"><b>Get started</b></a> · <a href="#download"><b>Downloads</b></a> · <a href="#essential"><b>Essential</b></a> · <a href="#volt"><b>Volt</b></a> · <a href="#laptops"><b>Laptops</b></a> · <a href="#tvs"><b>TVs</b></a> · <a href="#themes"><b>Themes</b></a> · <a href="#troubleshooting"><b>Troubleshooting</b></a></p>
+
+### 🎮 In game
+
+<p align="center"><img src="previews/ingame/volt_sleek_compact_smoke.png" alt="Volt Sleek Compact, Smoke theme, in game on a bright scene"><br><sub><b>⚡ Volt Sleek Compact</b> · 🆕 Smoke theme · Cyberpunk 2077 · 5120×1440</sub></p>
+
+<details>
+<summary><b>More in-game shots</b> (click to open)</summary>
+
+<p align="center"><img src="previews/ingame/volt_sleek_compact_smoke_city.png" alt="Volt Sleek Compact, Smoke theme, busy city scene"><br><sub><b>Smoke</b> over a busy city · Cyberpunk 2077</sub></p>
+
+<p align="center"><img src="previews/ingame/volt_sleek_compact_dark.png" alt="Volt Sleek Compact, Dark theme, in game"><br><sub><b>Dark</b> theme on a dark scene</sub></p>
+
+</details>
+
+<p align="center">📸 <b>Show us yours!</b> Share a screenshot or photo of your setup in <a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/10">Show and tell</a>.<br>If you like them, a ⭐ on GitHub or sharing them with a friend means a lot!</p>
+
+> Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
+
+### Pick yours
+
+Click a picture to **👀 see it**. Every card also has a **⬇️ Download** link that takes you straight to the files.
+
+<table>
+<tr>
+<td width="50%" align="center"><a href="#essential"><img src="previews/cards/essential.png" alt="Essential"></a><br><a href="#essential">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#volt"><img src="previews/cards/volt.png" alt="Volt"></a><br><a href="#volt">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="#rainmeter"><img src="previews/cards/monitors.png" alt="Monitors & Widgets"></a><br><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#laptops"><img src="previews/cards/laptops.png" alt="Laptops"></a><br><a href="#laptops">👀 Preview</a> · <a href="#laptop-download">⬇️ Download</a></td>
+</tr>
+<tr>
+<td width="50%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#themes"><img src="previews/cards/themes.png" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
+</tr>
+</table>
+
+**Not sure?** Pick **🟢 Essential**: it's the easiest to set up. Want to keep an eye on your 12V-2x6 / 12VHPWR cable? Pick **⚡ Volt**.
+
+<p align="center"><a href="#get-started"><b>🧭 Get started</b></a> · <a href="#download"><b>⬇️ Downloads</b></a> · <a href="#whats-new"><b>🆕 What's new</b></a> · <a href="#themes"><b>🎨 Themes</b></a> · <a href="#troubleshooting"><b>🛠️ Troubleshooting</b></a></p>
 
 <a id="get-started"></a>
 ## 🧭 Get started
@@ -555,12 +570,205 @@ Only copy in **one** TV pack, the one that matches your TV's resolution. TV size
 
 ---
 
+<a id="themes"></a>
+## 🎨 Themes
+
+Every overlay (Essential, Volt, laptop and TV) comes in four themes:
+
+| Theme | Folder / file ending | Look |
+|---|---|---|
+| **Dark** | `dark` / no ending | Dark panel, white text |
+| **White** | `white` / `_white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text |
+| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers |
+| **Float** | `float` / `_float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
+
+![Dark, White, Smoke and Float](previews/themes_all.png)
+
+<a id="smoke"></a>
+### 🌫️ Why Smoke replaced Clear
+
+The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
+
+<img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
+
+---
+
+<a id="old-names"></a>
+## 🏷️ Switching from older versions
+
+The old copies don't get replaced automatically. RTSS also keeps showing an old picture until it's fully closed, so **exit RTSS and Afterburner once** after copying in new files.
+
+| You had | Now | What to do |
+|---|---|---|
+| **Clear** theme (`…_clear.ovl`) | **Smoke** (`…_smoke.ovl`) | Delete the old `…_clear` files from the Overlays folder and load the `…_smoke` ones |
+| **Island Bar / Island Bar Time** | The new [💻 laptop designs](#laptops) | Delete the `…island_bar…` files and copy in a laptop pack |
+| **Volt Sleek** and the Volt **no 12V** versions (`…no12v…`) | Removed | Delete them. Use **Essential Sleek** instead of Volt Sleek; if your card doesn't report 12V, use **Essential** |
+| Old **TV Pill / TV Side** | The new [📺 TV designs](#tvs) | Delete the old `tv_…` files, then copy in the TV pack for your TV |
+| **MSI Edition** (`msi_…`) or the original overlays (`sleek.ovl`, `performance_overlay.ovl`…) | **🟢 Essential** (`essential_…`) / **⚡ Volt** (`volt_…`) | Copy in the new pack, then delete the old files so they don't show twice in **Layouts → Load** |
+| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor` |
+
+If you moved an overlay in the Overlay editor, move the new one the same way and save it.
+
+## Notes
+
+- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
+- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
+- **The 12V warning:** the **12V** label turns **amber** if the cable voltage drops below 11.85 V and **red** below 11.75 V, but only while you're gaming (GPU using more than 150 W). The cable is only under real stress under heavy load. At idle almost no power flows through it, so a low number there doesn't mean anything and the label stays green. The number itself always shows the real voltage.
+- **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
+<a id="meter-scales"></a>
+- **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
+
+  | Meter | Full at | Why |
+  |---|---|---|
+  | CPU power | 300 W | Above the max turbo power of today's top Intel and AMD CPUs |
+  | CPU clock | 7.0 GHz | Headroom above the fastest desktop CPUs (about 6.2 GHz) |
+  | GPU power | 800 W | Room for an RTX 5090 (575 W) and overclocked cards |
+  | GPU clock | 4.0 GHz | Above the fastest boosting cards |
+  | RAM | 64 GB | Fits 32 GB and 64 GB builds |
+  | VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
+- To change a meter's scale, open **Data sources** in the Overlay editor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
+- On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
+
+<a id="troubleshooting"></a>
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([step 4](#benchmark-tip)). |
+| I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
+| The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
+| I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
+| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
+| GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
+| 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
+| Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
+| Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
+| I still see the old look after updating | RTSS keeps old pictures until it's closed. Exit **RTSS and Afterburner** fully (from the tray) and open them again. |
+| Text looks blurry on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window ([step 4](#rtss-setup), #3). |
+
+---
+
+---
+
+<a id="monitors-and-widgets"></a>
+# 🖥️ Monitors & Widgets
+
+<p align="center"><a href="#mw2"><b>🆕 2.0 beta</b></a> · <a href="#mw2-install"><b>Install 2.0 beta</b></a> · <a href="#mw2-screens"><b>Its screens</b></a> · <a href="#mw2-menu"><b>Its Menu</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
+
+<a id="mw2"></a>
+## 🆕 Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner)
+
+### A dashboard for your desktop: a clock, your photo, GIF or video, what is playing, your apps, CPU, GPU, memory, FPS, network and drives.
+
+<p align="center"><a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin"><b>⬇️ Download Monitors and Widgets 2.0 beta</b></a> · about 5 minutes to set up</p>
+
+![Monitors & Widgets 2.0 beta on a 32:9 screen](previews/mw2/dashboard-32x9.png)
+
+> **It is a beta.** The dashboards, the looks and the Console and Classic Menus are finished. The parts marked **Beta** below work and can be picked, and may still change. Found something? Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+
+<a id="mw2-install"></a>
+### ⬇️ Set it up (about 5 minutes)
+
+**You need:** Windows 10 or 11 (64-bit), [Rainmeter](https://www.rainmeter.net) 5.0 or newer, and [MSI Afterburner](https://www.msi.com/Landing/afterburner) running for the processor and graphics card readings. For the frame rate, keep RTSS running too (it comes with Afterburner).
+
+1. Install Rainmeter, and MSI Afterburner with RTSS.
+2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
+3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
+4. To change anything later: right-click the dashboard → **Menu...**
+
+<p align="center"><img src="previews/mw2/installer.png" width="396" alt="The Rainmeter Skin Installer with Monitors and Widgets 2"></p>
+
+- **It installs beside 1.7.1.** It has its own folder and touches none of 1.7.1's files, so you can keep both.
+- **Your choices are kept** in `Skins\MonitorsAndWidgets2\@Resources\UserSettings.inc`. An update keeps them.
+- **Without MSI Afterburner** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes.
+- **Browser videos in the Photo card (optional):** download the [browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip) and follow "How to add it.txt" inside.
+
+<a id="mw2-screens"></a>
+### Pick your screen
+
+Pick yours in **Menu → Size and place → Dashboard**. Every one comes as **Cards** (separate glass cards over your wallpaper) or **Box** (one panel).
+
+| Your screen | Dashboards |
+|---|---|
+| 🖥️ **32:9 super ultrawide** | A full dashboard, a Photo Hero, a Dock and a Band |
+| 🖥️ **21:9 ultrawide** | A full dashboard, a Photo Hero, a Dock and a Band |
+| 🖥️ **16:9** | 16:9, Widescreen, Alternate, a Photo Hero, a Dock and a Band |
+| **A 16:9 screen stood on its side** | 16:9 Portrait and 16:9 Portrait Widescreen. Five more are shown as "Not ready · concept" |
+| **Bar screens** (Beta) | Corsair Xeneon Edge 2560x720 · Lian Li 8.8in 1920x480 · Lian Li 9.2in O11 Vision-M 1920x462 · Lian Li Lancool 207 1600x720 |
+| **Case screens** (Beta) | Corsair Xeneon Edge 720x2560 · HYTE Y70 Touch 1100x3840 · HYTE Y70 Touch Infinite 688x2560 and 682x2560 · Lian Li 8.8in 480x1920 · Lian Li Lancool 207 720x1600 |
+| **Compact** (Beta) | 16:9 Compact · 16:9 Portrait Compact |
+| **Desktop widgets** (Beta) | Horizontal · Horizontal 2 · Sidebar · Sidebar 2 · Vertical |
+
+The Beta ones are 1.7.1's screens, redone. Each comes twice: as 2.0 draws it, and with "Classic" after its name, which is 1.7.1's layout drawn the 2.0 way. The installer does not pick them for you: pick yours in the Menu.
+
+<p align="center"><img src="previews/mw2/dashboard-16x9-widescreen.png" alt="16:9 Widescreen"><br><sub>16:9 Widescreen</sub></p>
+
+<details>
+<summary><b>More screens</b> (click to open)</summary>
+
+<p align="center"><img src="previews/mw2/dashboard-21x9.png" alt="21:9 Ultrawide"><br><sub>21:9 Ultrawide</sub></p>
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="previews/mw2/dashboard-16x9-alternate.png" alt="16:9 Alternate"><br><sub>16:9 Alternate</sub></td>
+<td width="50%" align="center"><img src="previews/mw2/dashboard-16x9-photo-hero.png" alt="16:9 Photo Hero, in a light look"><br><sub>16:9 Photo Hero, in a light look</sub></td>
+</tr>
+</table>
+
+<p align="center"><img src="previews/mw2/dashboard-portrait.png" width="380" alt="16:9 Portrait"><br><sub>16:9 Portrait</sub></p>
+
+<p align="center"><img src="previews/mw2/dock.png" alt="A Dock along the top of a 16:9 screen"><br><sub>A Dock: a row of small cards along the top or the foot of the screen</sub></p>
+
+<p align="center"><img src="previews/mw2/band.png" alt="A Band along the top of a 16:9 screen"><br><sub>A Band: one slim panel with the clock</sub></p>
+
+<p align="center"><img src="previews/mw2/widget-horizontal-2-classic.png" alt="The widget Horizontal 2 Classic on the desktop"><br><sub>A desktop widget: Horizontal 2 Classic (Beta)</sub></p>
+
+</details>
+
+<a id="mw2-menu"></a>
+### Make it yours (the Menu)
+
+Right-click the dashboard → **Menu...** Everything is set by clicking. No files to edit. A new install opens in the **Console** style. **Classic** has the same settings as tabs, tiles and rows.
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="previews/mw2/menu-console-looks.png" alt="The Console Menu: Looks"><br><sub>Console · 62 looks in one click</sub></td>
+<td width="50%" align="center"><img src="previews/mw2/menu-size-and-place.png" alt="The Classic Menu: Size and place, with the Scale slider"><br><sub>Classic · Size and place, with Scale</sub></td>
+</tr>
+</table>
+
+| Page | What you set there |
+|---|---|
+| **Style** | Looks, Themes (Beta), My colours (Beta), Fonts, Banners, Fine-tune |
+| **Size and place** | The dashboard (all 55), the screen, Cards or Box, corners, Fill the screen or Free size, Scale (1 to 300 %), place |
+| **Cards** | What each card shows |
+| **System** | Sensors, the FPS graph's top, your files, the Menu's own look and style, reset |
+
+### Good to know
+
+| Part | State |
+|---|---|
+| The 21 new dashboards, the 62 looks, the Console and Classic Menus | Finished |
+| The 34 screens from 1.7.1 (bar, case, Compact, widgets) | Beta |
+| Themes, My colours | Beta |
+| The Menu styles Tile wall, Showroom, Ambient and the Wheel | Beta |
+| Five more portrait dashboards | Not ready · concept (you can look at them) |
+| Card shadows | Off for now |
+
+### Troubleshooting (Monitors & Widgets 2.0 beta)
+
+- **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running.
+- **It opened on the wrong screen, or the wrong shape:** Menu → Size and place → Screen, and Dashboard.
+- **Too big or too small:** Menu → Size and place → Scale.
+- **Coming from 1.7.1:** both can stay installed. To use only 2.0, unload 1.7.1's skins in Rainmeter's Manage window.
+- **Anything else:** open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+
 <a id="rainmeter"></a>
 ## 📱 Monitors & Widgets 1.7.1 (Rainmeter + MSI Afterburner)
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
-> 🔜 **Monitors & Widgets 2.0** is in beta ([What's new](#whats-new)). Everything below is for **1.7.1**, the current version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
+> 🆕 **[Monitors & Widgets 2.0 beta](#mw2)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
 
 RTSS overlays only show **inside a game**. Monitors & Widgets is a set of **Rainmeter** skins that sit on the **desktop** of any screen instead, in the same Apple style. It only needs **MSI Afterburner + Rainmeter**: no HWiNFO, and nothing to set up in RTSS (it installs with Afterburner and only passes the FPS along).
 
@@ -744,82 +952,6 @@ It remembers its size, screen and options after a restart.
 | I can't show Sidebar and Sidebar 2 together | Rainmeter shows one file per folder at a time. Pick the one you like best. |
 
 ---
-
-<a id="themes"></a>
-## 🎨 Themes
-
-Every overlay (Essential, Volt, laptop and TV) comes in four themes:
-
-| Theme | Folder / file ending | Look |
-|---|---|---|
-| **Dark** | `dark` / no ending | Dark panel, white text |
-| **White** | `white` / `_white` | Soft light-grey panel with dark text, toned down so it isn't glaring. Turn off **On-Screen Display shadow** in RTSS for sharp text |
-| **Smoke** 🆕 | `smoke` / `_smoke` | Tinted glass, lighter at the top and darker at the bottom, with a thin soft edge. You can tell the game is behind it, but it never fights with the numbers |
-| **Float** | `float` / `_float` | No panel at all: just the numbers, rings and meters with a drop shadow. Least distracting, and nice on OLED screens |
-
-![Dark, White, Smoke and Float](previews/themes_all.png)
-
-<a id="smoke"></a>
-### 🌫️ Why Smoke replaced Clear
-
-The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
-
-<img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
-
----
-
-<a id="old-names"></a>
-## 🏷️ Switching from older versions
-
-The old copies don't get replaced automatically. RTSS also keeps showing an old picture until it's fully closed, so **exit RTSS and Afterburner once** after copying in new files.
-
-| You had | Now | What to do |
-|---|---|---|
-| **Clear** theme (`…_clear.ovl`) | **Smoke** (`…_smoke.ovl`) | Delete the old `…_clear` files from the Overlays folder and load the `…_smoke` ones |
-| **Island Bar / Island Bar Time** | The new [💻 laptop designs](#laptops) | Delete the `…island_bar…` files and copy in a laptop pack |
-| **Volt Sleek** and the Volt **no 12V** versions (`…no12v…`) | Removed | Delete them. Use **Essential Sleek** instead of Volt Sleek; if your card doesn't report 12V, use **Essential** |
-| Old **TV Pill / TV Side** | The new [📺 TV designs](#tvs) | Delete the old `tv_…` files, then copy in the TV pack for your TV |
-| **MSI Edition** (`msi_…`) or the original overlays (`sleek.ovl`, `performance_overlay.ovl`…) | **🟢 Essential** (`essential_…`) / **⚡ Volt** (`volt_…`) | Copy in the new pack, then delete the old files so they don't show twice in **Layouts → Load** |
-| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor` |
-
-If you moved an overlay in the Overlay editor, move the new one the same way and save it.
-
-## Notes
-
-- The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
-- **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
-- **The 12V warning:** the **12V** label turns **amber** if the cable voltage drops below 11.85 V and **red** below 11.75 V, but only while you're gaming (GPU using more than 150 W). The cable is only under real stress under heavy load. At idle almost no power flows through it, so a low number there doesn't mean anything and the label stays green. The number itself always shows the real voltage.
-- **Sleek Meters** uses fixed scales for an upper-mid-range PC. For a high-end PC, use **Sleek Meters Universal**.
-<a id="meter-scales"></a>
-- **Sleek Meters Universal** fills its bars at the limits of today's fastest hardware, so nothing maxes out early:
-
-  | Meter | Full at | Why |
-  |---|---|---|
-  | CPU power | 300 W | Above the max turbo power of today's top Intel and AMD CPUs |
-  | CPU clock | 7.0 GHz | Headroom above the fastest desktop CPUs (about 6.2 GHz) |
-  | GPU power | 800 W | Room for an RTX 5090 (575 W) and overclocked cards |
-  | GPU clock | 4.0 GHz | Above the fastest boosting cards |
-  | RAM | 64 GB | Fits 32 GB and 64 GB builds |
-  | VRAM | 32 GB | Fits every card up to an RTX 5090 (32 GB) |
-- To change a meter's scale, open **Data sources** in the Overlay editor and edit the matching `pct` source's formula. For example, `x / 8` means 800 W is full; change it to `x / 3.6` for 360 W.
-- On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
-
-<a id="troubleshooting"></a>
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| Overlay doesn't appear in a game | Check **Show On-Screen Display** is ON ([step 4](#rtss-setup), #1), then tick **Enable benchmark mode** ([step 4](#benchmark-tip)). |
-| I can't find the Overlay editor | **RTSS → Setup → Plugins**, tick **OverlayEditor.dll**, **click its name** so it's highlighted, then click **Setup** under the list ([pictures](#rtss-setup)). |
-| The Overlay editor looks empty | The overlay is placed for a full screen. **Maximize the Overlay editor window** to see it. |
-| I can't find the Overlays folder | The default is `C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays`. If RTSS is installed somewhere else, go to its folder → **Plugins → Client → Overlays**. |
-| FPS, 1% or 0.1% low are blank or 0 | They come from **MSI Afterburner**: keep it running and tick **Framerate**, **Framerate 1% Low** and **Framerate 0.1% Low** in its Monitoring tab ([step 3](#get-started)). They only fill in while a game runs. Also check the [RTSS General settings](#rtss-setup). |
-| GPU numbers are 0 or wrong | Your PC probably has integrated graphics. See [two GPUs](#two-gpus). |
-| 12V is blank | **Volt only:** HWiNFO isn't running, or Shared Memory Support is off. See [step 2](#hwinfo-setup-shared-memory). If it's on and still blank, open **Data sources**, select **12V cable**, click **Setup** and pick your card's 12V reading. If your card doesn't report it, use **Essential**. |
-| Text looks different, too wide, or doesn't line up | The **Inter** font isn't installed. Install [Inter](https://rsms.me/inter/) and restart RTSS. |
-| Garbled letters instead of the panel | The `_atlas.png` file is missing or in a subfolder. Put it next to the `.ovl` in the main Overlays folder. |
-| I still see the old look after updating | RTSS keeps old pictures until it's closed. Exit **RTSS and Afterburner** fully (from the tray) and open them again. |
-| Text looks blurry on the White theme | Turn off **On-Screen Display shadow** in the main RTSS window ([step 4](#rtss-setup), #3). |
 
 ---
 
