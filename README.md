@@ -1,4 +1,6 @@
-<h1 align="center">HFDE Overlays & Dashboards</h1>
+<h1 align="center"><img src="previews/brand/huffdee-logo.png" width="640" alt="HuffDee: RTSS overlays and Rainmeter skins"></h1>
+
+<p align="center"><sub><b>HuffDee</b> is how you say HFDE: my name, reshuffled late one night.</sub></p>
 
 <p align="center"><a href="#overlays"><b>Ring Pill Overlays</b></a> &nbsp;·&nbsp; <a href="#monitors-and-widgets"><b>Monitors & Widgets</b></a></p>
 
