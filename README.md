@@ -2,7 +2,7 @@
 
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
-### Are you here for the overlays, or for the dashboard?
+<h3 align="center">Are you here for the overlays, or for the dashboard?</h3>
 
 <p align="center">
 <a href="#overlays"><img src="previews/brand/choose-overlays.png" width="40%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
@@ -87,9 +87,7 @@ Thanks to everyone on Reddit who asked for these!
 <a id="overlays"></a>
 # <img src="previews/brand/icon.png" width="40" align="absmiddle" alt="Ring Pill Overlays icon"> Ring Pill Overlays
 
-<p align="center"><a href="#pick-yours"><b>Pick yours</b></a> · <a href="#get-started"><b>Get started</b></a> · <a href="#download"><b>Downloads</b></a> · <a href="#essential"><b>Essential</b></a> · <a href="#volt"><b>Volt</b></a> · <a href="#laptops"><b>Laptops</b></a> · <a href="#tvs"><b>TVs</b></a> · <a href="#themes"><b>Themes</b></a> · <a href="#troubleshooting"><b>Troubleshooting</b></a></p>
-
-### 🎮 In game
+## 🎮 In game
 
 <p align="center"><img src="previews/ingame/volt_sleek_compact_smoke.png" alt="Volt Sleek Compact, Smoke theme, in game on a bright scene"><br><sub><b>⚡ Volt Sleek Compact</b> · 🆕 Smoke theme · Cyberpunk 2077 · 5120×1440</sub></p>
 
@@ -106,7 +104,8 @@ Thanks to everyone on Reddit who asked for these!
 
 > Previews below are made with sample numbers. Real colours and spacing can differ slightly in game.
 
-### Pick yours
+<a id="pick-yours"></a>
+## 👉 Pick yours
 
 Click a picture to **👀 see it**. Every card also has a **⬇️ Download** link that takes you straight to the files.
 
@@ -189,9 +188,11 @@ Then **restart RTSS** (close it from the tray and open it again).
 <a id="hwinfo-setup-shared-memory"></a>
 ### 2️⃣ Turn on HWiNFO Shared Memory ⚡ (Volt only)
 
-### 🛑 Using Essential, a laptop or a TV overlay? You don't need HWiNFO. Skip to [step 3](#afterburner-setup).
+> [!NOTE]
+> **🛑 Using Essential, a laptop or a TV overlay? You don't need HWiNFO. Skip to [step 3](#afterburner-setup).**
 
-### ⚡ Volt only: without this, the 12V cable stays blank.
+> [!IMPORTANT]
+> **⚡ Volt only: without this, the 12V cable stays blank.**
 
 1. Start HWiNFO64 and tick **Sensors-only**, then click **Start**. In the sensors window, click the **gear** button at the bottom.
 
@@ -324,7 +325,8 @@ C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays
 
 That's where RTSS installs by default. If you installed it somewhere else, open RTSS's install folder and go to **Plugins → Client → Overlays**.
 
-### ⚠️ Copy the files, not the theme folder! Each `.ovl` needs its `_atlas.png` right next to it, directly in **Overlays**.
+> [!WARNING]
+> **⚠️ Copy the files, not the theme folder!** Each `.ovl` needs its `_atlas.png` right next to it, directly in **Overlays**.
 
 | # | Check |
 |---|---|
@@ -470,7 +472,7 @@ Something not showing up? Check [Troubleshooting](#troubleshooting). Most issues
 <a id="msi-edition"></a>
 ## 🟢 Essential (RTSS + MSI Afterburner, no HWiNFO)
 
-### The easiest one: only needs MSI Afterburner + RTSS.
+**The easiest one: only needs MSI Afterburner + RTSS.**
 
 Every overlay in **Dark, White, Smoke and Float**, for every resolution. Files start with `essential_`. Tap **See all 4 themes** under any overlay.
 
@@ -502,7 +504,7 @@ Gaming laptop? See [💻 Laptops](#laptops).
 <a id="volt"></a>
 ## ⚡ Volt (RTSS + MSI Afterburner + HWiNFO)
 
-### Everything in Essential, plus the 12V-2x6 / 12VHPWR cable monitor.
+**Everything in Essential, plus the 12V-2x6 / 12VHPWR cable monitor.**
 
 Volt reads your graphics card's 12V cable voltage through HWiNFO ([step 2](#hwinfo-setup-shared-memory)). Files start with `volt_`. Tap **See all 4 themes** under any overlay.
 
@@ -528,7 +530,7 @@ Volt reads your graphics card's 12V cable voltage through HWiNFO ([step 2](#hwin
 <a id="laptops"></a>
 ## 💻 Laptops
 
-### Small, slim designs made for laptop screens, where every pixel counts.
+**Small, slim designs made for laptop screens, where every pixel counts.**
 
 Only need **MSI Afterburner + RTSS**. No VRAM readings (most laptops don't report them), and the temperature colours are tuned for laptops: CPU turns amber at 90° and red at 95°, GPU at 85° and 92°. In the [💻 laptop packs](#laptop-download).
 
@@ -549,11 +551,11 @@ Want a bigger desktop design on your laptop instead? The Essential and Volt pack
 <a id="tvs"></a>
 ## 📺 TVs
 
-### Big numbers you can read from the couch.
+**Big numbers you can read from the couch.**
 
 Made and tested on **55" and 65" 4K TVs** from about 3 m away. Only need **MSI Afterburner + RTSS** (no HWiNFO). Files start with `tv_` and end in `_4k` or `_1080p`. In the [📺 TV packs](#tv-download).
 
-<img src="previews/tv.png" alt="TV Pill and TV Side on a 4K TV">
+<p align="center"><img src="previews/tv.png" alt="TV Pill and TV Side on a 4K TV"></p>
 
 <p align="center"><a href="#tv-download"><b>⬇️ Download a TV pack</b></a> · <a href="#get-started">🧭 How to set it up</a> (skip step 2)</p>
 
@@ -587,7 +589,7 @@ Every overlay (Essential, Volt, laptop and TV) comes in four themes:
 
 The old **Clear** theme was a mostly see-through panel. In game it let too much of the picture show through: the text wasn't sharp, and anything bright or busy behind it (sky, water, fences) pulled your eyes away from the game. RTSS can't blur what's behind an overlay, so a real "frosted glass" isn't possible. Smoke is the next best thing: a tinted panel that stays readable on any scene.
 
-<img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water">
+<p align="center"><img src="previews/clear_vs_smoke.png" alt="Old Clear vs new Smoke on a bright sky, a busy fence and water"></p>
 
 ---
 
@@ -606,7 +608,7 @@ The old copies don't get replaced automatically. RTSS also keeps showing an old 
 
 If you moved an overlay in the Overlay editor, move the new one the same way and save it.
 
-## Notes
+## 📝 Notes
 
 - The **12V cable** reading needs a graphics card that reports its 16-pin connector voltage in HWiNFO. On cards that don't, use **Essential**.
 - **The 12V monitor is a visual hint, not a safety system.** It only changes colour on the overlay: no pop-up or sound, so it only helps if you happen to look at it. Readings depend on your card's sensors and can be imprecise, and most cards report one voltage for the whole connector. It's no substitute for a properly seated, undamaged cable. For a real alert, set an alarm on the 12V reading in HWiNFO.
@@ -627,7 +629,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 - On the 4K **1.5×** and **2×** versions, some rings and meters move in slightly bigger steps, so the picture fits RTSS's size limit.
 
 <a id="troubleshooting"></a>
-## Troubleshooting
+## 🛠️ Troubleshooting
 
 | Problem | Fix |
 |---|---|
@@ -650,66 +652,18 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 <a id="monitors-and-widgets"></a>
 # <img src="previews/brand/monitors-icon.png" width="54" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets
 
-<p align="center"><a href="#mw2"><b>🆕 2.0 beta</b></a> · <a href="#mw2-install"><b>Install 2.0 beta</b></a> · <a href="#mw2-screens"><b>Its screens</b></a> · <a href="#mw2-menu"><b>Its Menu</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
+<p align="center"><a href="#mw2"><b>🆕 2.0 beta</b></a> · <a href="#mw2-install"><b>Set up 2.0 beta</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
 
 <a id="mw2"></a>
 ## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner)
 
-### A dashboard for your desktop: a clock, your photo, GIF or video, what is playing, your apps, CPU, GPU, memory, FPS, network and drives.
+**A dashboard for your desktop: a clock, your photo, GIF or video, what is playing, your apps, CPU, GPU, memory, FPS, network and drives.**
 
-<p align="center"><a href="https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin"><b>⬇️ Download Monitors and Widgets 2.0 beta</b></a> · about 5 minutes to set up</p>
+<p align="center"><a href="#mw2-install"><b>⬇️ Download and set up</b></a> · about 5 minutes</p>
 
 ![Monitors & Widgets 2.0 beta on a 32:9 screen](previews/mw2/dashboard-32x9.png)
 
 > **It is a beta**, so things may still change. Found something? Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
-
-<a id="mw2-install"></a>
-### ⬇️ Set it up (about 5 minutes)
-
-**You need:** Windows 10 or 11 (64-bit), [Rainmeter](https://www.rainmeter.net) 5.0 or newer, and [MSI Afterburner](https://www.msi.com/Landing/afterburner) running for the processor and graphics card readings. For the frame rate, keep RTSS running too (it comes with Afterburner).
-
-1. Install Rainmeter, and MSI Afterburner with RTSS.
-2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
-3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
-4. To change anything later: right-click the dashboard → **Menu...**
-
-<p align="center"><img src="previews/mw2/installer.png" width="396" alt="The Rainmeter Skin Installer with Monitors and Widgets 2"></p>
-
-- **It installs beside 1.7.1.** It has its own folder and touches none of 1.7.1's files, so you can keep both.
-- **Your choices are kept** in `Skins\MonitorsAndWidgets2\@Resources\UserSettings.inc`. An update keeps them.
-- **Without MSI Afterburner** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes.
-- **Browser videos in the Photo card (optional):** add the small [browser extension](#mw2-extension), a picture guide is just below.
-
-<a id="mw2-extension"></a>
-### 🌐 Browser videos in the Photo card (optional, picture guide)
-
-With the extension, a video you play in your browser goes into the Photo card. It works in **Brave, Chrome, Vivaldi, Opera GX** and other Chromium browsers. Monitors & Widgets 2.0 beta must be installed first: the extension talks to it.
-
-**First:** download the **[browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip)** and unzip it somewhere it can stay. The browser reads the folder from there, so don't delete it afterwards.
-
-**1.** Click the **Extensions** button (the puzzle piece) next to the address bar.<br>
-**2.** Click **Manage extensions**. (Or type `brave://extensions` or `chrome://extensions` in the address bar.)
-
-<img src="previews/mw2/extension-1-open.png" width="560" alt="The browser's Extensions button, then Manage extensions">
-
-**3.** Turn on **Developer mode** at the top right.<br>
-**4.** Click **Load unpacked** at the top left.
-
-<img src="previews/mw2/extension-2-developer-mode.png" width="620" alt="Developer mode on, then Load unpacked">
-
-**5.** Pick the folder **Monitors and Widgets browser extension** that you unzipped.<br>
-**6.** Click **Select Folder**.
-
-<img src="previews/mw2/extension-3-choose-folder.png" width="700" alt="Choosing the folder Monitors and Widgets browser extension">
-
-**7.** Click the extension's new button next to the address bar. It shows **ON** when it is on.<br>
-**8.** Keep **Send videos to the card** switched on.
-
-<img src="previews/mw2/extension-4-turn-on.png" width="560" alt="The extension's button and its Send videos to the card switch">
-
-**Last:** on the dashboard, click **Browser** under the Photo card's clock. Now play a video in your browser and it shows in the card.
-
-> The button says "The card's Browser button is off"? That is the last step: turn **Browser** on under the Photo card's clock.
 
 <a id="mw2-screens"></a>
 ### Pick your screen
@@ -772,6 +726,54 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 | **Cards** | What each card shows |
 | **System** | Sensors, the FPS graph's top, your files, the Menu's own look and style, reset |
 
+<a id="mw2-install"></a>
+### ⬇️ Set it up (about 5 minutes)
+
+**You need:** Windows 10 or 11 (64-bit), [Rainmeter](https://www.rainmeter.net) 5.0 or newer, and [MSI Afterburner](https://www.msi.com/Landing/afterburner) running for the processor and graphics card readings. For the frame rate, keep RTSS running too (it comes with Afterburner).
+
+1. Install Rainmeter, and MSI Afterburner with RTSS.
+2. Download **[Monitors and Widgets 2.0 beta.rmskin](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin)**, double-click it and click **Install**.
+3. It starts by itself, on your second screen if you have one, with the dashboard for that screen's shape. The Menu opens once on **Size and place**.
+4. To change anything later: right-click the dashboard → **Menu...**
+
+<p align="center"><img src="previews/mw2/installer.png" width="396" alt="The Rainmeter Skin Installer with Monitors and Widgets 2"></p>
+
+- **It installs beside 1.7.1.** It has its own folder and touches none of 1.7.1's files, so you can keep both.
+- **Your choices are kept** in `Skins\MonitorsAndWidgets2\@Resources\UserSettings.inc`. An update keeps them.
+- **Without MSI Afterburner** the clock, photo, music, sound, apps, network, drives, processor load and memory still work. Temperatures, power, the graphics card and the frame rate show as dashes.
+- **Browser videos in the Photo card (optional):** add the small [browser extension](#mw2-extension), a picture guide is just below.
+
+<a id="mw2-extension"></a>
+### 🌐 Browser videos in the Photo card (optional, picture guide)
+
+With the extension, a video you play in your browser goes into the Photo card. It works in **Brave, Chrome, Vivaldi, Opera GX** and other Chromium browsers. Monitors & Widgets 2.0 beta must be installed first: the extension talks to it.
+
+**First:** download the **[browser extension](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%20browser%20extension.zip)** and unzip it somewhere it can stay. The browser reads the folder from there, so don't delete it afterwards.
+
+**1.** Click the **Extensions** button (the puzzle piece) next to the address bar.<br>
+**2.** Click **Manage extensions**. (Or type `brave://extensions` or `chrome://extensions` in the address bar.)
+
+<img src="previews/mw2/extension-1-open.png" width="560" alt="The browser's Extensions button, then Manage extensions">
+
+**3.** Turn on **Developer mode** at the top right.<br>
+**4.** Click **Load unpacked** at the top left.
+
+<img src="previews/mw2/extension-2-developer-mode.png" width="620" alt="Developer mode on, then Load unpacked">
+
+**5.** Pick the folder **Monitors and Widgets browser extension** that you unzipped.<br>
+**6.** Click **Select Folder**.
+
+<img src="previews/mw2/extension-3-choose-folder.png" width="700" alt="Choosing the folder Monitors and Widgets browser extension">
+
+**7.** Click the extension's new button next to the address bar. It shows **ON** when it is on.<br>
+**8.** Keep **Send videos to the card** switched on.
+
+<img src="previews/mw2/extension-4-turn-on.png" width="560" alt="The extension's button and its Send videos to the card switch">
+
+**Last:** on the dashboard, click **Browser** under the Photo card's clock. Now play a video in your browser and it shows in the card.
+
+> The button says "The card's Browser button is off"? That is the last step: turn **Browser** on under the Photo card's clock.
+
 ### Troubleshooting (Monitors & Widgets 2.0 beta)
 
 - **Dashes instead of temperatures or FPS:** MSI Afterburner (and RTSS, for FPS) is not running.
@@ -783,7 +785,7 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 <a id="rainmeter"></a>
 ## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 1.7.1 (Rainmeter + MSI Afterburner)
 
-### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
+**Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.**
 
 > 🆕 **[Monitors & Widgets 2.0 beta](#mw2)** is out and installs beside this one. Everything below is for **1.7.1**, the stable version. [Roadmap](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/discussions/12)
 
