@@ -26,9 +26,9 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 ### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta · November 2026
 > **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
 
-- **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone (Beta).
+- **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone.
 - **🎨 62 looks in one click**, 51 accents, plus your own colours.
-- **🖼️ Hand-made Themes** with their own art, fonts and ornaments (Beta).
+- **🖼️ Hand-made Themes** with their own art, fonts and ornaments.
 - **🧭 A new Menu in two styles**, Console and Classic. Everything is set by clicking, no files to edit.
 - **📐 One Scale slider**, 1 to 300 %, for every dashboard.
 - **✨ Motion** made in Blender.
@@ -116,12 +116,11 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 <td width="50%" align="center"><a href="#volt"><img src="previews/cards/volt.png" alt="Volt"></a><br><a href="#volt">👀 Preview</a> · <a href="#download">⬇️ Download</a></td>
 </tr>
 <tr>
-<td width="50%" align="center"><a href="#rainmeter"><img src="previews/cards/monitors.png" alt="Monitors & Widgets"></a><br><a href="#rainmeter">👀 Preview</a> · <a href="#monitor-setup">⬇️ Download</a></td>
 <td width="50%" align="center"><a href="#laptops"><img src="previews/cards/laptops.png" alt="Laptops"></a><br><a href="#laptops">👀 Preview</a> · <a href="#laptop-download">⬇️ Download</a></td>
+<td width="50%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
 </tr>
 <tr>
-<td width="50%" align="center"><a href="#tvs"><img src="previews/cards/tvs.png" alt="TVs"></a><br><a href="#tvs">👀 Preview</a> · <a href="#tv-download">⬇️ Download</a></td>
-<td width="50%" align="center"><a href="#themes"><img src="previews/cards/themes.png" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
+<td colspan="2" align="center"><a href="#themes"><img src="previews/cards/themes.png" width="50%" alt="Themes"></a><br><a href="#themes">👀 See the 4 themes</a></td>
 </tr>
 </table>
 
@@ -150,7 +149,6 @@ Click a picture to **👀 see it**. Every card also has a **⬇️ Download** li
 | ⚡ **Volt** | [See it](#volt) | [Pick your screen](#download) | MSI Afterburner + RTSS + **HWiNFO** | All of that **plus the 12V cable voltage** |
 | 💻 **Laptops** | [See it](#laptops) | [Laptop packs](#laptop-download) | MSI Afterburner + RTSS | Slim bars and a card made for laptop screens |
 | 📺 **TVs** | [See it](#tvs) | [TV packs](#tv-download) | MSI Afterburner + RTSS | Big numbers for the couch |
-| 📱 **Monitors & Widgets** | [See it](#rainmeter) | [Its own download](#monitor-setup) | MSI Afterburner + **Rainmeter** (no RTSS setup) | Your stats on a **second monitor**, a **case screen** (**HYTE Y70**, **Lian Li** 8.8" / 9.2" / Lancool 207), a **Corsair Xeneon Edge** or your desktop |
 
 **Only Volt needs HWiNFO (step 2).** Everyone else skips it. You can always switch from Essential to Volt later.
 
@@ -605,7 +603,6 @@ The old copies don't get replaced automatically. RTSS also keeps showing an old 
 | **Volt Sleek** and the Volt **no 12V** versions (`…no12v…`) | Removed | Delete them. Use **Essential Sleek** instead of Volt Sleek; if your card doesn't report 12V, use **Essential** |
 | Old **TV Pill / TV Side** | The new [📺 TV designs](#tvs) | Delete the old `tv_…` files, then copy in the TV pack for your TV |
 | **MSI Edition** (`msi_…`) or the original overlays (`sleek.ovl`, `performance_overlay.ovl`…) | **🟢 Essential** (`essential_…`) / **⚡ Volt** (`volt_…`) | Copy in the new pack, then delete the old files so they don't show twice in **Layouts → Load** |
-| **Apple Style Monitor** (Rainmeter) | **📱 Monitors & Widgets** | In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor` |
 
 If you moved an overlay in the Overlay editor, move the new one the same way and save it.
 
@@ -664,7 +661,7 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 
 ![Monitors & Widgets 2.0 beta on a 32:9 screen](previews/mw2/dashboard-32x9.png)
 
-> **It is a beta.** The dashboards, the looks and the Console and Classic Menus are finished. The parts marked **Beta** below work and can be picked, and may still change. Found something? Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
+> **It is a beta**, so things may still change. Found something? Open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
 
 <a id="mw2-install"></a>
 ### ⬇️ Set it up (about 5 minutes)
@@ -724,13 +721,13 @@ Pick yours in **Menu → Size and place → Dashboard**. Every one comes as **Ca
 | 🖥️ **32:9 super ultrawide** | A full dashboard, a Photo Hero, a Dock and a Band |
 | 🖥️ **21:9 ultrawide** | A full dashboard, a Photo Hero, a Dock and a Band |
 | 🖥️ **16:9** | 16:9, Widescreen, Alternate, a Photo Hero, a Dock and a Band |
-| **A 16:9 screen stood on its side** | 16:9 Portrait and 16:9 Portrait Widescreen. Five more are shown as "Not ready · concept" |
-| **Bar screens** (Beta) | Corsair Xeneon Edge 2560x720 · Lian Li 8.8in 1920x480 · Lian Li 9.2in O11 Vision-M 1920x462 · Lian Li Lancool 207 1600x720 |
-| **Case screens** (Beta) | Corsair Xeneon Edge 720x2560 · HYTE Y70 Touch 1100x3840 · HYTE Y70 Touch Infinite 688x2560 and 682x2560 · Lian Li 8.8in 480x1920 · Lian Li Lancool 207 720x1600 |
-| **Compact** (Beta) | 16:9 Compact · 16:9 Portrait Compact |
-| **Desktop widgets** (Beta) | Horizontal · Horizontal 2 · Sidebar · Sidebar 2 · Vertical |
+| **A 16:9 screen stood on its side** | 16:9 Portrait and 16:9 Portrait Widescreen |
+| **Bar screens** | Corsair Xeneon Edge 2560x720 · Lian Li 8.8in 1920x480 · Lian Li 9.2in O11 Vision-M 1920x462 · Lian Li Lancool 207 1600x720 |
+| **Case screens** | Corsair Xeneon Edge 720x2560 · HYTE Y70 Touch 1100x3840 · HYTE Y70 Touch Infinite 688x2560 and 682x2560 · Lian Li 8.8in 480x1920 · Lian Li Lancool 207 720x1600 |
+| **Compact** | 16:9 Compact · 16:9 Portrait Compact |
+| **Desktop widgets** | Horizontal · Horizontal 2 · Sidebar · Sidebar 2 · Vertical |
 
-The Beta ones are 1.7.1's screens, redone. Each comes twice: as 2.0 draws it, and with "Classic" after its name, which is 1.7.1's layout drawn the 2.0 way. The installer does not pick them for you: pick yours in the Menu.
+The last four rows are 1.7.1's screens, redone. Each comes twice: as 2.0 draws it, and with "Classic" after its name, which is 1.7.1's layout drawn the 2.0 way. The installer does not pick them for you: pick yours in the Menu.
 
 <p align="center"><img src="previews/mw2/dashboard-16x9-widescreen.png" alt="16:9 Widescreen"><br><sub>16:9 Widescreen</sub></p>
 
@@ -752,7 +749,7 @@ The Beta ones are 1.7.1's screens, redone. Each comes twice: as 2.0 draws it, an
 
 <p align="center"><img src="previews/mw2/band.png" alt="A Band along the top of a 16:9 screen"><br><sub>A Band: one slim panel with the clock</sub></p>
 
-<p align="center"><img src="previews/mw2/widget-horizontal-2-classic.png" alt="The widget Horizontal 2 Classic on the desktop"><br><sub>A desktop widget: Horizontal 2 Classic (Beta)</sub></p>
+<p align="center"><img src="previews/mw2/widget-horizontal-2-classic.png" alt="The widget Horizontal 2 Classic on the desktop"><br><sub>A desktop widget: Horizontal 2 Classic</sub></p>
 
 </details>
 
@@ -770,21 +767,10 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 
 | Page | What you set there |
 |---|---|
-| **Style** | Looks, Themes (Beta), My colours (Beta), Fonts, Banners, Fine-tune |
+| **Style** | Looks, Themes, My colours, Fonts, Banners, Fine-tune |
 | **Size and place** | The dashboard (all 55), the screen, Cards or Box, corners, Fill the screen or Free size, Scale (1 to 300 %), place |
 | **Cards** | What each card shows |
 | **System** | Sensors, the FPS graph's top, your files, the Menu's own look and style, reset |
-
-### Good to know
-
-| Part | State |
-|---|---|
-| The 21 new dashboards, the 62 looks, the Console and Classic Menus | Finished |
-| The 34 screens from 1.7.1 (bar, case, Compact, widgets) | Beta |
-| Themes, My colours | Beta |
-| The Menu styles Tile wall, Showroom, Ambient and the Wheel | Beta |
-| Five more portrait dashboards | Not ready · concept (you can look at them) |
-| Card shadows | Off for now |
 
 ### Troubleshooting (Monitors & Widgets 2.0 beta)
 
@@ -961,6 +947,10 @@ It remembers its size, screen and options after a restart.
 - The **charts fill up over time**: they start empty and cover the last 2 minutes (frame time: the last 60 seconds) once full.
 - **Network** is your internet download (blue) and upload (orange) speed.
 - **Made and tested on Windows 11** with a 5120x1440 and a 2560x1440 monitor. The HYTE, Lian Li and Xeneon Edge layouts are sized from each screen's official resolution and size; if you have one, I'd love a photo!
+
+### Coming from Apple Style Monitor?
+
+It is now called **Monitors & Widgets**. In **Manage**, unload the **AppleStyleMonitor** skins and load the same layout from **MonitorsAndWidgets**. Then delete `Documents\Rainmeter\Skins\AppleStyleMonitor`.
 
 ### Troubleshooting (Monitors & Widgets)
 
