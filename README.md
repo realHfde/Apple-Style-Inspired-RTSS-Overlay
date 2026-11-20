@@ -2,13 +2,16 @@
 
 <p align="center"><sub><b>HuffDee</b> is how you say HFDE: my real name, reordered until it turned into this nickname.</sub></p>
 
-<p align="center"><a href="#overlays"><b>Ring Pill Overlays</b></a> &nbsp;·&nbsp; <a href="#monitors-and-widgets"><b>Monitors & Widgets</b></a></p>
-
 <p align="center">⭐ <b>Thank you for 100 stars!</b> Every one of them keeps me making these. 💜</p>
 
 Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: overlays for **RivaTuner Statistics Server (RTSS)** that show while you play, and **Monitors & Widgets** for your second screen, case screen or desktop. Free, for screens from 1080p up to 7680×2160, gaming laptops, TVs and case screens.
 
-<h3 align="center">Are you here for the overlays, or for the dashboard?</h3>
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="previews/brand/choose-title-dark.png">
+<img src="previews/brand/choose-title-light.png" width="620" alt="Are you here for the overlays, or for the dashboard?">
+</picture>
+</p>
 
 <p align="center">
 <a href="#overlays"><img src="previews/brand/choose-overlays.png" width="40%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
