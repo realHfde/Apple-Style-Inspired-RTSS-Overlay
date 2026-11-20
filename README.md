@@ -8,15 +8,15 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="previews/brand/choose-title-dark.png">
-<img src="previews/brand/choose-title-light.png" width="660" alt="Are you here for the RTSS overlays, or the Rainmeter skin?">
+<source media="(prefers-color-scheme: dark)" srcset="previews/brand/question-dark.png">
+<img src="previews/brand/question-light.png" width="660" alt="Are you here for the RTSS overlays, or the Rainmeter skin?">
 </picture>
 </p>
 
 <p align="center">
-<a href="#overlays"><img src="previews/brand/choose-overlays.png" width="40%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
+<a href="#overlays"><img src="previews/brand/tile-overlays.png" width="40%" alt="Ring Pill Overlays: stats inside your games, for RTSS"></a>
 &nbsp;&nbsp;&nbsp;
-<a href="#monitors-and-widgets"><img src="previews/brand/choose-monitors.png" width="40%" alt="Monitors & Widgets: a dashboard for your screen, for Rainmeter"></a>
+<a href="#monitors-and-widgets"><img src="previews/brand/tile-monitors.png" width="40%" alt="Monitors & Widgets: a dashboard for your screen, for Rainmeter"></a>
 </p>
 
 <p align="center"><sub>Click the one you want.</sub></p>
