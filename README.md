@@ -13,30 +13,11 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 </picture>
 </p>
 
-<div align="center">
-<table>
-<tr>
-<td align="center" valign="top" width="50%">
-<br>
-<a href="#overlays"><img src="previews/brand/icon.png" width="96" alt="Ring Pill Overlays"></a>
-<h3>Ring Pill Overlays</h3>
-Stats inside your games, for RTSS
-<br><br>
-<a href="#overlays"><b>See the overlays →</b></a>
-<br><br>
-</td>
-<td align="center" valign="top" width="50%">
-<br>
-<a href="#monitors-and-widgets"><img src="previews/brand/monitors-icon.png" width="96" alt="Monitors & Widgets"></a>
-<h3>Monitors & Widgets</h3>
-A dashboard for your screen, for Rainmeter
-<br><br>
-<a href="#monitors-and-widgets"><b>See the dashboard →</b></a>
-<br><br>
-</td>
-</tr>
-</table>
-</div>
+<p align="center">
+<a href="#overlays"><img src="previews/brand/tile-overlays.png" width="40%" alt="Ring Pill Overlays: stats inside your games, for RTSS. See the overlays"></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#monitors-and-widgets"><img src="previews/brand/tile-monitors.png" width="40%" alt="Monitors & Widgets: a dashboard for your screen, for Rainmeter. See the dashboard"></a>
+</p>
 
 <p align="center"><sub>Click the one you want.</sub></p>
 
