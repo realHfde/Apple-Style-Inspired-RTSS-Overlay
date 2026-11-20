@@ -23,7 +23,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 <a id="whats-new"></a>
 ## 🆕 What's new
 
-### 📱 Monitors & Widgets 2.0 beta · November 2026
+### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta · November 2026
 > **Out now, as a beta.** [⬇️ Download](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/raw/main/rainmeter/Monitors%20and%20Widgets%202.0%20beta.rmskin) · [See it and set it up](#mw2). It installs beside 1.7.1.
 
 - **🖥️ 55 dashboards and widgets**: 21 new ones for 32:9, 21:9, 16:9 and portrait screens, and every 1.7.1 screen redone (Beta).
@@ -36,7 +36,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 
 <p align="center"><img src="previews/beta/menu.gif" width="480" alt="2.0 beta: the new Menu and its animations, recorded"><br><sub>The new Menu and its animations, recorded on a real PC.</sub></p>
 
-### 🎮 Overlays 2.0 · October 2026
+### <img src="previews/brand/icon.png" width="26" align="absmiddle" alt="Ring Pill Overlays icon"> Overlays 2.0 · October 2026
 - **🌫️ New theme: Smoke** (replaces Clear). The old Clear panel let too much of the game show through: the text wasn't sharp and the busy picture behind it was distracting while playing. Smoke is a tinted-glass panel, lighter at the top and darker at the bottom, with a thin soft edge. You can still tell the game is behind it, but the numbers stay crisp on any scene. [See the difference](#themes).
 - **📺 New TV designs:** **TV Pill**, **TV Line**, **TV Box** and **TV Side**, made and tested on 55" and 65" 4K TVs from the couch. 4K and 1080p packs.
 - **💻 New laptop designs:** **Notch**, **Minibar**, **Island**, **Island Time** (with a clock) and **Card**, in their own laptop packs for 1920×1080, 1920×1200, 2560×1440, 2560×1600 and 2880×1800. Laptop temperature colours are tuned for laptops (CPU 90° / 95°, GPU 85° / 92°).
@@ -54,7 +54,7 @@ Thinner rings, numbers centred in the rings, VRAM temperature added, cleaner spa
 
 </details>
 
-### 📱 Monitors & Widgets 1.7.1 · October 2026
+### <img src="previews/brand/monitors-icon.png" width="36" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 1.7.1 · October 2026
 - **🧭 A cleaner Menu**, grouped into Look, This layout and Readings. Size now goes from **1% to 300%**, with a **Reset** button back to 100%. [See it](#monitor-options)
 - **🖱️ Click a layout to switch:** while the Menu is open, click any layout and **This layout** (screen and size) changes that one. No need to reopen the Menu for each skin.
 - **📊 Memory bars:** one **Off / On** switch shows RAM and VRAM out of your PC's **real** sizes, so a 12 GB or 24 GB card shows right. It replaces the fixed 8 / 16 / 32 GB choices.
@@ -85,7 +85,7 @@ Thanks to everyone on Reddit who asked for these!
 ---
 
 <a id="overlays"></a>
-# 🎮 Ring Pill Overlays
+# <img src="previews/brand/icon.png" width="40" align="absmiddle" alt="Ring Pill Overlays icon"> Ring Pill Overlays
 
 <p align="center"><a href="#pick-yours"><b>Pick yours</b></a> · <a href="#get-started"><b>Get started</b></a> · <a href="#download"><b>Downloads</b></a> · <a href="#essential"><b>Essential</b></a> · <a href="#volt"><b>Volt</b></a> · <a href="#laptops"><b>Laptops</b></a> · <a href="#tvs"><b>TVs</b></a> · <a href="#themes"><b>Themes</b></a> · <a href="#troubleshooting"><b>Troubleshooting</b></a></p>
 
@@ -651,12 +651,12 @@ If you moved an overlay in the Overlay editor, move the new one the same way and
 ---
 
 <a id="monitors-and-widgets"></a>
-# 🖥️ Monitors & Widgets
+# <img src="previews/brand/monitors-icon.png" width="54" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets
 
 <p align="center"><a href="#mw2"><b>🆕 2.0 beta</b></a> · <a href="#mw2-install"><b>Install 2.0 beta</b></a> · <a href="#mw2-screens"><b>Its screens</b></a> · <a href="#mw2-menu"><b>Its Menu</b></a> · <a href="#rainmeter"><b>1.7.1 (stable)</b></a> · <a href="#monitor-setup"><b>Set up 1.7.1</b></a></p>
 
 <a id="mw2"></a>
-## 🆕 Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner)
+## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 2.0 beta (Rainmeter + MSI Afterburner)
 
 ### A dashboard for your desktop: a clock, your photo, GIF or video, what is playing, your apps, CPU, GPU, memory, FPS, network and drives.
 
@@ -764,7 +764,7 @@ Right-click the dashboard → **Menu...** Everything is set by clicking. No file
 - **Anything else:** open an [issue](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/issues) with a screenshot and your resolution.
 
 <a id="rainmeter"></a>
-## 📱 Monitors & Widgets 1.7.1 (Rainmeter + MSI Afterburner)
+## <img src="previews/brand/monitors-icon.png" width="44" align="absmiddle" alt="Monitors & Widgets icon"> Monitors & Widgets 1.7.1 (Rainmeter + MSI Afterburner)
 
 ### Your stats on a second monitor, a case screen (HYTE, Lian Li), a Corsair Xeneon Edge or your desktop, live while you play.
 
