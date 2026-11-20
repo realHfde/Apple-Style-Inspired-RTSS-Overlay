@@ -9,7 +9,7 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="previews/brand/question-dark.png">
-<img src="previews/brand/question-light.png" width="660" alt="Are you here for the RTSS overlays, or the Rainmeter skin?">
+<img src="previews/brand/question-light.png" width="660" alt="Are you here for the RTSS overlays, or the Rainmeter skins?">
 </picture>
 </p>
 
