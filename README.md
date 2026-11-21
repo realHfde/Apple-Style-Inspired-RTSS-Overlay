@@ -23,6 +23,8 @@ Hey! 👋  I designed and made Clean, Apple-style performance stats for PC: over
 
 ## 📣 Announcement
 
+- **I'm taking a short break.** I've been working on this project for 3 months, and the 2.0 beta took everything I had this last month. I'll be back soon with fixes. I'll still read every issue, just a bit slower for now.
+
 - **Overlays 2.0 is here:** a new **Smoke** theme replaces Clear, new **TV** and **laptop** designs, VRAM temperature on most Essential overlays, and every overlay polished. See [What's new](#whats-new).
 - **Monitors & Widgets 1.7.1 is out:** a cleaner Menu, real RAM and VRAM sizes, a date option and tidier layouts. See [What's new](#whats-new).
 - **🆕 Monitors & Widgets 2.0 beta is out:** new dashboards, 62 looks, Themes and a new Menu. [See it and download it](#mw2). It installs beside **1.7.1**, which stays the stable version.
